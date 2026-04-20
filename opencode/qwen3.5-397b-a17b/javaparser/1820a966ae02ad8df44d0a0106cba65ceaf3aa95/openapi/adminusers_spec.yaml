@@ -1,0 +1,1592 @@
+openapi: 3.0.1
+info:
+  description: Adminusers API
+  title: Adminusers API
+  version: v1.0.0
+paths:
+  /healthcheck:
+    get:
+      operationId: healthCheck
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: string
+                example:
+                  database:
+                    healthy: true
+                    message: Healthy
+                  deadlocks:
+                    healthy: true
+                    message: Healthy
+          description: OK
+        "503":
+          description: Service unavailable. If any healthchecks fail
+      summary: "Healthcheck endpoint for adminusers. Check database, and deadlocks"
+      tags:
+      - Other
+  /v1/api/forgotten-passwords:
+    post:
+      operationId: sendForgottenPassword
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                username: a75f2719456c80eb29a10bbf1c92e7b7@example.com
+              required:
+              - username
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Invalid payload
+        "404":
+          description: Not found
+      summary: Create a new forgotten password request (sends email to user)
+      tags:
+      - Passwords
+  /v1/api/forgotten-passwords/{code}:
+    get:
+      operationId: findNonExpiredForgottenPassword
+      parameters:
+      - example: bc9039e00cba4e63b2c92ecd0e188aba
+        in: path
+        name: code
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ForgottenPassword'
+          description: OK
+        "404":
+          description: Not found
+      summary: Verify forgotten password code
+      tags:
+      - Passwords
+  /v1/api/invites:
+    get:
+      operationId: getInvites
+      parameters:
+      - example: ahq8745yq387
+        in: query
+        name: serviceId
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Invite'
+          description: OK
+      summary: List invites for a service
+      tags:
+      - Invites
+  /v1/api/invites/otp/resend:
+    post:
+      operationId: resendOtp
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InviteOtpRequest'
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Invalid payload
+      summary: Resend OTP
+      tags:
+      - Invites
+  /v1/api/invites/otp/validate:
+    post:
+      operationId: createUserUponOtpValidation
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InviteValidateOtpRequest'
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Invalid payload
+      summary: Validates OTP for the invite and creates user
+      tags:
+      - Invites
+  /v1/api/invites/otp/validate/service:
+    post:
+      operationId: validateOtpKeyForService
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InviteValidateOtpRequest'
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Invalid payload
+      summary: Validates OTP for the invite - part of creating service
+      tags:
+      - Invites
+  /v1/api/invites/service:
+    post:
+      operationId: createServiceInvite
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                telephone_number: +440787654534
+                email: example@example.gov.uk
+                password: plain-txt-passsword
+              required:
+              - email
+              - password
+              - telephone_number
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invite'
+          description: Created
+        "400":
+          description: Invalid payload
+      summary: Creates an invitation to allow self provisioning new service with Pay
+      tags:
+      - Invites
+  /v1/api/invites/user:
+    post:
+      operationId: createUserInvite
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InviteUserRequest'
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invite'
+          description: Created
+        "400":
+          description: Invalid payload
+        "404":
+          description: Not found
+      summary: Creates an invitation to allow a new team member to join an existing
+        service.
+      tags:
+      - Invites
+  /v1/api/invites/{code}:
+    get:
+      operationId: getInvite
+      parameters:
+      - example: d02jddeib0lqpsir28fbskg9v0rv
+        in: path
+        name: code
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invite'
+          description: OK
+        "404":
+          description: Not found
+      summary: Find invite for invite code
+      tags:
+      - Invites
+  /v1/api/invites/{code}/complete:
+    post:
+      description: "In the case of a user invite, this resource will assign the new\
+        \ service to the existing user and disables the invite. <br>In the case of\
+        \ a service invite, this resource will create a new service, assign gateway\
+        \ account ids (if provided) and also creates a new user and assign to the\
+        \ service<br>The response contains the user and the service id's affected\
+        \ as part of the invite completion in addition to the invite"
+      operationId: completeInvite
+      parameters:
+      - example: d02jddeib0lqpsir28fbskg9v0rv
+        in: path
+        name: code
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          '*/*':
+            schema:
+              $ref: '#/components/schemas/InviteCompleteRequest'
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InviteCompleteResponse'
+          description: OK
+        "404":
+          description: Not found
+      summary: Completes the invite by creating user/service and invalidating the
+        invite code
+      tags:
+      - Invites
+  /v1/api/invites/{code}/otp/generate:
+    post:
+      operationId: generateAndDispatchOtp
+      parameters:
+      - example: d02jddeib0lqpsir28fbskg9v0rv
+        in: path
+        name: code
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                telephone_number: "07451234567"
+                password: a-password
+              required:
+              - password
+              - telephone_number
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Invalid payload
+        "404":
+          description: Not found
+      summary: Generates and sends otp verification code to the phone number registered
+        in the invite.
+      tags:
+      - Invites
+  /v1/api/reset-password:
+    post:
+      operationId: resetForgottenPassword
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                forgotten_password_code: bc9039e00cba4e63b2c92ecd0e188aba
+                new_password: new-password
+              required:
+              - forgotten_password_code
+              - new_password
+      responses:
+        "204":
+          description: Updated password successfully
+        "400":
+          description: Invalid payload
+        "404":
+          description: Expired or non-existent code
+      summary: Reset password
+      tags:
+      - Passwords
+  /v1/api/services:
+    get:
+      operationId: findServices
+      parameters:
+      - example: 1
+        in: query
+        name: gatewayAccountId
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Service'
+          description: OK
+        "400":
+          description: Missing gateway account ID
+        "404":
+          description: Not found
+      summary: Find service associated with gateway account ID
+      tags:
+      - Services
+    post:
+      description: This endpoint creates a new service. And assigns to gateway account
+        ids (Optional). <br> `service_name` keys are supported ISO-639-1 language
+        codes and values are translated service names | key must be `"en"` or `"cy"`
+      operationId: createService
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                gateway_account_ids:
+                - "1"
+                service_name:
+                  en: Some service name
+                  cy: Service name in welsh
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Service'
+          description: Created
+        "409":
+          description: Gateway account IDs provided has already been assigned to another
+            service
+        "500":
+          description: Invalid JSON payload
+      summary: Create new service
+      tags:
+      - Services
+  /v1/api/services/list:
+    get:
+      operationId: getServices
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Service'
+          description: OK
+      summary: Get all services
+      tags:
+      - Services
+  /v1/api/services/search:
+    post:
+      description: This endpoint returns a list of services using lexical meaning
+        to determine a match to the search criteria
+      operationId: searchServices
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                service_name: service name
+                service_merchant_name: service merchant name
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchServicesResponse'
+          description: OK
+        "400":
+          description: Invalid JSON payload
+      summary: Search services by name or merchant name
+      tags:
+      - Services
+  /v1/api/services/{serviceExternalId}:
+    get:
+      operationId: findService
+      parameters:
+      - example: 7d19aff33f8948deb97ed16b2912dcd3
+        in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Service'
+          description: OK
+        "404":
+          description: Not found
+      summary: Find service by external ID
+      tags:
+      - Services
+    patch:
+      description: "Allows patching below service attributes. Each attribute has its\
+        \ own validation depending on data type. Request can either be a single object\
+        \ or an array of objects. It’s similar to (but not 100% compliant with) [JSON\
+        \ Patch](http://jsonpatch.com/).<br>\n  | op |  field | example |\n| --- |\
+        \  --- | ----|\n| add | gateway_account_ids  | [\"1\"] |\n| replace | redirect_to_service_immediately_on_terminal_state\
+        \ | false |\n| replace | experimental_features_enabled | false |\n| replace\
+        \ | agent_initiated_moto_enabled | false |\n| replace | collect_billing_address\
+        \ | true |\n| replace | current_go_live_stage | NOT_STARTED |\n| replace |\
+        \ current_psp_test_account_stage | NOT_STARTED |\n| replace | merchant_details/name,\
+        \ organisatio | name |\n| replace | merchant_details/address_line1, Address\
+        \ lin | 1 |\n| replace | merchant_details/address_line2, Address lin | 2 \
+        \ |\n| replace | merchant_details/address_city | London |\n| replace | merchant_details/address_country\
+        \ | GB |\n| replace | merchant_details/address_postcode | E6 8XX |\n| replace\
+        \ | merchant_detail |/email,  |\n| replace | merchant_details/email, email@exampl\
+        \ |.com |\n| replace | merchant_detail |/url,  |\n| replace | merchant_details/url,\
+        \ http://www.exampl |.org |\n| replace | merchant_detail |/telephone_number,\
+        \  |\n| replace | merchant_details/telephone_number | 447700900000 |\n| replace\
+        \ | custom_branding | { \"css_url\": \"css url\", \"image_url\": \"image url\"\
+        } |\n| replace | custom_branding | {} |\n| replace | service_name/en | Some\
+        \ service name |\n| replace | sector | local government |\n| replace | internal\
+        \ | true |\n| replace | archived | true |\n| replace | went_live_date | 2022-04-09T18:07:46Z\
+        \ |\n| replace | default_billing_address_country | GB | "
+      operationId: updateServiceAttribute
+      parameters:
+      - example: 7d19aff33f8948deb97ed16b2912dcd3
+        in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                $ref: '#/components/schemas/ServiceUpdateRequest'
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Service'
+          description: OK
+        "400":
+          description: Invalid payload
+      summary: Patch service attributes
+      tags:
+      - Services
+  /v1/api/services/{serviceExternalId}/govuk-pay-agreement:
+    get:
+      description: Retrieves the user's email address and timestamp that the GOV.UK
+        Pay terms were accepted on for the service.
+      operationId: getGovUkPayAgreement
+      parameters:
+      - example: 7d19aff33f8948deb97ed16b2912dcd3
+        in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GovUkPayAgreement'
+          description: OK
+        "404":
+          description: Service with serviceExternalId not found
+      summary: Get details about the acceptance of GOV.UK Pay terms
+      tags:
+      - Services
+    post:
+      operationId: createGovUkPayAgreement
+      parameters:
+      - example: 7d19aff33f8948deb97ed16b2912dcd3
+        in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                user_external_id: 12e3eccfab284ae5bc1108e9c0456ba7
+              required:
+              - user_external_id
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GovUkPayAgreement'
+          description: Created
+        "400":
+          description: Invalid payload
+        "404":
+          description: Service with serviceExternalId not found
+        "409":
+          description: Agreement already exists for the service.
+      summary: Record acceptance of GOV.UK Pay terms
+      tags:
+      - Services
+  /v1/api/services/{serviceExternalId}/merchant-details:
+    put:
+      operationId: updateServiceMerchantDetails
+      parameters:
+      - example: 7d19aff33f8948deb97ed16b2912dcd3
+        in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateMerchantDetailsRequest'
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Service'
+          description: OK
+        "400":
+          description: Invalid payload
+      summary: Update merchant details of a service
+      tags:
+      - Services
+  /v1/api/services/{serviceExternalId}/send-live-email:
+    post:
+      description: "This endpoint will send an email to the user who signed the agreement\
+        \ with GOV.UK Pay for the service informing them that their service is now\
+        \ live.The email address used is the email address of the user provided to\
+        \ the [POST /v1/api/services/`{serviceExternalId}`/govuk-pay-agreement] endpoint."
+      operationId: sendLiveAccountCreatedEmail
+      parameters:
+      - example: 7d19aff33f8948deb97ed16b2912dcd3
+        in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: OK
+        "404":
+          description: Service with serviceExternalId not found
+      summary: Sends an email to the user who signed the service agreement to inform
+        them that their service is live
+      tags:
+      - Services
+  /v1/api/services/{serviceExternalId}/stripe-agreement:
+    get:
+      description: Retrieves the IP address and timestamp that the Stripe terms were
+        accepted on for the service.
+      operationId: getStripeAgreement
+      parameters:
+      - example: 7d19aff33f8948deb97ed16b2912dcd3
+        in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StripeAgreement'
+          description: OK
+        "404":
+          description: Not found
+      summary: Get details about the acceptance of Stripe terms
+      tags:
+      - Services
+    post:
+      description: Records that a GOV.UK Pay agreement has been accepted for the service.
+      operationId: createStripeAgreement
+      parameters:
+      - example: 7d19aff33f8948deb97ed16b2912dcd3
+        in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/StripeAgreementRequest'
+        required: true
+      responses:
+        "201":
+          description: Created
+        "409":
+          description: Conflict. Another stripe agreement already exists for the service
+        "422":
+          description: Invalid JSON payload or IP address
+      summary: Record acceptance of Stripe terms
+      tags:
+      - Services
+  /v1/api/services/{serviceExternalId}/users:
+    get:
+      operationId: findUsersByServiceId
+      parameters:
+      - in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+          description: OK
+        "404":
+          description: Not found
+      summary: Find users of a service
+      tags:
+      - Services
+  /v1/api/services/{serviceExternalId}/users/{userExternalId}:
+    delete:
+      operationId: removeUserFromService
+      parameters:
+      - example: 7d19aff33f8948deb97ed16b2912dcd3
+        in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      - description: Admin user external ID of the service
+        example: 0ddf69c1ba924deca07f0ee748ff1533
+        in: path
+        name: userExternalId
+        required: true
+        schema:
+          type: string
+      - description: User external ID to remove from service
+        example: d012mkldfdfnsdhqha7f0ee748ff1546
+        in: header
+        name: GovUkPay-User-Context
+        required: true
+        schema:
+          type: string
+      responses:
+        "204":
+          description: OK
+        "403":
+          description: Forbidden. `GovUkPay-User-Context` header is blank
+        "409":
+          description: Conflict. `GovUkPay-User-Context` is same as userExternalId
+            or user with `userExternalId` is not admin of the service
+      summary: Delete user from a service
+      tags:
+      - Services
+  /v1/api/toolbox/services/{serviceExternalId}/users/{userExternalId}:
+    delete:
+      operationId: removeUserFromServiceUsingToolbox
+      parameters:
+      - example: 7d19aff33f8948deb97ed16b2912dcd3
+        in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      - example: 93ba1ec4ed6a4238a59f16ad97b4fa12
+        in: path
+        name: userExternalId
+        required: true
+        schema:
+          type: string
+      responses:
+        "204":
+          description: Delete user from service
+        "404":
+          description: User or Service not found
+      summary: Remove user from service (Toolbox use only)
+      tags:
+      - Toolbox
+  /v1/api/users:
+    get:
+      operationId: getUsers
+      parameters:
+      - in: query
+        name: ids
+        schema:
+          type: string
+          example: "93ba1ec4ed6a4238a59f16ad97b4fa12,1234"
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+          description: OK
+      summary: Gets users with the associated external ids
+      tags:
+      - Users
+    post:
+      operationId: createUser
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateUserRequest'
+      responses:
+        "201":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: Created
+        "400":
+          description: Invalid payload
+        "409":
+          description: User with username already exists
+        "500":
+          description: Internal server error
+      summary: Create new user
+      tags:
+      - Users
+  /v1/api/users/admin-emails-for-gateway-accounts:
+    post:
+      operationId: getAdminUserEmailsForGatewayAccountIds
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                gatewayAccountIds:
+                - "1"
+                - "2"
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: string
+                example:
+                  "1":
+                  - user@somegovernmentdept.gov.uk
+                  "2":
+                  - user2@somegovernmentdept.gov.uk
+          description: OK
+        "422":
+          description: Invalid request
+      summary: Get admin user emails for given gateway account IDs
+      tags:
+      - Users
+  /v1/api/users/authenticate:
+    post:
+      operationId: authenticate
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                username: user@somegovernmentdept.gov.uk
+                password: a-password
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: OK
+        "400":
+          description: Invalid payload
+        "401":
+          description: Unauthorised
+      summary: Authenticate a given username/password
+      tags:
+      - Users
+  /v1/api/users/find:
+    post:
+      operationId: findUser
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                username: user@somegovernmentdept.gov.uk
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: OK
+        "400":
+          description: Invalid search params
+        "404":
+          description: Not found
+      summary: Find user by username
+      tags:
+      - Users
+  /v1/api/users/{userExternalId}:
+    get:
+      operationId: getUser
+      parameters:
+      - example: 93ba1ec4ed6a4238a59f16ad97b4fa12
+        in: path
+        name: userExternalId
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: OK
+        "404":
+          description: Not found
+      summary: Find user by user external ID
+      tags:
+      - Users
+    patch:
+      description: "Patch user attributes. <br>Supports patching (replace op) fields\
+        \ `disabled, email, features, telephone_number` and `append` for attrbute\
+        \ `sessionVersion`."
+      operationId: updateUserAttribute
+      parameters:
+      - example: 93ba1ec4ed6a4238a59f16ad97b4fa12
+        in: path
+        name: userExternalId
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchRequest'
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: OK
+        "400":
+          description: Invalid payload
+        "404":
+          description: User with userExternalId not found
+      summary: Update user attributes
+      tags:
+      - Users
+  /v1/api/users/{userExternalId}/reset-second-factor:
+    post:
+      operationId: resetSecondFactor
+      parameters:
+      - example: 93ba1ec4ed6a4238a59f16ad97b4fa12
+        in: path
+        name: userExternalId
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: OK
+        "404":
+          description: User with userExternalId not found
+      summary: Reset 2FA to SMS
+      tags:
+      - Users
+  /v1/api/users/{userExternalId}/second-factor:
+    post:
+      operationId: sendOtpSms
+      parameters:
+      - example: 93ba1ec4ed6a4238a59f16ad97b4fa12
+        in: path
+        name: userExternalId
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                provisional: false
+      responses:
+        "200":
+          description: OK
+        "400":
+          description: Invalid payload
+        "404":
+          description: Not found
+      summary: Send OTP via SMS for an existing user
+      tags:
+      - Users
+  /v1/api/users/{userExternalId}/second-factor/activate:
+    post:
+      operationId: activateSecondFactorOtpKey
+      parameters:
+      - example: 93ba1ec4ed6a4238a59f16ad97b4fa12
+        in: path
+        name: userExternalId
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                code: 123456
+                second_factor: SMS
+              required:
+              - code
+              - second_factor
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: OK
+        "400":
+          description: Invalid payload
+        "401":
+          description: Unauthorised
+      summary: Activate a new OTP key and method for a user
+      tags:
+      - Users
+  /v1/api/users/{userExternalId}/second-factor/authenticate:
+    post:
+      operationId: authenticateSecondFactor
+      parameters:
+      - example: 93ba1ec4ed6a4238a59f16ad97b4fa12
+        in: path
+        name: userExternalId
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                code: 123456
+              required:
+              - code
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: OK
+        "400":
+          description: Invalid payload
+        "401":
+          description: Unauthorised
+      summary: Authenticate 2FA code
+      tags:
+      - Users
+  /v1/api/users/{userExternalId}/second-factor/provision:
+    post:
+      operationId: newSecondFactorOtpKey
+      parameters:
+      - example: 93ba1ec4ed6a4238a59f16ad97b4fa12
+        in: path
+        name: userExternalId
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: OK
+        "404":
+          description: Not found
+      summary: Create a new provisional OTP key for a user
+      tags:
+      - Users
+  /v1/api/users/{userExternalId}/services:
+    post:
+      operationId: createServiceRole
+      parameters:
+      - example: 93ba1ec4ed6a4238a59f16ad97b4fa12
+        in: path
+        name: userExternalId
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                service_external_id: 7d19aff33f8948deb97ed16b2912dcd3
+                role_name: admin
+              required:
+              - role_name
+              - service_external_id
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: OK
+        "400":
+          description: Invalid payload
+        "404":
+          description: User with userExternalId not found
+        "409":
+          description: User already got access to service
+      summary: Assign a new service along with role to a user
+      tags:
+      - Users
+  /v1/api/users/{userExternalId}/services/{serviceExternalId}:
+    put:
+      operationId: updateServiceRole
+      parameters:
+      - example: 93ba1ec4ed6a4238a59f16ad97b4fa12
+        in: path
+        name: userExternalId
+        required: true
+        schema:
+          type: string
+      - example: 7d19aff33f8948deb97ed16b2912dcd3
+        in: path
+        name: serviceExternalId
+        required: true
+        schema:
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+              example:
+                role_name: admin
+              required:
+              - role_name
+              - service_external_id
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: OK
+        "400":
+          description: Invalid payload
+        "404":
+          description: Not found
+        "409":
+          description: User does not belong to service
+      summary: Update user's role for a service
+      tags:
+      - Users
+components:
+  schemas:
+    CreateUserRequest:
+      type: object
+      properties:
+        email:
+          type: string
+          example: user@somegovernmentdept.gov.uk
+        features:
+          type: string
+          example: "feature1, feature2"
+        gateway_account_ids:
+          type: array
+          items:
+            type: string
+            example: "1"
+        otp_key:
+          type: string
+          example: 43c3c4t
+        password:
+          type: string
+          writeOnly: true
+        service_external_ids:
+          type: array
+          items:
+            type: string
+            example: 7d19aff33f8948deb97ed16b2912dcd3
+        telephone_number:
+          type: string
+          example: "447700900000"
+        username:
+          type: string
+          example: user@somegovernmentdept.gov.uk
+    ForgottenPassword:
+      type: object
+      properties:
+        _links:
+          type: array
+          items:
+            $ref: '#/components/schemas/Link'
+        code:
+          type: string
+          example: bc9039e00cba4e63b2c92ecd0e188aba
+        date:
+          type: string
+          format: date-time
+          example: 2022-04-06T21:27:06.376Z
+        user_external_id:
+          type: string
+          example: 12e3eccfab284ae5bc1108e9c0456ba7
+    GovUkPayAgreement:
+      type: object
+      properties:
+        agreement_time:
+          type: string
+          format: date-time
+          example: 2022-04-10T16:23:35.684Z
+        email:
+          type: string
+          example: someone@somedepartment.gov.uk
+    Invite:
+      type: object
+      properties:
+        _links:
+          type: array
+          items:
+            $ref: '#/components/schemas/Link'
+        attempt_counter:
+          type: integer
+          format: int32
+          example: 0
+        disabled:
+          type: boolean
+          example: false
+        email:
+          type: string
+          example: example@example.gov.uk
+        expired:
+          type: boolean
+          example: false
+        inviteLink:
+          type: string
+          writeOnly: true
+        password_set:
+          type: boolean
+          example: false
+        role:
+          type: string
+          example: view-only
+        telephone_number:
+          type: string
+          example: +440787654534
+        type:
+          type: string
+          example: service
+        user_exist:
+          type: boolean
+    InviteCompleteRequest:
+      type: object
+      properties:
+        gateway_account_ids:
+          type: array
+          items:
+            type: string
+    InviteCompleteResponse:
+      type: object
+      properties:
+        invite:
+          $ref: '#/components/schemas/Invite'
+        service_external_id:
+          type: string
+          example: 89wi6il2364328
+        user_external_id:
+          type: string
+          example: 287cg75v3737
+    InviteOtpRequest:
+      type: object
+      properties:
+        code:
+          type: string
+          example: d02jddeib0lqpsir28fbskg9v0rv
+          maxLength: 255
+        password:
+          type: string
+          example: a-password
+        telephone_number:
+          type: string
+          example: "440787654534"
+      required:
+      - code
+      - telephone_number
+    InviteUserRequest:
+      type: object
+      properties:
+        email:
+          type: string
+          example: example@example.gov.uk
+        otp_key:
+          type: string
+        role_name:
+          type: string
+          example: view-only
+        sender:
+          type: string
+          description: User external ID
+          example: d0wksn12nklsdf1nd02nd9n2ndk
+        service_external_id:
+          type: string
+          example: dj2jkejke32jfhh3
+      required:
+      - email
+      - role_name
+      - sender
+      - service_external_id
+    InviteValidateOtpRequest:
+      type: object
+      properties:
+        code:
+          type: string
+          example: d02jddeib0lqpsir28fbskg9v0rv
+          maxLength: 255
+        otp_code:
+          type: integer
+          format: int32
+          example: 123456
+      required:
+      - code
+      - otp_code
+    JsonNode:
+      type: object
+    Link:
+      type: object
+      properties:
+        href:
+          type: string
+          example: https://an.example.link
+        method:
+          type: string
+          example: GET
+        rel:
+          type: string
+          example: self
+    MerchantDetails:
+      type: object
+      properties:
+        address_city:
+          type: string
+          example: London
+        address_country:
+          type: string
+          example: GB
+        address_line1:
+          type: string
+          example: Address line 1
+        address_line2:
+          type: string
+          example: Address line 2
+        address_postcode:
+          type: string
+          example: E1 8XX
+        email:
+          type: string
+          example: email@example.com
+        name:
+          type: string
+          example: organisation name
+        telephone_number:
+          type: string
+          example: "447700900000"
+        url:
+          type: string
+          example: http://www.example.org
+    PatchRequest:
+      type: object
+      properties:
+        op:
+          type: string
+          example: replace
+        path:
+          type: string
+          example: email
+        value:
+          type: string
+          example: user@somegovernmentdept.gov.uk
+    Permission:
+      type: object
+      properties:
+        description:
+          type: string
+          example: Revokekey
+        name:
+          type: string
+          example: tokens:delete
+    Role:
+      type: object
+      properties:
+        description:
+          type: string
+          example: Administrator
+        name:
+          type: string
+          example: admin
+        permissions:
+          type: array
+          items:
+            $ref: '#/components/schemas/Permission'
+          uniqueItems: true
+    SearchServicesResponse:
+      type: object
+      properties:
+        merchant_results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Service'
+        name_results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Service'
+    Service:
+      type: object
+      properties:
+        _links:
+          type: array
+          items:
+            $ref: '#/components/schemas/Link'
+        agent_initiated_moto_enabled:
+          type: boolean
+          example: false
+        archived:
+          type: boolean
+          example: false
+        collect_billing_address:
+          type: boolean
+          example: true
+        created_date:
+          type: string
+          format: date-time
+          example: 2022-04-01T12:07:46.568Z
+        current_go_live_stage:
+          type: string
+          enum:
+          - NOT_STARTED
+          - ENTERED_ORGANISATION_NAME
+          - ENTERED_ORGANISATION_ADDRESS
+          - CHOSEN_PSP_STRIPE
+          - CHOSEN_PSP_WORLDPAY
+          - CHOSEN_PSP_SMARTPAY
+          - CHOSEN_PSP_EPDQ
+          - CHOSEN_PSP_GOV_BANKING_WORLDPAY
+          - TERMS_AGREED_STRIPE
+          - TERMS_AGREED_WORLDPAY
+          - TERMS_AGREED_SMARTPAY
+          - TERMS_AGREED_EPDQ
+          - TERMS_AGREED_GOV_BANKING_WORLDPAY
+          - DENIED
+          - LIVE
+          example: NOT_STARTED
+        current_psp_test_account_stage:
+          type: string
+          enum:
+          - NOT_STARTED
+          - REQUEST_SUBMITTED
+          - CREATED
+          example: NOT_STARTED
+        custom_branding:
+          type: object
+          additionalProperties:
+            type: object
+            example:
+              css_url: css url
+              image_url: image url
+          example:
+            css_url: css url
+            image_url: image url
+        default_billing_address_country:
+          type: string
+          example: GB
+        experimental_features_enabled:
+          type: boolean
+          example: false
+        external_id:
+          type: string
+          example: 7d19aff33f8948deb97ed16b2912dcd3
+        gateway_account_ids:
+          type: array
+          items:
+            type: string
+            example: "1"
+        id:
+          type: integer
+          format: int32
+        internal:
+          type: boolean
+          example: false
+        merchant_details:
+          $ref: '#/components/schemas/MerchantDetails'
+        name:
+          type: string
+          example: Some service name
+        redirect_to_service_immediately_on_terminal_state:
+          type: boolean
+          example: false
+        sector:
+          type: string
+          example: local government
+        service_name:
+          type: object
+          additionalProperties:
+            type: string
+            example: "{\"en\":\"Some service name\",\"cy\":\"Service name in welsh\"\
+              }"
+          example:
+            cy: Service name in welsh
+            en: Some service name
+        went_live_date:
+          type: string
+          format: date-time
+          example: 2022-04-09T18:07:46.568Z
+    ServiceRole:
+      type: object
+      properties:
+        role:
+          $ref: '#/components/schemas/Role'
+        service:
+          $ref: '#/components/schemas/Service'
+    ServiceUpdateRequest:
+      type: object
+      properties:
+        op:
+          type: string
+          example: replace
+        path:
+          type: string
+          example: experimental_features_enabled
+        value:
+          type: string
+          example: "false"
+    StripeAgreement:
+      type: object
+      properties:
+        agreement_time:
+          type: string
+          format: date-time
+          example: 2022-04-09T16:01:56.82Z
+        ip_address:
+          type: string
+          example: 0.0.0.0
+    StripeAgreementRequest:
+      type: object
+      properties:
+        ip_address:
+          type: string
+          example: 0.0.0.0
+      required:
+      - ip_address
+    UpdateMerchantDetailsRequest:
+      type: object
+      properties:
+        address_city:
+          type: string
+          example: London
+        address_country:
+          type: string
+          example: GB
+        address_line1:
+          type: string
+          example: Address line 1
+        address_line2:
+          type: string
+          example: Address line 2
+        address_postcode:
+          type: string
+          example: E1 8XX
+        email:
+          type: string
+          example: email@example.com
+        name:
+          type: string
+          example: organisation name
+        telephone_number:
+          type: string
+          example: "447700900000"
+        url:
+          type: string
+          example: http://www.example.org
+      required:
+      - address_city
+      - address_country
+      - address_line1
+      - address_postcode
+      - name
+    User:
+      type: object
+      properties:
+        _links:
+          type: array
+          items:
+            $ref: '#/components/schemas/Link'
+        disabled:
+          type: boolean
+          example: false
+        email:
+          type: string
+          example: user@somegovernmentdept.gov.uk
+        external_id:
+          type: string
+          example: 93ba1ec4ed6a4238a59f16ad97b4fa12
+        features:
+          type: string
+          example: "feature1, feature2"
+        last_logged_in_at:
+          type: string
+          format: date-time
+          example: 2022-04-06T23:03:41.665Z
+        login_counter:
+          type: integer
+          format: int32
+          example: 0
+        otp_key:
+          type: string
+          example: 43c3c4t
+        password:
+          type: string
+          writeOnly: true
+        provisional_otp_key:
+          type: string
+          example: FC5IHFH2CFSKEZBBXTYEGQXQOH344LLO
+        provisional_otp_key_created_at:
+          type: string
+          format: date-time
+        second_factor:
+          type: string
+          enum:
+          - sms
+          - app
+          example: SMS
+        service_roles:
+          type: array
+          items:
+            $ref: '#/components/schemas/ServiceRole'
+        session_version:
+          type: integer
+          format: int32
+        telephone_number:
+          type: string
+          example: "447700900000"
+        username:
+          type: string
+          example: user@somegovernmentdept.gov.uk

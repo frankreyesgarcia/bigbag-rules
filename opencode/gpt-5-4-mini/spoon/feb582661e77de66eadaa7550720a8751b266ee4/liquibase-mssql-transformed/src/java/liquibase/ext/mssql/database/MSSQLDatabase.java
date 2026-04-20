@@ -1,0 +1,18 @@
+package liquibase.ext.mssql.database;
+import liquibase.Scope;
+import liquibase.ext.mssql.statement.DropStoredProcedureStatement;
+import liquibase.CatalogAndSchema;
+import liquibase.exception.LiquibaseException;
+import liquibase.executor.ExecutorService;
+public class MSSQLDatabase extends liquibase.database.core.MSSQLDatabase {
+    @Override
+    public int getPriority() {
+        return PRIORITY_DATABASE;
+    }
+
+    @Override
+    public void dropDatabaseObjects(CatalogAndSchema schemaToDrop) throws LiquibaseException {
+        super.dropDatabaseObjects(schemaToDrop);
+        Scope.getCurrentScope().getSingleton(ExecutorService.class).getExecutor(this).execute(new DropStoredProcedureStatement(this.getLiquibaseCatalogName(), this.getLiquibaseSchemaName()));
+    }
+}

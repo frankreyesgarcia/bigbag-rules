@@ -1,0 +1,14 @@
+org/jclouds/byon/config/YamlNodeStoreModule$5.class
+org/jclouds/byon/suppliers/NodesParsedFromSupplier.class
+org/jclouds/byon/config/YamlNodeStoreModule.class
+org/jclouds/byon/Node.class
+org/jclouds/byon/Node$Builder.class
+org/jclouds/byon/config/ConfiguresNodeStore.class
+org/jclouds/byon/config/YamlNodeStoreModule$4.class
+org/jclouds/byon/config/YamlNodeStoreModule$8.class
+org/jclouds/byon/config/YamlNodeStoreModule$7.class
+org/jclouds/byon/config/YamlNodeStoreModule$1.class
+org/jclouds/byon/config/YamlNodeStoreModule$6.class
+org/jclouds/byon/config/YamlNodeStoreModule$3.class
+META-INF/services/org.jclouds.apis.ApiMetadata
+org/jclouds/byon/config/YamlNodeStoreModule$2.class

@@ -1,0 +1,13 @@
+[{
+  "binaryBreaking": true,
+  "impactedSymbol": "com.jcabi.aspects.Tv",
+  "nature": "DELETION",
+  "kind": "TYPE_REMOVED",
+  "sourceBreaking": true,
+  "impactedType": "com.jcabi.aspects.Tv",
+  "location": {
+    "path": "com/jcabi/aspects/Tv.java",
+    "line": null
+  },
+  "newSymbol": null
+}]

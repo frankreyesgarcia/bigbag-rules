@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: hibernate-core
+Hibernate-VersionFamily: 5.4
+Implementation-Version: 5.4.24.Final
+Hibernate-JpaVersion: 2.2
+Specification-Vendor: Hibernate.org
+Specification-Title: hibernate-core
+Implementation-Vendor-Id: org.hibernate
+Specification-Version: 5.4.24.Final
+Implementation-Url: http://hibernate.org/orm
+Implementation-Vendor: Hibernate.org
+

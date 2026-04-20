@@ -1,0 +1,2188 @@
+{
+  "1ef97ea6c5b6e34151fe6167001b69e003449f95" : {
+    "breakingCommit" : "1ef97ea6c5b6e34151fe6167001b69e003449f95",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "a6134d4d",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-a6134d4d",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "a6134d4d",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "5acf2bf773844a1e9d35e4182dc256e12668a40b0075a563727571bed2c6dc47",
+      "agentStats" : {
+        "totalApiRequests" : 29,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 286569,
+        "totalTokens" : 1470160,
+        "inputTokens" : 1465562,
+        "outputTokens" : 4598,
+        "cachedTokens" : 0,
+        "totalCost" : 0.10383079999999999,
+        "totalToolCalls" : 28,
+        "totalToolSuccess" : 28,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 3,
+          "read" : 7,
+          "bash" : 13,
+          "write" : 4,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "00a7cc31784ac4a9cc27d506a73ae589d6df36d6" : {
+    "breakingCommit" : "00a7cc31784ac4a9cc27d506a73ae589d6df36d6",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "91875986",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-91875986",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "91875986",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 4,
+      "prefixErrors" : 5,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "d286ccc7f00ea21298eb75f507fb90645dc3f4c59d519c4358e5d02a332147ce",
+      "agentStats" : {
+        "totalApiRequests" : 60,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 743121,
+        "totalTokens" : 2626958,
+        "inputTokens" : 2612133,
+        "outputTokens" : 14825,
+        "cachedTokens" : 0,
+        "totalCost" : 0.18685206000000001,
+        "totalToolCalls" : 58,
+        "totalToolSuccess" : 58,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 5,
+          "bash" : 34,
+          "read" : 8,
+          "edit" : 4,
+          "write" : 4,
+          "todowrite" : 3
+        }
+      }
+    } ]
+  },
+  "0a11c04038eae517540051dbf51f7f26b7221f20" : {
+    "breakingCommit" : "0a11c04038eae517540051dbf51f7f26b7221f20",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "d2fe5b7d",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-d2fe5b7d",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "d2fe5b7d",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "fc11909cd57ec11d3b525c8d021b64550f70e65208580d431693b66f65b60328",
+      "agentStats" : {
+        "totalApiRequests" : 34,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 240602,
+        "totalTokens" : 1399605,
+        "inputTokens" : 1393192,
+        "outputTokens" : 6413,
+        "cachedTokens" : 0,
+        "totalCost" : 0.09925495000000001,
+        "totalToolCalls" : 33,
+        "totalToolSuccess" : 33,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 3,
+          "read" : 4,
+          "bash" : 15,
+          "todowrite" : 2,
+          "write" : 7,
+          "edit" : 2
+        }
+      }
+    } ]
+  },
+  "0e8625f492854a78c0e1ceff67b2abd7e081d42b" : {
+    "breakingCommit" : "0e8625f492854a78c0e1ceff67b2abd7e081d42b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "3a72d6b2",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-3a72d6b2",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "3a72d6b2",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 8,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "fbcc9f70f93e82086e46545bda8e96b92d579964670abcdb6547a261c75d455d",
+      "agentStats" : {
+        "totalApiRequests" : 52,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 789798,
+        "totalTokens" : 2797410,
+        "inputTokens" : 2785643,
+        "outputTokens" : 11767,
+        "cachedTokens" : 0,
+        "totalCost" : 0.19817210000000002,
+        "totalToolCalls" : 52,
+        "totalToolSuccess" : 50,
+        "totalToolFail" : 2,
+        "tools" : {
+          "read" : 13,
+          "bash" : 23,
+          "todowrite" : 2,
+          "webfetch" : 3,
+          "edit" : 9,
+          "write" : 1,
+          "invalid" : 1
+        }
+      }
+    } ]
+  },
+  "10d7545c5771b03dd9f6122bd5973a759eb2cd03" : {
+    "breakingCommit" : "10d7545c5771b03dd9f6122bd5973a759eb2cd03",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "7d4c58de",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-7d4c58de",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "7d4c58de",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "e7dbebaa4aaecd04745a48eaff08b743fb7589f157e35a58a92b3eecc6b95c49",
+      "agentStats" : {
+        "totalApiRequests" : 22,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 233613,
+        "totalTokens" : 934823,
+        "inputTokens" : 930364,
+        "outputTokens" : 4459,
+        "cachedTokens" : 0,
+        "totalCost" : 0.06632941,
+        "totalToolCalls" : 21,
+        "totalToolSuccess" : 21,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 10,
+          "read" : 7,
+          "todowrite" : 1,
+          "edit" : 3
+        }
+      }
+    } ]
+  },
+  "115827c6675f532a4d33751d1a0c0ba394bbd304" : {
+    "breakingCommit" : "115827c6675f532a4d33751d1a0c0ba394bbd304",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "70444b75",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-70444b75",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "70444b75",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 6,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "a19f16f7e0bc5937778fbbcb97a238a868430fc0584426af680b2b6b0399708b",
+      "agentStats" : {
+        "totalApiRequests" : 43,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 348194,
+        "totalTokens" : 1757407,
+        "inputTokens" : 1745116,
+        "outputTokens" : 12291,
+        "cachedTokens" : 0,
+        "totalCost" : 0.12547669,
+        "totalToolCalls" : 42,
+        "totalToolSuccess" : 41,
+        "totalToolFail" : 1,
+        "tools" : {
+          "bash" : 21,
+          "read" : 8,
+          "write" : 5,
+          "edit" : 8
+        }
+      }
+    } ]
+  },
+  "165381d26b2c3d2278fde88c16f95807506451fe" : {
+    "breakingCommit" : "165381d26b2c3d2278fde88c16f95807506451fe",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "67b4f1e4",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-67b4f1e4",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "67b4f1e4",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "3d920874132659b69efd39fbf91bc009bfd539f50b9fcc265d0c5624fb20676d",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 35,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 422158,
+        "totalTokens" : 1687488,
+        "inputTokens" : 1677933,
+        "outputTokens" : 9555,
+        "cachedTokens" : 0,
+        "totalCost" : 0.12003516000000003,
+        "totalToolCalls" : 34,
+        "totalToolSuccess" : 34,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 4,
+          "read" : 8,
+          "grep" : 3,
+          "task" : 2,
+          "edit" : 2,
+          "write" : 8,
+          "bash" : 7
+        }
+      }
+    } ]
+  },
+  "16ae40b1e17e14ee3ae20ac211647e47399a01a9" : {
+    "breakingCommit" : "16ae40b1e17e14ee3ae20ac211647e47399a01a9",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "98ae42dc",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-98ae42dc",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "98ae42dc",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "0b259e81197b6866ac178a6475f92f8a43fb87b76d4090708ba4302c3ed0f5ff",
+      "agentStats" : {
+        "totalApiRequests" : 24,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 152238,
+        "totalTokens" : 892205,
+        "inputTokens" : 887899,
+        "outputTokens" : 4306,
+        "cachedTokens" : 0,
+        "totalCost" : 0.06331555000000001,
+        "totalToolCalls" : 23,
+        "totalToolSuccess" : 23,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 13,
+          "read" : 6,
+          "grep" : 1,
+          "edit" : 2,
+          "write" : 1
+        }
+      }
+    } ]
+  },
+  "1a2fb9f65e12d6c43a8472b9b035299b29a75ce8" : {
+    "breakingCommit" : "1a2fb9f65e12d6c43a8472b9b035299b29a75ce8",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "700e67df",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-700e67df",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "700e67df",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 16,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "94c639b7f922bdc92bfba4bdfe7cc5652202dca43ae904741fa68434c0faa66c",
+      "agentStats" : {
+        "totalApiRequests" : 45,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 1695560,
+        "totalTokens" : 3156858,
+        "inputTokens" : 3086529,
+        "outputTokens" : 70329,
+        "cachedTokens" : 0,
+        "totalCost" : 0.23504585999999997,
+        "totalToolCalls" : 44,
+        "totalToolSuccess" : 42,
+        "totalToolFail" : 2,
+        "tools" : {
+          "glob" : 2,
+          "bash" : 20,
+          "read" : 10,
+          "todowrite" : 1,
+          "write" : 7,
+          "edit" : 4
+        }
+      }
+    } ]
+  },
+  "1cc7071371953a7880c2c2c3a5a32c36af7f88f9" : {
+    "breakingCommit" : "1cc7071371953a7880c2c2c3a5a32c36af7f88f9",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "b4826602",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-b4826602",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "b4826602",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 35,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "70d327ef508493f6e8091353f6345e1d468052d4c5c410f0e70171b9286dd1ae",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 39,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 395300,
+        "totalTokens" : 1561265,
+        "inputTokens" : 1554911,
+        "outputTokens" : 6354,
+        "cachedTokens" : 0,
+        "totalCost" : 0.11055935,
+        "totalToolCalls" : 39,
+        "totalToolSuccess" : 38,
+        "totalToolFail" : 1,
+        "tools" : {
+          "read" : 6,
+          "task" : 2,
+          "glob" : 4,
+          "bash" : 17,
+          "write" : 8,
+          "edit" : 2
+        }
+      }
+    } ]
+  },
+  "2b4d49d68112941b8abb818549389709d8327963" : {
+    "breakingCommit" : "2b4d49d68112941b8abb818549389709d8327963",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "72ec2461",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-72ec2461",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "72ec2461",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 4,
+      "prefixErrors" : 24,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "fa594911aee1087758a4eef8491e22202e46fd0e957196febe0184b4e7773112",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 33,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 2891936,
+        "totalTokens" : 1727815,
+        "inputTokens" : 1687360,
+        "outputTokens" : 40455,
+        "cachedTokens" : 0,
+        "totalCost" : 0.12903805,
+        "totalToolCalls" : 32,
+        "totalToolSuccess" : 28,
+        "totalToolFail" : 4,
+        "tools" : {
+          "bash" : 13,
+          "read" : 10,
+          "edit" : 2,
+          "write" : 6,
+          "task" : 1
+        }
+      }
+    } ]
+  },
+  "2dfaa41bfb97674d11f09a5885011f19808548a3" : {
+    "breakingCommit" : "2dfaa41bfb97674d11f09a5885011f19808548a3",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "a5fc6510",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-a5fc6510",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "a5fc6510",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "a56fc2fb6ea3591f4037f06fc81754fcb9dca5c026fca6a4b7819c51eea7fbdb",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 32,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 675727,
+        "totalTokens" : 2189345,
+        "inputTokens" : 2183395,
+        "outputTokens" : 5950,
+        "cachedTokens" : 0,
+        "totalCost" : 0.15444414999999997,
+        "totalToolCalls" : 31,
+        "totalToolSuccess" : 31,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 15,
+          "read" : 6,
+          "grep" : 2,
+          "task" : 2,
+          "edit" : 3,
+          "write" : 2,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "65200df71d5f6ab1c5502f74a5dc7bcbda459563" : {
+    "breakingCommit" : "65200df71d5f6ab1c5502f74a5dc7bcbda459563",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "1420427b",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-1420427b",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "1420427b",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "c1c6970a6832efd7166941fa8a518e6e590acbd2cb09b8cc6864f3df52450899",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 31,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 328218,
+        "totalTokens" : 1060288,
+        "inputTokens" : 1053821,
+        "outputTokens" : 6467,
+        "cachedTokens" : 0,
+        "totalCost" : 0.07551356,
+        "totalToolCalls" : 30,
+        "totalToolSuccess" : 29,
+        "totalToolFail" : 1,
+        "tools" : {
+          "bash" : 13,
+          "read" : 5,
+          "glob" : 1,
+          "task" : 2,
+          "todowrite" : 2,
+          "webfetch" : 1,
+          "edit" : 4,
+          "write" : 2
+        }
+      }
+    } ]
+  },
+  "5769bdad76925da568294cb8a40e7d4469699ac3" : {
+    "breakingCommit" : "5769bdad76925da568294cb8a40e7d4469699ac3",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "72854e54",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-72854e54",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "72854e54",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "7113e80db45e15ad09826732a0eb47871d3bfa40aa35dbb47146f1315b2723be",
+      "agentStats" : {
+        "totalApiRequests" : 38,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 275812,
+        "totalTokens" : 1630623,
+        "inputTokens" : 1621999,
+        "outputTokens" : 8624,
+        "cachedTokens" : 0,
+        "totalCost" : 0.11586841,
+        "totalToolCalls" : 37,
+        "totalToolSuccess" : 37,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 20,
+          "read" : 5,
+          "todowrite" : 2,
+          "edit" : 4,
+          "write" : 6
+        }
+      }
+    } ]
+  },
+  "9a8b6fc7847a0782ae4c48d0e4f7056507c0397d" : {
+    "breakingCommit" : "9a8b6fc7847a0782ae4c48d0e4f7056507c0397d",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "8e086087",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-8e086087",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "8e086087",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 7,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "e988d209466d691906a93a69dae61007723aad78ba3d6bafe9c45e221472d0a9",
+      "agentStats" : {
+        "totalApiRequests" : 29,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 212820,
+        "totalTokens" : 997616,
+        "inputTokens" : 990516,
+        "outputTokens" : 7100,
+        "cachedTokens" : 0,
+        "totalCost" : 0.07125312,
+        "totalToolCalls" : 28,
+        "totalToolSuccess" : 27,
+        "totalToolFail" : 1,
+        "tools" : {
+          "bash" : 12,
+          "read" : 8,
+          "todowrite" : 2,
+          "edit" : 4,
+          "write" : 2
+        }
+      }
+    } ]
+  },
+  "a4c360001134c2e3a9f7fbde88a07a9fd767e78e" : {
+    "breakingCommit" : "a4c360001134c2e3a9f7fbde88a07a9fd767e78e",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "74b3371a",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-74b3371a",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "74b3371a",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "d1ff26983795582ffa2a25fa5ccc783330dde42e5a47b47f07e0902e97fd58e3",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 29,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 335160,
+        "totalTokens" : 1019715,
+        "inputTokens" : 1014028,
+        "outputTokens" : 5687,
+        "cachedTokens" : 0,
+        "totalCost" : 0.07251745000000001,
+        "totalToolCalls" : 28,
+        "totalToolSuccess" : 27,
+        "totalToolFail" : 1,
+        "tools" : {
+          "bash" : 16,
+          "read" : 5,
+          "grep" : 1,
+          "edit" : 3,
+          "task" : 1,
+          "write" : 2
+        }
+      }
+    } ]
+  },
+  "b1a941400d68445d76056ab8833cd6d2e3455954" : {
+    "breakingCommit" : "b1a941400d68445d76056ab8833cd6d2e3455954",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "dff1edb6",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-dff1edb6",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "dff1edb6",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "56024019cf7eef5e6d81b777943dd163547ecef0a14748f147b1c7ab572bfd1b",
+      "agentStats" : {
+        "totalApiRequests" : 30,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 208291,
+        "totalTokens" : 1213607,
+        "inputTokens" : 1207833,
+        "outputTokens" : 5774,
+        "cachedTokens" : 0,
+        "totalCost" : 0.08610729,
+        "totalToolCalls" : 29,
+        "totalToolSuccess" : 29,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 7,
+          "read" : 10,
+          "glob" : 1,
+          "grep" : 4,
+          "write" : 6,
+          "edit" : 1
+        }
+      }
+    } ]
+  },
+  "b2edf635da83fd076262a41751c6f773c17f3b76" : {
+    "breakingCommit" : "b2edf635da83fd076262a41751c6f773c17f3b76",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "4a063798",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-4a063798",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "4a063798",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "a898248d62c105ad42646a605242a7edc371b53d7e623abb84574ab1e91b7328",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 30,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 446623,
+        "totalTokens" : 853899,
+        "inputTokens" : 847854,
+        "outputTokens" : 6045,
+        "cachedTokens" : 0,
+        "totalCost" : 0.060981930000000004,
+        "totalToolCalls" : 29,
+        "totalToolSuccess" : 29,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 12,
+          "read" : 9,
+          "grep" : 1,
+          "task" : 1,
+          "write" : 6
+        }
+      }
+    } ]
+  },
+  "b5b64613a1a650a5784ff39386b4e00e05e5c21c" : {
+    "breakingCommit" : "b5b64613a1a650a5784ff39386b4e00e05e5c21c",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "9c130cb9",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-9c130cb9",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "9c130cb9",
+      "failureCategory" : "FAILURE_JAVADOC_GENERATION",
+      "prefixFiles" : 0,
+      "prefixErrors" : 0,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : false,
+      "containerId" : null,
+      "agentStats" : null
+    } ]
+  },
+  "dc9a40fde9a9fee5aaec3f60695385ba539406d4" : {
+    "breakingCommit" : "dc9a40fde9a9fee5aaec3f60695385ba539406d4",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "d4b24b09",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-d4b24b09",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "d4b24b09",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "9e1903a771c7e5897f70baa1ce92bdaf079e655391a680e9cfbd4f79c2717db8",
+      "agentStats" : {
+        "totalApiRequests" : 34,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 386206,
+        "totalTokens" : 2382803,
+        "inputTokens" : 2375880,
+        "outputTokens" : 6923,
+        "cachedTokens" : 0,
+        "totalCost" : 0.16818081,
+        "totalToolCalls" : 33,
+        "totalToolSuccess" : 31,
+        "totalToolFail" : 2,
+        "tools" : {
+          "bash" : 19,
+          "read" : 6,
+          "grep" : 1,
+          "edit" : 4,
+          "write" : 2,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "ea03f6488449fcfe8cd0a678b4c64891e1427a32" : {
+    "breakingCommit" : "ea03f6488449fcfe8cd0a678b4c64891e1427a32",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "2b6ac669",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-2b6ac669",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "2b6ac669",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 5,
+      "prefixErrors" : 79,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "e30b3455a51a0f17f3dbade8f9fac32b6a13afe850815e119994f8f23f6689ea",
+      "agentStats" : {
+        "totalApiRequests" : 62,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 645579,
+        "totalTokens" : 4068005,
+        "inputTokens" : 4050886,
+        "outputTokens" : 17119,
+        "cachedTokens" : 0,
+        "totalCost" : 0.28818415000000003,
+        "totalToolCalls" : 61,
+        "totalToolSuccess" : 61,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 22,
+          "read" : 12,
+          "todowrite" : 5,
+          "write" : 8,
+          "edit" : 14
+        }
+      }
+    } ]
+  },
+  "ee0827d4c9bf80982241e8c3559dceb8b39063e4" : {
+    "breakingCommit" : "ee0827d4c9bf80982241e8c3559dceb8b39063e4",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "806571bd",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-806571bd",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "806571bd",
+      "failureCategory" : "FAILURE_JAVADOC_GENERATION",
+      "prefixFiles" : 5,
+      "prefixErrors" : 15,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : false,
+      "containerId" : null,
+      "agentStats" : null
+    } ]
+  },
+  "f78d34b82926216c0f203c0350f646d481c675e3" : {
+    "breakingCommit" : "f78d34b82926216c0f203c0350f646d481c675e3",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "e1e452a3",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-e1e452a3",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "e1e452a3",
+      "failureCategory" : "FAILURE_JAVADOC_GENERATION",
+      "prefixFiles" : 4,
+      "prefixErrors" : 14,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : false,
+      "containerId" : null,
+      "agentStats" : null
+    } ]
+  },
+  "feb582661e77de66eadaa7550720a8751b266ee4" : {
+    "breakingCommit" : "feb582661e77de66eadaa7550720a8751b266ee4",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "efbfa5ac",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-efbfa5ac",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "efbfa5ac",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 3,
+      "prefixErrors" : 5,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "b07c109e5ada17aac7712764553a011c84e4d567ae3f2fbceaf0e339dc1ec92c",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 39,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 449749,
+        "totalTokens" : 1867203,
+        "inputTokens" : 1852754,
+        "outputTokens" : 14449,
+        "cachedTokens" : 0,
+        "totalCost" : 0.13359400999999999,
+        "totalToolCalls" : 38,
+        "totalToolSuccess" : 36,
+        "totalToolFail" : 2,
+        "tools" : {
+          "bash" : 15,
+          "read" : 6,
+          "todowrite" : 1,
+          "edit" : 1,
+          "write" : 14,
+          "task" : 1
+        }
+      }
+    } ]
+  },
+  "ff8b5b61548d50cf60b77784a181e917cb35033b" : {
+    "breakingCommit" : "ff8b5b61548d50cf60b77784a181e917cb35033b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "4a22f5ec",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-4a22f5ec",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "4a22f5ec",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "4c2c7b2dd2d54e09dd4e3b9c6186b1e0792e188fc9a8f76b2eef3870d4c784b8",
+      "agentStats" : {
+        "totalApiRequests" : 34,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 229048,
+        "totalTokens" : 1424094,
+        "inputTokens" : 1417074,
+        "outputTokens" : 7020,
+        "cachedTokens" : 0,
+        "totalCost" : 0.10109058,
+        "totalToolCalls" : 34,
+        "totalToolSuccess" : 34,
+        "totalToolFail" : 0,
+        "tools" : {
+          "read" : 8,
+          "glob" : 1,
+          "bash" : 14,
+          "grep" : 2,
+          "todowrite" : 2,
+          "edit" : 4,
+          "write" : 3
+        }
+      }
+    } ]
+  },
+  "2f01c46b96a8edf437edf20e6dbd848edcb27085" : {
+    "breakingCommit" : "2f01c46b96a8edf437edf20e6dbd848edcb27085",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "1a19530f",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-1a19530f",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "1a19530f",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "667efcfc56ba63554aac286e48a0f8c50bf81824c61874daa4de61cd564dd8ab",
+      "agentStats" : {
+        "totalApiRequests" : 41,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 245956,
+        "totalTokens" : 1618627,
+        "inputTokens" : 1611042,
+        "outputTokens" : 7585,
+        "cachedTokens" : 0,
+        "totalCost" : 0.11482089000000001,
+        "totalToolCalls" : 40,
+        "totalToolSuccess" : 39,
+        "totalToolFail" : 1,
+        "tools" : {
+          "glob" : 1,
+          "bash" : 23,
+          "read" : 8,
+          "edit" : 4,
+          "write" : 4
+        }
+      }
+    } ]
+  },
+  "36859167815292f279e570d39dd2ddbcf1622dc6" : {
+    "breakingCommit" : "36859167815292f279e570d39dd2ddbcf1622dc6",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "3f8df620",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-3f8df620",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "3f8df620",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "421715a765b3fb531f230b126c24da853d6fc7577950b86f5705aa3e1416541d",
+      "agentStats" : {
+        "totalApiRequests" : 28,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 202831,
+        "totalTokens" : 1477710,
+        "inputTokens" : 1469874,
+        "outputTokens" : 7836,
+        "cachedTokens" : 0,
+        "totalCost" : 0.10500689999999999,
+        "totalToolCalls" : 27,
+        "totalToolSuccess" : 26,
+        "totalToolFail" : 1,
+        "tools" : {
+          "bash" : 9,
+          "read" : 9,
+          "grep" : 3,
+          "write" : 2,
+          "edit" : 2,
+          "todowrite" : 2
+        }
+      }
+    } ]
+  },
+  "402082609522c66a3b790aedafd0570148a7d53f" : {
+    "breakingCommit" : "402082609522c66a3b790aedafd0570148a7d53f",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "ed01ae46",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-ed01ae46",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "ed01ae46",
+      "failureCategory" : "FAILURE_JAVADOC_GENERATION",
+      "prefixFiles" : 15,
+      "prefixErrors" : 100,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : false,
+      "containerId" : null,
+      "agentStats" : null
+    } ]
+  },
+  "46979207151a43361447d64afd2658df40033419" : {
+    "breakingCommit" : "46979207151a43361447d64afd2658df40033419",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "ccc1bbd5",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-ccc1bbd5",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "ccc1bbd5",
+      "failureCategory" : "FAILURE_JAVADOC_GENERATION",
+      "prefixFiles" : 45,
+      "prefixErrors" : 100,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : false,
+      "containerId" : null,
+      "agentStats" : null
+    } ]
+  },
+  "067f5d2c81ff87c90755f4ed48f62eb5faa8ecf9" : {
+    "breakingCommit" : "067f5d2c81ff87c90755f4ed48f62eb5faa8ecf9",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "de231dc3",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-de231dc3",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "de231dc3",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "a3e75091fb14e25f79794c81a58fc79c177532618c76dec3988804786fc36fdf",
+      "agentStats" : {
+        "totalApiRequests" : 40,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 1050125,
+        "totalTokens" : 2729080,
+        "inputTokens" : 2717618,
+        "outputTokens" : 11462,
+        "cachedTokens" : 0,
+        "totalCost" : 0.193328,
+        "totalToolCalls" : 39,
+        "totalToolSuccess" : 39,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 21,
+          "read" : 6,
+          "todowrite" : 3,
+          "edit" : 3,
+          "write" : 6
+        }
+      }
+    } ]
+  },
+  "07fad972bb884e9fa6143b4f870d08305811607d" : {
+    "breakingCommit" : "07fad972bb884e9fa6143b4f870d08305811607d",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "df96268c",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-df96268c",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "df96268c",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "e2c49e64ca085145805f5d58cf31eef96998adbc45e3b80e8ab46e085a0f01e3",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 44,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 1704815,
+        "totalTokens" : 3160856,
+        "inputTokens" : 3121277,
+        "outputTokens" : 39579,
+        "cachedTokens" : 0,
+        "totalCost" : 0.22917571999999997,
+        "totalToolCalls" : 43,
+        "totalToolSuccess" : 41,
+        "totalToolFail" : 2,
+        "tools" : {
+          "bash" : 17,
+          "glob" : 3,
+          "read" : 6,
+          "grep" : 4,
+          "webfetch" : 2,
+          "task" : 2,
+          "todowrite" : 3,
+          "edit" : 3,
+          "write" : 3
+        }
+      }
+    } ]
+  },
+  "14fc5fa696f499cac48401b3a86882b3bf7d9b82" : {
+    "breakingCommit" : "14fc5fa696f499cac48401b3a86882b3bf7d9b82",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "6076cf7e",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-6076cf7e",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "6076cf7e",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 5,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "b3df35bbb382f3849ef5a19978f692565b2e1595843ae07d0af2f92460de4dfb",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 31,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 270739,
+        "totalTokens" : 698100,
+        "inputTokens" : 689917,
+        "outputTokens" : 8183,
+        "cachedTokens" : 0,
+        "totalCost" : 0.050503599999999996,
+        "totalToolCalls" : 30,
+        "totalToolSuccess" : 30,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 15,
+          "read" : 5,
+          "edit" : 6,
+          "task" : 1,
+          "write" : 2,
+          "grep" : 1
+        }
+      }
+    } ]
+  },
+  "1d43bce1de6a81ac017c233d72f348d3c850299e" : {
+    "breakingCommit" : "1d43bce1de6a81ac017c233d72f348d3c850299e",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "d6e0bd41",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-d6e0bd41",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "d6e0bd41",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 5,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "1eeb800afc44a5ce56a2c23e8b0df70d4993c08179c58b15350d874510e772ae",
+      "agentStats" : {
+        "totalApiRequests" : 51,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 421275,
+        "totalTokens" : 2498486,
+        "inputTokens" : 2488544,
+        "outputTokens" : 9942,
+        "cachedTokens" : 0,
+        "totalCost" : 0.17688241999999996,
+        "totalToolCalls" : 50,
+        "totalToolSuccess" : 47,
+        "totalToolFail" : 3,
+        "tools" : {
+          "bash" : 20,
+          "read" : 10,
+          "edit" : 9,
+          "write" : 5,
+          "grep" : 6
+        }
+      }
+    } ]
+  },
+  "24d4a90ec1b375751e71f33d18949405c9529d77" : {
+    "breakingCommit" : "24d4a90ec1b375751e71f33d18949405c9529d77",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "24afb6a7",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-24afb6a7",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "24afb6a7",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "09d15ab8c5f4a7a0fc3bd7af67a79c066179e81e3cfaef00f70f8c96cb0e5f26",
+      "agentStats" : {
+        "totalApiRequests" : 37,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 251012,
+        "totalTokens" : 1269018,
+        "inputTokens" : 1258144,
+        "outputTokens" : 10874,
+        "cachedTokens" : 0,
+        "totalCost" : 0.09100605999999997,
+        "totalToolCalls" : 36,
+        "totalToolSuccess" : 36,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 3,
+          "read" : 7,
+          "bash" : 16,
+          "webfetch" : 1,
+          "edit" : 4,
+          "write" : 5
+        }
+      }
+    } ]
+  },
+  "28be199c825d419957bc753a9519e8e9ecc6a08e" : {
+    "breakingCommit" : "28be199c825d419957bc753a9519e8e9ecc6a08e",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "0ca45e8e",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-0ca45e8e",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "0ca45e8e",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "9f799661427784d6d8144c41cdf5960f7abb077a16c5d804bce552895af56e7e",
+      "agentStats" : {
+        "totalApiRequests" : 32,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 243203,
+        "totalTokens" : 958235,
+        "inputTokens" : 949251,
+        "outputTokens" : 8984,
+        "cachedTokens" : 0,
+        "totalCost" : 0.06887325000000001,
+        "totalToolCalls" : 31,
+        "totalToolSuccess" : 31,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 16,
+          "read" : 6,
+          "grep" : 1,
+          "edit" : 4,
+          "write" : 3,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "3f30dfff617fd652412260ecf648a25769a27101" : {
+    "breakingCommit" : "3f30dfff617fd652412260ecf648a25769a27101",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "facb73bb",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-facb73bb",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "facb73bb",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 10,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "60a7e6d16e814477422c00948f259bbb5ba0de23a2ed81dbdaa957469c3ca84f",
+      "agentStats" : {
+        "totalApiRequests" : 61,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 436717,
+        "totalTokens" : 2893183,
+        "inputTokens" : 2881571,
+        "outputTokens" : 11612,
+        "cachedTokens" : 0,
+        "totalCost" : 0.20484521,
+        "totalToolCalls" : 60,
+        "totalToolSuccess" : 60,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 23,
+          "read" : 10,
+          "glob" : 3,
+          "write" : 23,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "3ff575ae202cdf76ddfa8a4228a1711a6fa1e921" : {
+    "breakingCommit" : "3ff575ae202cdf76ddfa8a4228a1711a6fa1e921",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "7f260bea",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-7f260bea",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "7f260bea",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "9d18fa0178e7f68348fd1bdf7debbc6ddd514892bb19b8cdb267cf7b8ace6a66",
+      "agentStats" : {
+        "totalApiRequests" : 40,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 277025,
+        "totalTokens" : 1434895,
+        "inputTokens" : 1425390,
+        "outputTokens" : 9505,
+        "cachedTokens" : 0,
+        "totalCost" : 0.10234364999999997,
+        "totalToolCalls" : 39,
+        "totalToolSuccess" : 38,
+        "totalToolFail" : 1,
+        "tools" : {
+          "bash" : 17,
+          "read" : 4,
+          "glob" : 1,
+          "grep" : 4,
+          "todowrite" : 4,
+          "edit" : 7,
+          "write" : 2
+        }
+      }
+    } ]
+  },
+  "4a3efad6e00824e5814b9c8f571c9c98aad40281" : {
+    "breakingCommit" : "4a3efad6e00824e5814b9c8f571c9c98aad40281",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "9c54e975",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-9c54e975",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "9c54e975",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "2fcb50efaa07591be79d697fc57122e6b248f0aeb0945c2f009b7ceaa39e9e4d",
+      "agentStats" : {
+        "totalApiRequests" : 43,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 302815,
+        "totalTokens" : 1811876,
+        "inputTokens" : 1803312,
+        "outputTokens" : 8564,
+        "cachedTokens" : 0,
+        "totalCost" : 0.12854412,
+        "totalToolCalls" : 43,
+        "totalToolSuccess" : 42,
+        "totalToolFail" : 1,
+        "tools" : {
+          "read" : 8,
+          "bash" : 26,
+          "edit" : 8,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "4bba3fb6147e72946f64724fe55eee5d15ff6206" : {
+    "breakingCommit" : "4bba3fb6147e72946f64724fe55eee5d15ff6206",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "3d720058",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-3d720058",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "3d720058",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "78848333d13ab92c09c8491853cd2b5fe64034312b54dfeb24fa81d525cd3ffb",
+      "agentStats" : {
+        "totalApiRequests" : 48,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 287626,
+        "totalTokens" : 1652099,
+        "inputTokens" : 1643015,
+        "outputTokens" : 9084,
+        "cachedTokens" : 0,
+        "totalCost" : 0.11746373,
+        "totalToolCalls" : 47,
+        "totalToolSuccess" : 46,
+        "totalToolFail" : 1,
+        "tools" : {
+          "bash" : 22,
+          "read" : 9,
+          "grep" : 5,
+          "write" : 7,
+          "edit" : 3,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "500d9c021d34b307b1a70d3f29fb7f9b5ab9d1a6" : {
+    "breakingCommit" : "500d9c021d34b307b1a70d3f29fb7f9b5ab9d1a6",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "5cf71c08",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-5cf71c08",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "5cf71c08",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 10,
+      "prefixErrors" : 57,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "28f901ed480ecf4f15b22a76edd3aa38b64a6ab497d94278eab0d5f242c751ab",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 38,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 338945,
+        "totalTokens" : 1272847,
+        "inputTokens" : 1267500,
+        "outputTokens" : 5347,
+        "cachedTokens" : 0,
+        "totalCost" : 0.09016868999999998,
+        "totalToolCalls" : 37,
+        "totalToolSuccess" : 37,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 19,
+          "read" : 4,
+          "glob" : 1,
+          "grep" : 6,
+          "write" : 3,
+          "task" : 2,
+          "edit" : 1,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "5cf5a482bd430d81257b4ecd85b3d4f7da911621" : {
+    "breakingCommit" : "5cf5a482bd430d81257b4ecd85b3d4f7da911621",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "9076bd81",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-9076bd81",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "9076bd81",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 10,
+      "prefixErrors" : 57,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "848a42cea9f970e11b2c8b595be4e531c06e609babf4136c52136ab84ed21ed8",
+      "agentStats" : {
+        "totalApiRequests" : 30,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 153891,
+        "totalTokens" : 983154,
+        "inputTokens" : 977865,
+        "outputTokens" : 5289,
+        "cachedTokens" : 0,
+        "totalCost" : 0.06987857999999998,
+        "totalToolCalls" : 29,
+        "totalToolSuccess" : 29,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 15,
+          "read" : 6,
+          "todowrite" : 2,
+          "write" : 5,
+          "edit" : 1
+        }
+      }
+    } ]
+  },
+  "61e96bfe3a32d6ef2e5d7912a518c78bd5474e74" : {
+    "breakingCommit" : "61e96bfe3a32d6ef2e5d7912a518c78bd5474e74",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "4c717537",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-4c717537",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "4c717537",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 4,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "ab3decc2e6cc882a6bd58ded6fb7e486685a9f1da814f0b864ba454f33a1895a",
+      "agentStats" : {
+        "totalApiRequests" : 45,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 492887,
+        "totalTokens" : 2057561,
+        "inputTokens" : 2045494,
+        "outputTokens" : 12067,
+        "cachedTokens" : 0,
+        "totalCost" : 0.14644267,
+        "totalToolCalls" : 44,
+        "totalToolSuccess" : 44,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 20,
+          "read" : 11,
+          "edit" : 11,
+          "write" : 2
+        }
+      }
+    } ]
+  },
+  "686ea4e18114ac180e35ca1c07e1f2e6dfbffbe0" : {
+    "breakingCommit" : "686ea4e18114ac180e35ca1c07e1f2e6dfbffbe0",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "53503113",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-53503113",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "53503113",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 13,
+      "prefixErrors" : 100,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "e6bad8452bd9fc852157c5a00b4723ca2faeb979f9b7196daa092af42c670522",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 40,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 327980,
+        "totalTokens" : 1525995,
+        "inputTokens" : 1517350,
+        "outputTokens" : 8645,
+        "cachedTokens" : 0,
+        "totalCost" : 0.10854865000000002,
+        "totalToolCalls" : 39,
+        "totalToolSuccess" : 39,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 26,
+          "read" : 5,
+          "task" : 1,
+          "todowrite" : 2,
+          "edit" : 5
+        }
+      }
+    } ]
+  },
+  "6ad104c4fb9263ad1bb29e6b33618b8225efd92d" : {
+    "breakingCommit" : "6ad104c4fb9263ad1bb29e6b33618b8225efd92d",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "3e17ce40",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-3e17ce40",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "3e17ce40",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 4,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "23c6b9e98a87380b5bdbf0047ff215bd2f68da7625143ab25341d8f2a505ca71",
+      "agentStats" : {
+        "totalApiRequests" : 34,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 226446,
+        "totalTokens" : 1313030,
+        "inputTokens" : 1303799,
+        "outputTokens" : 9231,
+        "cachedTokens" : 0,
+        "totalCost" : 0.09375829999999999,
+        "totalToolCalls" : 33,
+        "totalToolSuccess" : 33,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 16,
+          "read" : 6,
+          "grep" : 1,
+          "write" : 6,
+          "edit" : 3,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "6c53cd904bd66fc79af8687571e607c259226b81" : {
+    "breakingCommit" : "6c53cd904bd66fc79af8687571e607c259226b81",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "b9f44af5",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-b9f44af5",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "b9f44af5",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 3,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "a1d9b5d557d5f4ca8c6bf0ce2b40104385f85bafe8ec12975aa81a8dbee3c359",
+      "agentStats" : {
+        "totalApiRequests" : 34,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 190171,
+        "totalTokens" : 1250340,
+        "inputTokens" : 1244126,
+        "outputTokens" : 6214,
+        "cachedTokens" : 0,
+        "totalCost" : 0.08876660000000003,
+        "totalToolCalls" : 33,
+        "totalToolSuccess" : 33,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 21,
+          "read" : 5,
+          "glob" : 1,
+          "edit" : 3,
+          "invalid" : 1,
+          "write" : 1,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "741f3b5e20a91b0e9305ae79261e3c5e64971c98" : {
+    "breakingCommit" : "741f3b5e20a91b0e9305ae79261e3c5e64971c98",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "95b27a7d",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-95b27a7d",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "95b27a7d",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "816e81fdbdda2f51a2fae100720aa2b178b58ad5a1606daa75788e02bf22bb9b",
+      "agentStats" : {
+        "totalApiRequests" : 35,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 205160,
+        "totalTokens" : 1101995,
+        "inputTokens" : 1093309,
+        "outputTokens" : 8686,
+        "cachedTokens" : 0,
+        "totalCost" : 0.07887685,
+        "totalToolCalls" : 34,
+        "totalToolSuccess" : 34,
+        "totalToolFail" : 0,
+        "tools" : {
+          "bash" : 20,
+          "read" : 4,
+          "write" : 9,
+          "edit" : 1
+        }
+      }
+    } ]
+  },
+  "7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b" : {
+    "breakingCommit" : "7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "33e5b846",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-33e5b846",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "33e5b846",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 3,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "965e250b8a9b535673b96645705f1d4617b31a87315ad2159778f60d6f582e2c",
+      "agentStats" : {
+        "totalApiRequests" : 49,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 451792,
+        "totalTokens" : 2210424,
+        "inputTokens" : 2201025,
+        "outputTokens" : 9399,
+        "cachedTokens" : 0,
+        "totalCost" : 0.15660948,
+        "totalToolCalls" : 48,
+        "totalToolSuccess" : 47,
+        "totalToolFail" : 1,
+        "tools" : {
+          "bash" : 23,
+          "read" : 11,
+          "todowrite" : 2,
+          "write" : 7,
+          "edit" : 5
+        }
+      }
+    } ]
+  },
+  "7f7de81d28b68b091bef2e6f6ffd1836167be6ea" : {
+    "breakingCommit" : "7f7de81d28b68b091bef2e6f6ffd1836167be6ea",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "007ec307",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-007ec307",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "007ec307",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "35c85201d5cfdcc302711561a6ebfb92bf4dfc954c4635d603afb4280be78eb0",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 37,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 333762,
+        "totalTokens" : 1510651,
+        "inputTokens" : 1502105,
+        "outputTokens" : 8546,
+        "cachedTokens" : 0,
+        "totalCost" : 0.10745477000000002,
+        "totalToolCalls" : 36,
+        "totalToolSuccess" : 35,
+        "totalToolFail" : 1,
+        "tools" : {
+          "bash" : 17,
+          "read" : 8,
+          "glob" : 1,
+          "task" : 2,
+          "write" : 6,
+          "edit" : 1,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "8436e73fa0c913774d9792fc986c74309765ab61" : {
+    "breakingCommit" : "8436e73fa0c913774d9792fc986c74309765ab61",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "894c01df",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-894c01df",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "894c01df",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 77,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "1ca87f6f4071b93e891ca89d45e869640410b7392b2a2687789788cd344cdf00",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 34,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 307338,
+        "totalTokens" : 1325222,
+        "inputTokens" : 1318077,
+        "outputTokens" : 7145,
+        "cachedTokens" : 0,
+        "totalCost" : 0.09419453999999998,
+        "totalToolCalls" : 42,
+        "totalToolSuccess" : 42,
+        "totalToolFail" : 0,
+        "tools" : {
+          "read" : 10,
+          "grep" : 6,
+          "bash" : 16,
+          "task" : 1,
+          "write" : 9
+        }
+      }
+    } ]
+  },
+  "923a6b2027e3ca1762deb6a60fc0a768c284122b" : {
+    "breakingCommit" : "923a6b2027e3ca1762deb6a60fc0a768c284122b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "b589db72",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-b589db72",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "b589db72",
+      "failureCategory" : "UNKNOWN_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "be4cf46a62795fba7130fa2b0ab14d5e8e53758b2fc236282464da0a3814fd6f",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 41,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 265388,
+        "totalTokens" : 1007267,
+        "inputTokens" : 998726,
+        "outputTokens" : 8541,
+        "cachedTokens" : 0,
+        "totalCost" : 0.07221689,
+        "totalToolCalls" : 40,
+        "totalToolSuccess" : 40,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 1,
+          "bash" : 21,
+          "read" : 7,
+          "task" : 1,
+          "write" : 5,
+          "edit" : 4,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "bd3ce213e2771c6ef7817c80818807a757d4e94a" : {
+    "breakingCommit" : "bd3ce213e2771c6ef7817c80818807a757d4e94a",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "b4e8bdca",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-b4e8bdca",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "b4e8bdca",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "2cbfb69134c1b4dc1ca5f75c505706fc7c31c522f80207c542e811b587732216",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 54,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 372910,
+        "totalTokens" : 1856077,
+        "inputTokens" : 1847164,
+        "outputTokens" : 8913,
+        "cachedTokens" : 0,
+        "totalCost" : 0.13170799000000002,
+        "totalToolCalls" : 53,
+        "totalToolSuccess" : 52,
+        "totalToolFail" : 1,
+        "tools" : {
+          "glob" : 3,
+          "bash" : 31,
+          "read" : 8,
+          "task" : 1,
+          "write" : 8,
+          "edit" : 1,
+          "todowrite" : 1
+        }
+      }
+    } ]
+  },
+  "d54b56b91c11f21b97d4903143b04b7c1f10c255" : {
+    "breakingCommit" : "d54b56b91c11f21b97d4903143b04b7c1f10c255",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "8ccd93e3",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-8ccd93e3",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "8ccd93e3",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 3,
+      "prefixErrors" : 7,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "feb01212bcc402bcd49b7d7e18b07769978dd421ac31fd09be1f4c4228371913",
+      "agentStats" : {
+        "totalApiRequests" : 65,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 818651,
+        "totalTokens" : 3418637,
+        "inputTokens" : 3399374,
+        "outputTokens" : 19263,
+        "cachedTokens" : 0,
+        "totalCost" : 0.24315719000000002,
+        "totalToolCalls" : 64,
+        "totalToolSuccess" : 62,
+        "totalToolFail" : 2,
+        "tools" : {
+          "bash" : 36,
+          "read" : 12,
+          "todowrite" : 2,
+          "edit" : 12,
+          "write" : 2
+        }
+      }
+    } ]
+  },
+  "f714a41f0ffe9720939d4980da5119d1f45bd770" : {
+    "breakingCommit" : "f714a41f0ffe9720939d4980da5119d1f45bd770",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "9841a9d2",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-9841a9d2",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "9841a9d2",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 10,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "5701b72d6c60c610eae61f17997a15ae7014aa2545d55dcbd9a2722108f7b7ae",
+      "agentStats" : {
+        "modelName" : "qwen/qwen3-coder-30b-a3b-instruct",
+        "totalApiRequests" : 35,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 560712,
+        "totalTokens" : 1548990,
+        "inputTokens" : 1528596,
+        "outputTokens" : 20394,
+        "cachedTokens" : 0,
+        "totalCost" : 0.1125081,
+        "totalToolCalls" : 34,
+        "totalToolSuccess" : 32,
+        "totalToolFail" : 2,
+        "tools" : {
+          "bash" : 19,
+          "read" : 5,
+          "write" : 1,
+          "edit" : 7,
+          "webfetch" : 1,
+          "task" : 1
+        }
+      }
+    } ]
+  }
+}

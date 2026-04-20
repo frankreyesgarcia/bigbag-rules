@@ -1,0 +1,212 @@
+{
+  "project" : "code-coverage-api-plugin",
+  "breakingCommit" : "8ab7a7214f9ac1d130b416fae7280cfda533a54f",
+  "dependency" : {
+    "groupId" : "org.jenkins-ci",
+    "artifactId" : "acceptance-test-harness",
+    "previousVersion" : "5588.vd13b_52985008",
+    "newVersion" : "5631.v2dcb_f66e58f7",
+    "previousJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/acceptance-test-harness-5588.vd13b_52985008.jar",
+    "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/acceptance-test-harness-5631.v2dcb_f66e58f7.jar"
+  },
+  "classification" : {
+    "datasetCategory" : "COMPILATION_FAILURE",
+    "inferredCategory" : "COMPILATION_FAILURE",
+    "logFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/code-coverage-api-plugin/8ab7a7214f9ac1d130b416fae7280cfda533a54f.log",
+    "classifierReport" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/gemini/spoon/8ab7a7214f9ac1d130b416fae7280cfda533a54f/breaking-classifier-report.json"
+  },
+  "files" : [ {
+    "filePath" : "/code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java",
+    "errors" : [ {
+      "lineNumber" : 7,
+      "columnNumber" : 36,
+      "message" : "error: package com.gargoylesoftware.htmlunit does not exist",
+      "details" : [ ],
+      "status" : "SUCCESS",
+      "errorMessage" : null,
+      "changeImpact" : {
+        "projectPath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/code-coverage-api-plugin",
+        "sourceFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java",
+        "lineNumber" : 7,
+        "oldJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/acceptance-test-harness-5588.vd13b_52985008.jar",
+        "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/acceptance-test-harness-5631.v2dcb_f66e58f7.jar",
+        "generatedAt" : "2026-03-12T03:25:09.066560Z",
+        "constructs" : [ {
+          "constructType" : "IMPORT",
+          "signature" : "com.gargoylesoftware.htmlunit.ScriptResult",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.jenkins-ci.main",
+            "artifactId" : "jenkins-test-harness-htmlunit",
+            "version" : "141.v740721146265",
+            "coordinates" : "org.jenkins-ci.main:jenkins-test-harness-htmlunit:141.v740721146265",
+            "sourcePath" : "/Users/frankreyesgarcia/.m2/repository/org/jenkins-ci/main/jenkins-test-harness-htmlunit/141.v740721146265/jenkins-test-harness-htmlunit-141.v740721146265.jar"
+          },
+          "lineNumber" : 7,
+          "codeLine" : "import com.gargoylesoftware.htmlunit.ScriptResult;",
+          "apiChanges" : [ ]
+        } ]
+      }
+    }, {
+      "lineNumber" : 35,
+      "columnNumber" : 12,
+      "message" : "error: cannot find symbol",
+      "details" : [ "symbol:   class ScriptResult", "location: class ChartUtil" ],
+      "status" : "SUCCESS",
+      "errorMessage" : null,
+      "changeImpact" : {
+        "projectPath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/code-coverage-api-plugin",
+        "sourceFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java",
+        "lineNumber" : 35,
+        "oldJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/acceptance-test-harness-5588.vd13b_52985008.jar",
+        "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/acceptance-test-harness-5631.v2dcb_f66e58f7.jar",
+        "generatedAt" : "2026-03-12T03:25:09.066938Z",
+        "constructs" : [ {
+          "constructType" : "TYPE_REFERENCE",
+          "signature" : "com.gargoylesoftware.htmlunit.ScriptResult",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.jenkins-ci.main",
+            "artifactId" : "jenkins-test-harness-htmlunit",
+            "version" : "141.v740721146265",
+            "coordinates" : "org.jenkins-ci.main:jenkins-test-harness-htmlunit:141.v740721146265",
+            "sourcePath" : "/Users/frankreyesgarcia/.m2/repository/org/jenkins-ci/main/jenkins-test-harness-htmlunit/141.v740721146265/jenkins-test-harness-htmlunit-141.v740721146265.jar"
+          },
+          "lineNumber" : 35,
+          "codeLine" : "            ScriptResult scriptResult = new ScriptResult(result);",
+          "apiChanges" : [ ]
+        }, {
+          "constructType" : "CONSTRUCTOR_CALL",
+          "signature" : "com.gargoylesoftware.htmlunit.ScriptResult#<init>(java.lang.Object)",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.jenkins-ci.main",
+            "artifactId" : "jenkins-test-harness-htmlunit",
+            "version" : "141.v740721146265",
+            "coordinates" : "org.jenkins-ci.main:jenkins-test-harness-htmlunit:141.v740721146265",
+            "sourcePath" : "/Users/frankreyesgarcia/.m2/repository/org/jenkins-ci/main/jenkins-test-harness-htmlunit/141.v740721146265/jenkins-test-harness-htmlunit-141.v740721146265.jar"
+          },
+          "lineNumber" : 35,
+          "codeLine" : "            ScriptResult scriptResult = new ScriptResult(result);",
+          "apiChanges" : [ ]
+        } ]
+      }
+    }, {
+      "lineNumber" : 35,
+      "columnNumber" : 44,
+      "message" : "error: cannot find symbol",
+      "details" : [ "symbol:   class ScriptResult", "location: class ChartUtil" ],
+      "status" : "SUCCESS",
+      "errorMessage" : null,
+      "changeImpact" : {
+        "projectPath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/code-coverage-api-plugin",
+        "sourceFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java",
+        "lineNumber" : 35,
+        "oldJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/acceptance-test-harness-5588.vd13b_52985008.jar",
+        "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/acceptance-test-harness-5631.v2dcb_f66e58f7.jar",
+        "generatedAt" : "2026-03-12T03:25:09.067111Z",
+        "constructs" : [ {
+          "constructType" : "TYPE_REFERENCE",
+          "signature" : "com.gargoylesoftware.htmlunit.ScriptResult",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.jenkins-ci.main",
+            "artifactId" : "jenkins-test-harness-htmlunit",
+            "version" : "141.v740721146265",
+            "coordinates" : "org.jenkins-ci.main:jenkins-test-harness-htmlunit:141.v740721146265",
+            "sourcePath" : "/Users/frankreyesgarcia/.m2/repository/org/jenkins-ci/main/jenkins-test-harness-htmlunit/141.v740721146265/jenkins-test-harness-htmlunit-141.v740721146265.jar"
+          },
+          "lineNumber" : 35,
+          "codeLine" : "            ScriptResult scriptResult = new ScriptResult(result);",
+          "apiChanges" : [ ]
+        }, {
+          "constructType" : "CONSTRUCTOR_CALL",
+          "signature" : "com.gargoylesoftware.htmlunit.ScriptResult#<init>(java.lang.Object)",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.jenkins-ci.main",
+            "artifactId" : "jenkins-test-harness-htmlunit",
+            "version" : "141.v740721146265",
+            "coordinates" : "org.jenkins-ci.main:jenkins-test-harness-htmlunit:141.v740721146265",
+            "sourcePath" : "/Users/frankreyesgarcia/.m2/repository/org/jenkins-ci/main/jenkins-test-harness-htmlunit/141.v740721146265/jenkins-test-harness-htmlunit-141.v740721146265.jar"
+          },
+          "lineNumber" : 35,
+          "codeLine" : "            ScriptResult scriptResult = new ScriptResult(result);",
+          "apiChanges" : [ ]
+        } ]
+      }
+    }, {
+      "lineNumber" : 60,
+      "columnNumber" : 42,
+      "message" : "error: cannot find symbol",
+      "details" : [ "symbol:   class ScriptResult", "location: class ChartUtil" ],
+      "status" : "SUCCESS",
+      "errorMessage" : null,
+      "changeImpact" : {
+        "projectPath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/code-coverage-api-plugin",
+        "sourceFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java",
+        "lineNumber" : 60,
+        "oldJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/acceptance-test-harness-5588.vd13b_52985008.jar",
+        "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/8ab7a7214f9ac1d130b416fae7280cfda533a54f/acceptance-test-harness-5631.v2dcb_f66e58f7.jar",
+        "generatedAt" : "2026-03-12T03:25:09.067593Z",
+        "constructs" : [ {
+          "constructType" : "TYPE_REFERENCE",
+          "signature" : "java.lang.Object",
+          "dependency" : {
+            "origin" : "JDK",
+            "groupId" : "java",
+            "artifactId" : "java.base",
+            "version" : null,
+            "coordinates" : "java:java.base",
+            "sourcePath" : null
+          },
+          "lineNumber" : 60,
+          "codeLine" : "                Object scriptResult = new ScriptResult(result).getJavaScriptResult();",
+          "apiChanges" : [ ]
+        }, {
+          "constructType" : "METHOD_INVOCATION",
+          "signature" : "com.gargoylesoftware.htmlunit.ScriptResult#getJavaScriptResult()",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.jenkins-ci.main",
+            "artifactId" : "jenkins-test-harness-htmlunit",
+            "version" : "141.v740721146265",
+            "coordinates" : "org.jenkins-ci.main:jenkins-test-harness-htmlunit:141.v740721146265",
+            "sourcePath" : "/Users/frankreyesgarcia/.m2/repository/org/jenkins-ci/main/jenkins-test-harness-htmlunit/141.v740721146265/jenkins-test-harness-htmlunit-141.v740721146265.jar"
+          },
+          "lineNumber" : 60,
+          "codeLine" : "                Object scriptResult = new ScriptResult(result).getJavaScriptResult();",
+          "apiChanges" : [ ]
+        }, {
+          "constructType" : "CONSTRUCTOR_CALL",
+          "signature" : "com.gargoylesoftware.htmlunit.ScriptResult#<init>(java.lang.Object)",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.jenkins-ci.main",
+            "artifactId" : "jenkins-test-harness-htmlunit",
+            "version" : "141.v740721146265",
+            "coordinates" : "org.jenkins-ci.main:jenkins-test-harness-htmlunit:141.v740721146265",
+            "sourcePath" : "/Users/frankreyesgarcia/.m2/repository/org/jenkins-ci/main/jenkins-test-harness-htmlunit/141.v740721146265/jenkins-test-harness-htmlunit-141.v740721146265.jar"
+          },
+          "lineNumber" : 60,
+          "codeLine" : "                Object scriptResult = new ScriptResult(result).getJavaScriptResult();",
+          "apiChanges" : [ ]
+        }, {
+          "constructType" : "TYPE_REFERENCE",
+          "signature" : "com.gargoylesoftware.htmlunit.ScriptResult",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.jenkins-ci.main",
+            "artifactId" : "jenkins-test-harness-htmlunit",
+            "version" : "141.v740721146265",
+            "coordinates" : "org.jenkins-ci.main:jenkins-test-harness-htmlunit:141.v740721146265",
+            "sourcePath" : "/Users/frankreyesgarcia/.m2/repository/org/jenkins-ci/main/jenkins-test-harness-htmlunit/141.v740721146265/jenkins-test-harness-htmlunit-141.v740721146265.jar"
+          },
+          "lineNumber" : 60,
+          "codeLine" : "                Object scriptResult = new ScriptResult(result).getJavaScriptResult();",
+          "apiChanges" : [ ]
+        } ]
+      }
+    } ]
+  } ]
+}

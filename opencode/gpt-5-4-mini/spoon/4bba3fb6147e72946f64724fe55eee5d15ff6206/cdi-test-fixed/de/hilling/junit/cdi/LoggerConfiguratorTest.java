@@ -1,0 +1,35 @@
+package de.hilling.junit.cdi;
+import de.hilling.junit.cdi.util.LoggerConfigurator;
+import java.util.logging.LogManager;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+class LoggerConfiguratorTest {
+    @BeforeEach
+    void cleanUp() {
+        System.clearProperty(LoggerConfigurator.LOGCONFIG_KEY);
+    }
+
+    @Test
+    void setUpDefaultLogging() {
+        LoggerConfigurator.configure();
+        LogManager logManager = LogManager.getLogManager();
+        Assertions.assertEquals("ALL", logManager.getProperty("level"));
+    }
+
+    @Test
+    void setUpIllegalLogging() {
+        System.setProperty(LoggerConfigurator.LOGCONFIG_KEY, "nosuchfile");
+        LoggerConfigurator.configure();
+        LogManager logManager = LogManager.getLogManager();
+        Assertions.assertNotNull(logManager);
+    }
+
+    @Test
+    void setUpCustomLogging() {
+        System.setProperty(LoggerConfigurator.LOGCONFIG_KEY, "/log4j-test.properties");
+        LoggerConfigurator.configure();
+        LogManager logManager = LogManager.getLogManager();
+        Assertions.assertEquals("DEBUG", logManager.getProperty("level"));
+    }
+}

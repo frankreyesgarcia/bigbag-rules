@@ -1,0 +1,117 @@
+package com.fluxtion.compiler.generation.afterevent;
+import com.fluxtion.compiler.generation.util.MultipleSepTargetInProcessTest;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
+import com.fluxtion.runtime.annotations.AfterEvent;
+import com.fluxtion.runtime.annotations.AfterTrigger;
+import com.fluxtion.runtime.annotations.OnEventHandler;
+import com.fluxtion.runtime.annotations.OnTrigger;
+import lombok.Data;
+import org.junit.Before;
+import org.junit.Test;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+public class PostEventTest extends MultipleSepTargetInProcessTest {
+    public PostEventTest(boolean compiledSep) {
+        super(compiledSep);
+    }
+
+    private static final List<String> postInvocationTrace = new ArrayList<>();
+
+    private static final AtomicInteger counter = new AtomicInteger();
+
+    @Before
+    public void beforeTest() {
+        super.beforeTest();
+        postInvocationTrace.clear();
+        counter.set(0);
+    }
+
+    @Test
+    public void afterEventTest() {
+        sep(c -> {
+            c.addNode(new com.fluxtion.compiler.generation.afterevent.Child(new com.fluxtion.compiler.generation.afterevent.Parent()));
+        });
+        onEvent("helloWorld");
+        assertThat(postInvocationTrace, is(Arrays.asList("Parent::newEvent", "Child::onEvent", "Child::eventComplete", "Parent::eventComplete", "Child::afterEvent", "Parent::afterEvent")));
+    }
+
+    @Test
+    public void singleOnEventComplete() {
+        sep(c -> {
+            c.addNode(new com.fluxtion.compiler.generation.afterevent.ChildWithEventHandler(new com.fluxtion.compiler.generation.afterevent.Parent()));
+        });
+        onEvent("helloWorld");
+        assertThat(counter.intValue(), is(1));
+    }
+
+    @Data
+    public static class Parent {
+        @OnEventHandler
+        public boolean newEvent(String in) {
+            postInvocationTrace.add("Parent::newEvent");
+            return true;
+        }
+
+        @AfterTrigger
+        public void eventComplete() {
+            postInvocationTrace.add("Parent::eventComplete");
+        }
+
+        @AfterEvent
+        public void afterEvent() {
+            postInvocationTrace.add("Parent::afterEvent");
+        }
+    }
+
+    @Data
+    public static class Child {
+        final Parent parent;
+
+        @OnTrigger
+        public boolean onEvent() {
+            postInvocationTrace.add("Child::onEvent");
+            return true;
+        }
+
+        @AfterTrigger
+        public void eventComplete() {
+            postInvocationTrace.add("Child::eventComplete");
+            counter.incrementAndGet();
+        }
+
+        @AfterEvent
+        public void afterEvent() {
+            postInvocationTrace.add("Child::afterEvent");
+        }
+    }
+
+    @Data
+    public static class ChildWithEventHandler {
+        final Parent parent;
+
+        @OnEventHandler
+        public boolean newEvent(String in) {
+            return true;
+        }
+
+        @OnTrigger
+        public boolean onEvent() {
+            postInvocationTrace.add("Child::onEvent");
+            return true;
+        }
+
+        @AfterTrigger
+        public void eventComplete() {
+            postInvocationTrace.add("Child::eventComplete");
+            counter.incrementAndGet();
+        }
+
+        @AfterEvent
+        public void afterEvent() {
+            postInvocationTrace.add("Child::afterEvent");
+        }
+    }
+}

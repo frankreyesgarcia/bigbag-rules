@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bundle-Description: jclouds components to access loadbalancer provider
+ s
+Bundle-ManifestVersion: 2
+Bundle-Name: jclouds loadbalancer core
+Bundle-SymbolicName: jclouds-loadbalancer
+Bundle-Version: 2.6.0.SNAPSHOT
+Export-Package: org.jclouds.loadbalancer;version="2.6.0.SNAPSHOT";uses
+ :="com.google.inject,org.jclouds.compute.domain,org.jclouds.loadbalan
+ cer.domain,org.jclouds.loadbalancer.internal",org.jclouds.loadbalance
+ r.config;version="2.6.0.SNAPSHOT";uses:="com.google.inject,org.jcloud
+ s.loadbalancer.strategy",org.jclouds.loadbalancer.domain;version="2.6
+ .0.SNAPSHOT";uses:="com.google.inject,org.jclouds.loadbalancer.domain
+ .internal",org.jclouds.loadbalancer.domain.internal;version="2.6.0.SN
+ APSHOT";uses:="org.jclouds.loadbalancer.domain",org.jclouds.loadbalan
+ cer.internal;version="2.6.0.SNAPSHOT";uses:="com.google.common.base,c
+ om.google.common.reflect,com.google.inject,javax.annotation,javax.inj
+ ect,org.jclouds.compute.domain,org.jclouds.loadbalancer,org.jclouds.l
+ oadbalancer.domain,org.jclouds.loadbalancer.strategy",org.jclouds.loa
+ dbalancer.reference;version="2.6.0.SNAPSHOT",org.jclouds.loadbalancer
+ .strategy;version="2.6.0.SNAPSHOT";uses:="org.jclouds.compute.domain,
+ org.jclouds.loadbalancer.domain"
+Fragment-Host: jclouds-core
+Implementation-Vendor: jclouds
+Implementation-Vendor-Id: org.apache.jclouds
+Implementation-Version: 2.6.0-SNAPSHOT
+Import-Package: com.google.common.base;version="[27.1,30.1.0)",com.goo
+ gle.common.collect;version="[27.1,30.1.0)",com.google.common.reflect;
+ version="[27.1,30.1.0)",com.google.common.util.concurrent;version="[2
+ 7.1,30.1.0)",com.google.inject;version="[1.4,2)",com.google.inject.bi
+ nder;version="[1.4,2)",javax.annotation;version="[1.2,2)",javax.injec
+ t,org.jclouds.compute.domain;version="[2.6,3)",org.jclouds.loadbalanc
+ er;version="[2.6,3)",org.jclouds.loadbalancer.domain;version="[2.6,3)
+ ",org.jclouds.loadbalancer.domain.internal;version="[2.6,3)",org.jclo
+ uds.loadbalancer.internal;version="[2.6,3)",org.jclouds.loadbalancer.
+ strategy;version="[2.6,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: jclouds jclouds loadbalancer core
+Specification-Vendor: jclouds
+X-Compile-Source-JDK: 1.8
+X-Compile-Target-JDK: 1.8
+

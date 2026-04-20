@@ -1,0 +1,16 @@
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/change/InsertDataChangeMSSQL.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/change/DropStoredProcedureChange.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/database/MSSQLDatabase.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/sqlgenerator/DropStoredProcedureGeneratorMSSQL.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/statement/CreateIndexStatementMSSQL.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/statement/DropStoredProcedureStatement.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/sqlgenerator/AddPrimaryKeyGeneratorMSSQL.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/change/LoadDataChangeMSSQL.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/sqlgenerator/InsertGenerator.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/change/CreateIndexChangeMSSQL.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/change/AddPrimaryKeyChangeMSSQL.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/statement/InsertStatementMSSQL.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/statement/AddPrimaryKeyStatementMSSQL.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/sqlgenerator/InsertSetGenerator.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/statement/InsertSetStatementMSSQL.java
+/workspace/liquibase-mssql-transformed/src/java/liquibase/ext/mssql/sqlgenerator/CreateIndexGeneratorMSSQL.java

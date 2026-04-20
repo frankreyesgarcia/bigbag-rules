@@ -1,0 +1,4 @@
+org/jclouds/logging/slf4j/SLF4JLogger.class
+org/jclouds/logging/slf4j/config/SLF4JLoggingModule.class
+org/jclouds/logging/slf4j/SLF4JLogger$SLF4JLoggerFactory.class
+META-INF/services/org.jclouds.logging.config.LoggingModule

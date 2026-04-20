@@ -1,0 +1,483 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultCopyStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultCopyStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultCopyStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.DefaultCopyStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultCopyStrategy.INSTANCE2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultCopyStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultCopyStrategy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultCopyStrategy.getInstance()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultCopyStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultCopyStrategy.java",
+      "line": 371
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultEqualsStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultEqualsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultEqualsStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.DefaultEqualsStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultEqualsStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultEqualsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultEqualsStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.DefaultEqualsStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultEqualsStrategy.INSTANCE2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultEqualsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultEqualsStrategy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultEqualsStrategy.getInstance()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultEqualsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultEqualsStrategy.java",
+      "line": 563
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultHashCodeStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultHashCodeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultHashCodeStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.DefaultHashCodeStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultHashCodeStrategy.INSTANCE2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultHashCodeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultHashCodeStrategy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultHashCodeStrategy.getInstance()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultHashCodeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultHashCodeStrategy.java",
+      "line": 391
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultMergeStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultMergeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultMergeStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.DefaultMergeStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultMergeStrategy.INSTANCE2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultMergeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultMergeStrategy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultMergeStrategy.getInstance()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultMergeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultMergeStrategy.java",
+      "line": 491
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultToStringStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultToStringStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultToStringStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.DefaultToStringStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultToStringStrategy.INSTANCE2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultToStringStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultToStringStrategy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.DefaultToStringStrategy.getInstance()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.DefaultToStringStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/DefaultToStringStrategy.java",
+      "line": 1217
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBCopyStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBCopyStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBCopyStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.JAXBCopyStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBCopyStrategy.INSTANCE2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBCopyStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBCopyStrategy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBCopyStrategy.getInstance()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBCopyStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBCopyStrategy.java",
+      "line": 71
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBEqualsStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBEqualsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBEqualsStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.JAXBEqualsStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBEqualsStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBEqualsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBEqualsStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.JAXBEqualsStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBEqualsStrategy.INSTANCE2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBEqualsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBEqualsStrategy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBEqualsStrategy.getInstance()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBEqualsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBEqualsStrategy.java",
+      "line": 67
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBHashCodeStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBHashCodeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBHashCodeStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.JAXBHashCodeStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBHashCodeStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBHashCodeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBHashCodeStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.JAXBHashCodeStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBHashCodeStrategy.INSTANCE2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBHashCodeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBHashCodeStrategy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBHashCodeStrategy.getInstance()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBHashCodeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBHashCodeStrategy.java",
+      "line": 74
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBMergeCollectionsStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBMergeCollectionsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBMergeCollectionsStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.JAXBMergeCollectionsStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBMergeCollectionsStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBMergeCollectionsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBMergeCollectionsStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.JAXBMergeCollectionsStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBMergeCollectionsStrategy.INSTANCE2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBMergeCollectionsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBMergeCollectionsStrategy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBMergeCollectionsStrategy.getInstance()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBMergeCollectionsStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBMergeCollectionsStrategy.java",
+      "line": 44
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBMergeStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBMergeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBMergeStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.JAXBMergeStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBMergeStrategy.INSTANCE2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBMergeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBMergeStrategy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBMergeStrategy.getInstance()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBMergeStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBMergeStrategy.java",
+      "line": 35
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBToStringStrategy.INSTANCE",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBToStringStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBToStringStrategy.java",
+      "line": null
+    },
+    "newSymbol": "org.jvnet.jaxb2_commons.lang.JAXBToStringStrategy.INSTANCE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBToStringStrategy.INSTANCE2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBToStringStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBToStringStrategy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jvnet.jaxb2_commons.lang.JAXBToStringStrategy.getInstance()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jvnet.jaxb2_commons.lang.JAXBToStringStrategy",
+    "location": {
+      "path": "org/jvnet/jaxb2_commons/lang/JAXBToStringStrategy.java",
+      "line": 50
+    },
+    "newSymbol": null
+  }
+]

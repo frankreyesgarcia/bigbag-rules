@@ -1,0 +1,353 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.Controller",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.Controller",
+    "location": {
+      "path": "javax/mvc/Controller.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.Models",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.Models",
+    "location": {
+      "path": "javax/mvc/Models.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.MvcContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.MvcContext",
+    "location": {
+      "path": "javax/mvc/MvcContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.RedirectScoped",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.RedirectScoped",
+    "location": {
+      "path": "javax/mvc/RedirectScoped.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.UriRef",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.UriRef",
+    "location": {
+      "path": "javax/mvc/UriRef.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.View",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.View",
+    "location": {
+      "path": "javax/mvc/View.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.binding.BindingError",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.binding.BindingError",
+    "location": {
+      "path": "javax/mvc/binding/BindingError.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.binding.BindingResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.binding.BindingResult",
+    "location": {
+      "path": "javax/mvc/binding/BindingResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.binding.MvcBinding",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.binding.MvcBinding",
+    "location": {
+      "path": "javax/mvc/binding/MvcBinding.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.binding.ParamError",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.binding.ParamError",
+    "location": {
+      "path": "javax/mvc/binding/ParamError.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.binding.ValidationError",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.binding.ValidationError",
+    "location": {
+      "path": "javax/mvc/binding/ValidationError.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.engine.ViewEngine",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.engine.ViewEngine",
+    "location": {
+      "path": "javax/mvc/engine/ViewEngine.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.engine.ViewEngineContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.engine.ViewEngineContext",
+    "location": {
+      "path": "javax/mvc/engine/ViewEngineContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.engine.ViewEngineException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.engine.ViewEngineException",
+    "location": {
+      "path": "javax/mvc/engine/ViewEngineException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.event.AfterControllerEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.event.AfterControllerEvent",
+    "location": {
+      "path": "javax/mvc/event/AfterControllerEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.event.AfterProcessViewEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.event.AfterProcessViewEvent",
+    "location": {
+      "path": "javax/mvc/event/AfterProcessViewEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.event.BeforeControllerEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.event.BeforeControllerEvent",
+    "location": {
+      "path": "javax/mvc/event/BeforeControllerEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.event.BeforeProcessViewEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.event.BeforeProcessViewEvent",
+    "location": {
+      "path": "javax/mvc/event/BeforeProcessViewEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.event.ControllerRedirectEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.event.ControllerRedirectEvent",
+    "location": {
+      "path": "javax/mvc/event/ControllerRedirectEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.event.MvcEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.event.MvcEvent",
+    "location": {
+      "path": "javax/mvc/event/MvcEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.locale.LocaleResolver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.locale.LocaleResolver",
+    "location": {
+      "path": "javax/mvc/locale/LocaleResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.locale.LocaleResolverContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.locale.LocaleResolverContext",
+    "location": {
+      "path": "javax/mvc/locale/LocaleResolverContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.security.Csrf",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.security.Csrf",
+    "location": {
+      "path": "javax/mvc/security/Csrf.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.security.Csrf$CsrfOptions",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.security.Csrf$CsrfOptions",
+    "location": {
+      "path": "javax/mvc/security/Csrf.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.security.CsrfProtected",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.security.CsrfProtected",
+    "location": {
+      "path": "javax/mvc/security/CsrfProtected.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.security.CsrfValidationException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.security.CsrfValidationException",
+    "location": {
+      "path": "javax/mvc/security/CsrfValidationException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.mvc.security.Encoders",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.mvc.security.Encoders",
+    "location": {
+      "path": "javax/mvc/security/Encoders.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

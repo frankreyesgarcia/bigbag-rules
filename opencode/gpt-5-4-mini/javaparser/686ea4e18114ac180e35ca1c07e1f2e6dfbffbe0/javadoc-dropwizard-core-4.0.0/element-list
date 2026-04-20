@@ -1,0 +1,6 @@
+io.dropwizard.core
+io.dropwizard.core.cli
+io.dropwizard.core.server
+io.dropwizard.core.setup
+io.dropwizard.core.sslreload
+io.dropwizard.core.validation

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: SpongeAPI
+Specification-Vendor: SpongePowered
+Specification-Version: 8.0.0
+Implementation-Title: SpongeAPI
+Implementation-Vendor: SpongePowered
+Implementation-Version: 8.0.0
+

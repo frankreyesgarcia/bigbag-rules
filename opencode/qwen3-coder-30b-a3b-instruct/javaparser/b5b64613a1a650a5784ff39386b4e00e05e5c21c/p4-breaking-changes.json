@@ -1,0 +1,2784 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.PerforceScm.DESCRIPTOR",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.PerforceScm",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/PerforceScm.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.PerforceScm.buildEnvVars(hudson.model.AbstractBuild<? extends java.lang.Object,? extends java.lang.Object>,java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.PerforceScm",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/PerforceScm.java",
+      "line": 373
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.PerforceScm.getChanges()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.PerforceScm",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/PerforceScm.java",
+      "line": 94
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.PerforceScm.getDescriptor()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jenkinsci.plugins.p4.PerforceScm",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/PerforceScm.java",
+      "line": 512
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.PerforceScm.getDescriptor()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.PerforceScm.getDescriptor()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.PerforceScm",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/PerforceScm.java",
+      "line": 512
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.PerforceScm.getDescriptor()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.PerforceScm$DescriptorImpl.doCheckCredential(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.PerforceScm$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/PerforceScm.java",
+      "line": 620
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.PerforceScm$DescriptorImpl.doFillCredentialItems()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.PerforceScm$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/PerforceScm.java",
+      "line": 616
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.PerforceScm$DescriptorImpl.isEnabled()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.PerforceScm$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/PerforceScm.java",
+      "line": 540
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser.<init>(java.net.URL,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/FishEyeBrowser.java",
+      "line": 44
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser.getDiffLink(com.perforce.p4java.core.file.IFileSpec)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/FishEyeBrowser.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser.getFileLink(com.perforce.p4java.core.file.IFileSpec)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/FishEyeBrowser.java",
+      "line": 72
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser.rootModule",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/FishEyeBrowser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/FishEyeBrowser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser$DescriptorImpl.newInstance(org.kohsuke.stapler.StaplerRequest,net.sf.json.JSONObject)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/FishEyeBrowser.java",
+      "line": 139
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser$DescriptorImpl.newInstance(org.kohsuke.stapler.StaplerRequest,net.sf.json.JSONObject)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser$DescriptorImpl.newInstance(org.kohsuke.stapler.StaplerRequest,net.sf.json.JSONObject)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/FishEyeBrowser.java",
+      "line": 139
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.browsers.FishEyeBrowser$DescriptorImpl.newInstance(org.kohsuke.stapler.StaplerRequest,net.sf.json.JSONObject)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser.<init>(java.net.URL,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/OpenGrokBrowser.java",
+      "line": 42
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser.depotPath",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/OpenGrokBrowser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser.getDiffLink(com.perforce.p4java.core.file.IFileSpec)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/OpenGrokBrowser.java",
+      "line": 50
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser.getFileLink(com.perforce.p4java.core.file.IFileSpec)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/OpenGrokBrowser.java",
+      "line": 68
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser.projectName",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/OpenGrokBrowser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.OpenGrokBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/OpenGrokBrowser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.P4Browser",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.P4Browser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/P4Browser.java",
+      "line": null
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.browsers.P4Browser.getDiffLink(org.jenkinsci.plugins.p4.changes.P4AffectedFile,org.jenkinsci.plugins.p4.changes.P4Ref)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.P4Browser",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.P4Browser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/P4Browser.java",
+      "line": null
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.browsers.P4Browser.getFileLink(org.jenkinsci.plugins.p4.changes.P4AffectedFile)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.P4Browser.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.P4Browser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/P4Browser.java",
+      "line": 11
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.P4Browser.getDiffLink(com.perforce.p4java.core.file.IFileSpec)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.P4Browser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/P4Browser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.P4Browser.getFileLink(com.perforce.p4java.core.file.IFileSpec)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.P4Browser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/P4Browser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.P4WebBrowser.<init>(java.net.URL)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.P4WebBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/P4WebBrowser.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.P4WebBrowser.getDiffLink(com.perforce.p4java.core.file.IFileSpec)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.P4WebBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/P4WebBrowser.java",
+      "line": 54
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.P4WebBrowser.getFileLink(com.perforce.p4java.core.file.IFileSpec)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.P4WebBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/P4WebBrowser.java",
+      "line": 68
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.P4WebBrowser.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.P4WebBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/P4WebBrowser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.SwarmBrowser.<init>(java.net.URL)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.SwarmBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/SwarmBrowser.java",
+      "line": 29
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.SwarmBrowser.getDiffLink(com.perforce.p4java.core.file.IFileSpec)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.SwarmBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/SwarmBrowser.java",
+      "line": 45
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.SwarmBrowser.getFileLink(com.perforce.p4java.core.file.IFileSpec)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.SwarmBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/SwarmBrowser.java",
+      "line": 50
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.browsers.SwarmBrowser.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.browsers.SwarmBrowser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/browsers/SwarmBrowser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry.files",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/changes/P4ChangeEntry.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry.getFiles()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/changes/P4ChangeEntry.java",
+      "line": 231
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry.getId()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/changes/P4ChangeEntry.java",
+      "line": 162
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry.getId()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry.getId()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/changes/P4ChangeEntry.java",
+      "line": 162
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry.getId()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry.jobs",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/changes/P4ChangeEntry.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry.setId(org.jenkinsci.plugins.p4.changes.P4Revision)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.changes.P4ChangeEntry",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/changes/P4ChangeEntry.java",
+      "line": 166
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.changes.P4ChangeParser.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.changes.P4ChangeParser",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/changes/P4ChangeParser.java",
+      "line": 34
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.changes.P4ChangeParser$ChangeLogHandler.<init>(hudson.model.Run<? extends java.lang.Object,? extends java.lang.Object>,hudson.scm.RepositoryBrowser<? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.changes.P4ChangeParser$ChangeLogHandler",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/changes/P4ChangeParser.java",
+      "line": 58
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.<init>(java.lang.String,hudson.model.TaskListener,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 64
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.<init>(org.jenkinsci.plugins.p4.credentials.P4BaseCredentials,hudson.model.TaskListener,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.buildChange()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 467
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.getClientHead()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 745
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.getClientHead()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.getClientHead()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 745
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.getClientHead()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.listChanges()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 816
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.listChanges()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.listChanges(org.jenkinsci.plugins.p4.changes.P4Revision)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 800
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.listChanges(org.jenkinsci.plugins.p4.changes.P4Revision,org.jenkinsci.plugins.p4.changes.P4Revision)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 778
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.listHaveChanges()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 849
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.listHaveChanges(org.jenkinsci.plugins.p4.changes.P4Revision)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 862
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.publishChange(org.jenkinsci.plugins.p4.publish.Publish)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 506
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.publishChange(org.jenkinsci.plugins.p4.publish.Publish)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.publishChange(org.jenkinsci.plugins.p4.publish.Publish)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 506
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.publishChange(org.jenkinsci.plugins.p4.publish.Publish)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.setClient(org.jenkinsci.plugins.p4.workspace.Workspace)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 101
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.syncFiles(org.jenkinsci.plugins.p4.changes.P4Revision,org.jenkinsci.plugins.p4.populate.Populate)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 146
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.unshelveFiles(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 673
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ClientHelper.versionFile(java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ClientHelper.java",
+      "line": 451
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.authorisationConfig",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.connection",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.connectionConfig",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.disconnect()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 445
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.disconnect()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.getChange(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 279
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.getChangeFiles(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 404
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.getChangeSummary(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 288
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.listener",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.p4credential",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.stop()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ClientHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 484
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionConfig.<init>(java.lang.String,boolean,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionConfig",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionConfig.java",
+      "line": 25
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.<init>(java.lang.String,hudson.model.TaskListener)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 49
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.<init>(java.lang.String,hudson.model.TaskListener)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.<init>(org.jenkinsci.plugins.p4.credentials.P4BaseCredentials)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 49
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.<init>(org.jenkinsci.plugins.p4.credentials.P4BaseCredentials)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.<init>(org.jenkinsci.plugins.p4.credentials.P4BaseCredentials,hudson.model.TaskListener)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 49
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.<init>(org.jenkinsci.plugins.p4.credentials.P4BaseCredentials,hudson.model.TaskListener)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.authorisationConfig",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.connection",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.connectionConfig",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.disconnect()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 445
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.disconnect()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.getChange(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 279
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.getChangeFiles(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 404
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.getChangeSummary(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 288
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.listener",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.p4credential",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.ConnectionHelper.stop()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.ConnectionHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/ConnectionHelper.java",
+      "line": 484
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.NavigateHelper.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.NavigateHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/NavigateHelper.java",
+      "line": 14
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.NavigateHelper.getPath(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.NavigateHelper",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/NavigateHelper.java",
+      "line": 18
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.Validate.check(java.util.List<com.perforce.p4java.core.file.IFileSpec>,java.lang.String[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jenkinsci.plugins.p4.client.Validate",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/Validate.java",
+      "line": 33
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.Validate.check(java.util.List<com.perforce.p4java.core.file.IFileSpec>,java.lang.String[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.client.Validate.check(java.util.List<com.perforce.p4java.core.file.IFileSpec>,java.lang.String[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.client.Validate",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/client/Validate.java",
+      "line": 33
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.client.Validate.check(java.util.List<com.perforce.p4java.core.file.IFileSpec>,java.lang.String[])"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.console.P4Logging.<init>(hudson.model.TaskListener)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.console.P4Logging",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/console/P4Logging.java",
+      "line": 12
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.credentials.P4BaseCredentials.<init>(com.cloudbees.plugins.credentials.CredentialsScope,java.lang.String,java.lang.String,java.lang.String,org.jenkinsci.plugins.p4.credentials.TrustImpl,java.lang.String,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.credentials.P4BaseCredentials",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/credentials/P4BaseCredentials.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.credentials.P4BaseCredentials.isSsl()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.credentials.P4BaseCredentials",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/credentials/P4BaseCredentials.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.credentials.P4BaseCredentials.isSsl()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.credentials.P4PasswordImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/credentials/P4BaseCredentials.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.credentials.P4PasswordImpl.<init>(com.cloudbees.plugins.credentials.CredentialsScope,java.lang.String,java.lang.String,java.lang.String,org.jenkinsci.plugins.p4.credentials.TrustImpl,java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.credentials.P4PasswordImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/credentials/P4PasswordImpl.java",
+      "line": 35
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.credentials.P4PasswordImpl$DescriptorImpl.doTestConnection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.credentials.P4PasswordImpl$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/credentials/P4PasswordImpl.java",
+      "line": 66
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.credentials.P4BaseCredentials.isSsl()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.credentials.P4TicketImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/credentials/P4BaseCredentials.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.credentials.P4TicketImpl.<init>(com.cloudbees.plugins.credentials.CredentialsScope,java.lang.String,java.lang.String,java.lang.String,org.jenkinsci.plugins.p4.credentials.TrustImpl,java.lang.String,java.lang.String,java.lang.String,org.jenkinsci.plugins.p4.credentials.TicketModeImpl)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.credentials.P4TicketImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/credentials/P4TicketImpl.java",
+      "line": 34
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.credentials.P4TicketImpl$DescriptorImpl.doTestConnection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.credentials.P4TicketImpl$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/credentials/P4TicketImpl.java",
+      "line": 79
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.filters.FilterPerChangeImpl.getNextChange()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.filters.FilterPerChangeImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/filters/FilterPerChangeImpl.java",
+      "line": 26
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.filters.FilterPerChangeImpl.setNextChange(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.filters.FilterPerChangeImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/filters/FilterPerChangeImpl.java",
+      "line": 30
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.populate.AutoCleanImpl.<init>(boolean,boolean,boolean,boolean,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.populate.AutoCleanImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/populate/AutoCleanImpl.java",
+      "line": 17
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.populate.CheckOnlyImpl.<init>(boolean,boolean,boolean,boolean,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.populate.CheckOnlyImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/populate/CheckOnlyImpl.java",
+      "line": 19
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.populate.ForceCleanImpl.<init>(boolean,boolean,boolean,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.populate.ForceCleanImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/populate/ForceCleanImpl.java",
+      "line": 19
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.populate.Populate.<init>(boolean,boolean,boolean,boolean,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.populate.Populate",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/populate/Populate.java",
+      "line": 23
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.populate.PopulateDescriptor",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.populate.PopulateDescriptor",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/populate/PopulateDescriptor.java",
+      "line": null
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.populate.PopulateDescriptor.isGraphCompatible()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.populate.SyncOnlyImpl.<init>(boolean,boolean,boolean,boolean,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.populate.SyncOnlyImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/populate/SyncOnlyImpl.java",
+      "line": 20
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.publish.Publish.<init>(java.lang.String,boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.publish.Publish",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/publish/Publish.java",
+      "line": 29
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.publish.PublishNotifier$DescriptorImpl.doFillCredentialItems()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.publish.PublishNotifier$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/publish/PublishNotifier.java",
+      "line": 119
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.publish.ShelveImpl.<init>(java.lang.String,boolean,boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.publish.ShelveImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/publish/ShelveImpl.java",
+      "line": 21
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.publish.SubmitImpl.<init>(java.lang.String,boolean,boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.publish.SubmitImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/publish/SubmitImpl.java",
+      "line": 21
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.review.ReviewAction.<init>(hudson.model.AbstractProject<? extends java.lang.Object,? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.review.ReviewAction",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/review/ReviewAction.java",
+      "line": 37
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.review.ReviewAction.getProject()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jenkinsci.plugins.p4.review.ReviewAction",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/review/ReviewAction.java",
+      "line": 34
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.review.ReviewAction.getProject()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.review.ReviewAction.getProject()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.review.ReviewAction",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/review/ReviewAction.java",
+      "line": 34
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.review.ReviewAction.getProject()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.review.ReviewProp.CHANGE",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.review.ReviewProp",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/review/ReviewProp.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.review.ReviewProp.FAIL",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.review.ReviewProp",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/review/ReviewProp.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.review.ReviewProp.LABEL",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.review.ReviewProp",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/review/ReviewProp.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.review.ReviewProp.NAMESPACE",
+    "nature": "MUTATION",
+    "kind": "FIELD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.review.ReviewProp",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/review/ReviewProp.java",
+      "line": null
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.review.ReviewProp.NAMESPACE"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.review.ReviewProp.PASS",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.review.ReviewProp",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/review/ReviewProp.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.review.ReviewProp.REVIEW",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.review.ReviewProp",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/review/ReviewProp.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.review.ReviewProp.STATUS",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.review.ReviewProp",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/review/ReviewProp.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tagging.TagAction.<init>(hudson.model.Run<? extends java.lang.Object,? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tagging.TagAction",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tagging/TagAction.java",
+      "line": 31
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tagging.TagAction.getLabel(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tagging.TagAction",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tagging/TagAction.java",
+      "line": 166
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tagging.TagAction.getLabel(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tagging.TagAction.setCredential(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tagging.TagAction",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tagging/TagAction.java",
+      "line": 115
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tagging.TagNotifier.LOGGER",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tagging.TagNotifier",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tagging/TagNotifier.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tagging.TagNotifier.log(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tagging.TagNotifier",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tagging/TagNotifier.java",
+      "line": 111
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tagging.TagNotifier.LOGGER",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tagging.TagNotifierStep",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tagging/TagNotifier.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tagging.TagNotifier.log(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tagging.TagNotifierStep",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tagging/TagNotifier.java",
+      "line": 111
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.AbstractTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 24
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getClient()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.AbstractTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 160
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getConnection()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.AbstractTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 168
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.AbstractTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 47
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setCredential(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.AbstractTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setListener(hudson.model.TaskListener)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.AbstractTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setNextChange(org.jenkinsci.plugins.p4.workspace.Workspace,java.util.List<java.lang.Integer>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.AbstractTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 134
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getClient()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 160
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getConnection()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 168
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 47
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setCredential(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setListener(hudson.model.TaskListener)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setNextChange(org.jenkinsci.plugins.p4.workspace.Workspace,java.util.List<java.lang.Integer>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 134
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.<init>(org.jenkinsci.plugins.p4.populate.Populate)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/CheckoutTask.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getBuildChange()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/CheckoutTask.java",
+      "line": 292
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getBuildChange()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getBuildChange()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/CheckoutTask.java",
+      "line": 292
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getBuildChange()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getChanges(org.jenkinsci.plugins.p4.changes.P4Revision)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/CheckoutTask.java",
+      "line": 204
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getChangesFull(org.jenkinsci.plugins.p4.changes.P4Revision)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/CheckoutTask.java",
+      "line": 229
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getReview()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/CheckoutTask.java",
+      "line": 303
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getReview()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getReview()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/CheckoutTask.java",
+      "line": 303
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getReview()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getSyncChange()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/CheckoutTask.java",
+      "line": 288
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getSyncChange()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getSyncChange()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/CheckoutTask.java",
+      "line": 288
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.getSyncChange()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.CheckoutTask.setBuildChange(org.jenkinsci.plugins.p4.changes.P4Revision)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.CheckoutTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/CheckoutTask.java",
+      "line": 299
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getClient()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PollTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 160
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getConnection()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PollTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 168
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PollTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 47
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setCredential(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PollTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setListener(hudson.model.TaskListener)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PollTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setNextChange(org.jenkinsci.plugins.p4.workspace.Workspace,java.util.List<java.lang.Integer>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PollTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 134
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.PollTask.<init>(java.util.List<org.jenkinsci.plugins.p4.filters.Filter>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PollTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/PollTask.java",
+      "line": 37
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.PollTask.invoke(java.io.File,hudson.remoting.VirtualChannel)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PollTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/PollTask.java",
+      "line": 56
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.PollTask.invoke(java.io.File,hudson.remoting.VirtualChannel)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getClient()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PublishTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 160
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getConnection()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PublishTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 168
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PublishTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 47
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setCredential(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PublishTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setListener(hudson.model.TaskListener)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PublishTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setNextChange(org.jenkinsci.plugins.p4.workspace.Workspace,java.util.List<java.lang.Integer>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PublishTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 134
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.PublishTask.<init>(org.jenkinsci.plugins.p4.publish.Publish)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.PublishTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/PublishTask.java",
+      "line": 25
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.RemoveClientTask.<init>(java.lang.String,java.lang.String,org.jenkinsci.plugins.p4.populate.Populate)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.RemoveClientTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/RemoveClientTask.java",
+      "line": 39
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getClient()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.TaggingTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 160
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getConnection()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.TaggingTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 168
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.TaggingTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 47
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setCredential(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.TaggingTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setListener(hudson.model.TaskListener)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.TaggingTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setNextChange(org.jenkinsci.plugins.p4.workspace.Workspace,java.util.List<java.lang.Integer>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.TaggingTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 134
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.TaggingTask.<init>(java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.TaggingTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/TaggingTask.java",
+      "line": 34
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getClient()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.UnshelveTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 160
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getConnection()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.UnshelveTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 168
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.UnshelveTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 47
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.getCredential()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setCredential(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.UnshelveTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setListener(hudson.model.TaskListener)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.UnshelveTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.AbstractTask.setNextChange(org.jenkinsci.plugins.p4.workspace.Workspace,java.util.List<java.lang.Integer>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.UnshelveTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/AbstractTask.java",
+      "line": 134
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.UnshelveTask.<init>(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.UnshelveTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/UnshelveTask.java",
+      "line": 25
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.tasks.UnshelveTask.setShelf(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.tasks.UnshelveTask",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/tasks/UnshelveTask.java",
+      "line": 30
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.trigger.P4Trigger.getLogFile()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.trigger.P4Trigger",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/trigger/P4Trigger.java",
+      "line": 84
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4PublishStep",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4PublishStep",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4PublishStep.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4PublishStep$DescriptorImpl",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4PublishStep$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4PublishStep.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4PublishStep$DescriptorImpl.doCheckCredential(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4PublishStep$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4PublishStep.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4PublishStep$DescriptorImpl.doFillCredentialItems()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4PublishStep$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4PublishStep.java",
+      "line": 66
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4PublishStep$P4PublishStepExecution",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4PublishStep$P4PublishStepExecution",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4PublishStep.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4PublishStep$P4PublishStepExecution.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4PublishStep$P4PublishStepExecution",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4PublishStep.java",
+      "line": 75
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl.doAutoCompleteStream(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4Step.java",
+      "line": 148
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl.doAutoCompleteTemplate(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4Step.java",
+      "line": 153
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl.doCheckCredential(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4Step.java",
+      "line": 143
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl.doCheckPath(java.lang.String,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4Step.java",
+      "line": 204
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl.doCheckStream(java.lang.String,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4Step.java",
+      "line": 180
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl.doCheckTemplate(java.lang.String,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4Step.java",
+      "line": 192
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl.doFillCredentialItems()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4Step$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4Step.java",
+      "line": 139
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4TaggingStep",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4TaggingStep",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4TaggingStep.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4TaggingStep$DescriptorImpl",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4TaggingStep$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4TaggingStep.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4TaggingStep$P4TaggingStepExecution",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4TaggingStep$P4TaggingStepExecution",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4TaggingStep.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4TaggingStep$P4TaggingStepExecution.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4TaggingStep$P4TaggingStepExecution",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4TaggingStep.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4UnshelveStep",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4UnshelveStep",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4UnshelveStep.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4UnshelveStep$DescriptorImpl",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4UnshelveStep$DescriptorImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4UnshelveStep.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4UnshelveStep$P4UnshelveStepExecution",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4UnshelveStep$P4UnshelveStepExecution",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4UnshelveStep.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workflow.P4UnshelveStep$P4UnshelveStepExecution.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workflow.P4UnshelveStep$P4UnshelveStepExecution",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workflow/P4UnshelveStep.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.ManualWorkspaceImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 115
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.ManualWorkspaceImpl.clone()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.SpecWorkspaceImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 115
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.SpecWorkspaceImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 115
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.StaticWorkspaceImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 115
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.StaticWorkspaceImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 115
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.StreamDescImpl",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.StreamDescImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/StreamDescImpl.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.StreamWorkspaceImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 115
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.StreamWorkspaceImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 115
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.TemplateWorkspaceImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 115
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.TemplateWorkspaceImpl",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 115
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.Workspace",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": null
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.setName(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.<init>(java.lang.String,boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.Workspace",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 23
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.Workspace",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 115
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.jenkinsci.plugins.p4.workspace.Workspace",
+    "location": {
+      "path": "org/jenkinsci/plugins/p4/workspace/Workspace.java",
+      "line": 115
+    },
+    "newSymbol": "org.jenkinsci.plugins.p4.workspace.Workspace.clone()"
+  }
+]

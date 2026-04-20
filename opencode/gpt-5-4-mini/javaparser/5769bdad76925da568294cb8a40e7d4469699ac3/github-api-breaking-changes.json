@@ -1,0 +1,2927 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHAsset",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHAsset",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHAsset",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHAsset",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHAuthorization",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHAuthorization",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHAuthorization",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHAuthorization",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 19
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.disableProtection()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 85
+    },
+    "newSymbol": "org.kohsuke.github.GHBranch.disableProtection()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.enableProtection()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 95
+    },
+    "newSymbol": "org.kohsuke.github.GHBranch.enableProtection()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.enableProtection(org.kohsuke.github.EnforcementLevel,java.util.Collection<java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 101
+    },
+    "newSymbol": "org.kohsuke.github.GHBranch.enableProtection(org.kohsuke.github.EnforcementLevel,java.util.Collection<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.getName()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 49
+    },
+    "newSymbol": "org.kohsuke.github.GHBranch.getName()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.getOwner()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 45
+    },
+    "newSymbol": "org.kohsuke.github.GHBranch.getOwner()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.getProtection()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 70
+    },
+    "newSymbol": "org.kohsuke.github.GHBranch.getProtection()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.getProtectionUrl()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 65
+    },
+    "newSymbol": "org.kohsuke.github.GHBranch.getProtectionUrl()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.getRoot()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 38
+    },
+    "newSymbol": "org.kohsuke.github.GitHubInteractiveObject.getRoot()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.getSHA1()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 77
+    },
+    "newSymbol": "org.kohsuke.github.GHBranch.getSHA1()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.isProtected()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 57
+    },
+    "newSymbol": "org.kohsuke.github.GHBranch.isProtected()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHBranch.toString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHBranch",
+    "location": {
+      "path": "org/kohsuke/github/GHBranch.java",
+      "line": 121
+    },
+    "newSymbol": "org.kohsuke.github.GHBranch.toString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCommitComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCommitComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCommitComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCommitComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCommitStatus",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCommitStatus",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCommitStatus",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCommitStatus",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHCompare.status",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCompare",
+    "location": {
+      "path": "org/kohsuke/github/GHCompare.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHContent.wrap(org.kohsuke.github.GHContent[],org.kohsuke.github.GHRepository)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHContent",
+    "location": {
+      "path": "org/kohsuke/github/GHContent.java",
+      "line": 241
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHContentUpdateResponse.getCommit()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHContentUpdateResponse",
+    "location": {
+      "path": "org/kohsuke/github/GHContentUpdateResponse.java",
+      "line": 16
+    },
+    "newSymbol": "org.kohsuke.github.GHContentUpdateResponse.getCommit()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHContentUpdateResponse.getCommit()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHContentUpdateResponse",
+    "location": {
+      "path": "org/kohsuke/github/GHContentUpdateResponse.java",
+      "line": 16
+    },
+    "newSymbol": "org.kohsuke.github.GHContentUpdateResponse.getCommit()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.allowMergeCommit(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 89
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.allowMergeCommit(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.allowMergeCommit(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 89
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.allowMergeCommit(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.allowMergeCommit(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 89
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.allowMergeCommit(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.allowRebaseMerge(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 97
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.allowRebaseMerge(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.allowRebaseMerge(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 97
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.allowRebaseMerge(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.allowRebaseMerge(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 97
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.allowRebaseMerge(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.allowSquashMerge(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 81
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.allowSquashMerge(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.allowSquashMerge(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 81
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.allowSquashMerge(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.allowSquashMerge(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 81
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.allowSquashMerge(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.autoInit(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 73
+    },
+    "newSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.autoInit(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.description(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 24
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.description(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.description(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 24
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.description(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.description(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 24
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.description(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.downloads(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 65
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.downloads(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.downloads(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 65
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.downloads(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.downloads(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 65
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.downloads(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.gitignoreTemplate(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 107
+    },
+    "newSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.gitignoreTemplate(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.homepage(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 33
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.homepage(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.homepage(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 33
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.homepage(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.homepage(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 33
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.homepage(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.homepage(java.net.URL)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 29
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.homepage(java.net.URL)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.homepage(java.net.URL)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 29
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.homepage(java.net.URL)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.homepage(java.net.URL)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 29
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.homepage(java.net.URL)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.issues(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 49
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.issues(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.issues(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 49
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.issues(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.issues(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 49
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.issues(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.licenseTemplate(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 117
+    },
+    "newSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.licenseTemplate(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.private_(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 41
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.private_(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.private_(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 41
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.private_(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.private_(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 41
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.private_(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.team(org.kohsuke.github.GHTeam)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 126
+    },
+    "newSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.team(org.kohsuke.github.GHTeam)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.wiki(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 57
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.wiki(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.wiki(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 57
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.wiki(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHCreateRepositoryBuilder.wiki(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHCreateRepositoryBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GHCreateRepositoryBuilder.java",
+      "line": 57
+    },
+    "newSymbol": "org.kohsuke.github.GHRepositoryBuilder.wiki(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHDeployKey.getId()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHDeployKey",
+    "location": {
+      "path": "org/kohsuke/github/GHDeployKey.java",
+      "line": 15
+    },
+    "newSymbol": "org.kohsuke.github.GHDeployKey.getId()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHDeployKey.getId()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHDeployKey",
+    "location": {
+      "path": "org/kohsuke/github/GHDeployKey.java",
+      "line": 15
+    },
+    "newSymbol": "org.kohsuke.github.GHDeployKey.getId()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHDeployKey.id",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHDeployKey",
+    "location": {
+      "path": "org/kohsuke/github/GHDeployKey.java",
+      "line": null
+    },
+    "newSymbol": "org.kohsuke.github.GHDeployKey.id"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHDeployKey.id",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHDeployKey",
+    "location": {
+      "path": "org/kohsuke/github/GHDeployKey.java",
+      "line": null
+    },
+    "newSymbol": "org.kohsuke.github.GHDeployKey.id"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHDeployment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHDeployment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHDeployment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHDeployment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHDeploymentStatus",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHDeploymentStatus",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHDeploymentStatus",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHDeploymentStatus",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$CommitComment",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$Create",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$Delete",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$Deployment",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$DeploymentStatus",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$Fork",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$IssueComment",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$Ping",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$Public",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$PullRequest",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$PullRequestReview",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$PullRequestReviewComment",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$Push",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHEventPayload.root",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHEventPayload$Repository",
+    "location": {
+      "path": "org/kohsuke/github/GHEventPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 21
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.delete()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 159
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.delete()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.equals(java.lang.Object)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 164
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.equals(java.lang.Object)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.fork()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 138
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.fork()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.getCommentCount()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 77
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getCommentCount()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.getCommentsUrl()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 84
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getCommentsUrl()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.getCommitsUrl()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 50
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getCommitsUrl()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.getDescription()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 73
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getDescription()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.getFile(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 88
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getFile(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.getFiles()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 92
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getFiles()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.getForksUrl()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 46
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getForksUrl()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.getGitPullUrl()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 57
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getGitPullUrl()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.getGitPushUrl()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 61
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getGitPushUrl()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.getHtmlUrl()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 65
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getHtmlUrl()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.getOwner()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 42
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getOwner()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.hashCode()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 173
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.hashCode()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.isPublic()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 69
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.isPublic()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.isStarred()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 131
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.isStarred()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.listForks()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 142
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.listForks()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.star()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 123
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.star()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHGist.unstar()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHGist.java",
+      "line": 127
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.unstar()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.getCreatedAt()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": 55
+    },
+    "newSymbol": "org.kohsuke.github.GHObject.getCreatedAt()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.getId()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": 89
+    },
+    "newSymbol": "org.kohsuke.github.GHGist.getId()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.getResponseHeaderFields()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": 47
+    },
+    "newSymbol": "org.kohsuke.github.GHObject.getResponseHeaderFields()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.getUpdatedAt()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": 81
+    },
+    "newSymbol": "org.kohsuke.github.GHObject.getUpdatedAt()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.getUrl()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": 68
+    },
+    "newSymbol": "org.kohsuke.github.GHObject.getUrl()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.responseHeaderFields",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.toString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": 112
+    },
+    "newSymbol": "org.kohsuke.github.GHObject.toString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHGist",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHHook",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHHook",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHHook",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHHook",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHIssue.getLabels()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHIssue",
+    "location": {
+      "path": "org/kohsuke/github/GHIssue.java",
+      "line": 143
+    },
+    "newSymbol": "org.kohsuke.github.GHIssue.getLabels()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHIssue.labels",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHIssue",
+    "location": {
+      "path": "org/kohsuke/github/GHIssue.java",
+      "line": null
+    },
+    "newSymbol": "org.kohsuke.github.GHIssue.labels"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHIssue",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHIssue",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHIssue",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHIssue",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHIssue$Label",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHIssue$Label",
+    "location": {
+      "path": "org/kohsuke/github/GHIssue.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHIssueComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHIssueComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHIssueComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHIssueComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHLabel",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLabel",
+    "location": {
+      "path": "org/kohsuke/github/GHLabel.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHLabel",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLabel",
+    "location": {
+      "path": "org/kohsuke/github/GHLabel.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHLabel.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLabel",
+    "location": {
+      "path": "org/kohsuke/github/GHLabel.java",
+      "line": 10
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHLabel.delete()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLabel",
+    "location": {
+      "path": "org/kohsuke/github/GHLabel.java",
+      "line": 35
+    },
+    "newSymbol": "org.kohsuke.github.GHLabel.delete()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHLabel.getColor()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLabel",
+    "location": {
+      "path": "org/kohsuke/github/GHLabel.java",
+      "line": 26
+    },
+    "newSymbol": "org.kohsuke.github.GHLabel.getColor()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHLabel.getName()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLabel",
+    "location": {
+      "path": "org/kohsuke/github/GHLabel.java",
+      "line": 19
+    },
+    "newSymbol": "org.kohsuke.github.GHLabel.getName()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHLabel.getUrl()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLabel",
+    "location": {
+      "path": "org/kohsuke/github/GHLabel.java",
+      "line": 15
+    },
+    "newSymbol": "org.kohsuke.github.GHLabel.getUrl()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHLabel.setColor(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLabel",
+    "location": {
+      "path": "org/kohsuke/github/GHLabel.java",
+      "line": 43
+    },
+    "newSymbol": "org.kohsuke.github.GHLabel.setColor(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLicense",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLicense",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLicense",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHLicense",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHMilestone",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHMilestone",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHMilestone",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHMilestone",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHMyself",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHMyself",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHMyself",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHMyself",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHPerson.gravatar_id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHMyself",
+    "location": {
+      "path": "org/kohsuke/github/GHPerson.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHOrganization",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHOrganization",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHOrganization",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHOrganization",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHOrganization.createRepository(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHOrganization",
+    "location": {
+      "path": "org/kohsuke/github/GHOrganization.java",
+      "line": 54
+    },
+    "newSymbol": "org.kohsuke.github.GHOrganization.createRepository(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHPerson.gravatar_id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHOrganization",
+    "location": {
+      "path": "org/kohsuke/github/GHPerson.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPerson",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPerson",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPerson",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPerson",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHPerson.gravatar_id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPerson",
+    "location": {
+      "path": "org/kohsuke/github/GHPerson.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHIssue.labels",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequest",
+    "location": {
+      "path": "org/kohsuke/github/GHIssue.java",
+      "line": null
+    },
+    "newSymbol": "org.kohsuke.github.GHIssue.labels"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequest",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequest",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequest",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequest",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHPullRequest.getLabels()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequest",
+    "location": {
+      "path": "org/kohsuke/github/GHPullRequest.java",
+      "line": 137
+    },
+    "newSymbol": "org.kohsuke.github.GHIssue.getLabels()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequestReview",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequestReview",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequestReview",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequestReview",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequestReviewComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequestReviewComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequestReviewComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHPullRequestReviewComment",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHRateLimit",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRateLimit",
+    "location": {
+      "path": "org/kohsuke/github/GHRateLimit.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHRateLimit",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRateLimit",
+    "location": {
+      "path": "org/kohsuke/github/GHRateLimit.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHRateLimit.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRateLimit",
+    "location": {
+      "path": "org/kohsuke/github/GHRateLimit.java",
+      "line": 11
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHRateLimit.getResetDate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRateLimit",
+    "location": {
+      "path": "org/kohsuke/github/GHRateLimit.java",
+      "line": 32
+    },
+    "newSymbol": "org.kohsuke.github.GHRateLimit.getResetDate()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHRateLimit.toString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRateLimit",
+    "location": {
+      "path": "org/kohsuke/github/GHRateLimit.java",
+      "line": 37
+    },
+    "newSymbol": "org.kohsuke.github.GHRateLimit.toString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHReaction",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHReaction",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHReaction",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHReaction",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRelease",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRelease",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRelease",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRelease",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRepository",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRepository",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRepository",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRepository",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHRepository.getNetworkCount()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRepository",
+    "location": {
+      "path": "org/kohsuke/github/GHRepository.java",
+      "line": 420
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRepository$Contributor",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRepository$Contributor",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRepository$Contributor",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRepository$Contributor",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHPerson.gravatar_id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHRepository$Contributor",
+    "location": {
+      "path": "org/kohsuke/github/GHPerson.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHTeam.getId()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.kohsuke.github.GHTeam",
+    "location": {
+      "path": "org/kohsuke/github/GHTeam.java",
+      "line": 63
+    },
+    "newSymbol": "org.kohsuke.github.GHObject.getId()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHTeam.getId()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHTeam",
+    "location": {
+      "path": "org/kohsuke/github/GHTeam.java",
+      "line": 63
+    },
+    "newSymbol": "org.kohsuke.github.GHObject.getId()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GHTeam.getOrganization()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHTeam",
+    "location": {
+      "path": "org/kohsuke/github/GHTeam.java",
+      "line": 180
+    },
+    "newSymbol": "org.kohsuke.github.GHTeam.getOrganization()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHTeam.org",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHTeam",
+    "location": {
+      "path": "org/kohsuke/github/GHTeam.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.created_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHUser",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHUser",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.updated_at",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHUser",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHObject.url",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHUser",
+    "location": {
+      "path": "org/kohsuke/github/GHObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GHPerson.gravatar_id",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GHUser",
+    "location": {
+      "path": "org/kohsuke/github/GHPerson.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.GitHub.isCredentialValid()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GitHub",
+    "location": {
+      "path": "org/kohsuke/github/GitHub.java",
+      "line": 690
+    },
+    "newSymbol": "org.kohsuke.github.GitHub.isCredentialValid()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.kohsuke.github.GitHubBuilder.fromCredentials()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.GitHubBuilder",
+    "location": {
+      "path": "org/kohsuke/github/GitHubBuilder.java",
+      "line": 50
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.Preview",
+    "nature": "ADDITION",
+    "kind": "ANNOTATION_NEW_METHOD_WITHOUT_DEFAULT",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.Preview",
+    "location": {
+      "path": "org/kohsuke/github/Preview.java",
+      "line": null
+    },
+    "newSymbol": "org.kohsuke.github.Preview.value()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.kohsuke.github.Reactable",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.kohsuke.github.Reactable",
+    "location": {
+      "path": "org/kohsuke/github/Reactable.java",
+      "line": null
+    },
+    "newSymbol": "org.kohsuke.github.Reactable.deleteReaction(org.kohsuke.github.GHReaction)"
+  }
+]

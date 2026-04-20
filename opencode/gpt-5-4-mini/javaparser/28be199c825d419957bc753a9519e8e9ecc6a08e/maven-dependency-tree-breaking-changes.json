@@ -1,0 +1,418 @@
+[
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.DependencyGraphBuilder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.DependencyGraphBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/DependencyGraphBuilder.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.maven.shared.dependency.graph.DependencyGraphBuilder.buildDependencyGraph(org.apache.maven.project.ProjectBuildingRequest,org.apache.maven.artifact.resolver.filter.ArtifactFilter)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.DependencyGraphBuilder.buildDependencyGraph(org.apache.maven.project.MavenProject,org.apache.maven.artifact.resolver.filter.ArtifactFilter)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.DependencyGraphBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/DependencyGraphBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.DependencyGraphBuilder.buildDependencyGraph(org.apache.maven.project.MavenProject,org.apache.maven.artifact.resolver.filter.ArtifactFilter,java.util.Collection<org.apache.maven.project.MavenProject>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.DependencyGraphBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/DependencyGraphBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.DependencyNode",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.DependencyNode",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/DependencyNode.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.maven.shared.dependency.graph.DependencyNode.getOptional()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.DependencyNode",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.DependencyNode",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/DependencyNode.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.maven.shared.dependency.graph.DependencyNode.getExclusions()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder.buildDependencyGraph(org.apache.maven.project.MavenProject,org.apache.maven.artifact.resolver.filter.ArtifactFilter)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/internal/DefaultDependencyGraphBuilder.java",
+      "line": 66
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder.buildDependencyGraph(org.apache.maven.project.MavenProject,org.apache.maven.artifact.resolver.filter.ArtifactFilter,java.util.Collection<org.apache.maven.project.MavenProject>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/internal/DefaultDependencyGraphBuilder.java",
+      "line": 84
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder.isMaven2x()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/internal/DefaultDependencyGraphBuilder.java",
+      "line": 104
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.internal.Maven2DependencyGraphBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.internal.Maven2DependencyGraphBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/internal/Maven2DependencyGraphBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder.buildDependencyGraph(org.apache.maven.project.MavenProject,org.apache.maven.artifact.resolver.filter.ArtifactFilter)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/internal/Maven31DependencyGraphBuilder.java",
+      "line": 79
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder.buildDependencyGraph(org.apache.maven.project.MavenProject,org.apache.maven.artifact.resolver.filter.ArtifactFilter,java.util.Collection<org.apache.maven.project.MavenProject>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/internal/Maven31DependencyGraphBuilder.java",
+      "line": 96
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder.buildDependencyGraph(org.apache.maven.project.MavenProject,org.apache.maven.artifact.resolver.filter.ArtifactFilter)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/internal/Maven3DependencyGraphBuilder.java",
+      "line": 78
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder.buildDependencyGraph(org.apache.maven.project.MavenProject,org.apache.maven.artifact.resolver.filter.ArtifactFilter,java.util.Collection<org.apache.maven.project.MavenProject>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/graph/internal/Maven3DependencyGraphBuilder.java",
+      "line": 95
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.DefaultDependencyTreeBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.DefaultDependencyTreeBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/DefaultDependencyTreeBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.DependencyNode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.DependencyNode",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/DependencyNode.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.DependencyTree",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.DependencyTree",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/DependencyTree.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.DependencyTreeBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.DependencyTreeBuilder",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/DependencyTreeBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.DependencyTreeBuilderException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.DependencyTreeBuilderException",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/DependencyTreeBuilderException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.DependencyTreeInverseIterator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.DependencyTreeInverseIterator",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/DependencyTreeInverseIterator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.DependencyTreePreorderIterator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.DependencyTreePreorderIterator",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/DependencyTreePreorderIterator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.DependencyTreeResolutionListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.DependencyTreeResolutionListener",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/DependencyTreeResolutionListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.filter.AncestorOrSelfDependencyNodeFilter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.filter.AncestorOrSelfDependencyNodeFilter",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/filter/AncestorOrSelfDependencyNodeFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.filter.AndDependencyNodeFilter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.filter.AndDependencyNodeFilter",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/filter/AndDependencyNodeFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.filter.ArtifactDependencyNodeFilter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.filter.ArtifactDependencyNodeFilter",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/filter/ArtifactDependencyNodeFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.filter.DependencyNodeFilter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.filter.DependencyNodeFilter",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/filter/DependencyNodeFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.filter.StateDependencyNodeFilter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.filter.StateDependencyNodeFilter",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/filter/StateDependencyNodeFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.traversal.BuildingDependencyNodeVisitor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.traversal.BuildingDependencyNodeVisitor",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/traversal/BuildingDependencyNodeVisitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.traversal.CollectingDependencyNodeVisitor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.traversal.CollectingDependencyNodeVisitor",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/traversal/CollectingDependencyNodeVisitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.traversal.DependencyNodeVisitor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.traversal.DependencyNodeVisitor",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/traversal/DependencyNodeVisitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.traversal.FilteringDependencyNodeVisitor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.traversal.FilteringDependencyNodeVisitor",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/traversal/FilteringDependencyNodeVisitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.traversal.SerializingDependencyNodeVisitor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.traversal.SerializingDependencyNodeVisitor",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/traversal/SerializingDependencyNodeVisitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.maven.shared.dependency.tree.traversal.SerializingDependencyNodeVisitor$TreeTokens",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.maven.shared.dependency.tree.traversal.SerializingDependencyNodeVisitor$TreeTokens",
+    "location": {
+      "path": "org/apache/maven/shared/dependency/tree/traversal/SerializingDependencyNodeVisitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

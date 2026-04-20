@@ -1,0 +1,184 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.HandlerChain",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.HandlerChain",
+    "location": {
+      "path": "javax/jws/HandlerChain.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.Oneway",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.Oneway",
+    "location": {
+      "path": "javax/jws/Oneway.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.WebMethod",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.WebMethod",
+    "location": {
+      "path": "javax/jws/WebMethod.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.WebParam",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.WebParam",
+    "location": {
+      "path": "javax/jws/WebParam.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.WebParam$Mode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.WebParam$Mode",
+    "location": {
+      "path": "javax/jws/WebParam.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.WebResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.WebResult",
+    "location": {
+      "path": "javax/jws/WebResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.WebService",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.WebService",
+    "location": {
+      "path": "javax/jws/WebService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.soap.InitParam",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.soap.InitParam",
+    "location": {
+      "path": "javax/jws/soap/InitParam.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.soap.SOAPBinding",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.soap.SOAPBinding",
+    "location": {
+      "path": "javax/jws/soap/SOAPBinding.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.soap.SOAPBinding$ParameterStyle",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.soap.SOAPBinding$ParameterStyle",
+    "location": {
+      "path": "javax/jws/soap/SOAPBinding.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.soap.SOAPBinding$Style",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.soap.SOAPBinding$Style",
+    "location": {
+      "path": "javax/jws/soap/SOAPBinding.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.soap.SOAPBinding$Use",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.soap.SOAPBinding$Use",
+    "location": {
+      "path": "javax/jws/soap/SOAPBinding.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.soap.SOAPMessageHandler",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.soap.SOAPMessageHandler",
+    "location": {
+      "path": "javax/jws/soap/SOAPMessageHandler.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.jws.soap.SOAPMessageHandlers",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.jws.soap.SOAPMessageHandlers",
+    "location": {
+      "path": "javax/jws/soap/SOAPMessageHandlers.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

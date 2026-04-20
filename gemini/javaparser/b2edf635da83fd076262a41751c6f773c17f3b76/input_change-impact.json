@@ -1,0 +1,1079 @@
+{
+  "project" : "jclouds",
+  "breakingCommit" : "b2edf635da83fd076262a41751c6f773c17f3b76",
+  "dependency" : {
+    "groupId" : "org.yaml",
+    "artifactId" : "snakeyaml",
+    "previousVersion" : "1.32",
+    "newVersion" : "2.0",
+    "previousJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-1.32.jar",
+    "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-2.0.jar"
+  },
+  "classification" : {
+    "datasetCategory" : "COMPILATION_FAILURE",
+    "inferredCategory" : "COMPILATION_FAILURE",
+    "logFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/jclouds/b2edf635da83fd076262a41751c6f773c17f3b76.log",
+    "classifierReport" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/gemini/javaparser/b2edf635da83fd076262a41751c6f773c17f3b76/breaking-classifier-report.json"
+  },
+  "files" : [ {
+    "filePath" : "/jclouds/apis/byon/src/main/java/org/jclouds/byon/domain/YamlNode.java",
+    "errors" : [ {
+      "lineNumber" : 114,
+      "columnNumber" : 64,
+      "message" : "incompatible types: java.lang.Class<org.jclouds.byon.domain.YamlNode> cannot be converted to org.yaml.snakeyaml.LoaderOptions",
+      "details" : [ ],
+      "status" : "SUCCESS",
+      "errorMessage" : null,
+      "changeImpact" : {
+        "projectPath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/jclouds",
+        "sourceFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/jclouds/apis/byon/src/main/java/org/jclouds/byon/domain/YamlNode.java",
+        "lineNumber" : 114,
+        "oldJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-1.32.jar",
+        "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-2.0.jar",
+        "generatedAt" : "2026-03-11T02:35:35.473404Z",
+        "constructs" : [ {
+          "constructType" : "CONSTRUCTOR_CALL",
+          "signature" : "org.jclouds.byon.domain.YamlNode$2#<init>()",
+          "dependency" : {
+            "origin" : "PROJECT_SOURCE",
+            "groupId" : null,
+            "artifactId" : null,
+            "version" : null,
+            "coordinates" : "PROJECT_SOURCE",
+            "sourcePath" : "apis/byon/src/main/java/org/jclouds/byon/domain/YamlNode.java"
+          },
+          "lineNumber" : 106,
+          "codeLine" : "            return (YamlNode) new Yaml(new Constructor(YamlNode.class)).load(in);",
+          "apiChanges" : [ ]
+        }, {
+          "constructType" : "METHOD_INVOCATION",
+          "signature" : "org.yaml.snakeyaml.Yaml#load(java.io.InputStream)",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.yaml",
+            "artifactId" : "snakeyaml",
+            "version" : "1.32",
+            "coordinates" : "org.yaml:snakeyaml:1.32",
+            "sourcePath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-1.32.jar"
+          },
+          "lineNumber" : 114,
+          "codeLine" : "            return (YamlNode) new Yaml(new Constructor(YamlNode.class)).load(in);",
+          "apiChanges" : [ {
+            "elementType" : "METHOD",
+            "matchType" : "EXACT_SIGNATURE",
+            "name" : "load",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.load(java.io.InputStream)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtMethod@c80de172[public load (Ljava/io/InputStream;)Ljava/lang/Object;]",
+              "newValue" : "javassist.CtMethod@c80de172[public load (Ljava/io/InputStream;)Ljava/lang/Object;]",
+              "changed" : false
+            },
+            "value" : {
+              "oldValue" : "java.lang.Object",
+              "newValue" : "java.lang.Object",
+              "changed" : false
+            },
+            "parameterTypes" : [ "java.io.InputStream" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "METHOD",
+            "matchType" : "NAME_ONLY",
+            "name" : "load",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.load(java.lang.String)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtMethod@87204b1d[public load (Ljava/lang/String;)Ljava/lang/Object;]",
+              "newValue" : "javassist.CtMethod@87204b1d[public load (Ljava/lang/String;)Ljava/lang/Object;]",
+              "changed" : false
+            },
+            "value" : {
+              "oldValue" : "java.lang.Object",
+              "newValue" : "java.lang.Object",
+              "changed" : false
+            },
+            "parameterTypes" : [ "java.lang.String" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "METHOD",
+            "matchType" : "NAME_ONLY",
+            "name" : "load",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.load(java.io.Reader)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtMethod@59401657[public load (Ljava/io/Reader;)Ljava/lang/Object;]",
+              "newValue" : "javassist.CtMethod@59401657[public load (Ljava/io/Reader;)Ljava/lang/Object;]",
+              "changed" : false
+            },
+            "value" : {
+              "oldValue" : "java.lang.Object",
+              "newValue" : "java.lang.Object",
+              "changed" : false
+            },
+            "parameterTypes" : [ "java.io.Reader" ],
+            "changedMemberCount" : null
+          } ]
+        }, {
+          "constructType" : "TYPE_REFERENCE",
+          "signature" : "org.jclouds.byon.domain.YamlNode",
+          "dependency" : {
+            "origin" : "PROJECT_SOURCE",
+            "groupId" : null,
+            "artifactId" : null,
+            "version" : null,
+            "coordinates" : "PROJECT_SOURCE",
+            "sourcePath" : "apis/byon/src/main/java/org/jclouds/byon/domain/YamlNode.java"
+          },
+          "lineNumber" : 114,
+          "codeLine" : "            return (YamlNode) new Yaml(new Constructor(YamlNode.class)).load(in);",
+          "apiChanges" : [ ]
+        }, {
+          "constructType" : "CONSTRUCTOR_CALL",
+          "signature" : "org.yaml.snakeyaml.Yaml#<init>(org.yaml.snakeyaml.constructor.BaseConstructor)",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.yaml",
+            "artifactId" : "snakeyaml",
+            "version" : "1.32",
+            "coordinates" : "org.yaml:snakeyaml:1.32",
+            "sourcePath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-1.32.jar"
+          },
+          "lineNumber" : 114,
+          "codeLine" : "            return (YamlNode) new Yaml(new Constructor(YamlNode.class)).load(in);",
+          "apiChanges" : [ {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "EXACT_SIGNATURE",
+            "name" : "Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.Yaml(org.yaml.snakeyaml.constructor.BaseConstructor)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@3cee96cd[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;)V]",
+              "newValue" : "javassist.CtConstructor@18ffda8d[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.constructor.BaseConstructor" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.Yaml(org.yaml.snakeyaml.constructor.BaseConstructor, org.yaml.snakeyaml.representer.Representer, org.yaml.snakeyaml.DumperOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@2a793b2e[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;Lorg/yaml/snakeyaml/representer/Representer;Lorg/yaml/snakeyaml/DumperOptions;)V]",
+              "newValue" : "javassist.CtConstructor@e40e813[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;Lorg/yaml/snakeyaml/representer/Representer;Lorg/yaml/snakeyaml/DumperOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.constructor.BaseConstructor", "org.yaml.snakeyaml.representer.Representer", "org.yaml.snakeyaml.DumperOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.Yaml(org.yaml.snakeyaml.DumperOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@46504fe8[public Yaml (Lorg/yaml/snakeyaml/DumperOptions;)V]",
+              "newValue" : "javassist.CtConstructor@209dde1d[public Yaml (Lorg/yaml/snakeyaml/DumperOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.DumperOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.Yaml(org.yaml.snakeyaml.representer.Representer, org.yaml.snakeyaml.DumperOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@435e216b[public Yaml (Lorg/yaml/snakeyaml/representer/Representer;Lorg/yaml/snakeyaml/DumperOptions;)V]",
+              "newValue" : "javassist.CtConstructor@4a574963[public Yaml (Lorg/yaml/snakeyaml/representer/Representer;Lorg/yaml/snakeyaml/DumperOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.representer.Representer", "org.yaml.snakeyaml.DumperOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.Yaml(org.yaml.snakeyaml.constructor.BaseConstructor, org.yaml.snakeyaml.representer.Representer, org.yaml.snakeyaml.DumperOptions, org.yaml.snakeyaml.resolver.Resolver)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@ebc70ce[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;Lorg/yaml/snakeyaml/representer/Representer;Lorg/yaml/snakeyaml/DumperOptions;Lorg/yaml/snakeyaml/resolver/Resolver;)V]",
+              "newValue" : "javassist.CtConstructor@409f2a32[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;Lorg/yaml/snakeyaml/representer/Representer;Lorg/yaml/snakeyaml/DumperOptions;Lorg/yaml/snakeyaml/resolver/Resolver;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.constructor.BaseConstructor", "org.yaml.snakeyaml.representer.Representer", "org.yaml.snakeyaml.DumperOptions", "org.yaml.snakeyaml.resolver.Resolver" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.Yaml(org.yaml.snakeyaml.constructor.BaseConstructor, org.yaml.snakeyaml.representer.Representer, org.yaml.snakeyaml.DumperOptions, org.yaml.snakeyaml.LoaderOptions, org.yaml.snakeyaml.resolver.Resolver)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@72f80e33[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;Lorg/yaml/snakeyaml/representer/Representer;Lorg/yaml/snakeyaml/DumperOptions;Lorg/yaml/snakeyaml/LoaderOptions;Lorg/yaml/snakeyaml/resolver/Resolver;)V]",
+              "newValue" : "javassist.CtConstructor@2944d5e[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;Lorg/yaml/snakeyaml/representer/Representer;Lorg/yaml/snakeyaml/DumperOptions;Lorg/yaml/snakeyaml/LoaderOptions;Lorg/yaml/snakeyaml/resolver/Resolver;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.constructor.BaseConstructor", "org.yaml.snakeyaml.representer.Representer", "org.yaml.snakeyaml.DumperOptions", "org.yaml.snakeyaml.LoaderOptions", "org.yaml.snakeyaml.resolver.Resolver" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.Yaml(org.yaml.snakeyaml.representer.Representer)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@6f4377c2[public Yaml (Lorg/yaml/snakeyaml/representer/Representer;)V]",
+              "newValue" : "javassist.CtConstructor@56341ea2[public Yaml (Lorg/yaml/snakeyaml/representer/Representer;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.representer.Representer" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.Yaml()",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@640f0bc1[public Yaml ()V]",
+              "newValue" : "javassist.CtConstructor@445154a3[public Yaml ()V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.Yaml(org.yaml.snakeyaml.constructor.BaseConstructor, org.yaml.snakeyaml.representer.Representer)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@3058c68c[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;Lorg/yaml/snakeyaml/representer/Representer;)V]",
+              "newValue" : "javassist.CtConstructor@466f1f2b[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;Lorg/yaml/snakeyaml/representer/Representer;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.constructor.BaseConstructor", "org.yaml.snakeyaml.representer.Representer" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.Yaml(org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@5aa24524[public Yaml (Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@1498e69f[public Yaml (Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml.Yaml(org.yaml.snakeyaml.constructor.BaseConstructor, org.yaml.snakeyaml.representer.Representer, org.yaml.snakeyaml.DumperOptions, org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@62822e26[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;Lorg/yaml/snakeyaml/representer/Representer;Lorg/yaml/snakeyaml/DumperOptions;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@5c2af31a[public Yaml (Lorg/yaml/snakeyaml/constructor/BaseConstructor;Lorg/yaml/snakeyaml/representer/Representer;Lorg/yaml/snakeyaml/DumperOptions;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.constructor.BaseConstructor", "org.yaml.snakeyaml.representer.Representer", "org.yaml.snakeyaml.DumperOptions", "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          } ]
+        }, {
+          "constructType" : "TYPE_REFERENCE",
+          "signature" : "org.yaml.snakeyaml.Yaml",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.yaml",
+            "artifactId" : "snakeyaml",
+            "version" : "1.32",
+            "coordinates" : "org.yaml:snakeyaml:1.32",
+            "sourcePath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-1.32.jar"
+          },
+          "lineNumber" : 114,
+          "codeLine" : "            return (YamlNode) new Yaml(new Constructor(YamlNode.class)).load(in);",
+          "apiChanges" : [ {
+            "elementType" : "CLASS",
+            "matchType" : "CLASS",
+            "name" : "org.yaml.snakeyaml.Yaml",
+            "declaringType" : "org.yaml.snakeyaml.Yaml",
+            "qualifiedSignature" : "org.yaml.snakeyaml.Yaml",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ ],
+            "signature" : null,
+            "value" : null,
+            "parameterTypes" : null,
+            "changedMemberCount" : 0
+          } ]
+        }, {
+          "constructType" : "CONSTRUCTOR_CALL",
+          "signature" : "org.yaml.snakeyaml.constructor.Constructor#<init>(java.lang.Class)",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.yaml",
+            "artifactId" : "snakeyaml",
+            "version" : "1.32",
+            "coordinates" : "org.yaml:snakeyaml:1.32",
+            "sourcePath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-1.32.jar"
+          },
+          "lineNumber" : 114,
+          "codeLine" : "            return (YamlNode) new Yaml(new Constructor(YamlNode.class)).load(in);",
+          "apiChanges" : [ {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "EXACT_SIGNATURE",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(java.lang.Class)",
+            "changeStatus" : "REMOVED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ {
+              "type" : "CONSTRUCTOR_REMOVED",
+              "binaryCompatible" : false,
+              "sourceCompatible" : false,
+              "semanticVersionImpact" : "MAJOR"
+            } ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@497c41a8[public Constructor (Ljava/lang/Class;)V]",
+              "newValue" : null,
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "java.lang.Class" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(java.lang.Class, org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@6ff7f47d[public Constructor (Ljava/lang/Class;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@487d5c86[public Constructor (Ljava/lang/Class;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "java.lang.Class", "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor()",
+            "changeStatus" : "REMOVED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ {
+              "type" : "CONSTRUCTOR_REMOVED",
+              "binaryCompatible" : false,
+              "sourceCompatible" : false,
+              "semanticVersionImpact" : "MAJOR"
+            } ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@3ffc58d9[public Constructor ()V]",
+              "newValue" : null,
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(org.yaml.snakeyaml.TypeDescription)",
+            "changeStatus" : "REMOVED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ {
+              "type" : "CONSTRUCTOR_REMOVED",
+              "binaryCompatible" : false,
+              "sourceCompatible" : false,
+              "semanticVersionImpact" : "MAJOR"
+            } ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@300b9e41[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;)V]",
+              "newValue" : null,
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.TypeDescription" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(java.lang.String, org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@608fd021[public Constructor (Ljava/lang/String;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@42b439da[public Constructor (Ljava/lang/String;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "java.lang.String", "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(org.yaml.snakeyaml.TypeDescription, org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@1fd39bc5[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@7346f7e8[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.TypeDescription", "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(java.lang.String)",
+            "changeStatus" : "REMOVED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ {
+              "type" : "CONSTRUCTOR_REMOVED",
+              "binaryCompatible" : false,
+              "sourceCompatible" : false,
+              "semanticVersionImpact" : "MAJOR"
+            } ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@6dd62f79[public Constructor (Ljava/lang/String;)V]",
+              "newValue" : null,
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "java.lang.String" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@e4fa1f0[public Constructor (Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@dc11e4f[public Constructor (Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(org.yaml.snakeyaml.TypeDescription, java.util.Collection)",
+            "changeStatus" : "REMOVED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ {
+              "type" : "CONSTRUCTOR_REMOVED",
+              "binaryCompatible" : false,
+              "sourceCompatible" : false,
+              "semanticVersionImpact" : "MAJOR"
+            } ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@158d1219[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;Ljava/util/Collection;)V]",
+              "newValue" : null,
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.TypeDescription", "java.util.Collection" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(org.yaml.snakeyaml.TypeDescription, java.util.Collection, org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@66be6179[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;Ljava/util/Collection;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@63082887[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;Ljava/util/Collection;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.TypeDescription", "java.util.Collection", "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CLASS",
+            "matchType" : "CLASS",
+            "name" : "org.yaml.snakeyaml.constructor.Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor",
+            "changeStatus" : "MODIFIED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ ],
+            "signature" : null,
+            "value" : null,
+            "parameterTypes" : null,
+            "changedMemberCount" : 6
+          } ]
+        }, {
+          "constructType" : "TYPE_REFERENCE",
+          "signature" : "org.yaml.snakeyaml.constructor.Constructor",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.yaml",
+            "artifactId" : "snakeyaml",
+            "version" : "1.32",
+            "coordinates" : "org.yaml:snakeyaml:1.32",
+            "sourcePath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-1.32.jar"
+          },
+          "lineNumber" : 114,
+          "codeLine" : "            return (YamlNode) new Yaml(new Constructor(YamlNode.class)).load(in);",
+          "apiChanges" : [ {
+            "elementType" : "CLASS",
+            "matchType" : "CLASS",
+            "name" : "org.yaml.snakeyaml.constructor.Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor",
+            "changeStatus" : "MODIFIED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ ],
+            "signature" : null,
+            "value" : null,
+            "parameterTypes" : null,
+            "changedMemberCount" : 6
+          } ]
+        }, {
+          "constructType" : "FIELD_ACCESS",
+          "signature" : "org.jclouds.byon.domain.YamlNode::class",
+          "dependency" : {
+            "origin" : "PROJECT_SOURCE",
+            "groupId" : null,
+            "artifactId" : null,
+            "version" : null,
+            "coordinates" : "PROJECT_SOURCE",
+            "sourcePath" : "apis/byon/src/main/java/org/jclouds/byon/domain/YamlNode.java"
+          },
+          "lineNumber" : 114,
+          "codeLine" : "            return (YamlNode) new Yaml(new Constructor(YamlNode.class)).load(in);",
+          "apiChanges" : [ ]
+        } ]
+      }
+    } ]
+  }, {
+    "filePath" : "/jclouds/apis/byon/src/main/java/org/jclouds/byon/functions/NodesFromYamlStream.java",
+    "errors" : [ {
+      "lineNumber" : 83,
+      "columnNumber" : 55,
+      "message" : "incompatible types: java.lang.Class<org.jclouds.byon.functions.NodesFromYamlStream.Config> cannot be converted to org.yaml.snakeyaml.LoaderOptions",
+      "details" : [ ],
+      "status" : "SUCCESS",
+      "errorMessage" : null,
+      "changeImpact" : {
+        "projectPath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/jclouds",
+        "sourceFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/jclouds/apis/byon/src/main/java/org/jclouds/byon/functions/NodesFromYamlStream.java",
+        "lineNumber" : 83,
+        "oldJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-1.32.jar",
+        "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-2.0.jar",
+        "generatedAt" : "2026-03-11T02:35:35.474060Z",
+        "constructs" : [ {
+          "constructType" : "TYPE_REFERENCE",
+          "signature" : "org.yaml.snakeyaml.constructor.Constructor",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.yaml",
+            "artifactId" : "snakeyaml",
+            "version" : "1.32",
+            "coordinates" : "org.yaml:snakeyaml:1.32",
+            "sourcePath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-1.32.jar"
+          },
+          "lineNumber" : 83,
+          "codeLine" : "      Constructor constructor = new Constructor(Config.class);",
+          "apiChanges" : [ {
+            "elementType" : "CLASS",
+            "matchType" : "CLASS",
+            "name" : "org.yaml.snakeyaml.constructor.Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor",
+            "changeStatus" : "MODIFIED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ ],
+            "signature" : null,
+            "value" : null,
+            "parameterTypes" : null,
+            "changedMemberCount" : 6
+          } ]
+        }, {
+          "constructType" : "CONSTRUCTOR_CALL",
+          "signature" : "org.yaml.snakeyaml.constructor.Constructor#<init>(java.lang.Class)",
+          "dependency" : {
+            "origin" : "MAVEN_DEPENDENCY",
+            "groupId" : "org.yaml",
+            "artifactId" : "snakeyaml",
+            "version" : "1.32",
+            "coordinates" : "org.yaml:snakeyaml:1.32",
+            "sourcePath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/javaparser-out-round-2/b2edf635da83fd076262a41751c6f773c17f3b76/snakeyaml-1.32.jar"
+          },
+          "lineNumber" : 83,
+          "codeLine" : "      Constructor constructor = new Constructor(Config.class);",
+          "apiChanges" : [ {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "EXACT_SIGNATURE",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(java.lang.Class)",
+            "changeStatus" : "REMOVED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ {
+              "type" : "CONSTRUCTOR_REMOVED",
+              "binaryCompatible" : false,
+              "sourceCompatible" : false,
+              "semanticVersionImpact" : "MAJOR"
+            } ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@497c41a8[public Constructor (Ljava/lang/Class;)V]",
+              "newValue" : null,
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "java.lang.Class" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(java.lang.Class, org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@6ff7f47d[public Constructor (Ljava/lang/Class;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@487d5c86[public Constructor (Ljava/lang/Class;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "java.lang.Class", "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor()",
+            "changeStatus" : "REMOVED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ {
+              "type" : "CONSTRUCTOR_REMOVED",
+              "binaryCompatible" : false,
+              "sourceCompatible" : false,
+              "semanticVersionImpact" : "MAJOR"
+            } ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@3ffc58d9[public Constructor ()V]",
+              "newValue" : null,
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(org.yaml.snakeyaml.TypeDescription)",
+            "changeStatus" : "REMOVED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ {
+              "type" : "CONSTRUCTOR_REMOVED",
+              "binaryCompatible" : false,
+              "sourceCompatible" : false,
+              "semanticVersionImpact" : "MAJOR"
+            } ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@300b9e41[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;)V]",
+              "newValue" : null,
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.TypeDescription" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(java.lang.String, org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@608fd021[public Constructor (Ljava/lang/String;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@42b439da[public Constructor (Ljava/lang/String;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "java.lang.String", "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(org.yaml.snakeyaml.TypeDescription, org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@1fd39bc5[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@7346f7e8[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.TypeDescription", "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(java.lang.String)",
+            "changeStatus" : "REMOVED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ {
+              "type" : "CONSTRUCTOR_REMOVED",
+              "binaryCompatible" : false,
+              "sourceCompatible" : false,
+              "semanticVersionImpact" : "MAJOR"
+            } ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@6dd62f79[public Constructor (Ljava/lang/String;)V]",
+              "newValue" : null,
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "java.lang.String" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@e4fa1f0[public Constructor (Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@dc11e4f[public Constructor (Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(org.yaml.snakeyaml.TypeDescription, java.util.Collection)",
+            "changeStatus" : "REMOVED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ {
+              "type" : "CONSTRUCTOR_REMOVED",
+              "binaryCompatible" : false,
+              "sourceCompatible" : false,
+              "semanticVersionImpact" : "MAJOR"
+            } ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@158d1219[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;Ljava/util/Collection;)V]",
+              "newValue" : null,
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.TypeDescription", "java.util.Collection" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CONSTRUCTOR",
+            "matchType" : "NAME_ONLY",
+            "name" : "Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor.Constructor(org.yaml.snakeyaml.TypeDescription, java.util.Collection, org.yaml.snakeyaml.LoaderOptions)",
+            "changeStatus" : "UNCHANGED",
+            "binaryCompatible" : true,
+            "sourceCompatible" : true,
+            "compatibilityChanges" : [ ],
+            "signature" : {
+              "oldValue" : "javassist.CtConstructor@66be6179[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;Ljava/util/Collection;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "newValue" : "javassist.CtConstructor@63082887[public Constructor (Lorg/yaml/snakeyaml/TypeDescription;Ljava/util/Collection;Lorg/yaml/snakeyaml/LoaderOptions;)V]",
+              "changed" : true
+            },
+            "value" : {
+              "oldValue" : null,
+              "newValue" : null,
+              "changed" : false
+            },
+            "parameterTypes" : [ "org.yaml.snakeyaml.TypeDescription", "java.util.Collection", "org.yaml.snakeyaml.LoaderOptions" ],
+            "changedMemberCount" : null
+          }, {
+            "elementType" : "CLASS",
+            "matchType" : "CLASS",
+            "name" : "org.yaml.snakeyaml.constructor.Constructor",
+            "declaringType" : "org.yaml.snakeyaml.constructor.Constructor",
+            "qualifiedSignature" : "org.yaml.snakeyaml.constructor.Constructor",
+            "changeStatus" : "MODIFIED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ ],
+            "signature" : null,
+            "value" : null,
+            "parameterTypes" : null,
+            "changedMemberCount" : 6
+          } ]
+        }, {
+          "constructType" : "FIELD_ACCESS",
+          "signature" : "org.jclouds.byon.functions.NodesFromYamlStream$Config::class",
+          "dependency" : {
+            "origin" : "PROJECT_SOURCE",
+            "groupId" : null,
+            "artifactId" : null,
+            "version" : null,
+            "coordinates" : "PROJECT_SOURCE",
+            "sourcePath" : "apis/byon/src/main/java/org/jclouds/byon/functions/NodesFromYamlStream.java"
+          },
+          "lineNumber" : 83,
+          "codeLine" : "      Constructor constructor = new Constructor(Config.class);",
+          "apiChanges" : [ ]
+        } ]
+      }
+    } ]
+  } ]
+}

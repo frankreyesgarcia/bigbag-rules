@@ -1,0 +1,3369 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.core.HeaderReader",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.core.HeaderReader",
+    "location": {
+      "path": "net/lingala/zip4j/core/HeaderReader.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.core.HeaderWriter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.core.HeaderWriter",
+    "location": {
+      "path": "net/lingala/zip4j/core/HeaderWriter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.core.ZipFile",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.core.ZipFile",
+    "location": {
+      "path": "net/lingala/zip4j/core/ZipFile.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.AESDecrypter",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.AESDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/AESDecrypter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.AESDecrypter.<init>(net.lingala.zip4j.model.LocalFileHeader,byte[],byte[])",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.AESDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/AESDecrypter.java",
+      "line": 39
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.AESDecrypter.decryptData(byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.AESDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/AESDecrypter.java",
+      "line": 162
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.AESDecrypter.getPasswordVerifierLength()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.AESDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/AESDecrypter.java",
+      "line": 178
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.AESDecrypter.getSaltLength()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.AESDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/AESDecrypter.java",
+      "line": 182
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.AESDecrypter.getStoredMac()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.AESDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/AESDecrypter.java",
+      "line": 194
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.AESDecrypter.setStoredMac(byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.AESDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/AESDecrypter.java",
+      "line": 190
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.AESEncrpyter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.AESEncrpyter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/AESEncrpyter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.IDecrypter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.IDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/IDecrypter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.IEncrypter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.IEncrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/IEncrypter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.MacBasedPRF.<init>(java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.MacBasedPRF",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/MacBasedPRF.java",
+      "line": 54
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.MacBasedPRF.hLen",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.MacBasedPRF",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/MacBasedPRF.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.MacBasedPRF.mac",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.MacBasedPRF",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/MacBasedPRF.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.MacBasedPRF.macAlgorithm",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.MacBasedPRF",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/MacBasedPRF.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": 33
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine.PBKDF2(net.lingala.zip4j.crypto.PBKDF2.PRF,byte[],int,int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": 115
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine._F(byte[],int,net.lingala.zip4j.crypto.PBKDF2.PRF,byte[],int,int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": 152
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine.assertPRF(byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": 101
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine.ceil(int,int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": 141
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine.deriveKey(char[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": 52
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine.deriveKey(char[],int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine.getPseudoRandomFunction()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": 110
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine.parameters",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine.prf",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine.verifyKey(char[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": 78
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine.xor(byte[],byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/PBKDF2/PBKDF2Engine.java",
+      "line": 170
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.StandardDecrypter",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.StandardDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/StandardDecrypter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.StandardDecrypter.<init>(net.lingala.zip4j.model.FileHeader,byte[])",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.StandardDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/StandardDecrypter.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.StandardDecrypter.decryptData(byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.StandardDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/StandardDecrypter.java",
+      "line": 42
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.StandardDecrypter.init(byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.StandardDecrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/StandardDecrypter.java",
+      "line": 64
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.StandardEncrypter",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.StandardEncrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/StandardEncrypter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.StandardEncrypter.<init>(char[],int)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.StandardEncrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/StandardEncrypter.java",
+      "line": 30
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.StandardEncrypter.generateRandomBytes(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.StandardEncrypter",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/StandardEncrypter.java",
+      "line": 91
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.engine.AESEngine.init(byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.engine.AESEngine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/engine/AESEngine.java",
+      "line": 38
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.crypto.engine.ZipCryptoEngine.initKeys(char[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.crypto.engine.ZipCryptoEngine",
+    "location": {
+      "path": "net/lingala/zip4j/crypto/engine/ZipCryptoEngine.java",
+      "line": 42
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.exception.ZipException.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.exception.ZipException",
+    "location": {
+      "path": "net/lingala/zip4j/exception/ZipException.java",
+      "line": 23
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.exception.ZipException.<init>(java.lang.String,int)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.exception.ZipException",
+    "location": {
+      "path": "net/lingala/zip4j/exception/ZipException.java",
+      "line": 23
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.exception.ZipException.<init>(java.lang.String,java.lang.Throwable)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.exception.ZipException",
+    "location": {
+      "path": "net/lingala/zip4j/exception/ZipException.java",
+      "line": 23
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.exception.ZipException.<init>(java.lang.String,java.lang.Throwable,int)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.exception.ZipException",
+    "location": {
+      "path": "net/lingala/zip4j/exception/ZipException.java",
+      "line": 23
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.exception.ZipException.<init>(java.lang.Throwable)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.exception.ZipException",
+    "location": {
+      "path": "net/lingala/zip4j/exception/ZipException.java",
+      "line": 23
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.exception.ZipException.<init>(java.lang.Throwable,int)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.exception.ZipException",
+    "location": {
+      "path": "net/lingala/zip4j/exception/ZipException.java",
+      "line": 23
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.exception.ZipException.getCode()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.exception.ZipException",
+    "location": {
+      "path": "net/lingala/zip4j/exception/ZipException.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.exception.ZipExceptionConstants",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.exception.ZipExceptionConstants",
+    "location": {
+      "path": "net/lingala/zip4j/exception/ZipExceptionConstants.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.io.BaseInputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.io.BaseInputStream",
+    "location": {
+      "path": "net/lingala/zip4j/io/BaseInputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.io.BaseOutputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.io.BaseOutputStream",
+    "location": {
+      "path": "net/lingala/zip4j/io/BaseOutputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.io.CipherOutputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.io.CipherOutputStream",
+    "location": {
+      "path": "net/lingala/zip4j/io/CipherOutputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.io.DeflaterOutputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.io.DeflaterOutputStream",
+    "location": {
+      "path": "net/lingala/zip4j/io/DeflaterOutputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.io.InflaterInputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.io.InflaterInputStream",
+    "location": {
+      "path": "net/lingala/zip4j/io/InflaterInputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.io.PartInputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.io.PartInputStream",
+    "location": {
+      "path": "net/lingala/zip4j/io/PartInputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.io.SplitOutputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.io.SplitOutputStream",
+    "location": {
+      "path": "net/lingala/zip4j/io/SplitOutputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.io.ZipInputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.io.ZipInputStream",
+    "location": {
+      "path": "net/lingala/zip4j/io/ZipInputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.io.ZipOutputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.io.ZipOutputStream",
+    "location": {
+      "path": "net/lingala/zip4j/io/ZipOutputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.getAesStrength()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.AESExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/AESExtraDataRecord.java",
+      "line": 79
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.getCompressionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.AESExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/AESExtraDataRecord.java",
+      "line": 89
+    },
+    "newSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.getCompressionMethod()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.getCompressionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.AESExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/AESExtraDataRecord.java",
+      "line": 89
+    },
+    "newSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.getCompressionMethod()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.getSignature()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.AESExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/AESExtraDataRecord.java",
+      "line": 39
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipHeader.getSignature()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.getSignature()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.AESExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/AESExtraDataRecord.java",
+      "line": 39
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipHeader.getSignature()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.getVersionNumber()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.AESExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/AESExtraDataRecord.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.setAesStrength(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.AESExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/AESExtraDataRecord.java",
+      "line": 84
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.setCompressionMethod(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.AESExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/AESExtraDataRecord.java",
+      "line": 94
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.setSignature(long)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.AESExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/AESExtraDataRecord.java",
+      "line": 44
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.AESExtraDataRecord.setVersionNumber(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.AESExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/AESExtraDataRecord.java",
+      "line": 64
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ArchiveExtraDataRecord.getSignature()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.ArchiveExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/ArchiveExtraDataRecord.java",
+      "line": 28
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipHeader.getSignature()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.ArchiveExtraDataRecord.getSignature()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ArchiveExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/ArchiveExtraDataRecord.java",
+      "line": 28
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipHeader.getSignature()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ArchiveExtraDataRecord.setSignature(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ArchiveExtraDataRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/ArchiveExtraDataRecord.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.CentralDirectory.getFileHeaders()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.CentralDirectory",
+    "location": {
+      "path": "net/lingala/zip4j/model/CentralDirectory.java",
+      "line": 28
+    },
+    "newSymbol": "net.lingala.zip4j.model.CentralDirectory.getFileHeaders()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.CentralDirectory.getFileHeaders()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.CentralDirectory",
+    "location": {
+      "path": "net/lingala/zip4j/model/CentralDirectory.java",
+      "line": 28
+    },
+    "newSymbol": "net.lingala.zip4j.model.CentralDirectory.getFileHeaders()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.CentralDirectory.setFileHeaders(java.util.ArrayList)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.CentralDirectory",
+    "location": {
+      "path": "net/lingala/zip4j/model/CentralDirectory.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.DataDescriptor.getCompressedSize()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.DataDescriptor",
+    "location": {
+      "path": "net/lingala/zip4j/model/DataDescriptor.java",
+      "line": 36
+    },
+    "newSymbol": "net.lingala.zip4j.model.DataDescriptor.getCompressedSize()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.DataDescriptor.getCompressedSize()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.DataDescriptor",
+    "location": {
+      "path": "net/lingala/zip4j/model/DataDescriptor.java",
+      "line": 36
+    },
+    "newSymbol": "net.lingala.zip4j.model.DataDescriptor.getCompressedSize()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.DataDescriptor.getCrc32()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.DataDescriptor",
+    "location": {
+      "path": "net/lingala/zip4j/model/DataDescriptor.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.DataDescriptor.getUncompressedSize()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.DataDescriptor",
+    "location": {
+      "path": "net/lingala/zip4j/model/DataDescriptor.java",
+      "line": 44
+    },
+    "newSymbol": "net.lingala.zip4j.model.DataDescriptor.getUncompressedSize()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.DataDescriptor.getUncompressedSize()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.DataDescriptor",
+    "location": {
+      "path": "net/lingala/zip4j/model/DataDescriptor.java",
+      "line": 44
+    },
+    "newSymbol": "net.lingala.zip4j.model.DataDescriptor.getUncompressedSize()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.DataDescriptor.setCompressedSize(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.DataDescriptor",
+    "location": {
+      "path": "net/lingala/zip4j/model/DataDescriptor.java",
+      "line": 40
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.DataDescriptor.setCrc32(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.DataDescriptor",
+    "location": {
+      "path": "net/lingala/zip4j/model/DataDescriptor.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.DataDescriptor.setUncompressedSize(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.DataDescriptor",
+    "location": {
+      "path": "net/lingala/zip4j/model/DataDescriptor.java",
+      "line": 48
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.DigitalSignature.getHeaderSignature()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.DigitalSignature",
+    "location": {
+      "path": "net/lingala/zip4j/model/DigitalSignature.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.DigitalSignature.setHeaderSignature(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.DigitalSignature",
+    "location": {
+      "path": "net/lingala/zip4j/model/DigitalSignature.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.EndCentralDirRecord",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.EndCentralDirRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/EndCentralDirRecord.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.extractFile(net.lingala.zip4j.model.ZipModel,java.lang.String,net.lingala.zip4j.model.UnzipParameters,java.lang.String,net.lingala.zip4j.progress.ProgressMonitor,boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 280
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.extractFile(net.lingala.zip4j.model.ZipModel,java.lang.String,net.lingala.zip4j.model.UnzipParameters,net.lingala.zip4j.progress.ProgressMonitor,boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 263
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.extractFile(net.lingala.zip4j.model.ZipModel,java.lang.String,net.lingala.zip4j.progress.ProgressMonitor,boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 250
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getCompressionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 123
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getCompressionMethod()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getCompressionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 123
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getCompressionMethod()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getCrc32()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 139
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getCrcBuff()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 320
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getEncryptionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 304
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getEncryptionMethod()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getEncryptionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 304
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getEncryptionMethod()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getExternalFileAttr()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 203
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getExtraDataRecords()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 328
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getExtraDataRecords()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getExtraDataRecords()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 328
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getExtraDataRecords()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getInternalFileAttr()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 195
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getLastModFileTime()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 131
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getPassword()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 312
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getSignature()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 91
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipHeader.getSignature()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.getSignature()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 91
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipHeader.getSignature()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.setCompressionMethod(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 127
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.setCrc32(long)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 143
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.setCrcBuff(byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 324
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.setEncryptionMethod(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 308
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.setExternalFileAttr(byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 207
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.setExtraDataRecords(java.util.ArrayList)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 332
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.setInternalFileAttr(byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 199
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.setLastModFileTime(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 135
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.setPassword(char[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 316
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.FileHeader.setSignature(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.FileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/FileHeader.java",
+      "line": 95
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getCompressionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 101
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getCompressionMethod()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getCompressionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 101
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getCompressionMethod()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getCrc32()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 117
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getCrcBuff()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 197
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getEncryptionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 189
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getEncryptionMethod()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getEncryptionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 189
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getEncryptionMethod()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getExtraDataRecords()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 213
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getExtraDataRecords()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getExtraDataRecords()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 213
+    },
+    "newSymbol": "net.lingala.zip4j.model.AbstractFileHeader.getExtraDataRecords()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getLastModFileTime()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 109
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getPassword()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 205
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getSignature()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 77
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipHeader.getSignature()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.getSignature()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 77
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipHeader.getSignature()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.isWriteComprSizeInZip64ExtraRecord()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 245
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.setCompressionMethod(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 105
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.setCrc32(long)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 121
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.setCrcBuff(byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 201
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.setEncryptionMethod(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 193
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.setExtraDataRecords(java.util.ArrayList)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 217
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.setLastModFileTime(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 113
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.setPassword(char[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 209
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.setSignature(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 81
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.LocalFileHeader.setWriteComprSizeInZip64ExtraRecord(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.LocalFileHeader",
+    "location": {
+      "path": "net/lingala/zip4j/model/LocalFileHeader.java",
+      "line": 250
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipEngineParameters",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipEngineParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipEngineParameters.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.isIgnoreAllFileAttributes()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 61
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.isIgnoreArchiveFileAttribute()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 45
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.isIgnoreDateTimeAttributes()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 69
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.isIgnoreHiddenFileAttribute()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 37
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.isIgnoreReadOnlyFileAttribute()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 29
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.isIgnoreSystemFileAttribute()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 53
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.setIgnoreAllFileAttributes(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 65
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.setIgnoreArchiveFileAttribute(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 49
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.setIgnoreDateTimeAttributes(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 73
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.setIgnoreHiddenFileAttribute(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 41
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.setIgnoreReadOnlyFileAttribute(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 33
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.UnzipParameters.setIgnoreSystemFileAttribute(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.UnzipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/UnzipParameters.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.Zip64EndCentralDirLocator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.Zip64EndCentralDirLocator",
+    "location": {
+      "path": "net/lingala/zip4j/model/Zip64EndCentralDirLocator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.Zip64EndCentralDirRecord",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.Zip64EndCentralDirRecord",
+    "location": {
+      "path": "net/lingala/zip4j/model/Zip64EndCentralDirRecord.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.Zip64ExtendedInfo.getHeader()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.Zip64ExtendedInfo",
+    "location": {
+      "path": "net/lingala/zip4j/model/Zip64ExtendedInfo.java",
+      "line": 41
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.Zip64ExtendedInfo.getUnCompressedSize()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.Zip64ExtendedInfo",
+    "location": {
+      "path": "net/lingala/zip4j/model/Zip64ExtendedInfo.java",
+      "line": 65
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.Zip64ExtendedInfo.setHeader(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.Zip64ExtendedInfo",
+    "location": {
+      "path": "net/lingala/zip4j/model/Zip64ExtendedInfo.java",
+      "line": 45
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.Zip64ExtendedInfo.setUnCompressedSize(long)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.Zip64ExtendedInfo",
+    "location": {
+      "path": "net/lingala/zip4j/model/Zip64ExtendedInfo.java",
+      "line": 69
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.getDataDescriptorList()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 66
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.getEndCentralDirRecord()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 82
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.getFileNameCharset()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 177
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.getLocalFileHeaderList()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 58
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.getZip64EndCentralDirLocator()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 115
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.getZip64EndCentralDirRecord()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 124
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.getZipFile()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 107
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipModel.getZipFile()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.getZipFile()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 107
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipModel.getZipFile()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.setDataDescriptorList(java.util.List)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.setEndCentralDirRecord(net.lingala.zip4j.model.EndCentralDirRecord)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 86
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.setFileNameCharset(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 181
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.setLocalFileHeaderList(java.util.List)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 62
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.setZip64EndCentralDirLocator(net.lingala.zip4j.model.Zip64EndCentralDirLocator)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 120
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.setZip64EndCentralDirRecord(net.lingala.zip4j.model.Zip64EndCentralDirRecord)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 129
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipModel.setZipFile(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipModel",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipModel.java",
+      "line": 111
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.clone()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 93
+    },
+    "newSymbol": "java.lang.Object.clone()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getAesKeyStrength()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 119
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipParameters.getAesKeyStrength()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getAesKeyStrength()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 119
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipParameters.getAesKeyStrength()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getCompressionLevel()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 77
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipParameters.getCompressionLevel()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getCompressionLevel()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 77
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipParameters.getCompressionLevel()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getCompressionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 53
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipParameters.getCompressionMethod()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getCompressionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 53
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipParameters.getCompressionMethod()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getEncryptionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 69
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipParameters.getEncryptionMethod()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getEncryptionMethod()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 69
+    },
+    "newSymbol": "net.lingala.zip4j.model.ZipParameters.getEncryptionMethod()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getPassword()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 97
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getRootFolderInZip()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 135
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getSourceFileCRC()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 164
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.getTimeZone()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 156
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.isSourceExternalStream()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 188
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.setAesKeyStrength(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 123
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.setCompressionLevel(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 81
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.setCompressionMethod(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.setEncryptionMethod(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 73
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.setPassword(char[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 115
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.setPassword(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 110
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.setRootFolderInZip(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 139
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.setSourceExternalStream(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 192
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.setSourceFileCRC(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 168
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.model.ZipParameters.setTimeZone(java.util.TimeZone)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.model.ZipParameters",
+    "location": {
+      "path": "net/lingala/zip4j/model/ZipParameters.java",
+      "line": 160
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.OPERATION_ADD",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.OPERATION_CALC_CRC",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.OPERATION_EXTRACT",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.OPERATION_MERGE",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.OPERATION_NONE",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.OPERATION_REMOVE",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.RESULT_CANCELLED",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.RESULT_ERROR",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.RESULT_SUCCESS",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.RESULT_WORKING",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.STATE_BUSY",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.STATE_READY",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.cancelAllTasks()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 170
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.endProgressMonitorError(java.lang.Throwable)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 145
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.endProgressMonitorSuccess()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 140
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getCurrentOperation()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 124
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getException()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 132
+    },
+    "newSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getException()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getException()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 132
+    },
+    "newSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getException()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getResult()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 108
+    },
+    "newSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getResult()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getResult()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 108
+    },
+    "newSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getResult()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getState()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 62
+    },
+    "newSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getState()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getState()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 62
+    },
+    "newSymbol": "net.lingala.zip4j.progress.ProgressMonitor.getState()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.reset()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 151
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.setCurrentOperation(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 128
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.setException(java.lang.Throwable)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 136
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.setResult(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 112
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.progress.ProgressMonitor.setState(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.progress.ProgressMonitor",
+    "location": {
+      "path": "net/lingala/zip4j/progress/ProgressMonitor.java",
+      "line": 66
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.unzip.Unzip",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.unzip.Unzip",
+    "location": {
+      "path": "net/lingala/zip4j/unzip/Unzip.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.unzip.UnzipEngine",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.unzip.UnzipEngine",
+    "location": {
+      "path": "net/lingala/zip4j/unzip/UnzipEngine.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.unzip.UnzipUtil",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.unzip.UnzipUtil",
+    "location": {
+      "path": "net/lingala/zip4j/unzip/UnzipUtil.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.ArchiveMaintainer",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.ArchiveMaintainer",
+    "location": {
+      "path": "net/lingala/zip4j/util/ArchiveMaintainer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.CRCUtil",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.CRCUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/CRCUtil.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.InternalZipConstants",
+    "nature": "MUTATION",
+    "kind": "TYPE_KIND_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.InternalZipConstants",
+    "location": {
+      "path": "net/lingala/zip4j/util/InternalZipConstants.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Raw",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Raw",
+    "location": {
+      "path": "net/lingala/zip4j/util/Raw.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jConstants",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jConstants",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jConstants.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.checkArrayListTypes(java.util.ArrayList,int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 515
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.checkFileExists(java.io.File)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 128
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.checkFileExists(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 119
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.checkFileReadAccess(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 85
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.checkFileWriteAccess(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 102
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.checkOutputFolder(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.convertCharset(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 439
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.decodeFileName(byte[],boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 467
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.detectCharSet(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 556
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.dosToJavaTme(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 280
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getAbsoluteFilePath(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 499
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getAllHeaderSignatures()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 757
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getCp850EncodedString(byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 486
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getEncodedStringLength(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 592
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getEncodedStringLength(java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 608
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getFileHeader(net.lingala.zip4j.model.ZipModel,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 294
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getFileHeaderWithExactMatch(net.lingala.zip4j.model.ZipModel,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 319
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getFileLengh(java.io.File)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 244
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getFileLengh(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 236
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getFileNameFromFilePath(java.io.File)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 224
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getFilesInDirectoryRec(java.io.File,boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 396
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getIndexOfFileHeader(net.lingala.zip4j.model.ZipModel,net.lingala.zip4j.model.FileHeader)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 357
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getLastModifiedFileTime(java.io.File,java.util.TimeZone)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 212
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getRelativeFileName(java.lang.String,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 703
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getSplitZipFiles(net.lingala.zip4j.model.ZipModel)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 657
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.getZipFileNameWithoutExt(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 423
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.isSupportedCharset(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 642
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.isWindows()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 135
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.javaToDosTime(long)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 262
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.setFileArchive(java.io.File)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 190
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.setFileHidden(java.io.File)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 166
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.setFileReadOnly(java.io.File)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 140
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.util.Zip4jUtil.setFileSystemMode(java.io.File)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.util.Zip4jUtil",
+    "location": {
+      "path": "net/lingala/zip4j/util/Zip4jUtil.java",
+      "line": 209
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.lingala.zip4j.zip.ZipEngine",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.lingala.zip4j.zip.ZipEngine",
+    "location": {
+      "path": "net/lingala/zip4j/zip/ZipEngine.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.Matchers",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.Matchers",
+    "location": {
+      "path": "org/hamcrest/Matchers.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.beans.HasProperty",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.beans.HasProperty",
+    "location": {
+      "path": "org/hamcrest/beans/HasProperty.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.beans.HasPropertyWithValue",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.beans.HasPropertyWithValue",
+    "location": {
+      "path": "org/hamcrest/beans/HasPropertyWithValue.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.beans.PropertyUtil",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.beans.PropertyUtil",
+    "location": {
+      "path": "org/hamcrest/beans/PropertyUtil.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.beans.SamePropertyValuesAs",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.beans.SamePropertyValuesAs",
+    "location": {
+      "path": "org/hamcrest/beans/SamePropertyValuesAs.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.beans.SamePropertyValuesAs$PropertyMatcher",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.beans.SamePropertyValuesAs$PropertyMatcher",
+    "location": {
+      "path": "org/hamcrest/beans/SamePropertyValuesAs.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsArray",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsArray",
+    "location": {
+      "path": "org/hamcrest/collection/IsArray.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsArrayContaining",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsArrayContaining",
+    "location": {
+      "path": "org/hamcrest/collection/IsArrayContaining.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsArrayContainingInAnyOrder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsArrayContainingInAnyOrder",
+    "location": {
+      "path": "org/hamcrest/collection/IsArrayContainingInAnyOrder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsArrayContainingInOrder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsArrayContainingInOrder",
+    "location": {
+      "path": "org/hamcrest/collection/IsArrayContainingInOrder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsArrayWithSize",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsArrayWithSize",
+    "location": {
+      "path": "org/hamcrest/collection/IsArrayWithSize.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsCollectionWithSize",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsCollectionWithSize",
+    "location": {
+      "path": "org/hamcrest/collection/IsCollectionWithSize.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsEmptyCollection",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsEmptyCollection",
+    "location": {
+      "path": "org/hamcrest/collection/IsEmptyCollection.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsEmptyIterable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsEmptyIterable",
+    "location": {
+      "path": "org/hamcrest/collection/IsEmptyIterable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsIn",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsIn",
+    "location": {
+      "path": "org/hamcrest/collection/IsIn.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsIterableContainingInAnyOrder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsIterableContainingInAnyOrder",
+    "location": {
+      "path": "org/hamcrest/collection/IsIterableContainingInAnyOrder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsIterableContainingInOrder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsIterableContainingInOrder",
+    "location": {
+      "path": "org/hamcrest/collection/IsIterableContainingInOrder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsIterableWithSize",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsIterableWithSize",
+    "location": {
+      "path": "org/hamcrest/collection/IsIterableWithSize.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.collection.IsMapContaining",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.collection.IsMapContaining",
+    "location": {
+      "path": "org/hamcrest/collection/IsMapContaining.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.number.BigDecimalCloseTo",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.number.BigDecimalCloseTo",
+    "location": {
+      "path": "org/hamcrest/number/BigDecimalCloseTo.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.number.IsCloseTo",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.number.IsCloseTo",
+    "location": {
+      "path": "org/hamcrest/number/IsCloseTo.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.number.OrderingComparison",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.number.OrderingComparison",
+    "location": {
+      "path": "org/hamcrest/number/OrderingComparison.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.object.HasToString",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.object.HasToString",
+    "location": {
+      "path": "org/hamcrest/object/HasToString.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.object.IsCompatibleType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.object.IsCompatibleType",
+    "location": {
+      "path": "org/hamcrest/object/IsCompatibleType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.object.IsEventFrom",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.object.IsEventFrom",
+    "location": {
+      "path": "org/hamcrest/object/IsEventFrom.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.text.IsEmptyString",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.text.IsEmptyString",
+    "location": {
+      "path": "org/hamcrest/text/IsEmptyString.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.text.IsEqualIgnoringCase",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.text.IsEqualIgnoringCase",
+    "location": {
+      "path": "org/hamcrest/text/IsEqualIgnoringCase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.text.IsEqualIgnoringWhiteSpace",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.text.IsEqualIgnoringWhiteSpace",
+    "location": {
+      "path": "org/hamcrest/text/IsEqualIgnoringWhiteSpace.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.text.StringContainsInOrder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.text.StringContainsInOrder",
+    "location": {
+      "path": "org/hamcrest/text/StringContainsInOrder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.hamcrest.xml.HasXPath",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.hamcrest.xml.HasXPath",
+    "location": {
+      "path": "org/hamcrest/xml/HasXPath.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

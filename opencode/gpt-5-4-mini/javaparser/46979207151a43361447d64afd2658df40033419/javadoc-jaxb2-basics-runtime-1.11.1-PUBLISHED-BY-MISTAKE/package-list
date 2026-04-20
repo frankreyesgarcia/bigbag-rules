@@ -1,0 +1,13 @@
+org.jvnet.jaxb2_commons.i18n
+org.jvnet.jaxb2_commons.lang
+org.jvnet.jaxb2_commons.locator
+org.jvnet.jaxb2_commons.locator.util
+org.jvnet.jaxb2_commons.xml.bind
+org.jvnet.jaxb2_commons.xml.bind.annotation.adapters
+org.jvnet.jaxb2_commons.xml.bind.model
+org.jvnet.jaxb2_commons.xml.bind.model.concrete
+org.jvnet.jaxb2_commons.xml.bind.model.concrete.origin
+org.jvnet.jaxb2_commons.xml.bind.model.origin
+org.jvnet.jaxb2_commons.xml.bind.model.util
+org.jvnet.jaxb2_commons.xml.namespace.util
+org.jvnet.jaxb2_commons.xmlschema

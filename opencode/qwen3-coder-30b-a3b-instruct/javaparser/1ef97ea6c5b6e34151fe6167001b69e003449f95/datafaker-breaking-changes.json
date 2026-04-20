@@ -1,0 +1,366 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.Address.firstName()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.Address",
+    "location": {
+      "path": "net/datafaker/Address.java",
+      "line": 105
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.Address.lastName()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.Address",
+    "location": {
+      "path": "net/datafaker/Address.java",
+      "line": 113
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.Barcode.data()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.Barcode",
+    "location": {
+      "path": "net/datafaker/Barcode.java",
+      "line": 95
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.Barcode.typeAndData()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.Barcode",
+    "location": {
+      "path": "net/datafaker/Barcode.java",
+      "line": 100
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.Commerce.color()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.Commerce",
+    "location": {
+      "path": "net/datafaker/Commerce.java",
+      "line": 25
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.DateAndTime.between(java.util.Date,java.util.Date)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 205
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.DateAndTime.between(java.util.Date,java.util.Date,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 227
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.DateAndTime.birthday()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 236
+    },
+    "newSymbol": "net.datafaker.DateAndTime.birthday()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.datafaker.DateAndTime.birthday()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 236
+    },
+    "newSymbol": "net.datafaker.DateAndTime.birthday()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.DateAndTime.birthday(int,int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 258
+    },
+    "newSymbol": "net.datafaker.DateAndTime.birthday(int,int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.datafaker.DateAndTime.birthday(int,int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 258
+    },
+    "newSymbol": "net.datafaker.DateAndTime.birthday(int,int)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.DateAndTime.future(int,int,java.util.concurrent.TimeUnit)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 63
+    },
+    "newSymbol": "net.datafaker.DateAndTime.future(int,int,java.util.concurrent.TimeUnit)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.datafaker.DateAndTime.future(int,int,java.util.concurrent.TimeUnit)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 63
+    },
+    "newSymbol": "net.datafaker.DateAndTime.future(int,int,java.util.concurrent.TimeUnit)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.DateAndTime.future(int,java.util.concurrent.TimeUnit)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 36
+    },
+    "newSymbol": "net.datafaker.DateAndTime.future(int,java.util.concurrent.TimeUnit)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.datafaker.DateAndTime.future(int,java.util.concurrent.TimeUnit)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 36
+    },
+    "newSymbol": "net.datafaker.DateAndTime.future(int,java.util.concurrent.TimeUnit)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.DateAndTime.future(int,java.util.concurrent.TimeUnit,java.util.Date)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 91
+    },
+    "newSymbol": "net.datafaker.DateAndTime.future(int,java.util.concurrent.TimeUnit,java.util.Date)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.datafaker.DateAndTime.future(int,java.util.concurrent.TimeUnit,java.util.Date)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 91
+    },
+    "newSymbol": "net.datafaker.DateAndTime.future(int,java.util.concurrent.TimeUnit,java.util.Date)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.DateAndTime.past(int,int,java.util.concurrent.TimeUnit)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 148
+    },
+    "newSymbol": "net.datafaker.DateAndTime.past(int,int,java.util.concurrent.TimeUnit)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.datafaker.DateAndTime.past(int,int,java.util.concurrent.TimeUnit)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 148
+    },
+    "newSymbol": "net.datafaker.DateAndTime.past(int,int,java.util.concurrent.TimeUnit)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.DateAndTime.past(int,java.util.concurrent.TimeUnit)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 121
+    },
+    "newSymbol": "net.datafaker.DateAndTime.past(int,java.util.concurrent.TimeUnit)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.datafaker.DateAndTime.past(int,java.util.concurrent.TimeUnit)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 121
+    },
+    "newSymbol": "net.datafaker.DateAndTime.past(int,java.util.concurrent.TimeUnit)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.DateAndTime.past(int,java.util.concurrent.TimeUnit,java.util.Date)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 175
+    },
+    "newSymbol": "net.datafaker.DateAndTime.past(int,java.util.concurrent.TimeUnit,java.util.Date)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "net.datafaker.DateAndTime.past(int,java.util.concurrent.TimeUnit,java.util.Date)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 175
+    },
+    "newSymbol": "net.datafaker.DateAndTime.past(int,java.util.concurrent.TimeUnit,java.util.Date)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.DateAndTime.str2unit(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.DateAndTime",
+    "location": {
+      "path": "net/datafaker/DateAndTime.java",
+      "line": 338
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.FakeCollection.toCsv()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.FakeCollection",
+    "location": {
+      "path": "net/datafaker/FakeCollection.java",
+      "line": 85
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.FakeCollection$Csv",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.FakeCollection$Csv",
+    "location": {
+      "path": "net/datafaker/FakeCollection.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.FakeCollection$CsvBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.FakeCollection$CsvBuilder",
+    "location": {
+      "path": "net/datafaker/FakeCollection.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "net.datafaker.Faker.crypto()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "net.datafaker.Faker",
+    "location": {
+      "path": "net/datafaker/Faker.java",
+      "line": 368
+    },
+    "newSymbol": null
+  }
+]

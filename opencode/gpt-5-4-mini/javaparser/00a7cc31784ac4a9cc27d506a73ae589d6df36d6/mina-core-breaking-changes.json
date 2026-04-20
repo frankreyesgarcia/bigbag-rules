@@ -1,0 +1,405 @@
+[
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.mina.core.session.IoSession",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.core.session.IoSession",
+    "location": {
+      "path": "org/apache/mina/core/session/IoSession.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.mina.core.session.IoSession.isServer()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.codec.AbstractProtocolDecoderOutput.getMessageQueue()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.codec.AbstractProtocolDecoderOutput",
+    "location": {
+      "path": "org/apache/mina/filter/codec/AbstractProtocolDecoderOutput.java",
+      "line": 45
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.codec.AbstractProtocolEncoderOutput.getMessageQueue()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.codec.AbstractProtocolEncoderOutput",
+    "location": {
+      "path": "org/apache/mina/filter/codec/AbstractProtocolEncoderOutput.java",
+      "line": 49
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.codec.AbstractProtocolEncoderOutput.mergeAll()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.codec.AbstractProtocolEncoderOutput",
+    "location": {
+      "path": "org/apache/mina/filter/codec/AbstractProtocolEncoderOutput.java",
+      "line": 75
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.codec.ProtocolEncoderOutput.flush()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.codec.AbstractProtocolEncoderOutput",
+    "location": {
+      "path": "org/apache/mina/filter/codec/ProtocolEncoderOutput.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.codec.ProtocolEncoderOutput.flush()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.codec.ProtocolEncoderOutput",
+    "location": {
+      "path": "org/apache/mina/filter/codec/ProtocolEncoderOutput.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.codec.ProtocolEncoderOutput.mergeAll()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.codec.ProtocolEncoderOutput",
+    "location": {
+      "path": "org/apache/mina/filter/codec/ProtocolEncoderOutput.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.<init>(javax.net.ssl.SSLContext,boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 184
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.CLIENT_HANDSHAKE",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.DISABLE_ENCRYPTION_ONCE",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.PEER_ADDRESS",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.SSL_SESSION",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.START_HANDSHAKE",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.USE_NOTIFICATION",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.filterClose(org.apache.mina.core.filterchain.IoFilter$NextFilter,org.apache.mina.core.session.IoSession)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 690
+    },
+    "newSymbol": "org.apache.mina.core.filterchain.IoFilterAdapter.filterClose(org.apache.mina.core.filterchain.IoFilter$NextFilter,org.apache.mina.core.session.IoSession)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.filterWrite(org.apache.mina.core.filterchain.IoFilter$NextFilter,org.apache.mina.core.session.IoSession,org.apache.mina.core.write.WriteRequest)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 638
+    },
+    "newSymbol": "org.apache.mina.filter.ssl.SslFilter.filterWrite(org.apache.mina.core.filterchain.IoFilter$NextFilter,org.apache.mina.core.session.IoSession,org.apache.mina.core.write.WriteRequest)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.getSslSession(org.apache.mina.core.session.IoSession)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 200
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.initiateHandshake(org.apache.mina.core.session.IoSession)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 732
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.isSecured(org.apache.mina.core.session.IoSession)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 298
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.isSslStarted(org.apache.mina.core.session.IoSession)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 279
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.isUseClientMode()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 341
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.messageReceived(org.apache.mina.core.filterchain.IoFilter$NextFilter,org.apache.mina.core.session.IoSession,java.lang.Object)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 496
+    },
+    "newSymbol": "org.apache.mina.filter.ssl.SslFilter.messageReceived(org.apache.mina.core.filterchain.IoFilter$NextFilter,org.apache.mina.core.session.IoSession,java.lang.Object)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.messageSent(org.apache.mina.core.filterchain.IoFilter$NextFilter,org.apache.mina.core.session.IoSession,org.apache.mina.core.write.WriteRequest)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 568
+    },
+    "newSymbol": "org.apache.mina.filter.ssl.SslFilter.messageSent(org.apache.mina.core.filterchain.IoFilter$NextFilter,org.apache.mina.core.session.IoSession,org.apache.mina.core.write.WriteRequest)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.onPostAdd(org.apache.mina.core.filterchain.IoFilterChain,java.lang.String,org.apache.mina.core.filterchain.IoFilter$NextFilter)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 465
+    },
+    "newSymbol": "org.apache.mina.filter.ssl.SslFilter.onPostAdd(org.apache.mina.core.filterchain.IoFilterChain,java.lang.String,org.apache.mina.core.filterchain.IoFilter$NextFilter)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.onPreAdd(org.apache.mina.core.filterchain.IoFilterChain,java.lang.String,org.apache.mina.core.filterchain.IoFilter$NextFilter)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 437
+    },
+    "newSymbol": "org.apache.mina.filter.ssl.SslFilter.onPreAdd(org.apache.mina.core.filterchain.IoFilterChain,java.lang.String,org.apache.mina.core.filterchain.IoFilter$NextFilter)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.onPreRemove(org.apache.mina.core.filterchain.IoFilterChain,java.lang.String,org.apache.mina.core.filterchain.IoFilter$NextFilter)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 472
+    },
+    "newSymbol": "org.apache.mina.filter.ssl.SslFilter.onPreRemove(org.apache.mina.core.filterchain.IoFilterChain,java.lang.String,org.apache.mina.core.filterchain.IoFilter$NextFilter)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.sessionClosed(org.apache.mina.core.filterchain.IoFilter$NextFilter,org.apache.mina.core.session.IoSession)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 481
+    },
+    "newSymbol": "org.apache.mina.filter.ssl.SslFilter.sessionClosed(org.apache.mina.core.filterchain.IoFilter$NextFilter,org.apache.mina.core.session.IoSession)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.setUseClientMode(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 350
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.startSsl(org.apache.mina.core.session.IoSession)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 213
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter.stopSsl(org.apache.mina.core.session.IoSession)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": 319
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.mina.filter.ssl.SslFilter$SslFilterMessage",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.mina.filter.ssl.SslFilter$SslFilterMessage",
+    "location": {
+      "path": "org/apache/mina/filter/ssl/SslFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.3
+Created-By: 1.6.0_34-b04 (Sun Microsystems Inc.)
+Build-Id: 20170410-115154-BST (simon [Linux 3.13.0-107-generic amd64, 
+ Java 1.6.0_34-b04, Target Java 1.6])
+

@@ -1,0 +1,14 @@
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/functions/ParseAuthenticationResponseFromHeadersTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/predicates/LinkPredicatesTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/options/BaseListOptionsTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/handlers/RetryOnRenewTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/keystone/v1_1/suppliers/RegionIdToURIFromAuthForServiceSupplierTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/keystone/v1_1/handlers/RetryOnRenewTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/keystone/v1_1/suppliers/V1DefaultRegionIdSupplierTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/internal/OpenStackAuthClientTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/internal/TestOpenStackAuthenticationModule.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/keystone/v1_1/parse/ParseAuthTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/keystone/v1_1/internal/BaseKeystoneRestClientExpectTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/keystone/v1_1/functions/RegionFirstPartOfDNSNameOrProviderTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/keystone/v1_1/functions/PublicURLOrInternalIfNullTest.java
+/jclouds/common/openstack/src/test/java/org/jclouds/openstack/filters/AddTimestampQueryTest.java

@@ -1,0 +1,3 @@
+/workspace/jclouds/drivers/sshj/src/main/java/org/jclouds/sshj/config/SshjSshClientModule.java
+/workspace/jclouds/drivers/sshj/src/main/java/org/jclouds/sshj/SSHClientConnection.java
+/workspace/jclouds/drivers/sshj/src/main/java/org/jclouds/sshj/SshjSshClient.java

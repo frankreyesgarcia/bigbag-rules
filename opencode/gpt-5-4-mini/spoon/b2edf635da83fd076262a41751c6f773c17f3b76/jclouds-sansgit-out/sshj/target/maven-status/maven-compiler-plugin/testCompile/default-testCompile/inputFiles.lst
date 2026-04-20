@@ -1,0 +1,3 @@
+/workspace/jclouds/drivers/sshj/src/test/java/org/jclouds/sshj/SshjSshClientTest.java
+/workspace/jclouds/drivers/sshj/src/test/java/org/jclouds/sshj/SshjSshClientLiveTest.java
+/workspace/jclouds/drivers/sshj/src/test/java/org/jclouds/sshj/config/SshjSshClientModuleTest.java

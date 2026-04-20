@@ -1,0 +1,288 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.CompactXMLWriter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.CompactXMLWriter",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/CompactXMLWriter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.PrettyPrintXMLWriter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.PrettyPrintXMLWriter",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/PrettyPrintXMLWriter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.SerializerXMLWriter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.SerializerXMLWriter",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/SerializerXMLWriter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.XMLWriter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.XMLWriter",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/XMLWriter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.XmlReader",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.XmlReader",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/XmlReader.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.XmlReaderException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.XmlReaderException",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/XmlReaderException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.XmlStreamReader",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.XmlStreamReader",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/XmlStreamReader.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.XmlStreamReaderException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.XmlStreamReaderException",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/XmlStreamReaderException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.XmlStreamWriter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.XmlStreamWriter",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/XmlStreamWriter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.XmlUtil",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.XmlUtil",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/XmlUtil.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.XmlWriterUtil",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.XmlWriterUtil",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/XmlWriterUtil.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.Xpp3Dom",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.Xpp3Dom",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/Xpp3Dom.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.Xpp3DomBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.Xpp3DomBuilder",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/Xpp3DomBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.Xpp3DomBuilder$InputLocationBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.Xpp3DomBuilder$InputLocationBuilder",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/Xpp3DomBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.Xpp3DomUtils",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.Xpp3DomUtils",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/Xpp3DomUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.Xpp3DomWriter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.Xpp3DomWriter",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/Xpp3DomWriter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.pull.EntityReplacementMap",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.pull.EntityReplacementMap",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/pull/EntityReplacementMap.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.pull.MXParser",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.pull.MXParser",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/pull/MXParser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.pull.MXSerializer",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.pull.MXSerializer",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/pull/MXSerializer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.pull.XmlPullParser",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.pull.XmlPullParser",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/pull/XmlPullParser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.pull.XmlPullParserException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.pull.XmlPullParserException",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/pull/XmlPullParserException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.codehaus.plexus.util.xml.pull.XmlSerializer",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.codehaus.plexus.util.xml.pull.XmlSerializer",
+    "location": {
+      "path": "org/codehaus/plexus/util/xml/pull/XmlSerializer.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

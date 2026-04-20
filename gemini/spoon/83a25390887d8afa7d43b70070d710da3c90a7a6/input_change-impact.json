@@ -1,0 +1,19 @@
+{
+  "project" : "facebook-java-business-sdk",
+  "breakingCommit" : "83a25390887d8afa7d43b70070d710da3c90a7a6",
+  "dependency" : {
+    "groupId" : "com.squareup.okio",
+    "artifactId" : "okio",
+    "previousVersion" : "2.1.0",
+    "newVersion" : "3.4.0",
+    "previousJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/83a25390887d8afa7d43b70070d710da3c90a7a6/okio-2.1.0.jar",
+    "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/83a25390887d8afa7d43b70070d710da3c90a7a6/okio-3.4.0.jar"
+  },
+  "classification" : {
+    "datasetCategory" : "COMPILATION_FAILURE",
+    "inferredCategory" : "COMPILATION_FAILURE",
+    "logFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/spoon-out-round-2/83a25390887d8afa7d43b70070d710da3c90a7a6/facebook-java-business-sdk/83a25390887d8afa7d43b70070d710da3c90a7a6.log",
+    "classifierReport" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/gemini/spoon/83a25390887d8afa7d43b70070d710da3c90a7a6/breaking-classifier-report.json"
+  },
+  "files" : [ ]
+}

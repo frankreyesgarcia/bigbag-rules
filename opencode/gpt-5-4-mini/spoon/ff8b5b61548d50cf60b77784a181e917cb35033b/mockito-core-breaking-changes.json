@@ -1,0 +1,873 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.Answers.get()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Answers",
+    "location": {
+      "path": "org/mockito/Answers.java",
+      "line": 94
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyCollectionOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.ArgumentMatchers",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 713
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyIterableOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.ArgumentMatchers",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 776
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyListOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.ArgumentMatchers",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 529
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyMapOf(java.lang.Class<K>,java.lang.Class<V>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.ArgumentMatchers",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 652
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyObject()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.ArgumentMatchers",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 168
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anySetOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.ArgumentMatchers",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 590
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyVararg()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.ArgumentMatchers",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 262
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.isNotNull(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.ArgumentMatchers",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 1085
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.isNull(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.ArgumentMatchers",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 999
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.notNull(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.ArgumentMatchers",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 1043
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyCollectionOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 713
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyIterableOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 776
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyListOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 529
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyMapOf(java.lang.Class<K>,java.lang.Class<V>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 652
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyObject()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 168
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anySetOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 590
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyVararg()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 262
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.isNotNull(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 1085
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.isNull(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 999
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.notNull(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 1043
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.Mockito.verifyZeroInteractions(java.lang.Object[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito",
+    "location": {
+      "path": "org/mockito/Mockito.java",
+      "line": 2543
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.BDDMockito$BDDStubber.willNothing()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito$BDDStubber",
+    "location": {
+      "path": "org/mockito/BDDMockito.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.BDDMockito$Then.shouldHaveZeroInteractions()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.BDDMockito$Then",
+    "location": {
+      "path": "org/mockito/BDDMockito.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.Matchers",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Matchers",
+    "location": {
+      "path": "org/mockito/Matchers.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.MockedStatic.verify(org.mockito.verification.VerificationMode,org.mockito.MockedStatic$Verification)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.MockedStatic",
+    "location": {
+      "path": "org/mockito/MockedStatic.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyCollectionOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Mockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 713
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyIterableOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Mockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 776
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyListOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Mockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 529
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyMapOf(java.lang.Class<K>,java.lang.Class<V>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Mockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 652
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyObject()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Mockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 168
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anySetOf(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Mockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 590
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.anyVararg()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Mockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 262
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.isNotNull(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Mockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 1085
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.isNull(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Mockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 999
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.ArgumentMatchers.notNull(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Mockito",
+    "location": {
+      "path": "org/mockito/ArgumentMatchers.java",
+      "line": 1043
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.Mockito.verifyZeroInteractions(java.lang.Object[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.Mockito",
+    "location": {
+      "path": "org/mockito/Mockito.java",
+      "line": 2543
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.MockitoDebugger",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.MockitoDebugger",
+    "location": {
+      "path": "org/mockito/MockitoDebugger.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.configuration.AnnotationEngine",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.configuration.AnnotationEngine",
+    "location": {
+      "path": "org/mockito/configuration/AnnotationEngine.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.configuration.DefaultMockitoConfiguration.getAnnotationEngine()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.configuration.DefaultMockitoConfiguration",
+    "location": {
+      "path": "org/mockito/configuration/DefaultMockitoConfiguration.java",
+      "line": 29
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.configuration.IMockitoConfiguration.getAnnotationEngine()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.configuration.IMockitoConfiguration",
+    "location": {
+      "path": "org/mockito/configuration/IMockitoConfiguration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.exceptions.verification.TooFewActualInvocations",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.exceptions.verification.TooFewActualInvocations",
+    "location": {
+      "path": "org/mockito/exceptions/verification/TooFewActualInvocations.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.exceptions.verification.TooLittleActualInvocations",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.exceptions.verification.TooLittleActualInvocations",
+    "location": {
+      "path": "org/mockito/exceptions/verification/TooLittleActualInvocations.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.InternalMockHandler",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.InternalMockHandler",
+    "location": {
+      "path": "org/mockito/internal/InternalMockHandler.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.MockedStaticImpl.verify(org.mockito.verification.VerificationMode,org.mockito.MockedStatic$Verification)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.MockedStaticImpl",
+    "location": {
+      "path": "org/mockito/internal/MockedStaticImpl.java",
+      "line": 66
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.configuration.GlobalConfiguration.getAnnotationEngine()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.configuration.GlobalConfiguration",
+    "location": {
+      "path": "org/mockito/internal/configuration/GlobalConfiguration.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.configuration.IndependentAnnotationEngine",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.configuration.IndependentAnnotationEngine",
+    "location": {
+      "path": "org/mockito/internal/configuration/IndependentAnnotationEngine.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.configuration.InjectingAnnotationEngine",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.configuration.InjectingAnnotationEngine",
+    "location": {
+      "path": "org/mockito/internal/configuration/InjectingAnnotationEngine.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.configuration.SpyAnnotationEngine",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.configuration.SpyAnnotationEngine",
+    "location": {
+      "path": "org/mockito/internal/configuration/SpyAnnotationEngine.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.creation.instance.InstantiationException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.creation.instance.InstantiationException",
+    "location": {
+      "path": "org/mockito/internal/creation/instance/InstantiationException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.creation.instance.Instantiator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.creation.instance.Instantiator",
+    "location": {
+      "path": "org/mockito/internal/creation/instance/Instantiator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.creation.instance.InstantiatorProvider2Adapter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.creation.instance.InstantiatorProvider2Adapter",
+    "location": {
+      "path": "org/mockito/internal/creation/instance/InstantiatorProvider2Adapter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.creation.instance.InstantiatorProviderAdapter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.creation.instance.InstantiatorProviderAdapter",
+    "location": {
+      "path": "org/mockito/internal/creation/instance/InstantiatorProviderAdapter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.debugging.MockitoDebuggerImpl",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.debugging.MockitoDebuggerImpl",
+    "location": {
+      "path": "org/mockito/internal/debugging/MockitoDebuggerImpl.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.debugging.WarningsCollector",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.debugging.WarningsCollector",
+    "location": {
+      "path": "org/mockito/internal/debugging/WarningsCollector.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.invocation.UnusedStubsFinder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.invocation.UnusedStubsFinder",
+    "location": {
+      "path": "org/mockito/internal/invocation/UnusedStubsFinder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.junit.util.JUnitFailureHacker",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.junit.util.JUnitFailureHacker",
+    "location": {
+      "path": "org/mockito/internal/junit/util/JUnitFailureHacker.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.stubbing.InvocationContainerImpl.getInvocationForStubbing()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.stubbing.InvocationContainerImpl",
+    "location": {
+      "path": "org/mockito/internal/stubbing/InvocationContainerImpl.java",
+      "line": 167
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.verification.VerificationDataImpl.getWanted()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.verification.VerificationDataImpl",
+    "location": {
+      "path": "org/mockito/internal/verification/VerificationDataImpl.java",
+      "line": 41
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.internal.verification.api.VerificationData.getWanted()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.internal.verification.api.VerificationData",
+    "location": {
+      "path": "org/mockito/internal/verification/api/VerificationData.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.invocation.InvocationFactory.createInvocation(java.lang.Object,org.mockito.mock.MockCreationSettings,java.lang.reflect.Method,java.util.concurrent.Callable,java.lang.Object[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.invocation.InvocationFactory",
+    "location": {
+      "path": "org/mockito/invocation/InvocationFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.plugins.InstantiatorProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.plugins.InstantiatorProvider",
+    "location": {
+      "path": "org/mockito/plugins/InstantiatorProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.runners.ConsoleSpammingMockitoJUnitRunner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.runners.ConsoleSpammingMockitoJUnitRunner",
+    "location": {
+      "path": "org/mockito/runners/ConsoleSpammingMockitoJUnitRunner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.runners.MockitoJUnitRunner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.runners.MockitoJUnitRunner",
+    "location": {
+      "path": "org/mockito/runners/MockitoJUnitRunner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.runners.MockitoJUnitRunner$Silent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.runners.MockitoJUnitRunner$Silent",
+    "location": {
+      "path": "org/mockito/runners/MockitoJUnitRunner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.runners.MockitoJUnitRunner$Strict",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.runners.MockitoJUnitRunner$Strict",
+    "location": {
+      "path": "org/mockito/runners/MockitoJUnitRunner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.mockito.runners.VerboseMockitoJUnitRunner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.mockito.runners.VerboseMockitoJUnitRunner",
+    "location": {
+      "path": "org/mockito/runners/VerboseMockitoJUnitRunner.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

@@ -1,0 +1,5046 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PNConfiguration.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PNConfiguration",
+    "location": {
+      "path": "com/pubnub/api/PNConfiguration.java",
+      "line": 196
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PNConfiguration.isDisableTokenManager()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PNConfiguration",
+    "location": {
+      "path": "com/pubnub/api/PNConfiguration.java",
+      "line": 191
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PNConfiguration.setDisableTokenManager(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PNConfiguration",
+    "location": {
+      "path": "com/pubnub/api/PNConfiguration.java",
+      "line": 27
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PNConfiguration.setUuid(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.pubnub.api.PNConfiguration",
+    "location": {
+      "path": "com/pubnub/api/PNConfiguration.java",
+      "line": 27
+    },
+    "newSymbol": "com.pubnub.api.PNConfiguration.setUuid(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.PNConfiguration.setUuid(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PNConfiguration",
+    "location": {
+      "path": "com/pubnub/api/PNConfiguration.java",
+      "line": 27
+    },
+    "newSymbol": "com.pubnub.api.PNConfiguration.setUuid(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.createSpace()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 290
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.createUser()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 265
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.deleteSpace()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 300
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.deleteUser()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 275
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.getMembers()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 310
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.getSpace()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 285
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.getSpaces()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 280
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.getToken(com.pubnub.api.managers.token_manager.TokenManagerProperties)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 522
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.getToken(java.lang.String,com.pubnub.api.managers.token_manager.PNResourceType)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 514
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.getTokens()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 527
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.getTokensByResource(com.pubnub.api.managers.token_manager.PNResourceType)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 532
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.getUser()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 260
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.getUsers()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 255
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.grantToken()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 203
+    },
+    "newSymbol": "com.pubnub.api.PubNub.grantToken()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.PubNub.grantToken()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 203
+    },
+    "newSymbol": "com.pubnub.api.PubNub.grantToken()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.manageMembers()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 320
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.manageMemberships()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 315
+    },
+    "newSymbol": "com.pubnub.api.PubNub.manageMemberships()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.PubNub.manageMemberships()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 315
+    },
+    "newSymbol": "com.pubnub.api.PubNub.manageMemberships()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.PubNub.setToken(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 505
+    },
+    "newSymbol": "com.pubnub.api.PubNub.setToken(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.setTokens(java.util.List<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 509
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.updateSpace()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 295
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.PubNub.updateUser()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.PubNub",
+    "location": {
+      "path": "com/pubnub/api/PubNub.java",
+      "line": 270
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.builder.PubNubErrorBuilder.PNERROBJ_SUBSCRIBE_TIMEOUT",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.builder.PubNubErrorBuilder",
+    "location": {
+      "path": "com/pubnub/api/builder/PubNubErrorBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.builder.PubNubErrorBuilder.PNERROBJ_USER_MISSING",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.builder.PubNubErrorBuilder",
+    "location": {
+      "path": "com/pubnub/api/builder/PubNubErrorBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.builder.PubNubErrorBuilder.PNERR_HTTP_SUBSCRIBE_TIMEOUT",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.builder.PubNubErrorBuilder",
+    "location": {
+      "path": "com/pubnub/api/builder/PubNubErrorBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.builder.PubNubErrorBuilder.PNERR_USER_MISSING",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.builder.PubNubErrorBuilder",
+    "location": {
+      "path": "com/pubnub/api/builder/PubNubErrorBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.callbacks.SubscribeCallback",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.callbacks.SubscribeCallback",
+    "location": {
+      "path": "com/pubnub/api/callbacks/SubscribeCallback.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.callbacks.SubscribeCallback.uuid(com.pubnub.api.PubNub,com.pubnub.api.models.consumer.objects_api.uuid.PNUUIDMetadataResult)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.callbacks.SubscribeCallback",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.callbacks.SubscribeCallback",
+    "location": {
+      "path": "com/pubnub/api/callbacks/SubscribeCallback.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.callbacks.SubscribeCallback.membership(com.pubnub.api.PubNub,com.pubnub.api.models.consumer.objects_api.membership.PNMembershipResult)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.callbacks.SubscribeCallback",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.callbacks.SubscribeCallback",
+    "location": {
+      "path": "com/pubnub/api/callbacks/SubscribeCallback.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.callbacks.SubscribeCallback.file(com.pubnub.api.PubNub,com.pubnub.api.models.consumer.pubsub.files.PNFileEventResult)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.callbacks.SubscribeCallback",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.callbacks.SubscribeCallback",
+    "location": {
+      "path": "com/pubnub/api/callbacks/SubscribeCallback.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.callbacks.SubscribeCallback.channel(com.pubnub.api.PubNub,com.pubnub.api.models.consumer.objects_api.channel.PNChannelMetadataResult)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.callbacks.SubscribeCallback.membership(com.pubnub.api.PubNub,com.pubnub.api.models.consumer.pubsub.objects.PNMembershipResult)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.callbacks.SubscribeCallback",
+    "location": {
+      "path": "com/pubnub/api/callbacks/SubscribeCallback.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.callbacks.SubscribeCallback.space(com.pubnub.api.PubNub,com.pubnub.api.models.consumer.pubsub.objects.PNSpaceResult)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.callbacks.SubscribeCallback",
+    "location": {
+      "path": "com/pubnub/api/callbacks/SubscribeCallback.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.callbacks.SubscribeCallback.user(com.pubnub.api.PubNub,com.pubnub.api.models.consumer.pubsub.objects.PNUserResult)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.callbacks.SubscribeCallback",
+    "location": {
+      "path": "com/pubnub/api/callbacks/SubscribeCallback.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.DeleteMessages.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.DeleteMessages",
+    "location": {
+      "path": "com/pubnub/api/endpoints/DeleteMessages.java",
+      "line": 35
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.DeleteMessages",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.DeleteMessages",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.Endpoint",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 77
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.Endpoint",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.Endpoint",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.FetchMessages",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.FetchMessages",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.FetchMessages.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.FetchMessages",
+    "location": {
+      "path": "com/pubnub/api/endpoints/FetchMessages.java",
+      "line": 52
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.History",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.History",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.History.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.History",
+    "location": {
+      "path": "com/pubnub/api/endpoints/History.java",
+      "line": 45
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.MessageCounts",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.MessageCounts",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.MessageCounts.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.MessageCounts",
+    "location": {
+      "path": "com/pubnub/api/endpoints/MessageCounts.java",
+      "line": 41
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.Time",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.Time",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Time.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.Time",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Time.java",
+      "line": 19
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.access.Grant",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.access.Grant",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.access.Grant.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.access.Grant",
+    "location": {
+      "path": "com/pubnub/api/endpoints/access/Grant.java",
+      "line": 48
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.access.GrantToken",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.access.GrantToken",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.access.GrantToken.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.access.GrantToken",
+    "location": {
+      "path": "com/pubnub/api/endpoints/access/GrantToken.java",
+      "line": 38
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.access.GrantToken.spaces(com.pubnub.api.models.consumer.access_manager.v3.Space[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.access.GrantToken",
+    "location": {
+      "path": "com/pubnub/api/endpoints/access/GrantToken.java",
+      "line": 126
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.access.GrantToken.users(com.pubnub.api.models.consumer.access_manager.v3.User[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.access.GrantToken",
+    "location": {
+      "path": "com/pubnub/api/endpoints/access/GrantToken.java",
+      "line": 120
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.AddChannelChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.AddChannelChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.channel_groups.AddChannelChannelGroup.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.AddChannelChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/channel_groups/AddChannelChannelGroup.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.AllChannelsChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.AllChannelsChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.channel_groups.AllChannelsChannelGroup.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.AllChannelsChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/channel_groups/AllChannelsChannelGroup.java",
+      "line": 27
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.DeleteChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.DeleteChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.channel_groups.DeleteChannelGroup.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.DeleteChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/channel_groups/DeleteChannelGroup.java",
+      "line": 27
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.ListAllChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.ListAllChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.channel_groups.ListAllChannelGroup.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.ListAllChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/channel_groups/ListAllChannelGroup.java",
+      "line": 24
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.RemoveChannelChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.RemoveChannelChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.channel_groups.RemoveChannelChannelGroup.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.channel_groups.RemoveChannelChannelGroup",
+    "location": {
+      "path": "com/pubnub/api/endpoints/channel_groups/RemoveChannelChannelGroup.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.message_actions.AddMessageAction",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.message_actions.AddMessageAction",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.message_actions.AddMessageAction.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.message_actions.AddMessageAction",
+    "location": {
+      "path": "com/pubnub/api/endpoints/message_actions/AddMessageAction.java",
+      "line": 33
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.message_actions.GetMessageActions",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.message_actions.GetMessageActions",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.message_actions.GetMessageActions.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.message_actions.GetMessageActions",
+    "location": {
+      "path": "com/pubnub/api/endpoints/message_actions/GetMessageActions.java",
+      "line": 42
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.message_actions.GetMessageActions.createResponse(retrofit2.Response<com.google.gson.JsonObject>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.message_actions.GetMessageActions",
+    "location": {
+      "path": "com/pubnub/api/endpoints/message_actions/GetMessageActions.java",
+      "line": 92
+    },
+    "newSymbol": "com.pubnub.api.endpoints.message_actions.GetMessageActions.createResponse(retrofit2.Response<com.pubnub.api.models.consumer.message_actions.PNGetMessageActionsResult>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.message_actions.GetMessageActions.doWork(java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.message_actions.GetMessageActions",
+    "location": {
+      "path": "com/pubnub/api/endpoints/message_actions/GetMessageActions.java",
+      "line": 71
+    },
+    "newSymbol": "com.pubnub.api.endpoints.message_actions.GetMessageActions.doWork(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.message_actions.RemoveMessageAction",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.message_actions.RemoveMessageAction",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.message_actions.RemoveMessageAction.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.message_actions.RemoveMessageAction",
+    "location": {
+      "path": "com/pubnub/api/endpoints/message_actions/RemoveMessageAction.java",
+      "line": 33
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.members.GetMembers",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.members.GetMembers",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/members/GetMembers.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.members.ManageMembers",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.members.ManageMembers",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/members/ManageMembers.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Include$CustomIncludeAware.includeCustom(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Limiter$LimitAware.limit(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Sorter$SortingAware.sort(com.pubnub.api.endpoints.objects_api.utils.PNSortKey[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.ObjectApiEndpoint.executeCommand(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Include$ChannelIncludeAware.includeChannel(com.pubnub.api.endpoints.objects_api.utils.Include$PNChannelDetailsLevel)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Pager$PagingAware.page(com.pubnub.api.models.consumer.PNPage)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.TotalCounter$TotalCountAware.includeTotalCount(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.createResponse(retrofit2.Response<com.pubnub.api.models.server.objects_api.EntityArrayEnvelope<com.pubnub.api.models.consumer.objects_api.membership.PNMembership>>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 86
+    },
+    "newSymbol": "com.pubnub.api.endpoints.Endpoint.createResponse(retrofit2.Response<Input>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.createResponse(retrofit2.Response<com.pubnub.api.models.server.objects_api.EntityArrayEnvelope<com.pubnub.api.models.consumer.objects_api.membership.PNMembership>>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 86
+    },
+    "newSymbol": "com.pubnub.api.endpoints.Endpoint.createResponse(retrofit2.Response<Input>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.createResponse(retrofit2.Response<com.pubnub.api.models.server.objects_api.EntityArrayEnvelope<com.pubnub.api.models.consumer.objects_api.membership.PNMembership>>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 86
+    },
+    "newSymbol": "com.pubnub.api.endpoints.Endpoint.createResponse(retrofit2.Response<Input>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.createResponse(retrofit2.Response<com.pubnub.api.models.server.objects_api.EntityArrayEnvelope<com.pubnub.api.models.consumer.objects_api.membership.PNMembership>>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 86
+    },
+    "newSymbol": "com.pubnub.api.endpoints.Endpoint.createResponse(retrofit2.Response<Input>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.createResponse(retrofit2.Response<com.pubnub.api.models.server.objects_api.EntityArrayEnvelope<com.pubnub.api.models.consumer.objects_api.membership.PNMembership>>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 86
+    },
+    "newSymbol": "com.pubnub.api.endpoints.Endpoint.createResponse(retrofit2.Response<Input>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.doWork(java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 75
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.ObjectApiEndpoint.doWork(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.doWork(java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 75
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.ObjectApiEndpoint.doWork(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.end(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 120
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.filter(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 132
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Filter$FilterAware.filter(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.filter(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 132
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Filter$FilterAware.filter(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.filter(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 132
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Filter$FilterAware.filter(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.getOperationType()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 94
+    },
+    "newSymbol": "com.pubnub.api.endpoints.Endpoint.getOperationType()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.getTmsProperties()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 138
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.includeFields(com.pubnub.api.enums.PNMembershipFields[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 104
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.limit(java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 109
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.start(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 114
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.userId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 42
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships.withTotalCount(java.lang.Boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/GetMemberships.java",
+      "line": 126
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.util.InclusionParamsProvider.includeFields(FieldsEnumType[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.GetMemberships",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/util/InclusionParamsProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.async(com.pubnub.api.callbacks.PNCallback<Output>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 134
+    },
+    "newSymbol": "com.pubnub.api.endpoints.Endpoint.async(com.pubnub.api.callbacks.PNCallback<Output>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.createBaseParams()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 338
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.encodeParams(java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 381
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.getPubnub()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.getRetrofit()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 48
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.queryParam(java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 60
+    },
+    "newSymbol": "com.pubnub.api.endpoints.Endpoint.queryParam(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.retry()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 275
+    },
+    "newSymbol": "com.pubnub.api.endpoints.Endpoint.retry()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.silentCancel()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 283
+    },
+    "newSymbol": "com.pubnub.api.endpoints.Endpoint.silentCancel()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.sync()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 86
+    },
+    "newSymbol": "com.pubnub.api.endpoints.Endpoint.sync()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Pager$PagingAware.page(com.pubnub.api.models.consumer.PNPage)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Filter$FilterAware.filter(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Include$CustomIncludeAware.includeCustom(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Include$ChannelIncludeAware.includeChannel(com.pubnub.api.endpoints.objects_api.utils.Include$PNChannelDetailsLevel)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Limiter$LimitAware.limit(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.Sorter$SortingAware.sort(com.pubnub.api.endpoints.objects_api.utils.PNSortKey[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.endpoints.objects_api.utils.TotalCounter$TotalCountAware.includeTotalCount(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 45
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.add(com.pubnub.api.models.consumer.objects_api.membership.Membership[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 110
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.createResponse(retrofit2.Response<com.pubnub.api.models.server.objects_api.EntityArrayEnvelope<com.pubnub.api.models.consumer.objects_api.membership.PNMembership>>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 87
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.doWork(java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 75
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.end(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 139
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.getAffectedChannelGroups()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.getAffectedChannels()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 52
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.getOperationType()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 95
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.getTmsProperties()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 151
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.includeFields(com.pubnub.api.enums.PNMembershipFields[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 105
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.isAuthRequired()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 100
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.limit(java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 128
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.remove(com.pubnub.api.models.consumer.objects_api.membership.Membership[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 122
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.start(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 133
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.update(com.pubnub.api.models.consumer.objects_api.membership.Membership[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 116
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.userId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 41
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.validateParams()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 62
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships.withTotalCount(java.lang.Boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/memberships/ManageMemberships.java",
+      "line": 145
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.util.InclusionParamsProvider.includeFields(FieldsEnumType[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/util/InclusionParamsProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.util.MembershipChainProvider.add(PropertyType[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/util/MembershipChainProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.util.MembershipChainProvider.remove(PropertyType[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/util/MembershipChainProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.util.MembershipChainProvider.update(PropertyType[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.memberships.ManageMemberships",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/util/MembershipChainProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.spaces.CreateSpace",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.spaces.CreateSpace",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/spaces/CreateSpace.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.spaces.DeleteSpace",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.spaces.DeleteSpace",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/spaces/DeleteSpace.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.spaces.GetSpace",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.spaces.GetSpace",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/spaces/GetSpace.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.spaces.GetSpaces",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.spaces.GetSpaces",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/spaces/GetSpaces.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.spaces.UpdateSpace",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.spaces.UpdateSpace",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/spaces/UpdateSpace.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.users.CreateUser",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.users.CreateUser",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/users/CreateUser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.users.DeleteUser",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.users.DeleteUser",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/users/DeleteUser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.users.GetUser",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.users.GetUser",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/users/GetUser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.users.GetUsers",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.users.GetUsers",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/users/GetUsers.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.objects_api.users.UpdateUser",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.objects_api.users.UpdateUser",
+    "location": {
+      "path": "com/pubnub/api/endpoints/objects_api/users/UpdateUser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.GetState",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.GetState",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.presence.GetState.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.GetState",
+    "location": {
+      "path": "com/pubnub/api/endpoints/presence/GetState.java",
+      "line": 33
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.Heartbeat",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.Heartbeat",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.presence.Heartbeat.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.Heartbeat",
+    "location": {
+      "path": "com/pubnub/api/endpoints/presence/Heartbeat.java",
+      "line": 30
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.presence.Heartbeat.doWork(java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.Heartbeat",
+    "location": {
+      "path": "com/pubnub/api/endpoints/presence/Heartbeat.java",
+      "line": 57
+    },
+    "newSymbol": "com.pubnub.api.endpoints.presence.Heartbeat.doWork(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.HereNow",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.HereNow",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.presence.HereNow.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.HereNow",
+    "location": {
+      "path": "com/pubnub/api/endpoints/presence/HereNow.java",
+      "line": 37
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.Leave",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.Leave",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.presence.Leave.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.Leave",
+    "location": {
+      "path": "com/pubnub/api/endpoints/presence/Leave.java",
+      "line": 29
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.SetState",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.SetState",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.presence.SetState.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.SubscriptionManager,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.SetState",
+    "location": {
+      "path": "com/pubnub/api/endpoints/presence/SetState.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.WhereNow",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.WhereNow",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.presence.WhereNow.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.presence.WhereNow",
+    "location": {
+      "path": "com/pubnub/api/endpoints/presence/WhereNow.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.pubsub.Publish",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.pubsub.Publish",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.pubsub.Publish.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.PublishSequenceManager,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.pubsub.Publish",
+    "location": {
+      "path": "com/pubnub/api/endpoints/pubsub/Publish.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.pubsub.Signal",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.pubsub.Signal",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.pubsub.Signal.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.pubsub.Signal",
+    "location": {
+      "path": "com/pubnub/api/endpoints/pubsub/Signal.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.pubsub.Subscribe",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.pubsub.Subscribe",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.async(com.pubnub.api.callbacks.PNCallback<Output>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.pubsub.Subscribe",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 134
+    },
+    "newSymbol": "com.pubnub.api.endpoints.pubsub.Subscribe.async(com.pubnub.api.callbacks.PNCallback<com.pubnub.api.models.server.SubscribeEnvelope>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.pubsub.Subscribe.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.pubsub.Subscribe",
+    "location": {
+      "path": "com/pubnub/api/endpoints/pubsub/Subscribe.java",
+      "line": 67
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.AddChannelsToPush",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.AddChannelsToPush",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.push.AddChannelsToPush.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.AddChannelsToPush",
+    "location": {
+      "path": "com/pubnub/api/endpoints/push/AddChannelsToPush.java",
+      "line": 38
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.ListPushProvisions",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.ListPushProvisions",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.push.ListPushProvisions.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.ListPushProvisions",
+    "location": {
+      "path": "com/pubnub/api/endpoints/push/ListPushProvisions.java",
+      "line": 35
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.RemoveAllPushChannelsForDevice",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.RemoveAllPushChannelsForDevice",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.push.RemoveAllPushChannelsForDevice.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.RemoveAllPushChannelsForDevice",
+    "location": {
+      "path": "com/pubnub/api/endpoints/push/RemoveAllPushChannelsForDevice.java",
+      "line": 35
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendInclusionParams(java.util.Map<java.lang.String,java.lang.String>,java.lang.Enum[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.RemoveChannelsFromPush",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 389
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.Endpoint.appendLimitParam(java.util.Map<java.lang.String,java.lang.String>,java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.RemoveChannelsFromPush",
+    "location": {
+      "path": "com/pubnub/api/endpoints/Endpoint.java",
+      "line": 401
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.endpoints.push.RemoveChannelsFromPush.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.TelemetryManager,com.pubnub.api.managers.RetrofitManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.endpoints.push.RemoveChannelsFromPush",
+    "location": {
+      "path": "com/pubnub/api/endpoints/push/RemoveChannelsFromPush.java",
+      "line": 38
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNCreateSpaceOperation",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNCreateUserOperation",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNDeleteSpaceOperation",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNDeleteUserOperation",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNGetMembers",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNGetMemberships",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNGetSpaceOperation",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNGetSpacesOperation",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNGetUserOperation",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNGetUsersOperation",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNManageMembers",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNManageMemberships",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNUpdateSpaceOperation",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNOperationType.PNUpdateUserOperation",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNOperationType",
+    "location": {
+      "path": "com/pubnub/api/enums/PNOperationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.enums.PNStatusCategory.PNReconnectionAttemptsExhausted",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.enums.PNStatusCategory",
+    "location": {
+      "path": "com/pubnub/api/enums/PNStatusCategory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.ListenerManager.announce(com.pubnub.api.models.consumer.pubsub.objects.PNMembershipResult)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.ListenerManager",
+    "location": {
+      "path": "com/pubnub/api/managers/ListenerManager.java",
+      "line": 89
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.ListenerManager.announce(com.pubnub.api.models.consumer.pubsub.objects.PNSpaceResult)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.ListenerManager",
+    "location": {
+      "path": "com/pubnub/api/managers/ListenerManager.java",
+      "line": 83
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.ListenerManager.announce(com.pubnub.api.models.consumer.pubsub.objects.PNUserResult)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.ListenerManager",
+    "location": {
+      "path": "com/pubnub/api/managers/ListenerManager.java",
+      "line": 77
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.MapperManager.isValidJsonObject(java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.MapperManager",
+    "location": {
+      "path": "com/pubnub/api/managers/MapperManager.java",
+      "line": 150
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.ReconnectionManager.startPolling(com.pubnub.api.PNConfiguration)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.ReconnectionManager",
+    "location": {
+      "path": "com/pubnub/api/managers/ReconnectionManager.java",
+      "line": 52
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.RetrofitManager.getMemberService()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.RetrofitManager",
+    "location": {
+      "path": "com/pubnub/api/managers/RetrofitManager.java",
+      "line": 66
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.RetrofitManager.getMembershipService()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.RetrofitManager",
+    "location": {
+      "path": "com/pubnub/api/managers/RetrofitManager.java",
+      "line": 64
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.RetrofitManager.getSpaceService()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.RetrofitManager",
+    "location": {
+      "path": "com/pubnub/api/managers/RetrofitManager.java",
+      "line": 62
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.RetrofitManager.getUserService()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.RetrofitManager",
+    "location": {
+      "path": "com/pubnub/api/managers/RetrofitManager.java",
+      "line": 60
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.StateManager.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.StateManager",
+    "location": {
+      "path": "com/pubnub/api/managers/StateManager.java",
+      "line": 38
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.StateManager.adaptPresenceBuilder(com.pubnub.api.builder.dto.PresenceOperation)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.StateManager",
+    "location": {
+      "path": "com/pubnub/api/managers/StateManager.java",
+      "line": 113
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.StateManager.adaptStateBuilder(com.pubnub.api.builder.dto.StateOperation)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.StateManager",
+    "location": {
+      "path": "com/pubnub/api/managers/StateManager.java",
+      "line": 82
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.StateManager.adaptSubscribeBuilder(com.pubnub.api.builder.dto.SubscribeOperation)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.StateManager",
+    "location": {
+      "path": "com/pubnub/api/managers/StateManager.java",
+      "line": 50
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.StateManager.adaptUnsubscribeBuilder(com.pubnub.api.builder.dto.UnsubscribeOperation)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.StateManager",
+    "location": {
+      "path": "com/pubnub/api/managers/StateManager.java",
+      "line": 101
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.StateManager.createStatePayload()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.StateManager",
+    "location": {
+      "path": "com/pubnub/api/managers/StateManager.java",
+      "line": 143
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.StateManager.isEmpty()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.StateManager",
+    "location": {
+      "path": "com/pubnub/api/managers/StateManager.java",
+      "line": 177
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.StateManager.prepareChannelGroupList(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.StateManager",
+    "location": {
+      "path": "com/pubnub/api/managers/StateManager.java",
+      "line": 165
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.StateManager.prepareChannelList(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.StateManager",
+    "location": {
+      "path": "com/pubnub/api/managers/StateManager.java",
+      "line": 161
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.StateManager.prepareHeartbeatChannelGroupList(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.StateManager",
+    "location": {
+      "path": "com/pubnub/api/managers/StateManager.java",
+      "line": 173
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.StateManager.prepareHeartbeatChannelList(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.StateManager",
+    "location": {
+      "path": "com/pubnub/api/managers/StateManager.java",
+      "line": 169
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.SubscriptionManager.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.RetrofitManager,com.pubnub.api.managers.TelemetryManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.SubscriptionManager",
+    "location": {
+      "path": "com/pubnub/api/managers/SubscriptionManager.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.SubscriptionManager.addListener(com.pubnub.api.callbacks.SubscribeCallback)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.SubscriptionManager",
+    "location": {
+      "path": "com/pubnub/api/managers/SubscriptionManager.java",
+      "line": 131
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.SubscriptionManager.getSubscribedChannelGroups()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.SubscriptionManager",
+    "location": {
+      "path": "com/pubnub/api/managers/SubscriptionManager.java",
+      "line": 409
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.SubscriptionManager.getSubscribedChannels()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.SubscriptionManager",
+    "location": {
+      "path": "com/pubnub/api/managers/SubscriptionManager.java",
+      "line": 405
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.SubscriptionManager.removeListener(com.pubnub.api.callbacks.SubscribeCallback)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.SubscriptionManager",
+    "location": {
+      "path": "com/pubnub/api/managers/SubscriptionManager.java",
+      "line": 135
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.token_manager.PNMatchType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.token_manager.PNMatchType",
+    "location": {
+      "path": "com/pubnub/api/managers/token_manager/PNMatchType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.token_manager.PNResourceType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.token_manager.PNResourceType",
+    "location": {
+      "path": "com/pubnub/api/managers/token_manager/PNResourceType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.token_manager.TokenManager.getToken(com.pubnub.api.managers.token_manager.TokenManagerProperties)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.token_manager.TokenManager",
+    "location": {
+      "path": "com/pubnub/api/managers/token_manager/TokenManager.java",
+      "line": 53
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.token_manager.TokenManager.getTokens()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.token_manager.TokenManager",
+    "location": {
+      "path": "com/pubnub/api/managers/token_manager/TokenManager.java",
+      "line": 61
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.token_manager.TokenManager.getTokensByResource(com.pubnub.api.managers.token_manager.PNResourceType)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.token_manager.TokenManager",
+    "location": {
+      "path": "com/pubnub/api/managers/token_manager/TokenManager.java",
+      "line": 65
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.managers.token_manager.TokenManager.setToken(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.token_manager.TokenManager",
+    "location": {
+      "path": "com/pubnub/api/managers/token_manager/TokenManager.java",
+      "line": 42
+    },
+    "newSymbol": "com.pubnub.api.managers.token_manager.TokenManager.setToken(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.token_manager.TokenManager.setTokens(java.util.List<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.token_manager.TokenManager",
+    "location": {
+      "path": "com/pubnub/api/managers/token_manager/TokenManager.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.token_manager.TokenManagerProperties",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.token_manager.TokenManagerProperties",
+    "location": {
+      "path": "com/pubnub/api/managers/token_manager/TokenManagerProperties.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.token_manager.TokenManagerProperties$TokenManagerPropertiesBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.token_manager.TokenManagerProperties$TokenManagerPropertiesBuilder",
+    "location": {
+      "path": "com/pubnub/api/managers/token_manager/TokenManagerProperties.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.managers.token_manager.TokenManagerPropertyProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.managers.token_manager.TokenManagerPropertyProvider",
+    "location": {
+      "path": "com/pubnub/api/managers/token_manager/TokenManagerPropertyProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.PNStatus$PNStatusBuilder.executedEndpoint(com.pubnub.api.endpoints.Endpoint)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.PNStatus$PNStatusBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/PNStatus.java",
+      "line": 14
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 13
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.isDeleteEnabled()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 25
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.isDeleteEnabled()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.isManageEnabled()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 22
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.isManageEnabled()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.isReadEnabled()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 16
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.isReadEnabled()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.isWriteEnabled()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 19
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.isWriteEnabled()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setDeleteEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setDeleteEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setDeleteEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setDeleteEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setDeleteEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setDeleteEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setManageEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setManageEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setManageEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setManageEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setManageEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setManageEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setReadEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setReadEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setReadEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setReadEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setReadEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setReadEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setWriteEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setWriteEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setWriteEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setWriteEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setWriteEnabled(boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 10
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.setWriteEnabled(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.toString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/PNAccessManagerKeyData.java",
+      "line": 11
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.access_manager.PNAccessManagerKeyData.toString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.v3.Channel",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.v3.Channel",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/v3/Channel.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.v3.Group",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.v3.Group",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/v3/Group.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.v3.PNGrantTokenResult.builder()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.v3.PNGrantTokenResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/v3/PNGrantTokenResult.java",
+      "line": 7
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.v3.PNGrantTokenResult$PNGrantTokenResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.v3.PNGrantTokenResult$PNGrantTokenResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/v3/PNGrantTokenResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.v3.Space",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.v3.Space",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/v3/Space.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.access_manager.v3.User",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.access_manager.v3.User",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/access_manager/v3/User.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.history.PNFetchMessageItem.setMessage(com.google.gson.JsonElement)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.history.PNFetchMessageItem",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/history/PNFetchMessageItem.java",
+      "line": 16
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.history.PNFetchMessageItem$Action.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.history.PNFetchMessageItem$Action",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/history/PNFetchMessageItem.java",
+      "line": 24
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.PNObject.created",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.PNObject",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/PNObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.PNObject.getCreated()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.PNObject",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/PNObject.java",
+      "line": 22
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.PNPatchPayload",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.PNPatchPayload",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/PNPatchPayload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.PropertyEnvelope",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.PropertyEnvelope",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/PropertyEnvelope.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.member.Member",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.member.Member",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/member/Member.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.member.PNGetMembersResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.member.PNGetMembersResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/member/PNGetMembersResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.member.PNManageMembersResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.member.PNManageMembersResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/member/PNManageMembersResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.member.PNMember",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.member.PNMember",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/member/PNMember.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.membership.Membership",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.membership.Membership",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/membership/Membership.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.membership.PNGetMembershipsResult.create()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.membership.PNGetMembershipsResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/membership/PNGetMembershipsResult.java",
+      "line": 19
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.membership.PNGetMembershipsResult.create(com.pubnub.api.models.server.objects_api.EntityArrayEnvelope<com.pubnub.api.models.consumer.objects_api.membership.PNMembership>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.membership.PNGetMembershipsResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/membership/PNGetMembershipsResult.java",
+      "line": 10
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.membership.PNManageMembershipsResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.membership.PNManageMembershipsResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/membership/PNManageMembershipsResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.PNObject.getCreated()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.membership.PNMembership",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/PNObject.java",
+      "line": 22
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.PNObject.getId()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.membership.PNMembership",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/PNObject.java",
+      "line": 16
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.PNObject.setCustom(java.lang.Object)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.membership.PNMembership",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/PNObject.java",
+      "line": 19
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.objects_api.membership.PNMembership.setCustom(java.lang.Object)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.PNObject.setCustom(java.lang.Object)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.membership.PNMembership",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/PNObject.java",
+      "line": 19
+    },
+    "newSymbol": "com.pubnub.api.models.consumer.objects_api.membership.PNMembership.setCustom(java.lang.Object)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.membership.PNMembership",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.membership.PNMembership",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/membership/PNMembership.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.membership.PNMembership.getSpace()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.membership.PNMembership",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/membership/PNMembership.java",
+      "line": 12
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.space.PNCreateSpaceResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.space.PNCreateSpaceResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/space/PNCreateSpaceResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.space.PNCreateSpaceResult$PNCreateSpaceResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.space.PNCreateSpaceResult$PNCreateSpaceResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/space/PNCreateSpaceResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.space.PNDeleteSpaceResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.space.PNDeleteSpaceResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/space/PNDeleteSpaceResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.space.PNDeleteSpaceResult$PNDeleteSpaceResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.space.PNDeleteSpaceResult$PNDeleteSpaceResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/space/PNDeleteSpaceResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.space.PNGetSpaceResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.space.PNGetSpaceResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/space/PNGetSpaceResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.space.PNGetSpaceResult$PNGetSpaceResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.space.PNGetSpaceResult$PNGetSpaceResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/space/PNGetSpaceResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.space.PNGetSpacesResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.space.PNGetSpacesResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/space/PNGetSpacesResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.space.PNSpace",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.space.PNSpace",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/space/PNSpace.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.space.PNUpdateSpaceResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.space.PNUpdateSpaceResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/space/PNUpdateSpaceResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.space.PNUpdateSpaceResult$PNUpdateSpaceResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.space.PNUpdateSpaceResult$PNUpdateSpaceResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/space/PNUpdateSpaceResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.user.PNCreateUserResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.user.PNCreateUserResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/user/PNCreateUserResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.user.PNCreateUserResult$PNCreateUserResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.user.PNCreateUserResult$PNCreateUserResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/user/PNCreateUserResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.user.PNDeleteUserResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.user.PNDeleteUserResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/user/PNDeleteUserResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.user.PNDeleteUserResult$PNDeleteUserResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.user.PNDeleteUserResult$PNDeleteUserResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/user/PNDeleteUserResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.user.PNGetUserResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.user.PNGetUserResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/user/PNGetUserResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.user.PNGetUserResult$PNGetUserResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.user.PNGetUserResult$PNGetUserResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/user/PNGetUserResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.user.PNGetUsersResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.user.PNGetUsersResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/user/PNGetUsersResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.user.PNUpdateUserResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.user.PNUpdateUserResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/user/PNUpdateUserResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.user.PNUpdateUserResult$PNUpdateUserResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.user.PNUpdateUserResult$PNUpdateUserResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/user/PNUpdateUserResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.user.PNUser",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.user.PNUser",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/user/PNUser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.util.FilteringParamsProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.util.FilteringParamsProvider",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/util/FilteringParamsProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.util.InclusionParamsProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.util.InclusionParamsProvider",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/util/InclusionParamsProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.util.ListingParamsProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.util.ListingParamsProvider",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/util/ListingParamsProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.objects_api.util.MembershipChainProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.objects_api.util.MembershipChainProvider",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/objects_api/util/MembershipChainProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.pubsub.objects.ObjectResult",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.pubsub.objects.ObjectResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/pubsub/objects/ObjectResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.pubsub.objects.PNMembershipResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.pubsub.objects.PNMembershipResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/pubsub/objects/PNMembershipResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.pubsub.objects.PNMembershipResult$PNMembershipResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.pubsub.objects.PNMembershipResult$PNMembershipResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/pubsub/objects/PNMembershipResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.pubsub.objects.PNSpaceResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.pubsub.objects.PNSpaceResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/pubsub/objects/PNSpaceResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.pubsub.objects.PNSpaceResult$PNSpaceResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.pubsub.objects.PNSpaceResult$PNSpaceResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/pubsub/objects/PNSpaceResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.pubsub.objects.PNUserResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.pubsub.objects.PNUserResult",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/pubsub/objects/PNUserResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.consumer.pubsub.objects.PNUserResult$PNUserResultBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.consumer.pubsub.objects.PNUserResult$PNUserResultBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/consumer/pubsub/objects/PNUserResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeEnvelope.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeEnvelope",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeEnvelope.java",
+      "line": 9
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 8
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.getChannel()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 17
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.getChannel()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.getFlags()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 27
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.getFlags()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.getIssuingClientId()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 30
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.getIssuingClientId()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.getOriginationMetadata()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 39
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.getOriginationMetadata()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.getPayload()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 20
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.getPayload()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.getPublishMetaData()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 42
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.getPublishMetaData()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.getShard()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 11
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.getShard()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.getSubscribeKey()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 33
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.getSubscribeKey()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.getSubscriptionMatch()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 14
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.getSubscriptionMatch()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.getType()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 54
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.getType()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.getUserMetadata()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 48
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.getUserMetadata()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMessage.supportsEncryption()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMessage",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMessage.java",
+      "line": 57
+    },
+    "newSymbol": "com.pubnub.api.models.server.SubscribeMessage.supportsEncryption()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.SubscribeMetadata.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.SubscribeMetadata",
+    "location": {
+      "path": "com/pubnub/api/models/server/SubscribeMetadata.java",
+      "line": 7
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody.assemble()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody",
+    "location": {
+      "path": "com/pubnub/api/models/server/access_manager/v3/GrantTokenRequestBody.java",
+      "line": 36
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder.build()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/server/access_manager/v3/GrantTokenRequestBody.java",
+      "line": 18
+    },
+    "newSymbol": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder.build()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder.channels(java.util.List<com.pubnub.api.models.consumer.access_manager.v3.Channel>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/server/access_manager/v3/GrantTokenRequestBody.java",
+      "line": 18
+    },
+    "newSymbol": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder.channels(java.util.List<com.pubnub.api.models.consumer.access_manager.v3.ChannelGrant>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder.groups(java.util.List<com.pubnub.api.models.consumer.access_manager.v3.Group>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/server/access_manager/v3/GrantTokenRequestBody.java",
+      "line": 18
+    },
+    "newSymbol": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder.groups(java.util.List<com.pubnub.api.models.consumer.access_manager.v3.ChannelGroupGrant>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder.pubNub(com.pubnub.api.PubNub)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/server/access_manager/v3/GrantTokenRequestBody.java",
+      "line": 18
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder.spaces(java.util.List<com.pubnub.api.models.consumer.access_manager.v3.Space>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/server/access_manager/v3/GrantTokenRequestBody.java",
+      "line": 18
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder.users(java.util.List<com.pubnub.api.models.consumer.access_manager.v3.User>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.models.server.access_manager.v3.GrantTokenRequestBody$GrantTokenRequestBodyBuilder",
+    "location": {
+      "path": "com/pubnub/api/models/server/access_manager/v3/GrantTokenRequestBody.java",
+      "line": 18
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.services.AccessManagerService",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.services.AccessManagerService",
+    "location": {
+      "path": "com/pubnub/api/services/AccessManagerService.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.services.AccessManagerService.revokeToken(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.services.MemberService",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.services.MemberService",
+    "location": {
+      "path": "com/pubnub/api/services/MemberService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.services.MembershipService",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.services.MembershipService",
+    "location": {
+      "path": "com/pubnub/api/services/MembershipService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.pubnub.api.services.MessageActionService.getMessageActions(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.services.MessageActionService",
+    "location": {
+      "path": "com/pubnub/api/services/MessageActionService.java",
+      "line": null
+    },
+    "newSymbol": "com.pubnub.api.services.MessageActionService.getMessageActions(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.services.PresenceService.getState(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.services.PresenceService",
+    "location": {
+      "path": "com/pubnub/api/services/PresenceService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.services.PresenceService.globalHereNow(java.lang.String,java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.services.PresenceService",
+    "location": {
+      "path": "com/pubnub/api/services/PresenceService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.services.PresenceService.hereNow(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.services.PresenceService",
+    "location": {
+      "path": "com/pubnub/api/services/PresenceService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.services.PresenceService.setState(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.services.PresenceService",
+    "location": {
+      "path": "com/pubnub/api/services/PresenceService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.services.PresenceService.whereNow(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.services.PresenceService",
+    "location": {
+      "path": "com/pubnub/api/services/PresenceService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.services.SpaceService",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.services.SpaceService",
+    "location": {
+      "path": "com/pubnub/api/services/SpaceService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.services.UserService",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.services.UserService",
+    "location": {
+      "path": "com/pubnub/api/services/UserService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.vendor.Crypto.initCiphers()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.vendor.Crypto",
+    "location": {
+      "path": "com/pubnub/api/vendor/Crypto.java",
+      "line": 45
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.pubnub.api.workers.SubscribeMessageWorker.<init>(com.pubnub.api.PubNub,com.pubnub.api.managers.ListenerManager,java.util.concurrent.LinkedBlockingQueue<com.pubnub.api.models.server.SubscribeMessage>,com.pubnub.api.managers.DuplicationManager)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.pubnub.api.workers.SubscribeMessageWorker",
+    "location": {
+      "path": "com/pubnub/api/workers/SubscribeMessageWorker.java",
+      "line": 42
+    },
+    "newSymbol": null
+  }
+]

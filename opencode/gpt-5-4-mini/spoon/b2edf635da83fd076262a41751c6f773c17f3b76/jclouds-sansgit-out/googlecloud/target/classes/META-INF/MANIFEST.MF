@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bundle-Description: jclouds components common to Google Cloud products
+Bundle-ManifestVersion: 2
+Bundle-Name: jclouds Google Cloud Core
+Bundle-SymbolicName: googlecloud
+Bundle-Version: 2.6.0.SNAPSHOT
+Export-Package: org.jclouds.googlecloud;version="2.6.0.SNAPSHOT";uses:
+ ="com.google.common.base,org.jclouds.domain",org.jclouds.googlecloud.
+ config;version="2.6.0.SNAPSHOT";uses:="com.google.gson,com.google.gso
+ n.reflect,javax.inject",org.jclouds.googlecloud.domain;version="2.6.0
+ .SNAPSHOT";uses:="com.google.common.collect,org.jclouds.javax.annotat
+ ion",org.jclouds.googlecloud.internal;version="2.6.0.SNAPSHOT";uses:=
+ "com.google.common.base,org.jclouds.googlecloud.domain,org.jclouds.go
+ oglecloud.options,org.jclouds.http,org.jclouds.javax.annotation,org.j
+ clouds.rest",org.jclouds.googlecloud.options;version="2.6.0.SNAPSHOT"
+ ;uses:="org.jclouds.http.options"
+Implementation-Vendor: jclouds
+Implementation-Vendor-Id: org.apache.jclouds
+Implementation-Version: 2.6.0-SNAPSHOT
+Import-Package: com.google.common.base;version="[27.1,30.1.0)",com.goo
+ gle.common.collect;version="[27.1,30.1.0)",com.google.gson;version="[
+ 2.8,3)",com.google.gson.reflect;version="[2.8,3)",com.google.gson.str
+ eam;version="[2.8,3)",javax.inject,org.jclouds.domain;version="[2.6,3
+ )",org.jclouds.http;version="[2.6,3)",org.jclouds.http.options;versio
+ n="[2.6,3)",org.jclouds.javax.annotation;version="[2.6,3)",org.jcloud
+ s.reflect;version="[2.6,3)",org.jclouds.rest;version="[2.6,3)",org.jc
+ louds.rest.internal;version="[2.6,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: jclouds jclouds Google Cloud Core
+Specification-Vendor: jclouds
+X-Compile-Source-JDK: 1.8
+X-Compile-Target-JDK: 1.8
+

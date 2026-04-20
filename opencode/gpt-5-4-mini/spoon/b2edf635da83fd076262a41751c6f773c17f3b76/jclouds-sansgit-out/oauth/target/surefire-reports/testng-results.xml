@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-11T18:13:21 GMT" name="Surefire suite" finished-at="2023-08-11T18:13:22 GMT" duration-ms="1016">
+    <groups>
+      <group name="unit">
+        <method signature="AuthorizationApiMockTest.testAuthorizationExceptionIsPopulatedOn4xx()[pri:0, instance:org.jclouds.oauth.v2.AuthorizationApiMockTest@5dafbe45]" name="testAuthorizationExceptionIsPopulatedOn4xx" class="org.jclouds.oauth.v2.AuthorizationApiMockTest"/>
+        <method signature="AuthorizationApiMockTest.testGenerateClientCredentialsJWTRequest()[pri:0, instance:org.jclouds.oauth.v2.AuthorizationApiMockTest@5dafbe45]" name="testGenerateClientCredentialsJWTRequest" class="org.jclouds.oauth.v2.AuthorizationApiMockTest"/>
+        <method signature="AuthorizationApiMockTest.testGenerateClientSecretRequest()[pri:0, instance:org.jclouds.oauth.v2.AuthorizationApiMockTest@5dafbe45]" name="testGenerateClientSecretRequest" class="org.jclouds.oauth.v2.AuthorizationApiMockTest"/>
+        <method signature="AuthorizationApiMockTest.testGenerateJWTRequest()[pri:0, instance:org.jclouds.oauth.v2.AuthorizationApiMockTest@5dafbe45]" name="testGenerateJWTRequest" class="org.jclouds.oauth.v2.AuthorizationApiMockTest"/>
+        <method signature="PrivateKeySupplierTest.testAuthorizationExceptionIsThrownOnBadKeys()[pri:0, instance:org.jclouds.oauth.v2.config.PrivateKeySupplierTest@68878f6d]" name="testAuthorizationExceptionIsThrownOnBadKeys" class="org.jclouds.oauth.v2.config.PrivateKeySupplierTest"/>
+        <method signature="PrivateKeySupplierTest.testCredentialsAreLoadedOnRightAlgoAndCredentials()[pri:0, instance:org.jclouds.oauth.v2.config.PrivateKeySupplierTest@68878f6d]" name="testCredentialsAreLoadedOnRightAlgoAndCredentials" class="org.jclouds.oauth.v2.config.PrivateKeySupplierTest"/>
+        <method signature="PrivateKeySupplierTest.testLoadPKString()[pri:0, instance:org.jclouds.oauth.v2.config.PrivateKeySupplierTest@68878f6d]" name="testLoadPKString" class="org.jclouds.oauth.v2.config.PrivateKeySupplierTest"/>
+        <method signature="ClaimsToAssertionTest.sha256()[pri:0, instance:org.jclouds.oauth.v2.functions.ClaimsToAssertionTest@2f01783a]" name="sha256" class="org.jclouds.oauth.v2.functions.ClaimsToAssertionTest"/>
+      </group> <!-- unit -->
+    </groups>
+    <test started-at="2023-08-11T18:13:21 GMT" name="OAuthApiMockTest" finished-at="2023-08-11T18:13:22 GMT" duration-ms="986">
+      <class name="org.jclouds.oauth.v2.AuthorizationApiMockTest">
+        <test-method signature="testGenerateJWTRequest()[pri:0, instance:org.jclouds.oauth.v2.AuthorizationApiMockTest@5dafbe45]" started-at="2023-08-11T18:13:21 GMT" name="testGenerateJWTRequest" test-instance-name="OAuthApiMockTest" finished-at="2023-08-11T18:13:22 GMT" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateJWTRequest -->
+        <test-method signature="testAuthorizationExceptionIsPopulatedOn4xx()[pri:0, instance:org.jclouds.oauth.v2.AuthorizationApiMockTest@5dafbe45]" started-at="2023-08-11T18:13:21 GMT" name="testAuthorizationExceptionIsPopulatedOn4xx" test-instance-name="OAuthApiMockTest" finished-at="2023-08-11T18:13:22 GMT" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthorizationExceptionIsPopulatedOn4xx -->
+        <test-method signature="testGenerateClientCredentialsJWTRequest()[pri:0, instance:org.jclouds.oauth.v2.AuthorizationApiMockTest@5dafbe45]" started-at="2023-08-11T18:13:21 GMT" name="testGenerateClientCredentialsJWTRequest" test-instance-name="OAuthApiMockTest" finished-at="2023-08-11T18:13:22 GMT" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateClientCredentialsJWTRequest -->
+        <test-method signature="testGenerateClientSecretRequest()[pri:0, instance:org.jclouds.oauth.v2.AuthorizationApiMockTest@5dafbe45]" started-at="2023-08-11T18:13:21 GMT" name="testGenerateClientSecretRequest" test-instance-name="OAuthApiMockTest" finished-at="2023-08-11T18:13:22 GMT" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateClientSecretRequest -->
+      </class> <!-- org.jclouds.oauth.v2.AuthorizationApiMockTest -->
+    </test> <!-- OAuthApiMockTest -->
+    <test started-at="2023-08-11T18:13:22 GMT" name="Surefire test" finished-at="2023-08-11T18:13:22 GMT" duration-ms="19">
+      <class name="org.jclouds.oauth.v2.config.PrivateKeySupplierTest">
+        <test-method signature="testCredentialsAreLoadedOnRightAlgoAndCredentials()[pri:0, instance:org.jclouds.oauth.v2.config.PrivateKeySupplierTest@68878f6d]" started-at="2023-08-11T18:13:22 GMT" name="testCredentialsAreLoadedOnRightAlgoAndCredentials" finished-at="2023-08-11T18:13:22 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCredentialsAreLoadedOnRightAlgoAndCredentials -->
+        <test-method signature="testAuthorizationExceptionIsThrownOnBadKeys()[pri:0, instance:org.jclouds.oauth.v2.config.PrivateKeySupplierTest@68878f6d]" started-at="2023-08-11T18:13:22 GMT" name="testAuthorizationExceptionIsThrownOnBadKeys" finished-at="2023-08-11T18:13:22 GMT" duration-ms="2" status="PASS">
+          <exception class="org.jclouds.rest.AuthorizationException">
+            <message>
+              <![CDATA[cannot parse pk. chars FileNotFoundCredential doesn't contain % line [-----BEGIN ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.jclouds.rest.AuthorizationException: cannot parse pk. chars FileNotFoundCredential doesn't contain % line [-----BEGIN ]
+at org.jclouds.oauth.v2.config.PrivateKeySupplier$PrivateKeyForCredentials.load(PrivateKeySupplier.java:83)
+at org.jclouds.oauth.v2.config.PrivateKeySupplier$PrivateKeyForCredentials.load(PrivateKeySupplier.java:67)
+at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3533)
+at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2282)
+at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2159)
+at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2049)
+at com.google.common.cache.LocalCache.get(LocalCache.java:3966)
+at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3989)
+at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4950)
+at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4956)
+at org.jclouds.oauth.v2.config.PrivateKeySupplier.get(PrivateKeySupplier.java:91)
+at org.jclouds.oauth.v2.config.PrivateKeySupplierTest.testAuthorizationExceptionIsThrownOnBadKeys(PrivateKeySupplierTest.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalArgumentException: chars FileNotFoundCredential doesn't contain % line [-----BEGIN ]
+at com.google.common.base.Preconditions.checkArgument(Preconditions.java:435)
+at org.jclouds.crypto.Pems$PemReader.apply(Pems.java:132)
+at org.jclouds.crypto.Pems$PemProcessor.getResult(Pems.java:94)
+at com.google.common.io.ByteSource$ByteArrayByteSource.read(ByteSource.java:626)
+at org.jclouds.crypto.Pems.fromPem(Pems.java:200)
+at org.jclouds.crypto.Pems.privateKeySpec(Pems.java:219)
+at org.jclouds.oauth.v2.config.PrivateKeySupplier$PrivateKeyForCredentials.load(PrivateKeySupplier.java:74)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.jclouds.rest.AuthorizationException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthorizationExceptionIsThrownOnBadKeys -->
+        <test-method signature="testLoadPKString()[pri:0, instance:org.jclouds.oauth.v2.config.PrivateKeySupplierTest@68878f6d]" started-at="2023-08-11T18:13:22 GMT" name="testLoadPKString" finished-at="2023-08-11T18:13:22 GMT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadPKString -->
+      </class> <!-- org.jclouds.oauth.v2.config.PrivateKeySupplierTest -->
+      <class name="org.jclouds.oauth.v2.functions.ClaimsToAssertionTest">
+        <test-method signature="sha256()[pri:0, instance:org.jclouds.oauth.v2.functions.ClaimsToAssertionTest@2f01783a]" started-at="2023-08-11T18:13:22 GMT" name="sha256" finished-at="2023-08-11T18:13:22 GMT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sha256 -->
+      </class> <!-- org.jclouds.oauth.v2.functions.ClaimsToAssertionTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

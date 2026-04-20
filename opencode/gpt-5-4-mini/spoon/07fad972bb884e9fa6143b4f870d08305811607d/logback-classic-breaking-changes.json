@@ -1,0 +1,1068 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.BasicConfigurator.configure(ch.qos.logback.classic.LoggerContext)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "ch.qos.logback.classic.BasicConfigurator",
+    "location": {
+      "path": "ch/qos/logback/classic/BasicConfigurator.java",
+      "line": 36
+    },
+    "newSymbol": "ch.qos.logback.classic.BasicConfigurator.configure(ch.qos.logback.classic.LoggerContext)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.classic.BasicConfigurator.configure(ch.qos.logback.classic.LoggerContext)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.BasicConfigurator",
+    "location": {
+      "path": "ch/qos/logback/classic/BasicConfigurator.java",
+      "line": 36
+    },
+    "newSymbol": "ch.qos.logback.classic.BasicConfigurator.configure(ch.qos.logback.classic.LoggerContext)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.ViewStatusMessagesServlet.getPageTitle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.ViewStatusMessagesServlet",
+    "location": {
+      "path": "ch/qos/logback/classic/ViewStatusMessagesServlet.java",
+      "line": 36
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.ViewStatusMessagesServlet.getStatusManager(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.ViewStatusMessagesServlet",
+    "location": {
+      "path": "ch/qos/logback/classic/ViewStatusMessagesServlet.java",
+      "line": 30
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.classic.boolex.JaninoEventEvaluator.DEFAULT_PARAM_TYPE_LIST",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.boolex.JaninoEventEvaluator",
+    "location": {
+      "path": "ch/qos/logback/classic/boolex/JaninoEventEvaluator.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.classic.boolex.JaninoEventEvaluator.DEFAULT_PARAM_TYPE_LIST"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.classic.boolex.JaninoEventEvaluator.getParameterTypes()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.boolex.JaninoEventEvaluator",
+    "location": {
+      "path": "ch/qos/logback/classic/boolex/JaninoEventEvaluator.java",
+      "line": 99
+    },
+    "newSymbol": "ch.qos.logback.classic.boolex.JaninoEventEvaluator.getParameterTypes()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.db.names.ColumnName",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.db.names.ColumnName",
+    "location": {
+      "path": "ch/qos/logback/classic/db/names/ColumnName.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.db.names.DBNameResolver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.db.names.DBNameResolver",
+    "location": {
+      "path": "ch/qos/logback/classic/db/names/DBNameResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.db.names.DefaultDBNameResolver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.db.names.DefaultDBNameResolver",
+    "location": {
+      "path": "ch/qos/logback/classic/db/names/DefaultDBNameResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.db.names.SimpleDBNameResolver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.db.names.SimpleDBNameResolver",
+    "location": {
+      "path": "ch/qos/logback/classic/db/names/SimpleDBNameResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.db.names.TableName",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.db.names.TableName",
+    "location": {
+      "path": "ch/qos/logback/classic/db/names/TableName.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter",
+    "location": {
+      "path": "ch/qos/logback/classic/helpers/MDCInsertingServletFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter.doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter",
+    "location": {
+      "path": "ch/qos/logback/classic/helpers/MDCInsertingServletFilter.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter.init(javax.servlet.FilterConfig)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter",
+    "location": {
+      "path": "ch/qos/logback/classic/helpers/MDCInsertingServletFilter.java",
+      "line": 87
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.classic.html.HTMLLayout.computeConverterName(ch.qos.logback.core.pattern.Converter)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.html.HTMLLayout",
+    "location": {
+      "path": "ch/qos/logback/classic/html/HTMLLayout.java",
+      "line": 130
+    },
+    "newSymbol": "ch.qos.logback.classic.html.HTMLLayout.computeConverterName(ch.qos.logback.core.pattern.Converter<ch.qos.logback.classic.spi.ILoggingEvent>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.classic.html.HTMLLayout.getThrowableRenderer()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.html.HTMLLayout",
+    "location": {
+      "path": "ch/qos/logback/classic/html/HTMLLayout.java",
+      "line": 121
+    },
+    "newSymbol": "ch.qos.logback.classic.html.HTMLLayout.getThrowableRenderer()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.jmx.JMXConfigurator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.jmx.JMXConfigurator",
+    "location": {
+      "path": "ch/qos/logback/classic/jmx/JMXConfigurator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean",
+    "location": {
+      "path": "ch/qos/logback/classic/jmx/JMXConfiguratorMBean.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.jmx.MBeanUtil",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.jmx.MBeanUtil",
+    "location": {
+      "path": "ch/qos/logback/classic/jmx/MBeanUtil.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.JoranConfigurator.addInstanceRules(ch.qos.logback.core.joran.spi.RuleStore)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.JoranConfigurator",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/JoranConfigurator.java",
+      "line": 42
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ConfigurationAction",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ConfigurationAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ConfigurationAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ConfigurationAction.begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ConfigurationAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ConfigurationAction.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ConfigurationAction.end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ConfigurationAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ConfigurationAction.java",
+      "line": 140
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ConsolePluginAction.begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ConsolePluginAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ConsolePluginAction.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ConsolePluginAction.end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ConsolePluginAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ConsolePluginAction.java",
+      "line": 61
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ContextNameAction",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ContextNameAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ContextNameAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ContextNameAction.begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ContextNameAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ContextNameAction.java",
+      "line": 24
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ContextNameAction.body(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ContextNameAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ContextNameAction.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ContextNameAction.end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ContextNameAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ContextNameAction.java",
+      "line": 38
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.EvaluatorAction",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.EvaluatorAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/EvaluatorAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.InsertFromJNDIAction",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.InsertFromJNDIAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/InsertFromJNDIAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.InsertFromJNDIAction.begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.InsertFromJNDIAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/InsertFromJNDIAction.java",
+      "line": 41
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.InsertFromJNDIAction.end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.InsertFromJNDIAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/InsertFromJNDIAction.java",
+      "line": 82
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.JMXConfiguratorAction",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.JMXConfiguratorAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/JMXConfiguratorAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LevelAction",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LevelAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LevelAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LevelAction.begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LevelAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LevelAction.java",
+      "line": 37
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LevelAction.end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LevelAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LevelAction.java",
+      "line": 66
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LevelAction.finish(ch.qos.logback.core.joran.spi.InterpretationContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LevelAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LevelAction.java",
+      "line": 63
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LoggerAction",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LoggerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LoggerAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LoggerAction.LEVEL_ATTRIBUTE",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LoggerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LoggerAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LoggerAction.begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LoggerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LoggerAction.java",
+      "line": 39
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LoggerAction.end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LoggerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LoggerAction.java",
+      "line": 79
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LoggerAction.finish(ch.qos.logback.core.joran.spi.InterpretationContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LoggerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LoggerAction.java",
+      "line": 92
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LoggerContextListenerAction",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LoggerContextListenerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LoggerContextListenerAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LoggerContextListenerAction.begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LoggerContextListenerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LoggerContextListenerAction.java",
+      "line": 34
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.LoggerContextListenerAction.end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.LoggerContextListenerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/LoggerContextListenerAction.java",
+      "line": 61
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ReceiverAction",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ReceiverAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ReceiverAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ReceiverAction.begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ReceiverAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ReceiverAction.java",
+      "line": 38
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.ReceiverAction.end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.ReceiverAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/ReceiverAction.java",
+      "line": 62
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.RootLoggerAction",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.RootLoggerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/RootLoggerAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.RootLoggerAction.begin(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String,org.xml.sax.Attributes)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.RootLoggerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/RootLoggerAction.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.RootLoggerAction.end(ch.qos.logback.core.joran.spi.InterpretationContext,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.RootLoggerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/RootLoggerAction.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.joran.action.RootLoggerAction.finish(ch.qos.logback.core.joran.spi.InterpretationContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.joran.action.RootLoggerAction",
+    "location": {
+      "path": "ch/qos/logback/classic/joran/action/RootLoggerAction.java",
+      "line": 60
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL",
+    "location": {
+      "path": "ch/qos/logback/classic/selector/servlet/ContextDetachingSCL.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL.contextDestroyed(javax.servlet.ServletContextEvent)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL",
+    "location": {
+      "path": "ch/qos/logback/classic/selector/servlet/ContextDetachingSCL.java",
+      "line": 39
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL.contextInitialized(javax.servlet.ServletContextEvent)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL",
+    "location": {
+      "path": "ch/qos/logback/classic/selector/servlet/ContextDetachingSCL.java",
+      "line": 36
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter",
+    "location": {
+      "path": "ch/qos/logback/classic/selector/servlet/LoggerContextFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter.doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter",
+    "location": {
+      "path": "ch/qos/logback/classic/selector/servlet/LoggerContextFilter.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter.init(javax.servlet.FilterConfig)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter",
+    "location": {
+      "path": "ch/qos/logback/classic/selector/servlet/LoggerContextFilter.java",
+      "line": 79
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.servlet.LogbackServletContainerInitializer",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.servlet.LogbackServletContainerInitializer",
+    "location": {
+      "path": "ch/qos/logback/classic/servlet/LogbackServletContainerInitializer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.servlet.LogbackServletContainerInitializer.onStartup(java.util.Set<java.lang.Class<? extends java.lang.Object>>,javax.servlet.ServletContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.servlet.LogbackServletContainerInitializer",
+    "location": {
+      "path": "ch/qos/logback/classic/servlet/LogbackServletContainerInitializer.java",
+      "line": 25
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.servlet.LogbackServletContextListener",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.servlet.LogbackServletContextListener",
+    "location": {
+      "path": "ch/qos/logback/classic/servlet/LogbackServletContextListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.servlet.LogbackServletContextListener.contextDestroyed(javax.servlet.ServletContextEvent)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.servlet.LogbackServletContextListener",
+    "location": {
+      "path": "ch/qos/logback/classic/servlet/LogbackServletContextListener.java",
+      "line": 31
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.servlet.LogbackServletContextListener.contextInitialized(javax.servlet.ServletContextEvent)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.servlet.LogbackServletContextListener",
+    "location": {
+      "path": "ch/qos/logback/classic/servlet/LogbackServletContextListener.java",
+      "line": 26
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.sift.AppenderFactoryUsingJoran",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.sift.AppenderFactoryUsingJoran",
+    "location": {
+      "path": "ch/qos/logback/classic/sift/AppenderFactoryUsingJoran.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.sift.SiftAction",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.sift.SiftAction",
+    "location": {
+      "path": "ch/qos/logback/classic/sift/SiftAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.sift.SiftingJoranConfigurator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.sift.SiftingJoranConfigurator",
+    "location": {
+      "path": "ch/qos/logback/classic/sift/SiftingJoranConfigurator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.spi.CallerData.NA",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.spi.CallerData",
+    "location": {
+      "path": "ch/qos/logback/classic/spi/CallerData.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.spi.Configurator.configure(ch.qos.logback.classic.LoggerContext)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "ch.qos.logback.classic.spi.Configurator",
+    "location": {
+      "path": "ch/qos/logback/classic/spi/Configurator.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.classic.spi.Configurator.configure(ch.qos.logback.classic.LoggerContext)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.classic.spi.Configurator.configure(ch.qos.logback.classic.LoggerContext)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.spi.Configurator",
+    "location": {
+      "path": "ch/qos/logback/classic/spi/Configurator.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.classic.spi.Configurator.configure(ch.qos.logback.classic.LoggerContext)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.classic.spi.ILoggingEvent",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.spi.ILoggingEvent",
+    "location": {
+      "path": "ch/qos/logback/classic/spi/ILoggingEvent.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.classic.spi.ILoggingEvent.getSequenceNumber()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.classic.spi.ILoggingEvent",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.spi.ILoggingEvent",
+    "location": {
+      "path": "ch/qos/logback/classic/spi/ILoggingEvent.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.classic.spi.ILoggingEvent.getKeyValuePairs()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.classic.spi.ILoggingEvent",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.spi.ILoggingEvent",
+    "location": {
+      "path": "ch/qos/logback/classic/spi/ILoggingEvent.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.classic.spi.ILoggingEvent.getNanoseconds()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.classic.spi.ILoggingEvent",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.spi.ILoggingEvent",
+    "location": {
+      "path": "ch/qos/logback/classic/spi/ILoggingEvent.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.classic.spi.ILoggingEvent.getMarkerList()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.classic.spi.IThrowableProxy",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.spi.IThrowableProxy",
+    "location": {
+      "path": "ch/qos/logback/classic/spi/IThrowableProxy.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.classic.spi.IThrowableProxy.isCyclic()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.spi.LoggingEvent.setMarker(org.slf4j.Marker)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.spi.LoggingEvent",
+    "location": {
+      "path": "ch/qos/logback/classic/spi/LoggingEvent.java",
+      "line": 277
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.util.ContextInitializer.findURLOfDefaultConfigurationFile(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.util.ContextInitializer",
+    "location": {
+      "path": "ch/qos/logback/classic/util/ContextInitializer.java",
+      "line": 108
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.util.DefaultNestedComponentRules",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.util.DefaultNestedComponentRules",
+    "location": {
+      "path": "ch/qos/logback/classic/util/DefaultNestedComponentRules.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.classic.util.EnvUtil",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.classic.util.EnvUtil",
+    "location": {
+      "path": "ch/qos/logback/classic/util/EnvUtil.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.slf4j.impl.StaticLoggerBinder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.slf4j.impl.StaticLoggerBinder",
+    "location": {
+      "path": "org/slf4j/impl/StaticLoggerBinder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.slf4j.impl.StaticMDCBinder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.slf4j.impl.StaticMDCBinder",
+    "location": {
+      "path": "org/slf4j/impl/StaticMDCBinder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.slf4j.impl.StaticMarkerBinder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.slf4j.impl.StaticMarkerBinder",
+    "location": {
+      "path": "org/slf4j/impl/StaticMarkerBinder.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">10 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest" class="method navigator-link" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest" class="method navigator-link" hash-for-method="test401ShouldRetry">test401ShouldRetry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.handlers.RetryOnRenewTest" class="method navigator-link" hash-for-method="test401ShouldRetry">test401ShouldRetry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.handlers.RetryOnRenewTest" class="method navigator-link" hash-for-method="test401ShouldRetry4Times">test401ShouldRetry4Times</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest" class="method navigator-link" hash-for-method="test401ShouldRetry4Times">test401ShouldRetry4Times</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest" class="method navigator-link" hash-for-method="test404ShouldNotRetry">test404ShouldNotRetry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest" class="method navigator-link" hash-for-method="test408ShouldRetry">test408ShouldRetry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.filters.AddTimestampQueryTest" class="method navigator-link" hash-for-method="testApplySetsKey">testApplySetsKey</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.internal.OpenStackAuthClientTest" class="method navigator-link" hash-for-method="testAuthenticate">testAuthenticate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.internal.OpenStackAuthClientTest" class="method navigator-link" hash-for-method="testAuthenticateStorage">testAuthenticateStorage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.options.BaseListOptionsTest" class="method navigator-link" hash-for-method="testChangesSince">testChangesSince</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.options.BaseListOptionsTest" class="method navigator-link" hash-for-method="testChangesSinceStatic">testChangesSinceStatic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest" class="method navigator-link" hash-for-method="testHandleHeadersCaseInsensitively">testHandleHeadersCaseInsensitively</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.predicates.LinkPredicatesTest" class="method navigator-link" hash-for-method="testHrefEqualsWhenEqual">testHrefEqualsWhenEqual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.predicates.LinkPredicatesTest" class="method navigator-link" hash-for-method="testHrefEqualsWhenNotEqual">testHrefEqualsWhenNotEqual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.options.BaseListOptionsTest" class="method navigator-link" hash-for-method="testMaxResults">testMaxResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.options.BaseListOptionsTest" class="method navigator-link" hash-for-method="testMaxResultsStatic">testMaxResultsStatic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest" class="method navigator-link" hash-for-method="testPublicURLNotNullReturnsPublicURL">testPublicURLNotNullReturnsPublicURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest" class="method navigator-link" hash-for-method="testPublicURLNullReturnsInternalURL">testPublicURLNullReturnsInternalURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest" class="method navigator-link" hash-for-method="testRegionMatches">testRegionMatches</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest" class="method navigator-link" hash-for-method="testRegionMatches">testRegionMatches</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest" class="method navigator-link" hash-for-method="testRegionNotNullReturnsRegion">testRegionNotNullReturnsRegion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest" class="method navigator-link" hash-for-method="testRegionNullReturnsFirstPartOfHostWhenValid">testRegionNullReturnsFirstPartOfHostWhenValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest" class="method navigator-link" hash-for-method="testRegionNullReturnsProvioderWhenHostNotValid">testRegionNullReturnsProvioderWhenHostNotValid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.predicates.LinkPredicatesTest" class="method navigator-link" hash-for-method="testRelationEqualsWhenEqual">testRelationEqualsWhenEqual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.predicates.LinkPredicatesTest" class="method navigator-link" hash-for-method="testRelationEqualsWhenNotEqual">testRelationEqualsWhenNotEqual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest" class="method navigator-link" hash-for-method="testReplaceLocalhost">testReplaceLocalhost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.options.BaseListOptionsTest" class="method navigator-link" hash-for-method="testStartAt">testStartAt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.options.BaseListOptionsTest" class="method navigator-link" hash-for-method="testStartAtStatic">testStartAtStatic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest" class="method navigator-link" hash-for-method="testTakesFirstPartOfDNSWhenNoRegion">testTakesFirstPartOfDNSWhenNoRegion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest" class="method navigator-link" hash-for-method="testTakesFirstPartOfDNSWhenNoRegion">testTakesFirstPartOfDNSWhenNoRegion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.predicates.LinkPredicatesTest" class="method navigator-link" hash-for-method="testTypeEqualsWhenEqual">testTypeEqualsWhenEqual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.jclouds.openstack.predicates.LinkPredicatesTest" class="method navigator-link" hash-for-method="testTypeEqualsWhenNotEqual">testTypeEqualsWhenNotEqual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test401ShouldRetry">
+                  </a> <!-- test401ShouldRetry -->
+                  <span class="method-name">test401ShouldRetry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test401ShouldRetry4Times">
+                  </a> <!-- test401ShouldRetry4Times -->
+                  <span class="method-name">test401ShouldRetry4Times</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test404ShouldNotRetry">
+                  </a> <!-- test404ShouldNotRetry -->
+                  <span class="method-name">test404ShouldNotRetry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test408ShouldRetry">
+                  </a> <!-- test408ShouldRetry -->
+                  <span class="method-name">test408ShouldRetry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPublicURLNotNullReturnsPublicURL">
+                  </a> <!-- testPublicURLNotNullReturnsPublicURL -->
+                  <span class="method-name">testPublicURLNotNullReturnsPublicURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPublicURLNullReturnsInternalURL">
+                  </a> <!-- testPublicURLNullReturnsInternalURL -->
+                  <span class="method-name">testPublicURLNullReturnsInternalURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.filters.AddTimestampQueryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApplySetsKey">
+                  </a> <!-- testApplySetsKey -->
+                  <span class="method-name">testApplySetsKey</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.options.BaseListOptionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChangesSince">
+                  </a> <!-- testChangesSince -->
+                  <span class="method-name">testChangesSince</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChangesSinceStatic">
+                  </a> <!-- testChangesSinceStatic -->
+                  <span class="method-name">testChangesSinceStatic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMaxResults">
+                  </a> <!-- testMaxResults -->
+                  <span class="method-name">testMaxResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMaxResultsStatic">
+                  </a> <!-- testMaxResultsStatic -->
+                  <span class="method-name">testMaxResultsStatic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStartAt">
+                  </a> <!-- testStartAt -->
+                  <span class="method-name">testStartAt</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStartAtStatic">
+                  </a> <!-- testStartAtStatic -->
+                  <span class="method-name">testStartAtStatic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegionMatches">
+                  </a> <!-- testRegionMatches -->
+                  <span class="method-name">testRegionMatches</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTakesFirstPartOfDNSWhenNoRegion">
+                  </a> <!-- testTakesFirstPartOfDNSWhenNoRegion -->
+                  <span class="method-name">testTakesFirstPartOfDNSWhenNoRegion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegionNotNullReturnsRegion">
+                  </a> <!-- testRegionNotNullReturnsRegion -->
+                  <span class="method-name">testRegionNotNullReturnsRegion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegionNullReturnsFirstPartOfHostWhenValid">
+                  </a> <!-- testRegionNullReturnsFirstPartOfHostWhenValid -->
+                  <span class="method-name">testRegionNullReturnsFirstPartOfHostWhenValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegionNullReturnsProvioderWhenHostNotValid">
+                  </a> <!-- testRegionNullReturnsProvioderWhenHostNotValid -->
+                  <span class="method-name">testRegionNullReturnsProvioderWhenHostNotValid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.predicates.LinkPredicatesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHrefEqualsWhenEqual">
+                  </a> <!-- testHrefEqualsWhenEqual -->
+                  <span class="method-name">testHrefEqualsWhenEqual</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHrefEqualsWhenNotEqual">
+                  </a> <!-- testHrefEqualsWhenNotEqual -->
+                  <span class="method-name">testHrefEqualsWhenNotEqual</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRelationEqualsWhenEqual">
+                  </a> <!-- testRelationEqualsWhenEqual -->
+                  <span class="method-name">testRelationEqualsWhenEqual</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRelationEqualsWhenNotEqual">
+                  </a> <!-- testRelationEqualsWhenNotEqual -->
+                  <span class="method-name">testRelationEqualsWhenNotEqual</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeEqualsWhenEqual">
+                  </a> <!-- testTypeEqualsWhenEqual -->
+                  <span class="method-name">testTypeEqualsWhenEqual</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTypeEqualsWhenNotEqual">
+                  </a> <!-- testTypeEqualsWhenNotEqual -->
+                  <span class="method-name">testTypeEqualsWhenNotEqual</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.internal.OpenStackAuthClientTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthenticate">
+                  </a> <!-- testAuthenticate -->
+                  <span class="method-name">testAuthenticate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthenticateStorage">
+                  </a> <!-- testAuthenticateStorage -->
+                  <span class="method-name">testAuthenticateStorage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHandleHeadersCaseInsensitively">
+                  </a> <!-- testHandleHeadersCaseInsensitively -->
+                  <span class="method-name">testHandleHeadersCaseInsensitively</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testReplaceLocalhost">
+                  </a> <!-- testReplaceLocalhost -->
+                  <span class="method-name">testReplaceLocalhost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.handlers.RetryOnRenewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test401ShouldRetry">
+                  </a> <!-- test401ShouldRetry -->
+                  <span class="method-name">test401ShouldRetry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test401ShouldRetry4Times">
+                  </a> <!-- test401ShouldRetry4Times -->
+                  <span class="method-name">test401ShouldRetry4Times</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegionMatches">
+                  </a> <!-- testRegionMatches -->
+                  <span class="method-name">testRegionMatches</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTakesFirstPartOfDNSWhenNoRegion">
+                  </a> <!-- testTakesFirstPartOfDNSWhenNoRegion -->
+                  <span class="method-name">testTakesFirstPartOfDNSWhenNoRegion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;methods&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.openstack.options.BaseListOptionsTest&quot;/&gt;
+      &lt;class name=&quot;org.jclouds.openstack.filters.AddTimestampQueryTest&quot;/&gt;
+      &lt;class name=&quot;org.jclouds.openstack.keystone.v1_1.internal.BaseKeystoneRestClientExpectTest&quot;/&gt;
+      &lt;class name=&quot;org.jclouds.openstack.internal.TestOpenStackAuthenticationModule$1&quot;/&gt;
+      &lt;class name=&quot;org.jclouds.openstack.internal.TestOpenStackAuthenticationModule$TestGetAuthenticationResponse&quot;/&gt;
+      &lt;class name=&quot;org.jclouds.openstack.internal.TestOpenStackAuthenticationModule$2&quot;/&gt;
+      &lt;class name=&quot;org.jclouds.openstack.internal.TestOpenStackAuthenticationModule&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;ParseAuthenticationResponseFromHeadersTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ParseAuthenticationResponseFromHeadersTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;RetryOnRenewTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.openstack.handlers.RetryOnRenewTest&quot;/&gt;
+      &lt;class name=&quot;org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RetryOnRenewTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;LinkPredicatesTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.openstack.predicates.LinkPredicatesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LinkPredicatesTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;RegionFirstPartOfDNSNameOrProviderTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegionFirstPartOfDNSNameOrProviderTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;PublicURLOrInternalIfNullTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PublicURLOrInternalIfNullTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;ParseAuthTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ParseAuthTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;RegionIdToURIFromAuthForServiceSupplierTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegionIdToURIFromAuthForServiceSupplierTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;V1DefaultRegionIdSupplierTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- V1DefaultRegionIdSupplierTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;OpenStackAuthClientTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.openstack.internal.OpenStackAuthClientTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OpenStackAuthClientTest --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (7 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ParseAuthenticationResponseFromHeadersTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RetryOnRenewTest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">LinkPredicatesTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RegionFirstPartOfDNSNameOrProviderTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PublicURLOrInternalIfNullTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ParseAuthTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RegionIdToURIFromAuthForServiceSupplierTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">V1DefaultRegionIdSupplierTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">OpenStackAuthClientTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">unit</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test401ShouldRetry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test401ShouldRetry4Times</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test404ShouldNotRetry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test408ShouldRetry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testApplySetsKey</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAuthenticate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAuthenticateStorage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testChangesSince</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testChangesSinceStatic</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHandleHeadersCaseInsensitively</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHrefEqualsWhenEqual</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testHrefEqualsWhenNotEqual</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMaxResults</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMaxResultsStatic</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testPublicURLNotNullReturnsPublicURL</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testPublicURLNullReturnsInternalURL</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRegionMatches</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRegionNotNullReturnsRegion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRegionNullReturnsFirstPartOfHostWhenValid</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRegionNullReturnsProvioderWhenHostNotValid</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRelationEqualsWhenEqual</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRelationEqualsWhenNotEqual</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testReplaceLocalhost</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testStartAt</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testStartAtStatic</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testTakesFirstPartOfDNSWhenNoRegion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testTypeEqualsWhenEqual</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testTypeEqualsWhenNotEqual</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test401ShouldRetry4Times')
+data.setCell(0, 2, 'org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest')
+data.setCell(0, 3, 15127);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test401ShouldRetry4Times')
+data.setCell(1, 2, 'org.jclouds.openstack.handlers.RetryOnRenewTest')
+data.setCell(1, 3, 15122);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest')
+data.setCell(2, 3, 132);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test401ShouldRetry')
+data.setCell(3, 2, 'org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest')
+data.setCell(3, 3, 125);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test404ShouldNotRetry')
+data.setCell(4, 2, 'org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest')
+data.setCell(4, 3, 125);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test401ShouldRetry')
+data.setCell(5, 2, 'org.jclouds.openstack.handlers.RetryOnRenewTest')
+data.setCell(5, 3, 121);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testRegionNullReturnsFirstPartOfHostWhenValid')
+data.setCell(6, 2, 'org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest')
+data.setCell(6, 3, 78);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAuthenticateStorage')
+data.setCell(7, 2, 'org.jclouds.openstack.internal.OpenStackAuthClientTest')
+data.setCell(7, 3, 38);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAuthenticate')
+data.setCell(8, 2, 'org.jclouds.openstack.internal.OpenStackAuthClientTest')
+data.setCell(8, 3, 37);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testApplySetsKey')
+data.setCell(9, 2, 'org.jclouds.openstack.filters.AddTimestampQueryTest')
+data.setCell(9, 3, 17);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testRegionNullReturnsProvioderWhenHostNotValid')
+data.setCell(10, 2, 'org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest')
+data.setCell(10, 3, 17);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testHandleHeadersCaseInsensitively')
+data.setCell(11, 2, 'org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest')
+data.setCell(11, 3, 14);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testReplaceLocalhost')
+data.setCell(12, 2, 'org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest')
+data.setCell(12, 3, 13);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testRegionMatches')
+data.setCell(13, 2, 'org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest')
+data.setCell(13, 3, 12);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testTakesFirstPartOfDNSWhenNoRegion')
+data.setCell(14, 2, 'org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest')
+data.setCell(14, 3, 11);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testMaxResultsStatic')
+data.setCell(15, 2, 'org.jclouds.openstack.options.BaseListOptionsTest')
+data.setCell(15, 3, 9);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testMaxResults')
+data.setCell(16, 2, 'org.jclouds.openstack.options.BaseListOptionsTest')
+data.setCell(16, 3, 8);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testChangesSinceStatic')
+data.setCell(17, 2, 'org.jclouds.openstack.options.BaseListOptionsTest')
+data.setCell(17, 3, 8);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testChangesSince')
+data.setCell(18, 2, 'org.jclouds.openstack.options.BaseListOptionsTest')
+data.setCell(18, 3, 8);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testStartAt')
+data.setCell(19, 2, 'org.jclouds.openstack.options.BaseListOptionsTest')
+data.setCell(19, 3, 8);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test408ShouldRetry')
+data.setCell(20, 2, 'org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest')
+data.setCell(20, 3, 4);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testTakesFirstPartOfDNSWhenNoRegion')
+data.setCell(21, 2, 'org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest')
+data.setCell(21, 3, 3);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testHrefEqualsWhenEqual')
+data.setCell(22, 2, 'org.jclouds.openstack.predicates.LinkPredicatesTest')
+data.setCell(22, 3, 2);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testRegionNotNullReturnsRegion')
+data.setCell(23, 2, 'org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest')
+data.setCell(23, 3, 2);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testRegionMatches')
+data.setCell(24, 2, 'org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest')
+data.setCell(24, 3, 2);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testRelationEqualsWhenNotEqual')
+data.setCell(25, 2, 'org.jclouds.openstack.predicates.LinkPredicatesTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testHrefEqualsWhenNotEqual')
+data.setCell(26, 2, 'org.jclouds.openstack.predicates.LinkPredicatesTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testTypeEqualsWhenEqual')
+data.setCell(27, 2, 'org.jclouds.openstack.predicates.LinkPredicatesTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testRelationEqualsWhenEqual')
+data.setCell(28, 2, 'org.jclouds.openstack.predicates.LinkPredicatesTest')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testPublicURLNotNullReturnsPublicURL')
+data.setCell(29, 2, 'org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testStartAtStatic')
+data.setCell(30, 2, 'org.jclouds.openstack.options.BaseListOptionsTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testTypeEqualsWhenNotEqual')
+data.setCell(31, 2, 'org.jclouds.openstack.predicates.LinkPredicatesTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testPublicURLNullReturnsInternalURL')
+data.setCell(32, 2, 'org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest')
+data.setCell(32, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.options.BaseListOptionsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMaxResultsStatic</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMaxResults</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testChangesSinceStatic</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testChangesSince</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStartAt</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStartAtStatic</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.filters.AddTimestampQueryTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testApplySetsKey</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testReplaceLocalhost</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHandleHeadersCaseInsensitively</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.handlers.RetryOnRenewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test401ShouldRetry</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test401ShouldRetry4Times</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test401ShouldRetry</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test404ShouldNotRetry</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test401ShouldRetry4Times</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test408ShouldRetry</span>
+                <span class="method-start">219 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.predicates.LinkPredicatesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testHrefEqualsWhenEqual</span>
+                <span class="method-start">15233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRelationEqualsWhenNotEqual</span>
+                <span class="method-start">15234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHrefEqualsWhenNotEqual</span>
+                <span class="method-start">15234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTypeEqualsWhenEqual</span>
+                <span class="method-start">15234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRelationEqualsWhenEqual</span>
+                <span class="method-start">15234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTypeEqualsWhenNotEqual</span>
+                <span class="method-start">15237 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRegionNotNullReturnsRegion</span>
+                <span class="method-start">15243 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegionNullReturnsFirstPartOfHostWhenValid</span>
+                <span class="method-start">15243 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegionNullReturnsProvioderWhenHostNotValid</span>
+                <span class="method-start">15244 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPublicURLNotNullReturnsPublicURL</span>
+                <span class="method-start">15326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testPublicURLNullReturnsInternalURL</span>
+                <span class="method-start">15326 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">15330 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRegionMatches</span>
+                <span class="method-start">15466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTakesFirstPartOfDNSWhenNoRegion</span>
+                <span class="method-start">15467 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRegionMatches</span>
+                <span class="method-start">15484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTakesFirstPartOfDNSWhenNoRegion</span>
+                <span class="method-start">15484 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.openstack.internal.OpenStackAuthClientTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupFactory</span>
+                <span class="method-start">15492 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAuthenticateStorage</span>
+                <span class="method-start">15695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAuthenticate</span>
+                <span class="method-start">15696 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

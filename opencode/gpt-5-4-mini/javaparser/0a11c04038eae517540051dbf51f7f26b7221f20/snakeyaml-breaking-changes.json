@@ -1,0 +1,1081 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.DumperOptions$FlowStyle.fromBoolean(java.lang.Boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.DumperOptions$FlowStyle",
+    "location": {
+      "path": "org/yaml/snakeyaml/DumperOptions.java",
+      "line": 100
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.DumperOptions$FlowStyle.getStyleBoolean()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.DumperOptions$FlowStyle",
+    "location": {
+      "path": "org/yaml/snakeyaml/DumperOptions.java",
+      "line": 106
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.LoaderOptions.isAllowDuplicateKeys()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.LoaderOptions",
+    "location": {
+      "path": "org/yaml/snakeyaml/LoaderOptions.java",
+      "line": 24
+    },
+    "newSymbol": "org.yaml.snakeyaml.LoaderOptions.isAllowDuplicateKeys()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.LoaderOptions.isWrappedToRootException()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.LoaderOptions",
+    "location": {
+      "path": "org/yaml/snakeyaml/LoaderOptions.java",
+      "line": 47
+    },
+    "newSymbol": "org.yaml.snakeyaml.LoaderOptions.isWrappedToRootException()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.TypeDescription.getListPropertyType(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.TypeDescription",
+    "location": {
+      "path": "org/yaml/snakeyaml/TypeDescription.java",
+      "line": 147
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.TypeDescription.getMapKeyType(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.TypeDescription",
+    "location": {
+      "path": "org/yaml/snakeyaml/TypeDescription.java",
+      "line": 181
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.TypeDescription.getMapValueType(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.TypeDescription",
+    "location": {
+      "path": "org/yaml/snakeyaml/TypeDescription.java",
+      "line": 199
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.TypeDescription.setTag(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.TypeDescription",
+    "location": {
+      "path": "org/yaml/snakeyaml/TypeDescription.java",
+      "line": 113
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.TypeDescription.setTag(org.yaml.snakeyaml.nodes.Tag)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.TypeDescription",
+    "location": {
+      "path": "org/yaml/snakeyaml/TypeDescription.java",
+      "line": 109
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.Yaml.loadAs(java.io.InputStream,java.lang.Class<T>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.Yaml",
+    "location": {
+      "path": "org/yaml/snakeyaml/Yaml.java",
+      "line": 519
+    },
+    "newSymbol": "org.yaml.snakeyaml.Yaml.loadAs(java.io.InputStream,java.lang.Class<? super T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.Yaml.loadAs(java.io.Reader,java.lang.Class<T>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.Yaml",
+    "location": {
+      "path": "org/yaml/snakeyaml/Yaml.java",
+      "line": 485
+    },
+    "newSymbol": "org.yaml.snakeyaml.Yaml.loadAs(java.io.Reader,java.lang.Class<? super T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.Yaml.loadAs(java.lang.String,java.lang.Class<T>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.Yaml",
+    "location": {
+      "path": "org/yaml/snakeyaml/Yaml.java",
+      "line": 502
+    },
+    "newSymbol": "org.yaml.snakeyaml.Yaml.loadAs(java.lang.String,java.lang.Class<? super T>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.composer.Composer.<init>(org.yaml.snakeyaml.parser.Parser,org.yaml.snakeyaml.resolver.Resolver)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.composer.Composer",
+    "location": {
+      "path": "org/yaml/snakeyaml/composer/Composer.java",
+      "line": 54
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.composer.Composer.composeScalarNode(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.composer.Composer",
+    "location": {
+      "path": "org/yaml/snakeyaml/composer/Composer.java",
+      "line": 152
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.BaseConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 54
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.BaseConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 294
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.BaseConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 299
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.Constructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 294
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.Constructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 299
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.Constructor.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.Constructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/Constructor.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.Constructor.<init>(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.Constructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/Constructor.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.Constructor.<init>(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.Constructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/Constructor.java",
+      "line": 102
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.Constructor.<init>(org.yaml.snakeyaml.TypeDescription)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.Constructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/Constructor.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.Constructor.<init>(org.yaml.snakeyaml.TypeDescription,java.util.Collection<org.yaml.snakeyaml.TypeDescription>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.Constructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/Constructor.java",
+      "line": 73
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 294
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 299
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor.<init>(java.lang.Class<? extends java.lang.Object>,java.lang.ClassLoader)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/CustomClassLoaderConstructor.java",
+      "line": 22
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor.<init>(java.lang.ClassLoader)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.CustomClassLoaderConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/CustomClassLoaderConstructor.java",
+      "line": 25
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.SafeConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 294
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.SafeConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 299
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.SafeConstructor.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.constructor.SafeConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/SafeConstructor.java",
+      "line": 49
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.emitter.ScalarAnalysis.allowBlock",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.emitter.ScalarAnalysis",
+    "location": {
+      "path": "org/yaml/snakeyaml/emitter/ScalarAnalysis.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.emitter.ScalarAnalysis.allowBlockPlain",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.emitter.ScalarAnalysis",
+    "location": {
+      "path": "org/yaml/snakeyaml/emitter/ScalarAnalysis.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.emitter.ScalarAnalysis.allowFlowPlain",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.emitter.ScalarAnalysis",
+    "location": {
+      "path": "org/yaml/snakeyaml/emitter/ScalarAnalysis.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.emitter.ScalarAnalysis.allowSingleQuoted",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.emitter.ScalarAnalysis",
+    "location": {
+      "path": "org/yaml/snakeyaml/emitter/ScalarAnalysis.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.emitter.ScalarAnalysis.empty",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.emitter.ScalarAnalysis",
+    "location": {
+      "path": "org/yaml/snakeyaml/emitter/ScalarAnalysis.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.emitter.ScalarAnalysis.multiline",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.emitter.ScalarAnalysis",
+    "location": {
+      "path": "org/yaml/snakeyaml/emitter/ScalarAnalysis.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.emitter.ScalarAnalysis.scalar",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.emitter.ScalarAnalysis",
+    "location": {
+      "path": "org/yaml/snakeyaml/emitter/ScalarAnalysis.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.error.Mark.<init>(java.lang.String,int,int,int,java.lang.String,int)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.error.Mark",
+    "location": {
+      "path": "org/yaml/snakeyaml/error/Mark.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.events.CollectionEndEvent",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.events.CollectionEndEvent",
+    "location": {
+      "path": "org/yaml/snakeyaml/events/CollectionEndEvent.java",
+      "line": null
+    },
+    "newSymbol": "org.yaml.snakeyaml.events.Event.getEventId()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.events.CollectionStartEvent",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.events.CollectionStartEvent",
+    "location": {
+      "path": "org/yaml/snakeyaml/events/CollectionStartEvent.java",
+      "line": null
+    },
+    "newSymbol": "org.yaml.snakeyaml.events.Event.getEventId()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.events.CollectionStartEvent.<init>(java.lang.String,java.lang.String,boolean,org.yaml.snakeyaml.error.Mark,org.yaml.snakeyaml.error.Mark,java.lang.Boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.events.CollectionStartEvent",
+    "location": {
+      "path": "org/yaml/snakeyaml/events/CollectionStartEvent.java",
+      "line": 49
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.events.Event",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.events.Event",
+    "location": {
+      "path": "org/yaml/snakeyaml/events/Event.java",
+      "line": null
+    },
+    "newSymbol": "org.yaml.snakeyaml.events.Event.getEventId()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.events.MappingStartEvent.<init>(java.lang.String,java.lang.String,boolean,org.yaml.snakeyaml.error.Mark,org.yaml.snakeyaml.error.Mark,java.lang.Boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.events.MappingStartEvent",
+    "location": {
+      "path": "org/yaml/snakeyaml/events/MappingStartEvent.java",
+      "line": 49
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.events.NodeEvent",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.events.NodeEvent",
+    "location": {
+      "path": "org/yaml/snakeyaml/events/NodeEvent.java",
+      "line": null
+    },
+    "newSymbol": "org.yaml.snakeyaml.events.Event.getEventId()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.events.ScalarEvent.<init>(java.lang.String,java.lang.String,org.yaml.snakeyaml.events.ImplicitTuple,java.lang.String,org.yaml.snakeyaml.error.Mark,org.yaml.snakeyaml.error.Mark,java.lang.Character)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.events.ScalarEvent",
+    "location": {
+      "path": "org/yaml/snakeyaml/events/ScalarEvent.java",
+      "line": 54
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.events.ScalarEvent.getStyle()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.events.ScalarEvent",
+    "location": {
+      "path": "org/yaml/snakeyaml/events/ScalarEvent.java",
+      "line": 96
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.events.SequenceStartEvent.<init>(java.lang.String,java.lang.String,boolean,org.yaml.snakeyaml.error.Mark,org.yaml.snakeyaml.error.Mark,java.lang.Boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.events.SequenceStartEvent",
+    "location": {
+      "path": "org/yaml/snakeyaml/events/SequenceStartEvent.java",
+      "line": 44
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.extensions.compactnotation.CompactConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 294
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.extensions.compactnotation.CompactConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 299
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.extensions.compactnotation.PackageCompactConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 294
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.extensions.compactnotation.PackageCompactConstructor",
+    "location": {
+      "path": "org/yaml/snakeyaml/constructor/BaseConstructor.java",
+      "line": 299
+    },
+    "newSymbol": "org.yaml.snakeyaml.constructor.BaseConstructor.newInstance(java.lang.Class<? extends java.lang.Object>,org.yaml.snakeyaml.nodes.Node,boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder",
+    "location": {
+      "path": "org/yaml/snakeyaml/external/biz/base64Coder/Base64Coder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.external.com.google.gdata.util.common.base.Escaper",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.external.com.google.gdata.util.common.base.Escaper",
+    "location": {
+      "path": "org/yaml/snakeyaml/external/com/google/gdata/util/common/base/Escaper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.external.com.google.gdata.util.common.base.PercentEscaper",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.external.com.google.gdata.util.common.base.PercentEscaper",
+    "location": {
+      "path": "org/yaml/snakeyaml/external/com/google/gdata/util/common/base/PercentEscaper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.external.com.google.gdata.util.common.base.UnicodeEscaper",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.external.com.google.gdata.util.common.base.UnicodeEscaper",
+    "location": {
+      "path": "org/yaml/snakeyaml/external/com/google/gdata/util/common/base/UnicodeEscaper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.Node.isResolved()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.AnchorNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/Node.java",
+      "line": 165
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.CollectionNode.<init>(org.yaml.snakeyaml.nodes.Tag,org.yaml.snakeyaml.error.Mark,org.yaml.snakeyaml.error.Mark,java.lang.Boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.CollectionNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/CollectionNode.java",
+      "line": 42
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.Node.isResolved()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.CollectionNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/Node.java",
+      "line": 165
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.MappingNode.<init>(org.yaml.snakeyaml.nodes.Tag,boolean,java.util.List<org.yaml.snakeyaml.nodes.NodeTuple>,org.yaml.snakeyaml.error.Mark,org.yaml.snakeyaml.error.Mark,java.lang.Boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.MappingNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/MappingNode.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.MappingNode.<init>(org.yaml.snakeyaml.nodes.Tag,java.util.List<org.yaml.snakeyaml.nodes.NodeTuple>,java.lang.Boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.MappingNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/MappingNode.java",
+      "line": 65
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.Node.isResolved()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.MappingNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/Node.java",
+      "line": 165
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.Node.isResolved()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.Node",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/Node.java",
+      "line": 165
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.Node.isResolved()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.ScalarNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/Node.java",
+      "line": 165
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.ScalarNode.<init>(org.yaml.snakeyaml.nodes.Tag,boolean,java.lang.String,org.yaml.snakeyaml.error.Mark,org.yaml.snakeyaml.error.Mark,java.lang.Character)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.ScalarNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/ScalarNode.java",
+      "line": 65
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.ScalarNode.<init>(org.yaml.snakeyaml.nodes.Tag,java.lang.String,org.yaml.snakeyaml.error.Mark,org.yaml.snakeyaml.error.Mark,java.lang.Character)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.ScalarNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/ScalarNode.java",
+      "line": 54
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.ScalarNode.getStyle()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.ScalarNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/ScalarNode.java",
+      "line": 79
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.Node.isResolved()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.SequenceNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/Node.java",
+      "line": 165
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.SequenceNode.<init>(org.yaml.snakeyaml.nodes.Tag,boolean,java.util.List<org.yaml.snakeyaml.nodes.Node>,org.yaml.snakeyaml.error.Mark,org.yaml.snakeyaml.error.Mark,java.lang.Boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.SequenceNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/SequenceNode.java",
+      "line": 64
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.SequenceNode.<init>(org.yaml.snakeyaml.nodes.Tag,java.util.List<org.yaml.snakeyaml.nodes.Node>,java.lang.Boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.SequenceNode",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/SequenceNode.java",
+      "line": 53
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.Tag.<init>(java.net.URI)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.Tag",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/Tag.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.nodes.Tag.COMPATIBILITY_MAP",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.nodes.Tag",
+    "location": {
+      "path": "org/yaml/snakeyaml/nodes/Tag.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.parser.ParserImpl.<init>(org.yaml.snakeyaml.reader.StreamReader)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.parser.ParserImpl",
+    "location": {
+      "path": "org/yaml/snakeyaml/parser/ParserImpl.java",
+      "line": 132
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.representer.Representer.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.representer.Representer",
+    "location": {
+      "path": "org/yaml/snakeyaml/representer/Representer.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.representer.SafeRepresenter.MULTILINE_PATTERN",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.representer.Representer",
+    "location": {
+      "path": "org/yaml/snakeyaml/representer/SafeRepresenter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.scanner.Constant.FULL_LINEBR",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.scanner.Constant",
+    "location": {
+      "path": "org/yaml/snakeyaml/scanner/Constant.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.scanner.ScannerImpl.<init>(org.yaml.snakeyaml.reader.StreamReader)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.scanner.ScannerImpl",
+    "location": {
+      "path": "org/yaml/snakeyaml/scanner/ScannerImpl.java",
+      "line": 160
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.tokens.CommentToken",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.tokens.CommentToken",
+    "location": {
+      "path": "org/yaml/snakeyaml/tokens/CommentToken.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.tokens.CommentToken.<init>(org.yaml.snakeyaml.error.Mark,org.yaml.snakeyaml.error.Mark)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.tokens.CommentToken",
+    "location": {
+      "path": "org/yaml/snakeyaml/tokens/CommentToken.java",
+      "line": 25
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.tokens.CommentToken.getTokenId()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.tokens.CommentToken",
+    "location": {
+      "path": "org/yaml/snakeyaml/tokens/CommentToken.java",
+      "line": 30
+    },
+    "newSymbol": "org.yaml.snakeyaml.tokens.CommentToken.getTokenId()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.tokens.Token.getEndMark()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.tokens.CommentToken",
+    "location": {
+      "path": "org/yaml/snakeyaml/tokens/Token.java",
+      "line": 75
+    },
+    "newSymbol": "org.yaml.snakeyaml.tokens.Token.getEndMark()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.tokens.Token.getStartMark()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.tokens.CommentToken",
+    "location": {
+      "path": "org/yaml/snakeyaml/tokens/Token.java",
+      "line": 71
+    },
+    "newSymbol": "org.yaml.snakeyaml.tokens.Token.getStartMark()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.yaml.snakeyaml.tokens.WhitespaceToken",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.yaml.snakeyaml.tokens.WhitespaceToken",
+    "location": {
+      "path": "org/yaml/snakeyaml/tokens/WhitespaceToken.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bundle-Description: jclouds sshj ssh client
+Bundle-ManifestVersion: 2
+Bundle-Name: jclouds sshj ssh client
+Bundle-SymbolicName: jclouds-sshj
+Bundle-Version: 2.6.0.SNAPSHOT
+Export-Package: org.jclouds.sshj;version="2.6.0.SNAPSHOT";uses:="com.g
+ oogle.common.base,com.google.common.net,com.jcraft.jsch.agentproxy,ja
+ vax.annotation,javax.inject,net.schmizz.sshj,net.schmizz.sshj.connect
+ ion.channel.direct,org.jclouds.compute.domain,org.jclouds.domain,org.
+ jclouds.http.handlers,org.jclouds.io,org.jclouds.logging,org.jclouds.
+ ssh",org.jclouds.sshj.config;version="2.6.0.SNAPSHOT";uses:="com.goog
+ le.inject,org.jclouds.ssh.config"
+Implementation-Vendor: jclouds
+Implementation-Vendor-Id: org.apache.jclouds
+Implementation-Version: 2.6.0-SNAPSHOT
+Import-Package: com.google.common.base;version="[27.1,30.1.0)",com.goo
+ gle.common.collect;version="[27.1,30.1.0)",com.google.common.hash;ver
+ sion="[27.1,30.1.0)",com.google.common.io;version="[27.1,30.1.0)",com
+ .google.common.net;version="[27.1,30.1.0)",com.google.inject;version=
+ "[1.4,2)",com.google.inject.binder;version="[1.4,2)",com.jcraft.jsch.
+ agentproxy;version="[0.0,1)",com.jcraft.jsch.agentproxy.sshj,javax.an
+ notation;version="[1.2,2)",javax.inject,net.schmizz.sshj;version="[0.
+ 27,1)",net.schmizz.sshj.common;version="[0.27,1)",net.schmizz.sshj.co
+ nnection;version="[0.27,1)",net.schmizz.sshj.connection.channel.direc
+ t;version="[0.27,1)",net.schmizz.sshj.sftp;version="[0.27,1)",net.sch
+ mizz.sshj.transport;version="[0.27,1)",net.schmizz.sshj.transport.ver
+ ification;version="[0.27,1)",net.schmizz.sshj.userauth;version="[0.27
+ ,1)",net.schmizz.sshj.userauth.keyprovider;version="[0.27,1)",net.sch
+ mizz.sshj.userauth.method;version="[0.27,1)",net.schmizz.sshj.xfer;ve
+ rsion="[0.27,1)",org.jclouds.compute.domain;version="[2.6,3)",org.jcl
+ ouds.domain;version="[2.6,3)",org.jclouds.http.handlers;version="[2.6
+ ,3)",org.jclouds.io;version="[2.6,3)",org.jclouds.io.payloads;version
+ ="[2.6,3)",org.jclouds.logging;version="[2.6,3)",org.jclouds.rest;ver
+ sion="[2.6,3)",org.jclouds.ssh;version="[2.6,3)",org.jclouds.ssh.conf
+ ig;version="[2.6,3)",org.jclouds.util;version="[2.6,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: jclouds jclouds sshj ssh client
+Specification-Vendor: jclouds
+X-Compile-Source-JDK: 1.8
+X-Compile-Target-JDK: 1.8
+

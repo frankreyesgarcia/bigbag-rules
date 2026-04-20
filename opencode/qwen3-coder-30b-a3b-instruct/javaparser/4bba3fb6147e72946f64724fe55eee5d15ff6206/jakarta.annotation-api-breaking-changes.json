@@ -1,0 +1,197 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.Generated",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.Generated",
+    "location": {
+      "path": "javax/annotation/Generated.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.ManagedBean",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.ManagedBean",
+    "location": {
+      "path": "javax/annotation/ManagedBean.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.PostConstruct",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.PostConstruct",
+    "location": {
+      "path": "javax/annotation/PostConstruct.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.PreDestroy",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.PreDestroy",
+    "location": {
+      "path": "javax/annotation/PreDestroy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.Priority",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.Priority",
+    "location": {
+      "path": "javax/annotation/Priority.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.Resource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.Resource",
+    "location": {
+      "path": "javax/annotation/Resource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.Resource$AuthenticationType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.Resource$AuthenticationType",
+    "location": {
+      "path": "javax/annotation/Resource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.Resources",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.Resources",
+    "location": {
+      "path": "javax/annotation/Resources.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.security.DeclareRoles",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.security.DeclareRoles",
+    "location": {
+      "path": "javax/annotation/security/DeclareRoles.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.security.DenyAll",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.security.DenyAll",
+    "location": {
+      "path": "javax/annotation/security/DenyAll.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.security.PermitAll",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.security.PermitAll",
+    "location": {
+      "path": "javax/annotation/security/PermitAll.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.security.RolesAllowed",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.security.RolesAllowed",
+    "location": {
+      "path": "javax/annotation/security/RolesAllowed.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.security.RunAs",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.security.RunAs",
+    "location": {
+      "path": "javax/annotation/security/RunAs.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.sql.DataSourceDefinition",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.sql.DataSourceDefinition",
+    "location": {
+      "path": "javax/annotation/sql/DataSourceDefinition.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.annotation.sql.DataSourceDefinitions",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.annotation.sql.DataSourceDefinitions",
+    "location": {
+      "path": "javax/annotation/sql/DataSourceDefinitions.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

@@ -1,0 +1,6 @@
+/jclouds/apis/oauth/src/test/java/org/jclouds/oauth/v2/AuthorizationApiMockTest.java
+/jclouds/apis/oauth/src/test/java/org/jclouds/oauth/v2/config/PrivateKeySupplierTest.java
+/jclouds/apis/oauth/src/test/java/org/jclouds/oauth/v2/OAuthTestUtils.java
+/jclouds/apis/oauth/src/test/java/org/jclouds/oauth/v2/functions/ClaimsToAssertionTest.java
+/jclouds/apis/oauth/src/test/java/org/jclouds/oauth/v2/AuthorizationApiLiveTest.java
+/jclouds/apis/oauth/src/test/java/org/jclouds/oauth/v2/filters/TestJWTBearerTokenFlow.java

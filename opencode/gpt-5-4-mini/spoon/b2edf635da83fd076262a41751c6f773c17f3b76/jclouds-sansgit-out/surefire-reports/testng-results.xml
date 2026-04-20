@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-11T18:13:24 GMT" name="Surefire suite" finished-at="2023-08-11T18:13:40 GMT" duration-ms="15767">
+    <groups>
+      <group name="unit">
+        <method signature="AddTimestampQueryTest.testApplySetsKey()[pri:0, instance:org.jclouds.openstack.filters.AddTimestampQueryTest@5c671d7f]" name="testApplySetsKey" class="org.jclouds.openstack.filters.AddTimestampQueryTest"/>
+        <method signature="BaseListOptionsTest.testChangesSince()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" name="testChangesSince" class="org.jclouds.openstack.options.BaseListOptionsTest"/>
+        <method signature="BaseListOptionsTest.testChangesSinceStatic()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" name="testChangesSinceStatic" class="org.jclouds.openstack.options.BaseListOptionsTest"/>
+        <method signature="BaseListOptionsTest.testMaxResults()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" name="testMaxResults" class="org.jclouds.openstack.options.BaseListOptionsTest"/>
+        <method signature="BaseListOptionsTest.testMaxResultsStatic()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" name="testMaxResultsStatic" class="org.jclouds.openstack.options.BaseListOptionsTest"/>
+        <method signature="BaseListOptionsTest.testStartAt()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" name="testStartAt" class="org.jclouds.openstack.options.BaseListOptionsTest"/>
+        <method signature="BaseListOptionsTest.testStartAtStatic()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" name="testStartAtStatic" class="org.jclouds.openstack.options.BaseListOptionsTest"/>
+        <method signature="ParseAuthenticationResponseFromHeadersTest.testHandleHeadersCaseInsensitively()[pri:0, instance:org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest@5d99c6b5]" name="testHandleHeadersCaseInsensitively" class="org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest"/>
+        <method signature="ParseAuthenticationResponseFromHeadersTest.testReplaceLocalhost()[pri:0, instance:org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest@5d99c6b5]" name="testReplaceLocalhost" class="org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest"/>
+        <method signature="RetryOnRenewTest.test401ShouldRetry()[pri:0, instance:org.jclouds.openstack.handlers.RetryOnRenewTest@6a57ae10]" name="test401ShouldRetry" class="org.jclouds.openstack.handlers.RetryOnRenewTest"/>
+        <method signature="RetryOnRenewTest.test401ShouldRetry4Times()[pri:0, instance:org.jclouds.openstack.handlers.RetryOnRenewTest@6a57ae10]" name="test401ShouldRetry4Times" class="org.jclouds.openstack.handlers.RetryOnRenewTest"/>
+        <method signature="RetryOnRenewTest.test401ShouldRetry()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest@766653e6]" name="test401ShouldRetry" class="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest"/>
+        <method signature="RetryOnRenewTest.test401ShouldRetry4Times()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest@766653e6]" name="test401ShouldRetry4Times" class="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest"/>
+        <method signature="RetryOnRenewTest.test404ShouldNotRetry()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest@766653e6]" name="test404ShouldNotRetry" class="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest"/>
+        <method signature="RetryOnRenewTest.test408ShouldRetry()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest@766653e6]" name="test408ShouldRetry" class="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest"/>
+        <method signature="LinkPredicatesTest.testHrefEqualsWhenEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" name="testHrefEqualsWhenEqual" class="org.jclouds.openstack.predicates.LinkPredicatesTest"/>
+        <method signature="LinkPredicatesTest.testHrefEqualsWhenNotEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" name="testHrefEqualsWhenNotEqual" class="org.jclouds.openstack.predicates.LinkPredicatesTest"/>
+        <method signature="LinkPredicatesTest.testRelationEqualsWhenEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" name="testRelationEqualsWhenEqual" class="org.jclouds.openstack.predicates.LinkPredicatesTest"/>
+        <method signature="LinkPredicatesTest.testRelationEqualsWhenNotEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" name="testRelationEqualsWhenNotEqual" class="org.jclouds.openstack.predicates.LinkPredicatesTest"/>
+        <method signature="LinkPredicatesTest.testTypeEqualsWhenEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" name="testTypeEqualsWhenEqual" class="org.jclouds.openstack.predicates.LinkPredicatesTest"/>
+        <method signature="LinkPredicatesTest.testTypeEqualsWhenNotEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" name="testTypeEqualsWhenNotEqual" class="org.jclouds.openstack.predicates.LinkPredicatesTest"/>
+        <method signature="RegionFirstPartOfDNSNameOrProviderTest.testRegionNotNullReturnsRegion()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest@3ddc6915]" name="testRegionNotNullReturnsRegion" class="org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest"/>
+        <method signature="RegionFirstPartOfDNSNameOrProviderTest.testRegionNullReturnsFirstPartOfHostWhenValid()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest@3ddc6915]" name="testRegionNullReturnsFirstPartOfHostWhenValid" class="org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest"/>
+        <method signature="RegionFirstPartOfDNSNameOrProviderTest.testRegionNullReturnsProvioderWhenHostNotValid()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest@3ddc6915]" name="testRegionNullReturnsProvioderWhenHostNotValid" class="org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest"/>
+        <method signature="PublicURLOrInternalIfNullTest.testPublicURLNotNullReturnsPublicURL()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest@a307a8c]" name="testPublicURLNotNullReturnsPublicURL" class="org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest"/>
+        <method signature="PublicURLOrInternalIfNullTest.testPublicURLNullReturnsInternalURL()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest@a307a8c]" name="testPublicURLNullReturnsInternalURL" class="org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest"/>
+        <method signature="BaseParserTest.test()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest@6c372fe6]" name="test" class="org.jclouds.json.BaseParserTest"/>
+        <method signature="RegionIdToURIFromAuthForServiceSupplierTest.testRegionMatches()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest@18a136ac]" name="testRegionMatches" class="org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest"/>
+        <method signature="RegionIdToURIFromAuthForServiceSupplierTest.testTakesFirstPartOfDNSWhenNoRegion()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest@18a136ac]" name="testTakesFirstPartOfDNSWhenNoRegion" class="org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest"/>
+        <method signature="V1DefaultRegionIdSupplierTest.testRegionMatches()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest@5adb0db3]" name="testRegionMatches" class="org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest"/>
+        <method signature="V1DefaultRegionIdSupplierTest.testTakesFirstPartOfDNSWhenNoRegion()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest@5adb0db3]" name="testTakesFirstPartOfDNSWhenNoRegion" class="org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest"/>
+        <method signature="OpenStackAuthClientTest.testAuthenticate()[pri:0, instance:org.jclouds.openstack.internal.OpenStackAuthClientTest@530712d]" name="testAuthenticate" class="org.jclouds.openstack.internal.OpenStackAuthClientTest"/>
+        <method signature="OpenStackAuthClientTest.testAuthenticateStorage()[pri:0, instance:org.jclouds.openstack.internal.OpenStackAuthClientTest@530712d]" name="testAuthenticateStorage" class="org.jclouds.openstack.internal.OpenStackAuthClientTest"/>
+      </group> <!-- unit -->
+    </groups>
+    <test started-at="2023-08-11T18:13:24 GMT" name="Surefire test" finished-at="2023-08-11T18:13:24 GMT" duration-ms="62">
+      <class name="org.jclouds.openstack.filters.AddTimestampQueryTest">
+        <test-method signature="testApplySetsKey()[pri:0, instance:org.jclouds.openstack.filters.AddTimestampQueryTest@5c671d7f]" started-at="2023-08-11T18:13:24 GMT" name="testApplySetsKey" finished-at="2023-08-11T18:13:24 GMT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplySetsKey -->
+      </class> <!-- org.jclouds.openstack.filters.AddTimestampQueryTest -->
+      <class name="org.jclouds.openstack.options.BaseListOptionsTest">
+        <test-method signature="testMaxResultsStatic()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" started-at="2023-08-11T18:13:24 GMT" name="testMaxResultsStatic" finished-at="2023-08-11T18:13:24 GMT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxResultsStatic -->
+        <test-method signature="testMaxResults()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" started-at="2023-08-11T18:13:24 GMT" name="testMaxResults" finished-at="2023-08-11T18:13:24 GMT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaxResults -->
+        <test-method signature="testChangesSinceStatic()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" started-at="2023-08-11T18:13:24 GMT" name="testChangesSinceStatic" finished-at="2023-08-11T18:13:24 GMT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangesSinceStatic -->
+        <test-method signature="testChangesSince()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" started-at="2023-08-11T18:13:24 GMT" name="testChangesSince" finished-at="2023-08-11T18:13:24 GMT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangesSince -->
+        <test-method signature="testStartAt()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" started-at="2023-08-11T18:13:24 GMT" name="testStartAt" finished-at="2023-08-11T18:13:24 GMT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartAt -->
+        <test-method signature="testStartAtStatic()[pri:0, instance:org.jclouds.openstack.options.BaseListOptionsTest@6a2f6f80]" started-at="2023-08-11T18:13:24 GMT" name="testStartAtStatic" finished-at="2023-08-11T18:13:24 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStartAtStatic -->
+      </class> <!-- org.jclouds.openstack.options.BaseListOptionsTest -->
+    </test> <!-- Surefire test -->
+    <test started-at="2023-08-11T18:13:25 GMT" name="ParseAuthenticationResponseFromHeadersTest" finished-at="2023-08-11T18:13:25 GMT" duration-ms="16">
+      <class name="org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest">
+        <test-method signature="testReplaceLocalhost()[pri:0, instance:org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest@5d99c6b5]" started-at="2023-08-11T18:13:25 GMT" name="testReplaceLocalhost" test-instance-name="ParseAuthenticationResponseFromHeadersTest" finished-at="2023-08-11T18:13:25 GMT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReplaceLocalhost -->
+        <test-method signature="testHandleHeadersCaseInsensitively()[pri:0, instance:org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest@5d99c6b5]" started-at="2023-08-11T18:13:25 GMT" name="testHandleHeadersCaseInsensitively" test-instance-name="ParseAuthenticationResponseFromHeadersTest" finished-at="2023-08-11T18:13:25 GMT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHandleHeadersCaseInsensitively -->
+      </class> <!-- org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest -->
+    </test> <!-- ParseAuthenticationResponseFromHeadersTest -->
+    <test started-at="2023-08-11T18:13:25 GMT" name="RetryOnRenewTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="15130">
+      <class name="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest">
+        <test-method signature="test401ShouldRetry()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest@766653e6]" started-at="2023-08-11T18:13:25 GMT" name="test401ShouldRetry" test-instance-name="RetryOnRenewTest" finished-at="2023-08-11T18:13:25 GMT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test401ShouldRetry -->
+        <test-method signature="test404ShouldNotRetry()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest@766653e6]" started-at="2023-08-11T18:13:25 GMT" name="test404ShouldNotRetry" test-instance-name="RetryOnRenewTest" finished-at="2023-08-11T18:13:25 GMT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test404ShouldNotRetry -->
+        <test-method signature="test401ShouldRetry4Times()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest@766653e6]" started-at="2023-08-11T18:13:25 GMT" name="test401ShouldRetry4Times" test-instance-name="RetryOnRenewTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="15127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test401ShouldRetry4Times -->
+        <test-method signature="test408ShouldRetry()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest@766653e6]" started-at="2023-08-11T18:13:25 GMT" name="test408ShouldRetry" test-instance-name="RetryOnRenewTest" finished-at="2023-08-11T18:13:25 GMT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test408ShouldRetry -->
+      </class> <!-- org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest -->
+      <class name="org.jclouds.openstack.handlers.RetryOnRenewTest">
+        <test-method signature="test401ShouldRetry()[pri:0, instance:org.jclouds.openstack.handlers.RetryOnRenewTest@6a57ae10]" started-at="2023-08-11T18:13:25 GMT" name="test401ShouldRetry" test-instance-name="RetryOnRenewTest" finished-at="2023-08-11T18:13:25 GMT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test401ShouldRetry -->
+        <test-method signature="test401ShouldRetry4Times()[pri:0, instance:org.jclouds.openstack.handlers.RetryOnRenewTest@6a57ae10]" started-at="2023-08-11T18:13:25 GMT" name="test401ShouldRetry4Times" test-instance-name="RetryOnRenewTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="15122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test401ShouldRetry4Times -->
+      </class> <!-- org.jclouds.openstack.handlers.RetryOnRenewTest -->
+    </test> <!-- RetryOnRenewTest -->
+    <test started-at="2023-08-11T18:13:40 GMT" name="LinkPredicatesTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="7">
+      <class name="org.jclouds.openstack.predicates.LinkPredicatesTest">
+        <test-method signature="testHrefEqualsWhenEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" started-at="2023-08-11T18:13:40 GMT" name="testHrefEqualsWhenEqual" test-instance-name="LinkPredicatesTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHrefEqualsWhenEqual -->
+        <test-method signature="testRelationEqualsWhenNotEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" started-at="2023-08-11T18:13:40 GMT" name="testRelationEqualsWhenNotEqual" test-instance-name="LinkPredicatesTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRelationEqualsWhenNotEqual -->
+        <test-method signature="testHrefEqualsWhenNotEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" started-at="2023-08-11T18:13:40 GMT" name="testHrefEqualsWhenNotEqual" test-instance-name="LinkPredicatesTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHrefEqualsWhenNotEqual -->
+        <test-method signature="testTypeEqualsWhenEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" started-at="2023-08-11T18:13:40 GMT" name="testTypeEqualsWhenEqual" test-instance-name="LinkPredicatesTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTypeEqualsWhenEqual -->
+        <test-method signature="testRelationEqualsWhenEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" started-at="2023-08-11T18:13:40 GMT" name="testRelationEqualsWhenEqual" test-instance-name="LinkPredicatesTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRelationEqualsWhenEqual -->
+        <test-method signature="testTypeEqualsWhenNotEqual()[pri:0, instance:org.jclouds.openstack.predicates.LinkPredicatesTest@2d9caaeb]" started-at="2023-08-11T18:13:40 GMT" name="testTypeEqualsWhenNotEqual" test-instance-name="LinkPredicatesTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTypeEqualsWhenNotEqual -->
+      </class> <!-- org.jclouds.openstack.predicates.LinkPredicatesTest -->
+    </test> <!-- LinkPredicatesTest -->
+    <test started-at="2023-08-11T18:13:40 GMT" name="RegionFirstPartOfDNSNameOrProviderTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="81">
+      <class name="org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest">
+        <test-method signature="testRegionNotNullReturnsRegion()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest@3ddc6915]" started-at="2023-08-11T18:13:40 GMT" name="testRegionNotNullReturnsRegion" test-instance-name="RegionFirstPartOfDNSNameOrProviderTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegionNotNullReturnsRegion -->
+        <test-method signature="testRegionNullReturnsFirstPartOfHostWhenValid()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest@3ddc6915]" started-at="2023-08-11T18:13:40 GMT" name="testRegionNullReturnsFirstPartOfHostWhenValid" test-instance-name="RegionFirstPartOfDNSNameOrProviderTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegionNullReturnsFirstPartOfHostWhenValid -->
+        <test-method signature="testRegionNullReturnsProvioderWhenHostNotValid()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest@3ddc6915]" started-at="2023-08-11T18:13:40 GMT" name="testRegionNullReturnsProvioderWhenHostNotValid" test-instance-name="RegionFirstPartOfDNSNameOrProviderTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegionNullReturnsProvioderWhenHostNotValid -->
+      </class> <!-- org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest -->
+    </test> <!-- RegionFirstPartOfDNSNameOrProviderTest -->
+    <test started-at="2023-08-11T18:13:40 GMT" name="PublicURLOrInternalIfNullTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="4">
+      <class name="org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest">
+        <test-method signature="testPublicURLNotNullReturnsPublicURL()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest@a307a8c]" started-at="2023-08-11T18:13:40 GMT" name="testPublicURLNotNullReturnsPublicURL" test-instance-name="PublicURLOrInternalIfNullTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPublicURLNotNullReturnsPublicURL -->
+        <test-method signature="testPublicURLNullReturnsInternalURL()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest@a307a8c]" started-at="2023-08-11T18:13:40 GMT" name="testPublicURLNullReturnsInternalURL" test-instance-name="PublicURLOrInternalIfNullTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPublicURLNullReturnsInternalURL -->
+      </class> <!-- org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest -->
+    </test> <!-- PublicURLOrInternalIfNullTest -->
+    <test started-at="2023-08-11T18:13:40 GMT" name="ParseAuthTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="134">
+      <class name="org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest">
+        <test-method signature="test()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest@6c372fe6]" started-at="2023-08-11T18:13:40 GMT" name="test" test-instance-name="ParseAuthTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest -->
+    </test> <!-- ParseAuthTest -->
+    <test started-at="2023-08-11T18:13:40 GMT" name="RegionIdToURIFromAuthForServiceSupplierTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="15">
+      <class name="org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest">
+        <test-method signature="testRegionMatches()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest@18a136ac]" started-at="2023-08-11T18:13:40 GMT" name="testRegionMatches" test-instance-name="RegionIdToURIFromAuthForServiceSupplierTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegionMatches -->
+        <test-method signature="testTakesFirstPartOfDNSWhenNoRegion()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest@18a136ac]" started-at="2023-08-11T18:13:40 GMT" name="testTakesFirstPartOfDNSWhenNoRegion" test-instance-name="RegionIdToURIFromAuthForServiceSupplierTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTakesFirstPartOfDNSWhenNoRegion -->
+      </class> <!-- org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest -->
+    </test> <!-- RegionIdToURIFromAuthForServiceSupplierTest -->
+    <test started-at="2023-08-11T18:13:40 GMT" name="V1DefaultRegionIdSupplierTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="6">
+      <class name="org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest">
+        <test-method signature="testRegionMatches()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest@5adb0db3]" started-at="2023-08-11T18:13:40 GMT" name="testRegionMatches" test-instance-name="V1DefaultRegionIdSupplierTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegionMatches -->
+        <test-method signature="testTakesFirstPartOfDNSWhenNoRegion()[pri:0, instance:org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest@5adb0db3]" started-at="2023-08-11T18:13:40 GMT" name="testTakesFirstPartOfDNSWhenNoRegion" test-instance-name="V1DefaultRegionIdSupplierTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTakesFirstPartOfDNSWhenNoRegion -->
+      </class> <!-- org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest -->
+    </test> <!-- V1DefaultRegionIdSupplierTest -->
+    <test started-at="2023-08-11T18:13:40 GMT" name="OpenStackAuthClientTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="245">
+      <class name="org.jclouds.openstack.internal.OpenStackAuthClientTest">
+        <test-method is-config="true" signature="setupFactory()[pri:0, instance:org.jclouds.openstack.internal.OpenStackAuthClientTest@530712d]" started-at="2023-08-11T18:13:40 GMT" name="setupFactory" test-instance-name="OpenStackAuthClientTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupFactory -->
+        <test-method signature="testAuthenticateStorage()[pri:0, instance:org.jclouds.openstack.internal.OpenStackAuthClientTest@530712d]" started-at="2023-08-11T18:13:40 GMT" name="testAuthenticateStorage" test-instance-name="OpenStackAuthClientTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticateStorage -->
+        <test-method signature="testAuthenticate()[pri:0, instance:org.jclouds.openstack.internal.OpenStackAuthClientTest@530712d]" started-at="2023-08-11T18:13:40 GMT" name="testAuthenticate" test-instance-name="OpenStackAuthClientTest" finished-at="2023-08-11T18:13:40 GMT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthenticate -->
+      </class> <!-- org.jclouds.openstack.internal.OpenStackAuthClientTest -->
+    </test> <!-- OpenStackAuthClientTest -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

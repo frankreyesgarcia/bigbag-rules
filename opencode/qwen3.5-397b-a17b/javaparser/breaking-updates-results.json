@@ -1,0 +1,4885 @@
+{
+  "00a7cc31784ac4a9cc27d506a73ae589d6df36d6": {
+    "breakingCommit": "00a7cc31784ac4a9cc27d506a73ae589d6df36d6",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "00a7cc31",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "00a7cc31",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "0305beafdecb0b28f7c94264ed20cdc4e41ff067": {
+    "breakingCommit": "0305beafdecb0b28f7c94264ed20cdc4e41ff067",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "ab27af0f",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": "agent-javaparser-ab27af0f",
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "ab27af0f",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "067f5d2c81ff87c90755f4ed48f62eb5faa8ecf9": {
+    "breakingCommit": "067f5d2c81ff87c90755f4ed48f62eb5faa8ecf9",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "067f5d2c",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "067f5d2c",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "06c5386831e97e94d9b9fd155d3ea4aa8711c4e7": {
+    "breakingCommit": "06c5386831e97e94d9b9fd155d3ea4aa8711c4e7",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "06c53868",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "06c53868",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "07e4b2894bc68cd3bb1892beaa13ec353564dcf1": {
+    "breakingCommit": "07e4b2894bc68cd3bb1892beaa13ec353564dcf1",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "07e4b289",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "07e4b289",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "07fad972bb884e9fa6143b4f870d08305811607d": {
+    "breakingCommit": "07fad972bb884e9fa6143b4f870d08305811607d",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "07fad972",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "07fad972",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "0a11c04038eae517540051dbf51f7f26b7221f20": {
+    "breakingCommit": "0a11c04038eae517540051dbf51f7f26b7221f20",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "0a11c040",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "0a11c040",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "0abf7148300f40a1da0538ab060552bca4a2f1d8": {
+    "breakingCommit": "0abf7148300f40a1da0538ab060552bca4a2f1d8",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "0abf7148",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "0abf7148",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "0e8625f492854a78c0e1ceff67b2abd7e081d42b": {
+    "breakingCommit": "0e8625f492854a78c0e1ceff67b2abd7e081d42b",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "0e8625f4",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "0e8625f4",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "10d7545c5771b03dd9f6122bd5973a759eb2cd03": {
+    "breakingCommit": "10d7545c5771b03dd9f6122bd5973a759eb2cd03",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "10d7545c",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "10d7545c",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "115827c6675f532a4d33751d1a0c0ba394bbd304": {
+    "breakingCommit": "115827c6675f532a4d33751d1a0c0ba394bbd304",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "115827c6",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "115827c6",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "13fd75e233a5cb2771a6cb186c0decaed6d6545a": {
+    "breakingCommit": "13fd75e233a5cb2771a6cb186c0decaed6d6545a",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "13fd75e2",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "13fd75e2",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "14fc5fa696f499cac48401b3a86882b3bf7d9b82": {
+    "breakingCommit": "14fc5fa696f499cac48401b3a86882b3bf7d9b82",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "14fc5fa6",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "14fc5fa6",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "165381d26b2c3d2278fde88c16f95807506451fe": {
+    "breakingCommit": "165381d26b2c3d2278fde88c16f95807506451fe",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "165381d2",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "165381d2",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "16ae40b1e17e14ee3ae20ac211647e47399a01a9": {
+    "breakingCommit": "16ae40b1e17e14ee3ae20ac211647e47399a01a9",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "16ae40b1",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "16ae40b1",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "17f2bcaaba4805b218743f575919360c5aec5da4": {
+    "breakingCommit": "17f2bcaaba4805b218743f575919360c5aec5da4",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "17f2bcaa",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "17f2bcaa",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "1820a966ae02ad8df44d0a0106cba65ceaf3aa95": {
+    "breakingCommit": "1820a966ae02ad8df44d0a0106cba65ceaf3aa95",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "1820a966",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "1820a966",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "18eff0121ded81b30af0924676407bfc663e6557": {
+    "breakingCommit": "18eff0121ded81b30af0924676407bfc663e6557",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "18eff012",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "18eff012",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "1a2fb9f65e12d6c43a8472b9b035299b29a75ce8": {
+    "breakingCommit": "1a2fb9f65e12d6c43a8472b9b035299b29a75ce8",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "1a2fb9f6",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "1a2fb9f6",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "1c0972fc3d905b9f2a305a78f8a158a0b3fd8639": {
+    "breakingCommit": "1c0972fc3d905b9f2a305a78f8a158a0b3fd8639",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "1c0972fc",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "1c0972fc",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "1cc7071371953a7880c2c2c3a5a32c36af7f88f9": {
+    "breakingCommit": "1cc7071371953a7880c2c2c3a5a32c36af7f88f9",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "1cc70713",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "1cc70713",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "1d43bce1de6a81ac017c233d72f348d3c850299e": {
+    "breakingCommit": "1d43bce1de6a81ac017c233d72f348d3c850299e",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "1d43bce1",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "1d43bce1",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "1e17e176460ab4283e463e62fece844d341da7f0": {
+    "breakingCommit": "1e17e176460ab4283e463e62fece844d341da7f0",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "1e17e176",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "1e17e176",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "1ef97ea6c5b6e34151fe6167001b69e003449f95": {
+    "breakingCommit": "1ef97ea6c5b6e34151fe6167001b69e003449f95",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "1ef97ea6",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "1ef97ea6",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "1fc5281e0688c44025fe2b390a7d6e3e3088f385": {
+    "breakingCommit": "1fc5281e0688c44025fe2b390a7d6e3e3088f385",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "1fc5281e",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "1fc5281e",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "249c3b394540fde4fcb72f66172af5e02b9c637e": {
+    "breakingCommit": "249c3b394540fde4fcb72f66172af5e02b9c637e",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "249c3b39",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "249c3b39",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "24d4a90ec1b375751e71f33d18949405c9529d77": {
+    "breakingCommit": "24d4a90ec1b375751e71f33d18949405c9529d77",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "24d4a90e",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "24d4a90e",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "250cafc7d6ae47d5d4803b5a5e58186eb81fa3b5": {
+    "breakingCommit": "250cafc7d6ae47d5d4803b5a5e58186eb81fa3b5",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "250cafc7",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "250cafc7",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "26fd1cd7639b7deb7078df5e4cb05c6d463ad07a": {
+    "breakingCommit": "26fd1cd7639b7deb7078df5e4cb05c6d463ad07a",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "26fd1cd7",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "26fd1cd7",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "28be199c825d419957bc753a9519e8e9ecc6a08e": {
+    "breakingCommit": "28be199c825d419957bc753a9519e8e9ecc6a08e",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "28be199c",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "28be199c",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "2b4d49d68112941b8abb818549389709d8327963": {
+    "breakingCommit": "2b4d49d68112941b8abb818549389709d8327963",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "2b4d49d6",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "2b4d49d6",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "2d733a58045b4bf3669aa00d875e77f9db48c29b": {
+    "breakingCommit": "2d733a58045b4bf3669aa00d875e77f9db48c29b",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "2d733a58",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "2d733a58",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "2dfaa41bfb97674d11f09a5885011f19808548a3": {
+    "breakingCommit": "2dfaa41bfb97674d11f09a5885011f19808548a3",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "2dfaa41b",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "2dfaa41b",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "2f01c46b96a8edf437edf20e6dbd848edcb27085": {
+    "breakingCommit": "2f01c46b96a8edf437edf20e6dbd848edcb27085",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "2f01c46b",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "2f01c46b",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "3572a1ecc0154c61e05505aed56055b9c5e539a6": {
+    "breakingCommit": "3572a1ecc0154c61e05505aed56055b9c5e539a6",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "3572a1ec",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "3572a1ec",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "36859167815292f279e570d39dd2ddbcf1622dc6": {
+    "breakingCommit": "36859167815292f279e570d39dd2ddbcf1622dc6",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "36859167",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "36859167",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "38c9915f0cfdf0c1a2b17c3c6f283c23a0aac0cf": {
+    "breakingCommit": "38c9915f0cfdf0c1a2b17c3c6f283c23a0aac0cf",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "38c9915f",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "38c9915f",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "3a4a2b11483689ca3e99e92785a7b27c56d072b8": {
+    "breakingCommit": "3a4a2b11483689ca3e99e92785a7b27c56d072b8",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "3a4a2b11",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "3a4a2b11",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "3d29f9a6823fa68763d3148bc0353ac557f2a815": {
+    "breakingCommit": "3d29f9a6823fa68763d3148bc0353ac557f2a815",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "3d29f9a6",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "3d29f9a6",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "3eb708f53f5f1ce897c3554bb73f5de5698dd171": {
+    "breakingCommit": "3eb708f53f5f1ce897c3554bb73f5de5698dd171",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "3eb708f5",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "3eb708f5",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "3f30dfff617fd652412260ecf648a25769a27101": {
+    "breakingCommit": "3f30dfff617fd652412260ecf648a25769a27101",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "3f30dfff",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "3f30dfff",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "3ff575ae202cdf76ddfa8a4228a1711a6fa1e921": {
+    "breakingCommit": "3ff575ae202cdf76ddfa8a4228a1711a6fa1e921",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "3ff575ae",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "3ff575ae",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "402082609522c66a3b790aedafd0570148a7d53f": {
+    "breakingCommit": "402082609522c66a3b790aedafd0570148a7d53f",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "40208260",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "40208260",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "40feecdd9c649644668d7c84bb87b73a2b2723ca": {
+    "breakingCommit": "40feecdd9c649644668d7c84bb87b73a2b2723ca",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "40feecdd",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "40feecdd",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "41ec14e7e0ccf28476905eb28b2155b11d8a55f5": {
+    "breakingCommit": "41ec14e7e0ccf28476905eb28b2155b11d8a55f5",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "41ec14e7",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "41ec14e7",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "42a220bd546d293886df0d5e3892cc3ff82f1091": {
+    "breakingCommit": "42a220bd546d293886df0d5e3892cc3ff82f1091",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "42a220bd",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "42a220bd",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "43b3a858b77ec27fc8946aba292001c3de465012": {
+    "breakingCommit": "43b3a858b77ec27fc8946aba292001c3de465012",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "f8a8b298",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": "agent-javaparser-f8a8b298",
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "f8a8b298",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "43c824a24b09efd8b4b00449ce31cd121a6b23eb": {
+    "breakingCommit": "43c824a24b09efd8b4b00449ce31cd121a6b23eb",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "43c824a2",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "43c824a2",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "441f7f07d9265cc1d4c4f369ee6524973d9c6e17": {
+    "breakingCommit": "441f7f07d9265cc1d4c4f369ee6524973d9c6e17",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "441f7f07",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "441f7f07",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "46979207151a43361447d64afd2658df40033419": {
+    "breakingCommit": "46979207151a43361447d64afd2658df40033419",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "46979207",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "46979207",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "471d07e01cd0c79dc9bed5344ed46418f4c078a2": {
+    "breakingCommit": "471d07e01cd0c79dc9bed5344ed46418f4c078a2",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "471d07e0",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "471d07e0",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "489aad6060454d0b7b34a144e0b345c5a3a199f5": {
+    "breakingCommit": "489aad6060454d0b7b34a144e0b345c5a3a199f5",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "489aad60",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "489aad60",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "497b81f4446c257f693648cad7a64f62b23920a2": {
+    "breakingCommit": "497b81f4446c257f693648cad7a64f62b23920a2",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "497b81f4",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "497b81f4",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "4a3efad6e00824e5814b9c8f571c9c98aad40281": {
+    "breakingCommit": "4a3efad6e00824e5814b9c8f571c9c98aad40281",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "4a3efad6",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "4a3efad6",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "4aab2869639226035c999c282f31efba15648ea3": {
+    "breakingCommit": "4aab2869639226035c999c282f31efba15648ea3",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "4aab2869",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "4aab2869",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "4b4c08d502d98d240855013ab76008f5e0243435": {
+    "breakingCommit": "4b4c08d502d98d240855013ab76008f5e0243435",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "4b4c08d5",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "4b4c08d5",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "4bba3fb6147e72946f64724fe55eee5d15ff6206": {
+    "breakingCommit": "4bba3fb6147e72946f64724fe55eee5d15ff6206",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "4bba3fb6",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "4bba3fb6",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "500d9c021d34b307b1a70d3f29fb7f9b5ab9d1a6": {
+    "breakingCommit": "500d9c021d34b307b1a70d3f29fb7f9b5ab9d1a6",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "500d9c02",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "500d9c02",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "5287fc631fa78e7f11d39983824cdd4215b9a03b": {
+    "breakingCommit": "5287fc631fa78e7f11d39983824cdd4215b9a03b",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "5287fc63",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "5287fc63",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "54857351e0b0a655970d7e2ccdb67f175cc5d688": {
+    "breakingCommit": "54857351e0b0a655970d7e2ccdb67f175cc5d688",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "54857351",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "54857351",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "54abbbde6a1233e1523a9b5f811ea100efb5dead": {
+    "breakingCommit": "54abbbde6a1233e1523a9b5f811ea100efb5dead",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "54abbbde",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "54abbbde",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "5769bdad76925da568294cb8a40e7d4469699ac3": {
+    "breakingCommit": "5769bdad76925da568294cb8a40e7d4469699ac3",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "5769bdad",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "5769bdad",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "5adde4f1309a1078b39d013a30dc392c97ca7543": {
+    "breakingCommit": "5adde4f1309a1078b39d013a30dc392c97ca7543",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "5adde4f1",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "5adde4f1",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "5cf5a482bd430d81257b4ecd85b3d4f7da911621": {
+    "breakingCommit": "5cf5a482bd430d81257b4ecd85b3d4f7da911621",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "5cf5a482",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "5cf5a482",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "5fca04bd287baf1534baff8cc23cc3dc26dc680d": {
+    "breakingCommit": "5fca04bd287baf1534baff8cc23cc3dc26dc680d",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "5fca04bd",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "5fca04bd",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "5fcd0c3ad7727850c47602b17530dc355e5bd097": {
+    "breakingCommit": "5fcd0c3ad7727850c47602b17530dc355e5bd097",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "5fcd0c3a",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "5fcd0c3a",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "61e96bfe3a32d6ef2e5d7912a518c78bd5474e74": {
+    "breakingCommit": "61e96bfe3a32d6ef2e5d7912a518c78bd5474e74",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "61e96bfe",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "61e96bfe",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "65200df71d5f6ab1c5502f74a5dc7bcbda459563": {
+    "breakingCommit": "65200df71d5f6ab1c5502f74a5dc7bcbda459563",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "65200df7",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "65200df7",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "6661429a5a0e998cf17daa45d8c026bdfaf9bc3f": {
+    "breakingCommit": "6661429a5a0e998cf17daa45d8c026bdfaf9bc3f",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "6661429a",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "6661429a",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "686ea4e18114ac180e35ca1c07e1f2e6dfbffbe0": {
+    "breakingCommit": "686ea4e18114ac180e35ca1c07e1f2e6dfbffbe0",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "686ea4e1",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "686ea4e1",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "6ac25d3a60ea29a41a37ad47b7feb2908ee84fff": {
+    "breakingCommit": "6ac25d3a60ea29a41a37ad47b7feb2908ee84fff",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "6ac25d3a",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "6ac25d3a",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "6ad104c4fb9263ad1bb29e6b33618b8225efd92d": {
+    "breakingCommit": "6ad104c4fb9263ad1bb29e6b33618b8225efd92d",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "6ad104c4",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "6ad104c4",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "6c53cd904bd66fc79af8687571e607c259226b81": {
+    "breakingCommit": "6c53cd904bd66fc79af8687571e607c259226b81",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "6c53cd90",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "6c53cd90",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "6c9a2ecf3bac1e0c7675e03b2828a71450d8ed45": {
+    "breakingCommit": "6c9a2ecf3bac1e0c7675e03b2828a71450d8ed45",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "6c9a2ecf",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "6c9a2ecf",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "6d68d927b01ceb567f1067a91afbc97b4c5a66ce": {
+    "breakingCommit": "6d68d927b01ceb567f1067a91afbc97b4c5a66ce",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "6d68d927",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "6d68d927",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "741f3b5e20a91b0e9305ae79261e3c5e64971c98": {
+    "breakingCommit": "741f3b5e20a91b0e9305ae79261e3c5e64971c98",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "741f3b5e",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "741f3b5e",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b": {
+    "breakingCommit": "7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "7c62ae7f",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "7c62ae7f",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "7d0e38fa9d6a9f96afdc0143fa44b4145e3555d8": {
+    "breakingCommit": "7d0e38fa9d6a9f96afdc0143fa44b4145e3555d8",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "7d0e38fa",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "7d0e38fa",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "7d97e1c7331f6722eb1d8192bf0a2686f5a33798": {
+    "breakingCommit": "7d97e1c7331f6722eb1d8192bf0a2686f5a33798",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "7d97e1c7",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "7d97e1c7",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "7e8c62e2bb21097e563747184636cf8e8934ce98": {
+    "breakingCommit": "7e8c62e2bb21097e563747184636cf8e8934ce98",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "7e8c62e2",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "7e8c62e2",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },
+  "7f7de81d28b68b091bef2e6f6ffd1836167be6ea": {
+    "breakingCommit": "7f7de81d28b68b091bef2e6f6ffd1836167be6ea",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "7f7de81d",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "7f7de81d",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "7fb959ccb8c9b32bd6cbc9fc95ed70c4d9c85575": {
+    "breakingCommit": "7fb959ccb8c9b32bd6cbc9fc95ed70c4d9c85575",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "7fb959cc",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "7fb959cc",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "832e0f184efdad0fcf15d14cb7af5e30239ff454": {
+    "breakingCommit": "832e0f184efdad0fcf15d14cb7af5e30239ff454",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "832e0f18",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "832e0f18",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "83a25390887d8afa7d43b70070d710da3c90a7a6": {
+    "breakingCommit": "83a25390887d8afa7d43b70070d710da3c90a7a6",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "83a25390",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "83a25390",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "8436e73fa0c913774d9792fc986c74309765ab61": {
+    "breakingCommit": "8436e73fa0c913774d9792fc986c74309765ab61",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "8436e73f",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "8436e73f",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "8502e85f9ee2ff90ce96b47b5904f011e81e8bb8": {
+    "breakingCommit": "8502e85f9ee2ff90ce96b47b5904f011e81e8bb8",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "8502e85f",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "8502e85f",
+        "failureCategory": "BUILD_SUCCESS",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": true,
+        "containerId": null
+      }
+    ]
+  },
+  "867e69e208ff59d1f8baae7ed41d3e163a51bc65": {
+    "breakingCommit": "867e69e208ff59d1f8baae7ed41d3e163a51bc65",
+    "originalFailureCategory": "COMPILATION_FAILURE",
+    "processId": "867e69e2",
+    "fullProcessId": null,
+    "branches": {
+      "main": "main",
+      "agent": null,
+      "repair": null,
+      "attempts": []
+    },
+    "attempts": [
+      {
+        "index": 1,
+        "processId": "867e69e2",
+        "failureCategory": "COMPILATION_FAILURE",
+        "prefixFiles": 0,
+        "postfixFiles": 0,
+        "fixedFiles": 0,
+        "unfixedFiles": 0,
+        "newFiles": 0,
+        "prefixErrors": 0,
+        "postfixErrors": 0,
+        "fixedErrors": 0,
+        "unfixedErrors": 0,
+        "newErrors": 0,
+        "outputFolder": "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/javaparser",
+        "successful": false,
+        "containerId": null
+      }
+    ]
+  },"874ed893a4e46ea5182be2be054715967e58f08f" : {
+    "breakingCommit" : "874ed893a4e46ea5182be2be054715967e58f08f",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "1bcf1c8c",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-1bcf1c8c",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "1bcf1c8c",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "aad07d6dcc2e1f66aede1bf1c782bbc6b82280e1f6121cc4cf55b1c21f61eb31"
+    } ]
+  },
+  "88a20ece4db960e35fbfa39fcb40e61daceb15b1" : {
+    "breakingCommit" : "88a20ece4db960e35fbfa39fcb40e61daceb15b1",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "d5e58d12",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-d5e58d12",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "d5e58d12",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "32a22fd667c1d5da940188f4803f9541218114e5f93dd260eab13607a2e407b8"
+    } ]
+  },
+  "88c1f903cede03ff371059cdaf009dab12007043" : {
+    "breakingCommit" : "88c1f903cede03ff371059cdaf009dab12007043",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "cd69ce04",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-cd69ce04",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "cd69ce04",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "e00edfdb1678ab52de374862c496dc4354be6cc17a942c1565eeb16e904ed799"
+    } ]
+  },
+  "8ab7a7214f9ac1d130b416fae7280cfda533a54f" : {
+    "breakingCommit" : "8ab7a7214f9ac1d130b416fae7280cfda533a54f",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "ee184345",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-ee184345",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "ee184345",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "115ba173547914557354dbb45a0ae7feaeedd39b4515ccf18a4b67972b3e2043"
+    } ]
+  },
+  "8fbb6deb112102ef7507a8e68c5215e5f481d03b" : {
+    "breakingCommit" : "8fbb6deb112102ef7507a8e68c5215e5f481d03b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "4aaf5db9",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-4aaf5db9",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "4aaf5db9",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "1a2ad69cd46e24d90d26e61104d0ff448459361fd0fb8ad6e0e636b5db796983"
+    } ]
+  },
+  "90ffd2cd31edecf778d14d0015da9ceab7e53081" : {
+    "breakingCommit" : "90ffd2cd31edecf778d14d0015da9ceab7e53081",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "fef8ccd2",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-fef8ccd2",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "fef8ccd2",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "e689ce3720f930dbcb6eccde50e79d4ef0f3284844294f5d7cadd0db4f990dfc"
+    } ]
+  },
+  "9218cc9c8e0018d01e2d7cfe0e77aae7b65b378f" : {
+    "breakingCommit" : "9218cc9c8e0018d01e2d7cfe0e77aae7b65b378f",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "1fedd3b5",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-1fedd3b5",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "1fedd3b5",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "519e3483fcdea5e0803d20aab4f5733ffc6337643da3d367aa7a35e62b6fc30c"
+    } ]
+  },
+  "923a6b2027e3ca1762deb6a60fc0a768c284122b" : {
+    "breakingCommit" : "923a6b2027e3ca1762deb6a60fc0a768c284122b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "68a11ef3",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-68a11ef3",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "68a11ef3",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "91fdf1a93b23055a61a479f766ec21d18eff9944a150dab73f9a747c6413398c"
+    } ]
+  },
+  "9461431622cf39efe60cf1eb03a94083780c5720" : {
+    "breakingCommit" : "9461431622cf39efe60cf1eb03a94083780c5720",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "b1e950e0",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-b1e950e0",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "b1e950e0",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "49ae9d4fe08c1227b61130d031288de4bef2ac5d70e63372f0a239b64c802c09"
+    } ]
+  },
+  "9545eb3a2687afc77b0a7da4d5d621807618d95c" : {
+    "breakingCommit" : "9545eb3a2687afc77b0a7da4d5d621807618d95c",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "770fc7da",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-770fc7da",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "770fc7da",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "ca9362c2acc7ff2f830464125c01b3b68407d04b0f685a40868104e4bdb77cef"
+    } ]
+  },
+  "95b2c15de16fd9fd612ce73672e29b613ce7a909" : {
+    "breakingCommit" : "95b2c15de16fd9fd612ce73672e29b613ce7a909",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "df5cb992",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-df5cb992",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "df5cb992",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "a94f5232d37b2b1a3deeecfaa444e7b0b66fe596407726ff3106d96dd3f71ee4"
+    } ]
+  },
+  "9717e34bcda74bd9ad94f6a52ddfd3fd179ea15b" : {
+    "breakingCommit" : "9717e34bcda74bd9ad94f6a52ddfd3fd179ea15b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "7a34a65d",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-7a34a65d",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "7a34a65d",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "7a08cd040af85ff5f7a32a89320c995764f57783693335796c77527097c19c63"
+    } ]
+  },
+  "979d6237a50840cd925cc1a33c415ffbbbc42846" : {
+    "breakingCommit" : "979d6237a50840cd925cc1a33c415ffbbbc42846",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "091def77",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-091def77",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "091def77",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "aa81abe3ca78cd4e7a0eaa49299110816230e26542f2c00d2a4c2431d95056ca"
+    } ]
+  },
+  "9836e07e553e29f16ee35b5d7e4d0370e1789ecd" : {
+    "breakingCommit" : "9836e07e553e29f16ee35b5d7e4d0370e1789ecd",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "7765a2cf",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-7765a2cf",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "7765a2cf",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "34402b6c010fb78b281d6df0deda51d3713078daebda15bd494b7b4e6dbe6df6"
+    } ]
+  },
+  "9a8b6fc7847a0782ae4c48d0e4f7056507c0397d" : {
+    "breakingCommit" : "9a8b6fc7847a0782ae4c48d0e4f7056507c0397d",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "927d363b",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-927d363b",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "927d363b",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "6efbb9ca176763796a084fab08c6bd61bf2b2faabd4a6de54d240cd685e5f9ce"
+    } ]
+  },
+  "a0ec50cb297c4202e138627859a89ef032fa78ab" : {
+    "breakingCommit" : "a0ec50cb297c4202e138627859a89ef032fa78ab",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "bb20e6f1",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-bb20e6f1",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "bb20e6f1",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "34a851b8909aeda78e2b53765bf964fdd16fbff6ed9e9a3b7ade1c4b08cd4cad"
+    } ]
+  },
+  "a26797cdeeecaa3b900ea1e0d5ec0cec66bf03ff" : {
+    "breakingCommit" : "a26797cdeeecaa3b900ea1e0d5ec0cec66bf03ff",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "2674ff16",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-2674ff16",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "2674ff16",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "d896837a2db3d573b28e34aa09a119d10820737c5ca159f8f63ed95608b52e2e"
+    } ]
+  },
+  "a2b0fc53611f8705640773f18c8dd6a47eed3b7f" : {
+    "breakingCommit" : "a2b0fc53611f8705640773f18c8dd6a47eed3b7f",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "3eabd60c",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-3eabd60c",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "3eabd60c",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "4d0863e6c803d0b08d8a2cdd5bbfadb9c1ccfeaccf70ab0130cf68f9996b8a08"
+    } ]
+  },
+  "a4c360001134c2e3a9f7fbde88a07a9fd767e78e" : {
+    "breakingCommit" : "a4c360001134c2e3a9f7fbde88a07a9fd767e78e",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "fe270512",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-fe270512",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "fe270512",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "d0e1f205650bc6548b186445eecca6aae72e8e9a90fd1418bf7973ade70d990c"
+    } ]
+  },
+  "a784b326d0821fc03fe6c5c13053424f8c2c358e" : {
+    "breakingCommit" : "a784b326d0821fc03fe6c5c13053424f8c2c358e",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "a52e6bc5",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-a52e6bc5",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "a52e6bc5",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "7ce6a2d778b48f387aeb3439ac0b99a22af0968e6c6371ed0f7b8a52e6dbf271"
+    } ]
+  },
+  "a80dac86d1caa3958c45c036d93a7d9231d88fbf" : {
+    "breakingCommit" : "a80dac86d1caa3958c45c036d93a7d9231d88fbf",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "7c09fcfa",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-7c09fcfa",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "7c09fcfa",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "897a04ebf1cff2547c78f502634b668da7c8db6a7252b4cb859742622c19d700"
+    } ]
+  },
+  "a9df7b2235224fcabefa1d62e8956911aa5bb825" : {
+    "breakingCommit" : "a9df7b2235224fcabefa1d62e8956911aa5bb825",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "9d5dc65d",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-9d5dc65d",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "9d5dc65d",
+      "failureCategory" : "DEPENDENCY_RESOLUTION_FAILURE",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "a81a4456a1337e3b24a04f6adb7f8158b93c7276354f640acff488b8487f8cd6"
+    } ]
+  },
+  "ab85440ce7321d895c7a9621224ce8059162a26a" : {
+    "breakingCommit" : "ab85440ce7321d895c7a9621224ce8059162a26a",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "34b99f41",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-34b99f41",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "34b99f41",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "f4368bd3ff0e813b9dee44df00c04d50948ab9960d63b361105c2dfb989bb1f7"
+    } ]
+  },
+  "acc50dabec6796c091b84c1ada2ae4cbcab8b562" : {
+    "breakingCommit" : "acc50dabec6796c091b84c1ada2ae4cbcab8b562",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "5970809b",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-5970809b",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "5970809b",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "720efd055ef4f328de6505834b956e9d9ec9271ed5b8ec5464fbc99bb546d119"
+    } ]
+  },
+  "ad80bdff62b1b0520d3fb9e8d627532a38a7c60c" : {
+    "breakingCommit" : "ad80bdff62b1b0520d3fb9e8d627532a38a7c60c",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "5df8be1a",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-5df8be1a",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "5df8be1a",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "080a92496faf0973a0c32902ca7d701be7adc1608771354677be69fbead4d5ae"
+    } ]
+  },
+  "ae0a0bd1311451e4a5a185a8d96405cfe3e049c5" : {
+    "breakingCommit" : "ae0a0bd1311451e4a5a185a8d96405cfe3e049c5",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "b2340e1f",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-b2340e1f",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "b2340e1f",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "d39c9da79e22885917a2611c5a29dc20e9b8c2540df4fee0099ca5091f4852b8"
+    } ]
+  },
+  "ae16b526695fe275ab5e6a1992916875d26da860" : {
+    "breakingCommit" : "ae16b526695fe275ab5e6a1992916875d26da860",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "73c04189",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-73c04189",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "73c04189",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "331419d2dcbb5aedfe2b5974c7d91d5f54fcaadc31337dc3398d9c70a74657ad"
+    } ]
+  },
+  "af6e5d1cc94f031f29b4838e7a8b56704c8c5de4" : {
+    "breakingCommit" : "af6e5d1cc94f031f29b4838e7a8b56704c8c5de4",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "aa676d02",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-aa676d02",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "aa676d02",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "b492dd2718f6c0523f792e66241f5e08ab39899404633eb9c4de5b2c611f354f"
+    } ]
+  },
+  "b1a941400d68445d76056ab8833cd6d2e3455954" : {
+    "breakingCommit" : "b1a941400d68445d76056ab8833cd6d2e3455954",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "54755dff",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-54755dff",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "54755dff",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "9963fada2cde0ab2e9183d2f5b1368e7095643a74341d29842b877cdb0da4bb5"
+    } ]
+  },
+  "b2edf635da83fd076262a41751c6f773c17f3b76" : {
+    "breakingCommit" : "b2edf635da83fd076262a41751c6f773c17f3b76",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "6fd9c028",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-6fd9c028",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "6fd9c028",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "78a768539c312f22a1d9c020a2b17b677afb84bbc9a8b6067a8cacffd70b29cb"
+    } ]
+  },
+  "b554e03428f2ba877c33a0fece7f0f00fb38a5fa" : {
+    "breakingCommit" : "b554e03428f2ba877c33a0fece7f0f00fb38a5fa",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "fb2c37c1",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-fb2c37c1",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "fb2c37c1",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "1effe1b0a8952de5690667549b79d24e55e604e37171c4f66a0b7f44987d802a"
+    } ]
+  },
+  "b5b64613a1a650a5784ff39386b4e00e05e5c21c" : {
+    "breakingCommit" : "b5b64613a1a650a5784ff39386b4e00e05e5c21c",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "e3c52de5",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-e3c52de5",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "e3c52de5",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "60a1e03b2b56581167b36bc4779f6d37e1512ee661cc3ee50404ee839ea32cde"
+    } ]
+  },
+  "b6a48a6e557fad1ceda680618e0a34c7b8c5c087" : {
+    "breakingCommit" : "b6a48a6e557fad1ceda680618e0a34c7b8c5c087",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "9da3f2a3",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-9da3f2a3",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "9da3f2a3",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "ac5c616e05aa4c95db086446b097702fb1ff51b46300abe328e727b6c5b9a41c"
+    } ]
+  },
+  "b8f92ff37d1aed054d8320283fd6d6a492703a55" : {
+    "breakingCommit" : "b8f92ff37d1aed054d8320283fd6d6a492703a55",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "7c143c18",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-7c143c18",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "7c143c18",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "cad38f961b9cc62f83915010aeb55a44122af830880cc54c70c1d8123b129e63"
+    } ]
+  },
+  "bd3ce213e2771c6ef7817c80818807a757d4e94a" : {
+    "breakingCommit" : "bd3ce213e2771c6ef7817c80818807a757d4e94a",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "ad8a5fda",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-ad8a5fda",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "ad8a5fda",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "23127a1a7e9c8a63a10129fb8d5246388afb3c90f900fe51515cd5b819e39c9f"
+    } ]
+  },
+  "c09896887acf0fe59320e01145a7034cd8d4e326" : {
+    "breakingCommit" : "c09896887acf0fe59320e01145a7034cd8d4e326",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "c277666b",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-c277666b",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "c277666b",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "ee2d88220834683a7c2fbd0b548fbd3a8de261f5a9ceadfbc5d82cb62a604ad5"
+    } ]
+  },
+  "c0f6ab75784dbc13ae8ff47298704c0756cf3a2c" : {
+    "breakingCommit" : "c0f6ab75784dbc13ae8ff47298704c0756cf3a2c",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "c284f228",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-c284f228",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "c284f228",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "f247311bb961331f54c4324fad4e3e2c7a1c0040cdaab2194eddcbce4479533f"
+    } ]
+  },
+  "c311ee0a84b72b15ba64da3514181c2347912225" : {
+    "breakingCommit" : "c311ee0a84b72b15ba64da3514181c2347912225",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "37cb9e68",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-37cb9e68",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "37cb9e68",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "e06bdb7ae43a450aaaa7a80530b772d92a36ab7b36ebff4277808f6f80ee1b3e"
+    } ]
+  },
+  "c32185c43be158d32c7d13c5b816991954eb45fa" : {
+    "breakingCommit" : "c32185c43be158d32c7d13c5b816991954eb45fa",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "9ad9beff",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-9ad9beff",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "9ad9beff",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "2058c21369f0a59dcf8df648417e930c78f914134d66cad58c5029a3ea2f9fbc"
+    } ]
+  },
+  "c3818c076f0c088d1d11b7812b880be579c19ec2" : {
+    "breakingCommit" : "c3818c076f0c088d1d11b7812b880be579c19ec2",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "00e1300d",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-00e1300d",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "00e1300d",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "ea5552b0f12c453162d6f856f528b09bd89923d61d0037c3f0b9d359a0ef65a1"
+    } ]
+  },
+  "c7c9590a206d4fb77dd05b9df391d888e6181667" : {
+    "breakingCommit" : "c7c9590a206d4fb77dd05b9df391d888e6181667",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "6347fc49",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-6347fc49",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "6347fc49",
+      "failureCategory" : "UNKNOWN_FAILURE",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "89db62c58e74af9a6604030779ffb1220464d1321639cc1bc978c4716d5c66d9"
+    } ]
+  },
+  "cb541fd65c7b9bbc3424ea927f1dab223261d156" : {
+    "breakingCommit" : "cb541fd65c7b9bbc3424ea927f1dab223261d156",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "a5696c90",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-a5696c90",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "a5696c90",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "4b4ba6921bb06f23768f23ba5fc94f9bfa9051f10e719cd8bdf814375346fac8"
+    } ]
+  },
+  "cbcafe129e143ef09401470e9d11de9758f298d0" : {
+    "breakingCommit" : "cbcafe129e143ef09401470e9d11de9758f298d0",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "d6e9fb25",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-d6e9fb25",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "d6e9fb25",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "643daf27e6da9d11cad8b6b9b0d0b360dfc96e5ce02ecca6373963ee456ff77a"
+    } ]
+  },
+  "cd5bb39f43e4570b875027073da3d4e43349ead1" : {
+    "breakingCommit" : "cd5bb39f43e4570b875027073da3d4e43349ead1",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "457942ec",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-457942ec",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "457942ec",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "b4cee01cb6d5b4b21662ccb8adb576642fcbc7d74eb86fbcbee472a0d036181a"
+    } ]
+  },
+  "d38182a8a0fe1ec039aed97e103864fce717a0be" : {
+    "breakingCommit" : "d38182a8a0fe1ec039aed97e103864fce717a0be",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "fc0010f8",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-fc0010f8",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "fc0010f8",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "be0e6f88cf01c169baa24f05c2d0706c21cf573de9c6fc282fed04d56d21842c"
+    } ]
+  },
+  "d3af06df4613be146bb9f8034e1a8a3098050c82" : {
+    "breakingCommit" : "d3af06df4613be146bb9f8034e1a8a3098050c82",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "440c2806",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-440c2806",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "440c2806",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "d71ab78d9c600615baa0795e963cab51787c1b038f98d8c27204950ada33d4b5"
+    } ]
+  },
+  "d401e189fb6435110e3dc4ca1a94838f167e7ddf" : {
+    "breakingCommit" : "d401e189fb6435110e3dc4ca1a94838f167e7ddf",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "6dfd4cff",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-6dfd4cff",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "6dfd4cff",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "f2047ae2c0e7710c40a3ddd26141cb84307a1cdef3ba448d0ec523cb11bcd3f7"
+    } ]
+  },
+  "d54b56b91c11f21b97d4903143b04b7c1f10c255" : {
+    "breakingCommit" : "d54b56b91c11f21b97d4903143b04b7c1f10c255",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "eece8ced",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-eece8ced",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "eece8ced",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "b17b5208a885f975ca28086e3551d41217edb0c893cb4bac9219e24533690e17"
+    } ]
+  },
+  "db02c6bcb989a5b0f08861c3344b532769530467" : {
+    "breakingCommit" : "db02c6bcb989a5b0f08861c3344b532769530467",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "9ea9f4f4",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-9ea9f4f4",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "9ea9f4f4",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "dc8734ac03ed3c7edf1f1285a9f6845d6df1570379f34de08f0fea4152973fda"
+    } ]
+  },
+  "dbdc7d2c4a28a8d65edcd0cdece91c0bc357b869" : {
+    "breakingCommit" : "dbdc7d2c4a28a8d65edcd0cdece91c0bc357b869",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "f920aff7",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-f920aff7",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "f920aff7",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "9063daacb21caca0e00985928a9480d5ab19c1eb5f50ff4ed97f1ce6131e579c"
+    } ]
+  },
+  "dc9a40fde9a9fee5aaec3f60695385ba539406d4" : {
+    "breakingCommit" : "dc9a40fde9a9fee5aaec3f60695385ba539406d4",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "91b76da2",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-91b76da2",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "91b76da2",
+      "failureCategory" : "UNKNOWN_FAILURE",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "dce68c7b7acb056c87e0c87dc0ff6ee9ecb2f859b88625f319b10d41d1db5212"
+    } ]
+  },
+  "dc9f7910968cd0aa2090e390045ae053693e839a" : {
+    "breakingCommit" : "dc9f7910968cd0aa2090e390045ae053693e839a",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "8a94878b",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-8a94878b",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "8a94878b",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "50d3357407b01c96a211222e28735174fefdefec51f4704c393972ef1a86da14"
+    } ]
+  },
+  "dcc95f410847ab308db2f2a31ab13e32dc65c670" : {
+    "breakingCommit" : "dcc95f410847ab308db2f2a31ab13e32dc65c670",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "b9910836",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-b9910836",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "b9910836",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "47a26f32e946d3325f852744042f1046a5a1837d90c949731121657ca79f47a8"
+    } ]
+  },
+  "e36118e158965251089da1446777bd699d7473c1" : {
+    "breakingCommit" : "e36118e158965251089da1446777bd699d7473c1",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "9f7e98e4",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-9f7e98e4",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "9f7e98e4",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "7f570fc2d4f4306eaa02d891e96556cfc13c365284f37d496aaaef00605c7c27"
+    } ]
+  },
+  "e40f76d1150d41821ccfd72e9dd3fabbc8763c1e" : {
+    "breakingCommit" : "e40f76d1150d41821ccfd72e9dd3fabbc8763c1e",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "868c05cc",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-868c05cc",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "868c05cc",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "e9b634095924d2bec85ff8ecc6273dc340716c109cd14377f78c3e5089b0506c"
+    } ]
+  },
+  "e70bd198fa1e1d65f86e071b8ebdd021141cfa95" : {
+    "breakingCommit" : "e70bd198fa1e1d65f86e071b8ebdd021141cfa95",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "3a8cabb9",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-3a8cabb9",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "3a8cabb9",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "1ed4cfe07f346e6e85739cc3b972e8c66d69f918764411aacb8bb8e9bab70668"
+    } ]
+  },
+  "ea03f6488449fcfe8cd0a678b4c64891e1427a32" : {
+    "breakingCommit" : "ea03f6488449fcfe8cd0a678b4c64891e1427a32",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "cb5f75c0",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-cb5f75c0",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "cb5f75c0",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "e842c2786abc059a4880440278616a0d90e71d6c4f2261b229a7bfd5713ad95c"
+    } ]
+  },
+  "ea33b5101edffc0242967cbf21c1016378b18483" : {
+    "breakingCommit" : "ea33b5101edffc0242967cbf21c1016378b18483",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "40fa1515",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-40fa1515",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "40fa1515",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "e1be91d0cdf908f62b0bb55ab619c93b237d3f773ad1c5f54e4842b98d3860a3"
+    } ]
+  },
+  "ee0827d4c9bf80982241e8c3559dceb8b39063e4" : {
+    "breakingCommit" : "ee0827d4c9bf80982241e8c3559dceb8b39063e4",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "0c5ff911",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-0c5ff911",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "0c5ff911",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "2dfc2ebbbfac562fe34d5315af8ed72e34e672e141bd88e32ab07ba46d2fb03e"
+    } ]
+  },
+  "ef3f7be3e2755d4a0f9c23bdcbfe3b97198fb31b" : {
+    "breakingCommit" : "ef3f7be3e2755d4a0f9c23bdcbfe3b97198fb31b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "a86f761e",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-a86f761e",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "a86f761e",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "6a10ca7cd3c7aaca9756dad564bc4586359d6bb8a4ba943ffdd601d734d5df10"
+    } ]
+  },
+  "f26cd85b97b24c07a2e446f43ac8793619fa0724" : {
+    "breakingCommit" : "f26cd85b97b24c07a2e446f43ac8793619fa0724",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "c0c70355",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-c0c70355",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "c0c70355",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "d630a0ab3b190aca958323bf518ac8cf70e9b34394b78761be7ca2ab29dec43e"
+    } ]
+  },
+  "f5bc873a4b68e87761a65064ebea9ad8c3fb085f" : {
+    "breakingCommit" : "f5bc873a4b68e87761a65064ebea9ad8c3fb085f",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "6415106a",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-6415106a",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "6415106a",
+      "failureCategory" : "UNKNOWN_FAILURE",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "a5dea0eaba232d4b8a5b855e658dbea686cc620563e15acc82f0505ee6ab88d8"
+    } ]
+  },
+  "f6659d758a437f8b676481fe70671a68a6ee1cde" : {
+    "breakingCommit" : "f6659d758a437f8b676481fe70671a68a6ee1cde",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "fcf7aa92",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-fcf7aa92",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "fcf7aa92",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "4c9c8edfaabb6c4924c8b86d313b46965869be93781a0b456aba92d03bca021e"
+    } ]
+  },
+  "f714a41f0ffe9720939d4980da5119d1f45bd770" : {
+    "breakingCommit" : "f714a41f0ffe9720939d4980da5119d1f45bd770",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "9a9a03c0",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-9a9a03c0",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "9a9a03c0",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "4d650c2d61a3790b178d47a58c4813cb8e68fedd447254436f480b5f188cf5ab"
+    } ]
+  },
+  "f78d34b82926216c0f203c0350f646d481c675e3" : {
+    "breakingCommit" : "f78d34b82926216c0f203c0350f646d481c675e3",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "e2c3d2b5",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-e2c3d2b5",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "e2c3d2b5",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "1dba5e0498dae30e7f965715df0bdd69e384333b75d84d5c9a95fc61f1500619"
+    } ]
+  },
+  "f9763c18c7e1fa54fb67dcf3935aa5106807aba9" : {
+    "breakingCommit" : "f9763c18c7e1fa54fb67dcf3935aa5106807aba9",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "05c4e4d7",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-05c4e4d7",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "05c4e4d7",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "91fc2edf24184a689019d443830b0bd86360fe13fbe7d12fbebf8dcc2d8344e4"
+    } ]
+  },
+  "fab0f8d4f7322fa6da914c8c9f30baf740d46b99" : {
+    "breakingCommit" : "fab0f8d4f7322fa6da914c8c9f30baf740d46b99",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "15fa174b",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-15fa174b",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "15fa174b",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "6d169a08664d9808ed2085db99d95d9fb2b59a8397089bd8ff86054a77cb7ea0"
+    } ]
+  },
+  "fe15d2a6e52b049f6c9e7cc123a5402047a1f01a" : {
+    "breakingCommit" : "fe15d2a6e52b049f6c9e7cc123a5402047a1f01a",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "4dd7fb9b",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-4dd7fb9b",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "4dd7fb9b",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "dd57c2c5574b43378ab7f62d2a460e1900db7fb5410fc8482a27ca23a902ae15"
+    } ]
+  },
+  "feb582661e77de66eadaa7550720a8751b266ee4" : {
+    "breakingCommit" : "feb582661e77de66eadaa7550720a8751b266ee4",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "dbc3367f",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-dbc3367f",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "dbc3367f",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "9de7049c63bb0b49f2f6b4f26ef817548bda681f57448b775ce212555357408d"
+    } ]
+  },
+  "ff8b5b61548d50cf60b77784a181e917cb35033b" : {
+    "breakingCommit" : "ff8b5b61548d50cf60b77784a181e917cb35033b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "2865bba2",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-javaparser-2865bba2",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "2865bba2",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 0,
+      "postfixFiles" : 0,
+      "fixedFiles" : 0,
+      "unfixedFiles" : 0,
+      "newFiles" : 0,
+      "prefixErrors" : 0,
+      "postfixErrors" : 0,
+      "fixedErrors" : 0,
+      "unfixedErrors" : 0,
+      "newErrors" : 0,
+      "outputFolder" : "/home/frank/bigbag/results/agent/opencode/javaparser",
+      "successful" : true,
+      "containerId" : "eea8e3b0b4d0b3e6da6040a549e50c187bbe1b4a52742a1925e82305d47c7f1a"
+    } ]
+  }
+}

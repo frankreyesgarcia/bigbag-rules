@@ -1,0 +1,132 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.interceptor.AroundConstruct",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.interceptor.AroundConstruct",
+    "location": {
+      "path": "javax/interceptor/AroundConstruct.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.interceptor.AroundInvoke",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.interceptor.AroundInvoke",
+    "location": {
+      "path": "javax/interceptor/AroundInvoke.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.interceptor.AroundTimeout",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.interceptor.AroundTimeout",
+    "location": {
+      "path": "javax/interceptor/AroundTimeout.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.interceptor.ExcludeClassInterceptors",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.interceptor.ExcludeClassInterceptors",
+    "location": {
+      "path": "javax/interceptor/ExcludeClassInterceptors.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.interceptor.ExcludeDefaultInterceptors",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.interceptor.ExcludeDefaultInterceptors",
+    "location": {
+      "path": "javax/interceptor/ExcludeDefaultInterceptors.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.interceptor.Interceptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.interceptor.Interceptor",
+    "location": {
+      "path": "javax/interceptor/Interceptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.interceptor.Interceptor$Priority",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.interceptor.Interceptor$Priority",
+    "location": {
+      "path": "javax/interceptor/Interceptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.interceptor.InterceptorBinding",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.interceptor.InterceptorBinding",
+    "location": {
+      "path": "javax/interceptor/InterceptorBinding.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.interceptor.Interceptors",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.interceptor.Interceptors",
+    "location": {
+      "path": "javax/interceptor/Interceptors.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.interceptor.InvocationContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.interceptor.InvocationContext",
+    "location": {
+      "path": "javax/interceptor/InvocationContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

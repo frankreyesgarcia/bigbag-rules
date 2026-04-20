@@ -1,0 +1,67 @@
+[
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.assertj.core.api.Abstract2DArrayAssert",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.assertj.core.api.Abstract2DArrayAssert",
+    "location": {
+      "path": "org/assertj/core/api/Abstract2DArrayAssert.java",
+      "line": null
+    },
+    "newSymbol": "org.assertj.core.api.Array2DAssert.hasNumberOfRows(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.assertj.core.api.Array2DAssert",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.assertj.core.api.Array2DAssert",
+    "location": {
+      "path": "org/assertj/core/api/Array2DAssert.java",
+      "line": null
+    },
+    "newSymbol": "org.assertj.core.api.Array2DAssert.hasNumberOfRows(int)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.assertj.core.api.AbstractObjectAssert.as(org.assertj.core.description.Description)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.assertj.core.api.ThrowableAssertAlternative",
+    "location": {
+      "path": "org/assertj/core/api/AbstractObjectAssert.java",
+      "line": 67
+    },
+    "newSymbol": "org.assertj.core.api.ThrowableAssertAlternative.as(org.assertj.core.description.Description)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.assertj.core.api.AbstractObjectAssert.as(org.assertj.core.description.Description)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.assertj.core.api.ThrowableAssertAlternative",
+    "location": {
+      "path": "org/assertj/core/api/AbstractObjectAssert.java",
+      "line": 67
+    },
+    "newSymbol": "org.assertj.core.api.ThrowableAssertAlternative.as(org.assertj.core.description.Description)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.assertj.core.api.recursive.comparison.RecursiveComparisonConfiguration.getComparedFields()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.assertj.core.api.recursive.comparison.RecursiveComparisonConfiguration",
+    "location": {
+      "path": "org/assertj/core/api/recursive/comparison/RecursiveComparisonConfiguration.java",
+      "line": 296
+    },
+    "newSymbol": "org.assertj.core.api.recursive.comparison.RecursiveComparisonConfiguration.getComparedFields()"
+  }
+]

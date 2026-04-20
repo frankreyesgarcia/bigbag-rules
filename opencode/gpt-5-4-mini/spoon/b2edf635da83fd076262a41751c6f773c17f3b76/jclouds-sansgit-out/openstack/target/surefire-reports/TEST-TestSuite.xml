@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.254" tests="33" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/jclouds/common/openstack/target/test-classes:/jclouds/common/openstack/target/classes:/jclouds/core/target/classes:/root/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/root/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/com/google/inject/guice/5.1.0/guice-5.1.0.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/google/inject/extensions/guice-assistedinject/5.1.0/guice-assistedinject-5.1.0.jar:/root/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/root/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/jclouds/core/target/test-classes:/root/.m2/repository/org/testng/testng/7.5/testng-7.5.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/root/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/root/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/root/.m2/repository/org/easymock/easymock/4.3/easymock-4.3.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/root/.m2/repository/xmlunit/xmlunit/1.3/xmlunit-1.3.jar:/root/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/root/.m2/repository/org/assertj/assertj-guava/1.3.0/assertj-guava-1.3.0.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:"/>
+    <property name="java.vm.vendor" value="Alpine"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://alpinelinux.org/"/>
+    <property name="user.timezone" value="GMT"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk/lib"/>
+    <property name="sun.java.command" value="/jclouds/common/openstack/target/surefire/surefirebooter-20230811181324290_1304.jar /jclouds/common/openstack/target/surefire 2023-08-11T18-12-10_353-jvmRun1 surefire-20230811181324290_1302tmp surefire_9-20230811181324290_1303tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/jclouds/common/openstack/target/test-classes:/jclouds/common/openstack/target/classes:/jclouds/core/target/classes:/root/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/root/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/com/google/inject/guice/5.1.0/guice-5.1.0.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/google/inject/extensions/guice-assistedinject/5.1.0/guice-assistedinject-5.1.0.jar:/root/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/root/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/jclouds/core/target/test-classes:/root/.m2/repository/org/testng/testng/7.5/testng-7.5.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/root/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/root/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/root/.m2/repository/org/easymock/easymock/4.3/easymock-4.3.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/root/.m2/repository/xmlunit/xmlunit/1.3/xmlunit-1.3.jar:/root/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/root/.m2/repository/org/assertj/assertj-guava/1.3.0/assertj-guava-1.3.0.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk"/>
+    <property name="jclouds.wire.httpstream.url" value="https://archive.apache.org/dist/commons/logging/binaries/commons-logging-1.1.1-bin.tar.gz"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/jclouds/common/openstack"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="jclouds.wire.httpstream.md5" value="e5de09672af9b386c30a311654d8541a"/>
+    <property name="surefire.real.class.path" value="/jclouds/common/openstack/target/surefire/surefirebooter-20230811181324290_1304.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.19+7-alpine-r1"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-69-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="sun.net.http.allowRestrictedHeaders" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://gitlab.alpinelinux.org/alpine/aports/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.19"/>
+    <property name="user.dir" value="/jclouds/common/openstack"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-11-openjdk/lib/server:/usr/lib/jvm/java-11-openjdk/lib:/usr/lib/jvm/java-11-openjdk/../lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Alpine"/>
+    <property name="java.vm.version" value="11.0.19+7-alpine-r1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testMaxResultsStatic" classname="org.jclouds.openstack.options.BaseListOptionsTest" time="0.007">
+    <system-out><![CDATA[Starting test testMaxResultsStatic(org.jclouds.openstack.options.BaseListOptionsTest)
+Starting test testChangesSince(org.jclouds.openstack.options.BaseListOptionsTest)
+Starting test testStartAt(org.jclouds.openstack.options.BaseListOptionsTest)
+Starting test testChangesSinceStatic(org.jclouds.openstack.options.BaseListOptionsTest)
+Starting test testMaxResults(org.jclouds.openstack.options.BaseListOptionsTest)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testStartAt" classname="org.jclouds.openstack.options.BaseListOptionsTest" time="0.007">
+    <system-out><![CDATA[[TestNG-test=Surefire test-4] Test testMaxResultsStatic(org.jclouds.openstack.options.BaseListOptionsTest) succeeded: 9ms
+Test suite progress: tests succeeded: 1, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="testMaxResults" classname="org.jclouds.openstack.options.BaseListOptionsTest" time="0.007"/>
+  <testcase name="testChangesSince" classname="org.jclouds.openstack.options.BaseListOptionsTest" time="0.007"/>
+  <testcase name="testChangesSinceStatic" classname="org.jclouds.openstack.options.BaseListOptionsTest" time="0.007"/>
+  <testcase name="testStartAtStatic" classname="org.jclouds.openstack.options.BaseListOptionsTest" time="0">
+    <system-out><![CDATA[[TestNG-test=Surefire test-5] Test testStartAt(org.jclouds.openstack.options.BaseListOptionsTest) succeeded: 9ms
+Test suite progress: tests succeeded: 2, failed: 0, skipped: 0.
+[TestNG-test=Surefire test-2] Test testChangesSinceStatic(org.jclouds.openstack.options.BaseListOptionsTest) succeeded: 10ms
+Test suite progress: tests succeeded: 3, failed: 0, skipped: 0.
+[TestNG-test=Surefire test-3] Test testMaxResults(org.jclouds.openstack.options.BaseListOptionsTest) succeeded: 10ms
+Test suite progress: tests succeeded: 4, failed: 0, skipped: 0.
+[TestNG-test=Surefire test-1] Test testChangesSince(org.jclouds.openstack.options.BaseListOptionsTest) succeeded: 10ms
+Test suite progress: tests succeeded: 5, failed: 0, skipped: 0.
+Starting test testStartAtStatic(org.jclouds.openstack.options.BaseListOptionsTest)
+Starting test testApplySetsKey(org.jclouds.openstack.filters.AddTimestampQueryTest)
+]]></system-out>
+  </testcase>
+  <testcase name="testApplySetsKey" classname="org.jclouds.openstack.filters.AddTimestampQueryTest" time="0.016">
+    <system-out><![CDATA[[TestNG-test=Surefire test-5] Test testStartAtStatic(org.jclouds.openstack.options.BaseListOptionsTest) succeeded: 1ms
+Test suite progress: tests succeeded: 6, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="ParseAuthenticationResponseFromHeadersTest" classname="org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest" time="0.013">
+    <system-out><![CDATA[[TestNG-test=Surefire test-2] Test testApplySetsKey(org.jclouds.openstack.filters.AddTimestampQueryTest) succeeded: 17ms
+Test suite progress: tests succeeded: 7, failed: 0, skipped: 0.
+Starting test testHandleHeadersCaseInsensitively(org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest)
+Starting test testReplaceLocalhost(org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest)
+]]></system-out>
+  </testcase>
+  <testcase name="ParseAuthenticationResponseFromHeadersTest" classname="org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest" time="0.014">
+    <system-out><![CDATA[[TestNG-test=ParseAuthenticationResponseFromHeadersTest-2] Test testReplaceLocalhost(org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest) succeeded: 13ms
+Test suite progress: tests succeeded: 8, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="RetryOnRenewTest" classname="org.jclouds.openstack.handlers.RetryOnRenewTest" time="0.119">
+    <system-out><![CDATA[[TestNG-test=ParseAuthenticationResponseFromHeadersTest-1] Test testHandleHeadersCaseInsensitively(org.jclouds.openstack.functions.ParseAuthenticationResponseFromHeadersTest) succeeded: 15ms
+Test suite progress: tests succeeded: 9, failed: 0, skipped: 0.
+Starting test test401ShouldRetry(org.jclouds.openstack.handlers.RetryOnRenewTest)
+Starting test test401ShouldRetry4Times(org.jclouds.openstack.handlers.RetryOnRenewTest)
+Starting test test401ShouldRetry(org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest)
+Starting test test401ShouldRetry4Times(org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest)
+Starting test test404ShouldNotRetry(org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest)
+]]></system-out>
+  </testcase>
+  <testcase name="RetryOnRenewTest" classname="org.jclouds.openstack.handlers.RetryOnRenewTest" time="15.002">
+    <system-out><![CDATA[[TestNG-test=RetryOnRenewTest-3] Test test401ShouldRetry(org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest) succeeded: 125ms
+Test suite progress: tests succeeded: 12, failed: 0, skipped: 0.
+[TestNG-test=RetryOnRenewTest-5] Test test404ShouldNotRetry(org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest) succeeded: 125ms
+Test suite progress: tests succeeded: 13, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="RetryOnRenewTest" classname="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest" time="0.003">
+    <system-out><![CDATA[[TestNG-test=RetryOnRenewTest-1] Test test401ShouldRetry(org.jclouds.openstack.handlers.RetryOnRenewTest) succeeded: 120ms
+Test suite progress: tests succeeded: 10, failed: 0, skipped: 0.
+Starting test test408ShouldRetry(org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest)
+]]></system-out>
+  </testcase>
+  <testcase name="RetryOnRenewTest" classname="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest" time="0.005">
+    <system-out><![CDATA[[TestNG-test=RetryOnRenewTest-1] Test test408ShouldRetry(org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest) succeeded: 4ms
+Test suite progress: tests succeeded: 11, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="RetryOnRenewTest" classname="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest" time="0.005"/>
+  <testcase name="RetryOnRenewTest" classname="org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest" time="15.006">
+    <system-out><![CDATA[[TestNG-test=RetryOnRenewTest-2] Test test401ShouldRetry4Times(org.jclouds.openstack.handlers.RetryOnRenewTest) succeeded: 15123ms
+Test suite progress: tests succeeded: 14, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="LinkPredicatesTest" classname="org.jclouds.openstack.predicates.LinkPredicatesTest" time="0.002">
+    <system-out><![CDATA[[TestNG-test=RetryOnRenewTest-4] Test test401ShouldRetry4Times(org.jclouds.openstack.keystone.v1_1.handlers.RetryOnRenewTest) succeeded: 15127ms
+Test suite progress: tests succeeded: 15, failed: 0, skipped: 0.
+Starting test testHrefEqualsWhenEqual(org.jclouds.openstack.predicates.LinkPredicatesTest)
+Starting test testHrefEqualsWhenNotEqual(org.jclouds.openstack.predicates.LinkPredicatesTest)
+Starting test testRelationEqualsWhenEqual(org.jclouds.openstack.predicates.LinkPredicatesTest)
+Starting test testRelationEqualsWhenNotEqual(org.jclouds.openstack.predicates.LinkPredicatesTest)
+Starting test testTypeEqualsWhenEqual(org.jclouds.openstack.predicates.LinkPredicatesTest)
+]]></system-out>
+  </testcase>
+  <testcase name="LinkPredicatesTest" classname="org.jclouds.openstack.predicates.LinkPredicatesTest" time="0.002"/>
+  <testcase name="LinkPredicatesTest" classname="org.jclouds.openstack.predicates.LinkPredicatesTest" time="0.002">
+    <system-out><![CDATA[[TestNG-test=LinkPredicatesTest-2] Test testHrefEqualsWhenNotEqual(org.jclouds.openstack.predicates.LinkPredicatesTest) succeeded: 1ms
+]]></system-out>
+  </testcase>
+  <testcase name="LinkPredicatesTest" classname="org.jclouds.openstack.predicates.LinkPredicatesTest" time="0.002">
+    <system-out><![CDATA[Test suite progress: tests succeeded: 16, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="LinkPredicatesTest" classname="org.jclouds.openstack.predicates.LinkPredicatesTest" time="0.002"/>
+  <testcase name="LinkPredicatesTest" classname="org.jclouds.openstack.predicates.LinkPredicatesTest" time="0">
+    <system-out><![CDATA[[TestNG-test=LinkPredicatesTest-3] Test testRelationEqualsWhenEqual(org.jclouds.openstack.predicates.LinkPredicatesTest) succeeded: 1ms
+Test suite progress: tests succeeded: 17, failed: 0, skipped: 0.
+[TestNG-test=LinkPredicatesTest-1] Test testHrefEqualsWhenEqual(org.jclouds.openstack.predicates.LinkPredicatesTest) succeeded: 3ms
+Test suite progress: tests succeeded: 18, failed: 0, skipped: 0.
+[TestNG-test=LinkPredicatesTest-5] Test testTypeEqualsWhenEqual(org.jclouds.openstack.predicates.LinkPredicatesTest) succeeded: 2ms
+Test suite progress: tests succeeded: 19, failed: 0, skipped: 0.
+[TestNG-test=LinkPredicatesTest-4] Test testRelationEqualsWhenNotEqual(org.jclouds.openstack.predicates.LinkPredicatesTest) succeeded: 2ms
+Test suite progress: tests succeeded: 20, failed: 0, skipped: 0.
+Starting test testTypeEqualsWhenNotEqual(org.jclouds.openstack.predicates.LinkPredicatesTest)
+]]></system-out>
+  </testcase>
+  <testcase name="RegionFirstPartOfDNSNameOrProviderTest" classname="org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest" time="0.001">
+    <system-out><![CDATA[[TestNG-test=LinkPredicatesTest-2] Test testTypeEqualsWhenNotEqual(org.jclouds.openstack.predicates.LinkPredicatesTest) succeeded: 0ms
+Test suite progress: tests succeeded: 21, failed: 0, skipped: 0.
+Starting test testRegionNotNullReturnsRegion(org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest)
+Starting test testRegionNullReturnsFirstPartOfHostWhenValid(org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest)
+Starting test testRegionNullReturnsProvioderWhenHostNotValid(org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest)
+]]></system-out>
+  </testcase>
+  <testcase name="RegionFirstPartOfDNSNameOrProviderTest" classname="org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest" time="0.018">
+    <system-out><![CDATA[[TestNG-test=RegionFirstPartOfDNSNameOrProviderTest-1] Test testRegionNotNullReturnsRegion(org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest) succeeded: 2ms
+Test suite progress: tests succeeded: 22, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="RegionFirstPartOfDNSNameOrProviderTest" classname="org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest" time="0.078">
+    <system-out><![CDATA[[TestNG-test=RegionFirstPartOfDNSNameOrProviderTest-3] Test testRegionNullReturnsProvioderWhenHostNotValid(org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest) succeeded: 18ms
+Test suite progress: tests succeeded: 23, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="PublicURLOrInternalIfNullTest" classname="org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest" time="0">
+    <system-out><![CDATA[[TestNG-test=RegionFirstPartOfDNSNameOrProviderTest-2] Test testRegionNullReturnsFirstPartOfHostWhenValid(org.jclouds.openstack.keystone.v1_1.functions.RegionFirstPartOfDNSNameOrProviderTest) succeeded: 78ms
+Test suite progress: tests succeeded: 24, failed: 0, skipped: 0.
+Starting test testPublicURLNullReturnsInternalURL(org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest)
+Starting test testPublicURLNotNullReturnsPublicURL(org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest)
+]]></system-out>
+  </testcase>
+  <testcase name="PublicURLOrInternalIfNullTest" classname="org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest" time="0.001">
+    <system-out><![CDATA[[TestNG-test=PublicURLOrInternalIfNullTest-2] Test testPublicURLNullReturnsInternalURL(org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest) succeeded: 1ms
+Test suite progress: tests succeeded: 25, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="ParseAuthTest" classname="org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest" time="0.131">
+    <system-out><![CDATA[[TestNG-test=PublicURLOrInternalIfNullTest-1] Test testPublicURLNotNullReturnsPublicURL(org.jclouds.openstack.keystone.v1_1.functions.PublicURLOrInternalIfNullTest) succeeded: 2ms
+Test suite progress: tests succeeded: 26, failed: 0, skipped: 0.
+Starting test test(org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest)
+]]></system-out>
+  </testcase>
+  <testcase name="RegionIdToURIFromAuthForServiceSupplierTest" classname="org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest" time="0.012">
+    <system-out><![CDATA[[TestNG-test=ParseAuthTest-1] Test test(org.jclouds.openstack.keystone.v1_1.parse.ParseAuthTest) succeeded: 132ms
+Test suite progress: tests succeeded: 27, failed: 0, skipped: 0.
+Starting test testRegionMatches(org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest)
+Starting test testTakesFirstPartOfDNSWhenNoRegion(org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest)
+]]></system-out>
+  </testcase>
+  <testcase name="RegionIdToURIFromAuthForServiceSupplierTest" classname="org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest" time="0.012"/>
+  <testcase name="V1DefaultRegionIdSupplierTest" classname="org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest" time="0.002">
+    <system-out><![CDATA[[TestNG-test=RegionIdToURIFromAuthForServiceSupplierTest-1] Test testRegionMatches(org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest) succeeded: 12ms
+Test suite progress: tests succeeded: 28, failed: 0, skipped: 0.
+[TestNG-test=RegionIdToURIFromAuthForServiceSupplierTest-2] Test testTakesFirstPartOfDNSWhenNoRegion(org.jclouds.openstack.keystone.v1_1.suppliers.RegionIdToURIFromAuthForServiceSupplierTest) succeeded: 12ms
+Test suite progress: tests succeeded: 29, failed: 0, skipped: 0.
+Starting test testRegionMatches(org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest)
+Starting test testTakesFirstPartOfDNSWhenNoRegion(org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest)
+]]></system-out>
+  </testcase>
+  <testcase name="V1DefaultRegionIdSupplierTest" classname="org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest" time="0.004">
+    <system-out><![CDATA[[TestNG-test=V1DefaultRegionIdSupplierTest-1] Test testRegionMatches(org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest) succeeded: 2ms
+Test suite progress: tests succeeded: 30, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="OpenStackAuthClientTest" classname="org.jclouds.openstack.internal.OpenStackAuthClientTest" time="0.038">
+    <system-out><![CDATA[[TestNG-test=V1DefaultRegionIdSupplierTest-2] Test testTakesFirstPartOfDNSWhenNoRegion(org.jclouds.openstack.keystone.v1_1.suppliers.V1DefaultRegionIdSupplierTest) succeeded: 4ms
+Test suite progress: tests succeeded: 31, failed: 0, skipped: 0.
+Starting test testAuthenticateStorage(org.jclouds.openstack.internal.OpenStackAuthClientTest)
+Starting test testAuthenticate(org.jclouds.openstack.internal.OpenStackAuthClientTest)
+]]></system-out>
+  </testcase>
+  <testcase name="OpenStackAuthClientTest" classname="org.jclouds.openstack.internal.OpenStackAuthClientTest" time="0.038"/>
+</testsuite>

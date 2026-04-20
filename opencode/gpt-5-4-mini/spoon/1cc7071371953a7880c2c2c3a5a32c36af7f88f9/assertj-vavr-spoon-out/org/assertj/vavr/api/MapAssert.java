@@ -1,0 +1,27 @@
+/* Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
+the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
+an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+
+Copyright 2017-2022 the original author or authors.
+ */
+package org.assertj.vavr.api;
+import io.vavr.collection.Map;
+/**
+ * Assertions for {@link io.vavr.collection.Map}.
+ *
+ * @param <KEY>
+ * 		key type of the {@link Map}.
+ * @param <VALUE>
+ * 		value type of the {@link Map}.
+ * @author Michał Chmielarz
+ */
+public class MapAssert<KEY, VALUE> extends org.assertj.vavr.api.AbstractMapAssert<org.assertj.vavr.api.MapAssert<KEY, VALUE>, io.vavr.collection.Map<KEY, VALUE>, KEY, VALUE> {
+    MapAssert(io.vavr.collection.Map<KEY, VALUE> actual) {
+        super(actual, org.assertj.vavr.api.MapAssert.class);
+    }
+}

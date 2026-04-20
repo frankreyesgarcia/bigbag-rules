@@ -1,0 +1,17 @@
+org/jclouds/googlecloud/internal/ListPages.class
+org/jclouds/googlecloud/config/ListPageAdapterFactory.class
+org/jclouds/googlecloud/config/CurrentProject.class
+org/jclouds/googlecloud/domain/ListPage.class
+org/jclouds/googlecloud/domain/ForwardingListPage.class
+org/jclouds/googlecloud/internal/NullSafeCopies.class
+org/jclouds/googlecloud/config/CurrentProject$ClientEmail.class
+org/jclouds/googlecloud/GoogleCredentialsFromJson.class
+org/jclouds/googlecloud/internal/BaseToIteratorOfListPage.class
+org/jclouds/googlecloud/internal/BaseArg0ToIteratorOfListPage.class
+org/jclouds/googlecloud/config/GoogleCloudProperties.class
+org/jclouds/googlecloud/internal/BaseCallerArg0ToIteratorOfListPage.class
+org/jclouds/googlecloud/internal/AdvancingIterator.class
+org/jclouds/googlecloud/options/ListOptions.class
+org/jclouds/googlecloud/config/ListPageAdapterFactory$ListPageAdapter.class
+org/jclouds/googlecloud/internal/ListPages$1$1.class
+org/jclouds/googlecloud/internal/ListPages$1.class

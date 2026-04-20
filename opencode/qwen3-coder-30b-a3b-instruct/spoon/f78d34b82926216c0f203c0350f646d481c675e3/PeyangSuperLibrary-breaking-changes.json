@@ -1,0 +1,197 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.ExceptionUtils",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.ExceptionUtils",
+    "location": {
+      "path": "develop/p2p/lib/ExceptionUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.FieldModifier",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.FieldModifier",
+    "location": {
+      "path": "develop/p2p/lib/FieldModifier.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.FileConfiguration",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.FileConfiguration",
+    "location": {
+      "path": "develop/p2p/lib/FileConfiguration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.Intellij",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.Intellij",
+    "location": {
+      "path": "develop/p2p/lib/Intellij.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.LearnMath",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.LearnMath",
+    "location": {
+      "path": "develop/p2p/lib/LearnMath.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.LeetConverter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.LeetConverter",
+    "location": {
+      "path": "develop/p2p/lib/LeetConverter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.LoggerChanger",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.LoggerChanger",
+    "location": {
+      "path": "develop/p2p/lib/LoggerChanger.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.OptGraphGenerator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.OptGraphGenerator",
+    "location": {
+      "path": "develop/p2p/lib/OptGraphGenerator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.SQLModifier",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.SQLModifier",
+    "location": {
+      "path": "develop/p2p/lib/SQLModifier.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.TimeParser",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.TimeParser",
+    "location": {
+      "path": "develop/p2p/lib/TimeParser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.WaveCreator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.WaveCreator",
+    "location": {
+      "path": "develop/p2p/lib/WaveCreator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.bukkit.ItemUtils",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.bukkit.ItemUtils",
+    "location": {
+      "path": "develop/p2p/lib/bukkit/ItemUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.bukkit.Say2Functional",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.bukkit.Say2Functional",
+    "location": {
+      "path": "develop/p2p/lib/bukkit/Say2Functional.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.bukkit.Say2Functional$FunctionalEntry",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.bukkit.Say2Functional$FunctionalEntry",
+    "location": {
+      "path": "develop/p2p/lib/bukkit/Say2Functional.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "develop.p2p.lib.bukkit.TitleNotification",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "develop.p2p.lib.bukkit.TitleNotification",
+    "location": {
+      "path": "develop/p2p/lib/bukkit/TitleNotification.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

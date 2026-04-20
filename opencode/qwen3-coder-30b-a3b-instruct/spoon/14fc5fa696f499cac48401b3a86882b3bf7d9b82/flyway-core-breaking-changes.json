@@ -1,0 +1,3915 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 81
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.baseline()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 1182
+    },
+    "newSymbol": "org.flywaydb.core.Flyway.baseline()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.Flyway.baseline()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 1182
+    },
+    "newSymbol": "org.flywaydb.core.Flyway.baseline()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.clean()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 1121
+    },
+    "newSymbol": "org.flywaydb.core.Flyway.clean()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.Flyway.clean()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 1121
+    },
+    "newSymbol": "org.flywaydb.core.Flyway.clean()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.configure(java.util.Properties)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 1246
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getBaselineDescription()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 448
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getBaselineVersion()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 439
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getCallbacks()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 930
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getClassLoader()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 555
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getDataSource()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 545
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getEncoding()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 281
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getInitDescription()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 491
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getInitVersion()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 479
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getLocations()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 268
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getPlaceholderPrefix()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 346
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getPlaceholderSuffix()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 355
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getPlaceholders()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 337
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getResolvers()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 536
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getSchemas()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 296
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getSqlMigrationPrefix()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 367
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getSqlMigrationSeparator()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 379
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getSqlMigrationSuffix()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 391
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getTable()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 308
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.getTarget()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 319
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.init()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 1170
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.isBaselineOnMigrate()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 468
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.isCleanOnValidationError()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 430
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.isIgnoreFailedFutureMigration()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 407
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.isInitOnMigrate()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 514
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.isOutOfOrder()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 526
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.isPlaceholderReplacement()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 328
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.isValidateOnMigrate()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 416
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.migrate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 1006
+    },
+    "newSymbol": "org.flywaydb.core.Flyway.migrate()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.Flyway.migrate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 1006
+    },
+    "newSymbol": "org.flywaydb.core.Flyway.migrate()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.repair()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 1203
+    },
+    "newSymbol": "org.flywaydb.core.Flyway.repair()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.Flyway.repair()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 1203
+    },
+    "newSymbol": "org.flywaydb.core.Flyway.repair()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setBaselineDescription(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 831
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setBaselineOnMigrate(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 851
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setBaselineVersion(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 812
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setBaselineVersion(org.flywaydb.core.api.MigrationVersion)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 801
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setBaselineVersionAsString(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 822
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setCallbacks(java.lang.String[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 950
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setCallbacks(org.flywaydb.core.api.callback.FlywayCallback[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 939
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setCallbacksAsClassNames(java.lang.String[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 961
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setClassLoader(java.lang.ClassLoader)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 792
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setCleanOnValidationError(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 594
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setDataSource(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 782
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setDataSource(javax.sql.DataSource)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 767
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setEncoding(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 618
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setIgnoreFailedFutureMigration(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 571
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setInitDescription(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 886
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setInitOnMigrate(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 909
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setInitVersion(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 874
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setInitVersion(org.flywaydb.core.api.MigrationVersion)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 862
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setLocations(java.lang.String[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 609
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setOutOfOrder(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 921
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setPlaceholderPrefix(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 709
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setPlaceholderReplacement(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 691
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setPlaceholderSuffix(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 718
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setPlaceholders(java.util.Map<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 700
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setResolvers(java.lang.String[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 982
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setResolvers(org.flywaydb.core.api.resolver.MigrationResolver[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 971
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setResolversAsClassNames(java.lang.String[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 993
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setSchemas(java.lang.String[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 633
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setSqlMigrationPrefix(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 730
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setSqlMigrationSeparator(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 742
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setSqlMigrationSuffix(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 758
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setTable(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 645
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setTarget(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 669
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setTarget(org.flywaydb.core.api.MigrationVersion)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 655
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setTargetAsString(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 682
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.Flyway.setValidateOnMigrate(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.Flyway",
+    "location": {
+      "path": "org/flywaydb/core/Flyway.java",
+      "line": 580
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.MigrationInfo",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.MigrationInfo",
+    "location": {
+      "path": "org/flywaydb/core/api/MigrationInfo.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.MigrationInfo.compareVersion(org.flywaydb.core.api.MigrationInfo)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.MigrationInfo",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.MigrationInfo",
+    "location": {
+      "path": "org/flywaydb/core/api/MigrationInfo.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.MigrationInfo.getInstalledBy()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.MigrationInfo",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.MigrationInfo",
+    "location": {
+      "path": "org/flywaydb/core/api/MigrationInfo.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.MigrationInfo.getPhysicalLocation()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.MigrationInfo",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.MigrationInfo",
+    "location": {
+      "path": "org/flywaydb/core/api/MigrationInfo.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.MigrationInfo.getInstalledRank()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.MigrationInfo.getType()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.api.MigrationInfo",
+    "location": {
+      "path": "org/flywaydb/core/api/MigrationInfo.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.MigrationInfo.getType()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.MigrationInfo.getType()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.MigrationInfo",
+    "location": {
+      "path": "org/flywaydb/core/api/MigrationInfo.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.MigrationInfo.getType()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.MigrationInfoService",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.MigrationInfoService",
+    "location": {
+      "path": "org/flywaydb/core/api/MigrationInfoService.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.InfoOutputProvider.getInfoResult()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.MigrationState.PREINIT",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.MigrationState",
+    "location": {
+      "path": "org/flywaydb/core/api/MigrationState.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.MigrationType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.MigrationType",
+    "location": {
+      "path": "org/flywaydb/core/api/MigrationType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.android.ContextHolder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.android.ContextHolder",
+    "location": {
+      "path": "org/flywaydb/core/api/android/ContextHolder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.callback.FlywayCallback",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.callback.FlywayCallback",
+    "location": {
+      "path": "org/flywaydb/core/api/callback/FlywayCallback.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.migration.MigrationChecksumProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.migration.MigrationChecksumProvider",
+    "location": {
+      "path": "org/flywaydb/core/api/migration/MigrationChecksumProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.migration.MigrationInfoProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.migration.MigrationInfoProvider",
+    "location": {
+      "path": "org/flywaydb/core/api/migration/MigrationInfoProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.migration.jdbc.JdbcMigration",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.migration.jdbc.JdbcMigration",
+    "location": {
+      "path": "org/flywaydb/core/api/migration/jdbc/JdbcMigration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.migration.spring.SpringJdbcMigration",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.migration.spring.SpringJdbcMigration",
+    "location": {
+      "path": "org/flywaydb/core/api/migration/spring/SpringJdbcMigration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.resolver.MigrationExecutor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.resolver.MigrationExecutor",
+    "location": {
+      "path": "org/flywaydb/core/api/resolver/MigrationExecutor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.resolver.MigrationResolver",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.resolver.MigrationResolver",
+    "location": {
+      "path": "org/flywaydb/core/api/resolver/MigrationResolver.java",
+      "line": null
+    },
+    "newSymbol": "java.lang.Comparable.compareTo(T)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.resolver.MigrationResolver",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.resolver.MigrationResolver",
+    "location": {
+      "path": "org/flywaydb/core/api/resolver/MigrationResolver.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.resolver.MigrationResolver.resolveMigrations(org.flywaydb.core.api.resolver.MigrationResolver$Context)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.resolver.MigrationResolver.resolveMigrations()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.resolver.MigrationResolver",
+    "location": {
+      "path": "org/flywaydb/core/api/resolver/MigrationResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.resolver.ResolvedMigration",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.resolver.ResolvedMigration",
+    "location": {
+      "path": "org/flywaydb/core/api/resolver/ResolvedMigration.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.resolver.ChecksumMatcher.checksumMatches(java.lang.Integer)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.resolver.ResolvedMigration",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.resolver.ResolvedMigration",
+    "location": {
+      "path": "org/flywaydb/core/api/resolver/ResolvedMigration.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.resolver.ChecksumMatcher.checksumMatchesWithoutBeingIdentical(java.lang.Integer)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.resolver.ResolvedMigration.getExecutor()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.api.resolver.ResolvedMigration",
+    "location": {
+      "path": "org/flywaydb/core/api/resolver/ResolvedMigration.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.resolver.ResolvedMigration.getExecutor()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.resolver.ResolvedMigration.getExecutor()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.resolver.ResolvedMigration",
+    "location": {
+      "path": "org/flywaydb/core/api/resolver/ResolvedMigration.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.resolver.ResolvedMigration.getExecutor()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.api.resolver.ResolvedMigration.getType()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.api.resolver.ResolvedMigration",
+    "location": {
+      "path": "org/flywaydb/core/api/resolver/ResolvedMigration.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.resolver.ResolvedMigration.getType()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.api.resolver.ResolvedMigration.getType()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.api.resolver.ResolvedMigration",
+    "location": {
+      "path": "org/flywaydb/core/api/resolver/ResolvedMigration.java",
+      "line": null
+    },
+    "newSymbol": "org.flywaydb.core.api.resolver.ResolvedMigration.getType()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.callback.SqlScriptFlywayCallback",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.callback.SqlScriptFlywayCallback",
+    "location": {
+      "path": "org/flywaydb/core/internal/callback/SqlScriptFlywayCallback.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbBaseline.<init>(java.sql.Connection,org.flywaydb.core.internal.metadatatable.MetaDataTable,org.flywaydb.core.api.MigrationVersion,java.lang.String,org.flywaydb.core.api.callback.FlywayCallback[])",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.command.DbBaseline",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbBaseline.java",
+      "line": 72
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbBaseline.baseline()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.command.DbBaseline",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbBaseline.java",
+      "line": 84
+    },
+    "newSymbol": "org.flywaydb.core.internal.command.DbBaseline.baseline()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbBaseline.baseline()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.command.DbBaseline",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbBaseline.java",
+      "line": 84
+    },
+    "newSymbol": "org.flywaydb.core.internal.command.DbBaseline.baseline()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbClean",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.command.DbClean",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbClean.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbMigrate.<init>(java.sql.Connection,java.sql.Connection,org.flywaydb.core.internal.dbsupport.DbSupport,org.flywaydb.core.internal.metadatatable.MetaDataTable,org.flywaydb.core.internal.dbsupport.Schema,org.flywaydb.core.api.resolver.MigrationResolver,org.flywaydb.core.api.MigrationVersion,boolean,boolean,org.flywaydb.core.api.callback.FlywayCallback[])",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.command.DbMigrate",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbMigrate.java",
+      "line": 120
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbMigrate.migrate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.command.DbMigrate",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbMigrate.java",
+      "line": 140
+    },
+    "newSymbol": "org.flywaydb.core.internal.command.DbMigrate.migrate()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbMigrate.migrate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.command.DbMigrate",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbMigrate.java",
+      "line": 140
+    },
+    "newSymbol": "org.flywaydb.core.internal.command.DbMigrate.migrate()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbRepair.<init>(org.flywaydb.core.internal.dbsupport.DbSupport,java.sql.Connection,org.flywaydb.core.api.resolver.MigrationResolver,org.flywaydb.core.internal.metadatatable.MetaDataTable,org.flywaydb.core.api.callback.FlywayCallback[])",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.command.DbRepair",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbRepair.java",
+      "line": 81
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbRepair.repair()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.command.DbRepair",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbRepair.java",
+      "line": 93
+    },
+    "newSymbol": "org.flywaydb.core.internal.command.DbRepair.repair()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbRepair.repair()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.command.DbRepair",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbRepair.java",
+      "line": 93
+    },
+    "newSymbol": "org.flywaydb.core.internal.command.DbRepair.repair()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbSchemas.<init>(java.sql.Connection,org.flywaydb.core.internal.dbsupport.Schema[],org.flywaydb.core.internal.metadatatable.MetaDataTable)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.command.DbSchemas",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbSchemas.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbSchemas.create()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.command.DbSchemas",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbSchemas.java",
+      "line": 65
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbValidate.<init>(java.sql.Connection,java.sql.Connection,org.flywaydb.core.internal.metadatatable.MetaDataTable,org.flywaydb.core.api.resolver.MigrationResolver,org.flywaydb.core.api.MigrationVersion,boolean,boolean,org.flywaydb.core.api.callback.FlywayCallback[])",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.command.DbValidate",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbValidate.java",
+      "line": 100
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbValidate.validate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.command.DbValidate",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbValidate.java",
+      "line": 117
+    },
+    "newSymbol": "org.flywaydb.core.internal.command.DbValidate.validate()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.command.DbValidate.validate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.command.DbValidate",
+    "location": {
+      "path": "org/flywaydb/core/internal/command/DbValidate.java",
+      "line": 117
+    },
+    "newSymbol": "org.flywaydb.core.internal.command.DbValidate.validate()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.DbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.DbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/DbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.DbSupportFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.DbSupportFactory",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/DbSupportFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.Delimiter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.Delimiter",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/Delimiter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/FlywaySqlScriptException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.Function",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.Function",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/Function.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.JdbcTemplate",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.JdbcTemplate",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/JdbcTemplate.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.Schema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.Schema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/Schema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.SchemaObject",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.SchemaObject",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/SchemaObject.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.SqlScript",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.SqlScript",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/SqlScript.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.SqlStatement",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.SqlStatement",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/SqlStatement.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.SqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.SqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/SqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.Table",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.Table",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/Table.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.Type",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.Type",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/Type.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2.DB2DbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2.DB2DbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2/DB2DbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2.DB2Function",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2.DB2Function",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2/DB2Function.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2.DB2Schema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2.DB2Schema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2/DB2Schema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2.DB2SqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2.DB2SqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2/DB2SqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2.DB2Table",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2.DB2Table",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2/DB2Table.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2.DB2Type",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2.DB2Type",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2/DB2Type.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosDbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosDbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2zos/DB2zosDbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosFunction",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosFunction",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2zos/DB2zosFunction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosSchema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosSchema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2zos/DB2zosSchema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosSqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosSqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2zos/DB2zosSqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosTable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosTable",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2zos/DB2zosTable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosType",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/db2zos/DB2zosType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.derby.DerbyDbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.derby.DerbyDbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/derby/DerbyDbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.derby.DerbySchema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.derby.DerbySchema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/derby/DerbySchema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.derby.DerbySqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.derby.DerbySqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/derby/DerbySqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.derby.DerbyTable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.derby.DerbyTable",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/derby/DerbyTable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.h2.H2DbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.h2.H2DbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/h2/H2DbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.h2.H2Schema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.h2.H2Schema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/h2/H2Schema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.h2.H2SqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.h2.H2SqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/h2/H2SqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.h2.H2Table",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.h2.H2Table",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/h2/H2Table.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.hsql.HsqlDbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.hsql.HsqlDbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/hsql/HsqlDbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.hsql.HsqlSchema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.hsql.HsqlSchema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/hsql/HsqlSchema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.hsql.HsqlSqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.hsql.HsqlSqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/hsql/HsqlSqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.hsql.HsqlTable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.hsql.HsqlTable",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/hsql/HsqlTable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.mysql.MySQLDbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.mysql.MySQLDbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/mysql/MySQLDbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.mysql.MySQLSchema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.mysql.MySQLSchema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/mysql/MySQLSchema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.mysql.MySQLSqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.mysql.MySQLSqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/mysql/MySQLSqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.mysql.MySQLTable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.mysql.MySQLTable",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/mysql/MySQLTable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.oracle.OracleDbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.oracle.OracleDbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/oracle/OracleDbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.oracle.OracleSchema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.oracle.OracleSchema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/oracle/OracleSchema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.oracle.OracleSqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.oracle.OracleSqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/oracle/OracleSqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.oracle.OracleTable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.oracle.OracleTable",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/oracle/OracleTable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLDbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLDbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/postgresql/PostgreSQLDbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLSchema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLSchema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/postgresql/PostgreSQLSchema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLSqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLSqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/postgresql/PostgreSQLSqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLTable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLTable",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/postgresql/PostgreSQLTable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLType",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/postgresql/PostgreSQLType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.redshift.RedshiftDbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.redshift.RedshiftDbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/redshift/RedshiftDbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.redshift.RedshiftSchema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.redshift.RedshiftSchema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/redshift/RedshiftSchema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.redshift.RedshiftTable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.redshift.RedshiftTable",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/redshift/RedshiftTable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.solid.SolidDbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.solid.SolidDbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/solid/SolidDbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.solid.SolidSchema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.solid.SolidSchema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/solid/SolidSchema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.solid.SolidSqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.solid.SolidSqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/solid/SolidSqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.solid.SolidTable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.solid.SolidTable",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/solid/SolidTable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteDbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteDbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/sqlite/SQLiteDbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteSchema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteSchema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/sqlite/SQLiteSchema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteSqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteSqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/sqlite/SQLiteSqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteTable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteTable",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/sqlite/SQLiteTable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerDbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerDbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/sqlserver/SQLServerDbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerSchema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerSchema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/sqlserver/SQLServerSchema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerSqlStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerSqlStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/sqlserver/SQLServerSqlStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerTable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerTable",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/sqlserver/SQLServerTable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.vertica.VerticaDbSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.vertica.VerticaDbSupport",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/vertica/VerticaDbSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.vertica.VerticaSchema",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.vertica.VerticaSchema",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/vertica/VerticaSchema.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.dbsupport.vertica.VerticaStatementBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.dbsupport.vertica.VerticaStatementBuilder",
+    "location": {
+      "path": "org/flywaydb/core/internal/dbsupport/vertica/VerticaStatementBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoContext.baseline",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoContext",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoContext.init",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoContext",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoContext.pendingOrFuture",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoContext",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "java.lang.Comparable.compareTo(T)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": null
+    },
+    "newSymbol": "java.lang.Comparable.compareTo(T)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.<init>(org.flywaydb.core.api.resolver.ResolvedMigration,org.flywaydb.core.internal.metadatatable.AppliedMigration,org.flywaydb.core.internal.info.MigrationInfoContext)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.compareTo(org.flywaydb.core.api.MigrationInfo)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 227
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.compareTo(org.flywaydb.core.api.MigrationInfo)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.equals(java.lang.Object)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 233
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.equals(java.lang.Object)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getAppliedMigration()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 73
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getAppliedMigration()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getAppliedMigration()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 73
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getAppliedMigration()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getAppliedMigration()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 73
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getAppliedMigration()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getChecksum()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 84
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getChecksum()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getDescription()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 98
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getDescription()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getExecutionTime()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 165
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getExecutionTime()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getInstalledOn()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 158
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getInstalledOn()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getResolvedMigration()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 66
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getResolvedMigration()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getScript()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 105
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getScript()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getState()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 112
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getState()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getType()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 77
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getType()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getType()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 77
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getType()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getType()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 77
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getType()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getVersion()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 91
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.getVersion()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.hashCode()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 246
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.hashCode()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.validate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 177
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.validate()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.validate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 177
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.validate()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.validate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoImpl.java",
+      "line": 177
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoImpl.validate()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.<init>(org.flywaydb.core.api.resolver.MigrationResolver,org.flywaydb.core.internal.metadatatable.MetaDataTable,org.flywaydb.core.api.MigrationVersion,boolean,boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoServiceImpl.java",
+      "line": 84
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.applied()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoServiceImpl.java",
+      "line": 188
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.applied()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.applied()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoServiceImpl.java",
+      "line": 188
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.applied()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.failed()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoServiceImpl.java",
+      "line": 220
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.failed()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.failed()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoServiceImpl.java",
+      "line": 220
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.failed()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.validate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoServiceImpl.java",
+      "line": 269
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.validate()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.validate()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/info/MigrationInfoServiceImpl.java",
+      "line": 269
+    },
+    "newSymbol": "org.flywaydb.core.internal.info.MigrationInfoServiceImpl.validate()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.metadatatable.AppliedMigration",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.metadatatable.AppliedMigration",
+    "location": {
+      "path": "org/flywaydb/core/internal/metadatatable/AppliedMigration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.metadatatable.MetaDataTable",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.metadatatable.MetaDataTable",
+    "location": {
+      "path": "org/flywaydb/core/internal/metadatatable/MetaDataTable.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.metadatatable.MetaDataTableImpl",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.metadatatable.MetaDataTableImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/metadatatable/MetaDataTableImpl.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.CompositeMigrationResolver",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.CompositeMigrationResolver",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/CompositeMigrationResolver.java",
+      "line": null
+    },
+    "newSymbol": "java.lang.Comparable.compareTo(T)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.CompositeMigrationResolver.<init>(org.flywaydb.core.internal.dbsupport.DbSupport,java.lang.ClassLoader,org.flywaydb.core.internal.util.Locations,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.flywaydb.core.internal.util.PlaceholderReplacer,org.flywaydb.core.api.resolver.MigrationResolver[])",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.CompositeMigrationResolver",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/CompositeMigrationResolver.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.CompositeMigrationResolver.resolveMigrations()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.CompositeMigrationResolver",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/CompositeMigrationResolver.java",
+      "line": 93
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.MigrationInfoHelper.extractVersionAndDescription(java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.MigrationInfoHelper",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/MigrationInfoHelper.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 26
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.getExecutor()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 136
+    },
+    "newSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.getExecutor()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.getExecutor()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 136
+    },
+    "newSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.getExecutor()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.getType()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 112
+    },
+    "newSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.getType()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.getType()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 112
+    },
+    "newSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.getType()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.setChecksum(java.lang.Integer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 107
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.setDescription(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 83
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.setExecutor(org.flywaydb.core.api.resolver.MigrationExecutor)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 143
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.setPhysicalLocation(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 131
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.setScript(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 95
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.setType(org.flywaydb.core.api.MigrationType)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 119
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl.setVersion(org.flywaydb.core.api.MigrationVersion)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.ResolvedMigrationImpl",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/ResolvedMigrationImpl.java",
+      "line": 71
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.jdbc.JdbcMigrationExecutor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.jdbc.JdbcMigrationExecutor",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/jdbc/JdbcMigrationExecutor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.jdbc.JdbcMigrationResolver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.jdbc.JdbcMigrationResolver",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/jdbc/JdbcMigrationResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.spring.SpringJdbcMigrationExecutor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.spring.SpringJdbcMigrationExecutor",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/spring/SpringJdbcMigrationExecutor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.spring.SpringJdbcMigrationResolver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.spring.SpringJdbcMigrationResolver",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/spring/SpringJdbcMigrationResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/sql/SqlMigrationExecutor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.<init>(org.flywaydb.core.internal.dbsupport.DbSupport,org.flywaydb.core.internal.util.scanner.Resource,org.flywaydb.core.internal.util.PlaceholderReplacer,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/sql/SqlMigrationExecutor.java",
+      "line": 61
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.execute(java.sql.Connection)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/sql/SqlMigrationExecutor.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor.executeInTransaction()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/sql/SqlMigrationExecutor.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.sql.SqlMigrationResolver",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.sql.SqlMigrationResolver",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/sql/SqlMigrationResolver.java",
+      "line": null
+    },
+    "newSymbol": "java.lang.Comparable.compareTo(T)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.sql.SqlMigrationResolver.<init>(org.flywaydb.core.internal.dbsupport.DbSupport,java.lang.ClassLoader,org.flywaydb.core.internal.util.Location,org.flywaydb.core.internal.util.PlaceholderReplacer,java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.sql.SqlMigrationResolver",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/sql/SqlMigrationResolver.java",
+      "line": 96
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.resolver.sql.SqlMigrationResolver.resolveMigrations()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.resolver.sql.SqlMigrationResolver",
+    "location": {
+      "path": "org/flywaydb/core/internal/resolver/sql/SqlMigrationResolver.java",
+      "line": 108
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.ClassUtils.getShortName(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.ClassUtils",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/ClassUtils.java",
+      "line": 100
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.util.ClassUtils.instantiate(java.lang.String,java.lang.ClassLoader)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.ClassUtils",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/ClassUtils.java",
+      "line": 49
+    },
+    "newSymbol": "org.flywaydb.core.internal.util.ClassUtils.instantiate(java.lang.String,java.lang.ClassLoader)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.FeatureDetector.isAndroidAvailable()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.FeatureDetector",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/FeatureDetector.java",
+      "line": 164
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.FeatureDetector.isSpringJdbcAvailable()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.FeatureDetector",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/FeatureDetector.java",
+      "line": 108
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.FileCopyUtils",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.FileCopyUtils",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/FileCopyUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.Location",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.Location",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/Location.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.util.Locations.getLocations()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.Locations",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/Locations.java",
+      "line": 68
+    },
+    "newSymbol": "org.flywaydb.core.internal.util.Locations.getLocations()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.ObjectUtils",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.ObjectUtils",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/ObjectUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.flywaydb.core.internal.util.Pair",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.Pair",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/Pair.java",
+      "line": null
+    },
+    "newSymbol": "java.lang.Comparable.compareTo(T)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.Pair",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.Pair",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/Pair.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.Pair",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.Pair",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/Pair.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.Pair.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.Pair",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/Pair.java",
+      "line": 21
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.Pair.getLeft()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.Pair",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/Pair.java",
+      "line": 49
+    },
+    "newSymbol": "org.flywaydb.core.internal.util.Pair.getLeft()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.Pair.getRight()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.Pair",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/Pair.java",
+      "line": 56
+    },
+    "newSymbol": "org.flywaydb.core.internal.util.Pair.getRight()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.Pair.of(L,R)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.Pair",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/Pair.java",
+      "line": 39
+    },
+    "newSymbol": "org.flywaydb.core.internal.util.Pair.of(L,R)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.PlaceholderReplacer",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.PlaceholderReplacer",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/PlaceholderReplacer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.PropertiesUtils",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.PropertiesUtils",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/PropertiesUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.StringUtils.countOccurrencesOf(java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.StringUtils",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/StringUtils.java",
+      "line": 202
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.StringUtils.isNumeric(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.StringUtils",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/StringUtils.java",
+      "line": 90
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.StringUtils.replace(java.lang.String,java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.StringUtils",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/StringUtils.java",
+      "line": 225
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.StringUtils.trimLeadingWhitespace(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.StringUtils",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/StringUtils.java",
+      "line": 286
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.StringUtils.trimTrailingWhitespace(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.StringUtils",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/StringUtils.java",
+      "line": 304
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.VersionPrinter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.VersionPrinter",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/VersionPrinter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.jdbc.DriverDataSource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.jdbc.DriverDataSource",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/jdbc/DriverDataSource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.jdbc.JdbcUtils",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.jdbc.JdbcUtils",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/jdbc/JdbcUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.jdbc.RowMapper",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.jdbc.RowMapper",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/jdbc/RowMapper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.jdbc.TransactionCallback",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.jdbc.TransactionCallback",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/jdbc/TransactionCallback.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.jdbc.TransactionTemplate",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.jdbc.TransactionTemplate",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/jdbc/TransactionTemplate.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.logging.Log",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.logging.Log",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/logging/Log.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.logging.LogCreator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.logging.LogCreator",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/logging/LogCreator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.logging.LogFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.logging.LogFactory",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/logging/LogFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.logging.android.AndroidLog",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.logging.android.AndroidLog",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/logging/android/AndroidLog.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.logging.android.AndroidLogCreator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.logging.android.AndroidLogCreator",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/logging/android/AndroidLogCreator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.logging.apachecommons.ApacheCommonsLog",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.logging.apachecommons.ApacheCommonsLog",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/logging/apachecommons/ApacheCommonsLog.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.logging.apachecommons.ApacheCommonsLogCreator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.logging.apachecommons.ApacheCommonsLogCreator",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/logging/apachecommons/ApacheCommonsLogCreator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.logging.javautil.JavaUtilLog",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.logging.javautil.JavaUtilLog",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/logging/javautil/JavaUtilLog.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.logging.javautil.JavaUtilLogCreator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.logging.javautil.JavaUtilLogCreator",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/logging/javautil/JavaUtilLogCreator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.logging.slf4j.Slf4jLog",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.logging.slf4j.Slf4jLog",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/logging/slf4j/Slf4jLog.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.logging.slf4j.Slf4jLogCreator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.logging.slf4j.Slf4jLogCreator",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/logging/slf4j/Slf4jLogCreator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.Resource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.Resource",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/Resource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.Scanner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.Scanner",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/Scanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.android.AndroidResource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.android.AndroidResource",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/android/AndroidResource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.android.AndroidScanner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.android.AndroidScanner",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/android/AndroidScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.classpath.ClassPathLocationScanner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.classpath.ClassPathLocationScanner",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/classpath/ClassPathLocationScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.classpath.ClassPathResource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.classpath.ClassPathResource",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/classpath/ClassPathResource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/classpath/ClassPathScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.classpath.DefaultUrlResolver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.classpath.DefaultUrlResolver",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/classpath/DefaultUrlResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.classpath.FileSystemClassPathLocationScanner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.classpath.FileSystemClassPathLocationScanner",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/classpath/FileSystemClassPathLocationScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.classpath.JarFileClassPathLocationScanner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.classpath.JarFileClassPathLocationScanner",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/classpath/JarFileClassPathLocationScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.classpath.OsgiClassPathLocationScanner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.classpath.OsgiClassPathLocationScanner",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/classpath/OsgiClassPathLocationScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.classpath.UrlResolver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.classpath.UrlResolver",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/classpath/UrlResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.classpath.jboss.JBossVFSv2UrlResolver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.classpath.jboss.JBossVFSv2UrlResolver",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/classpath/jboss/JBossVFSv2UrlResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.classpath.jboss.JBossVFSv3ClassPathLocationScanner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.classpath.jboss.JBossVFSv3ClassPathLocationScanner",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/classpath/jboss/JBossVFSv3ClassPathLocationScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.filesystem.FileSystemResource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.filesystem.FileSystemResource",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/filesystem/FileSystemResource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.flywaydb.core.internal.util.scanner.filesystem.FileSystemScanner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.flywaydb.core.internal.util.scanner.filesystem.FileSystemScanner",
+    "location": {
+      "path": "org/flywaydb/core/internal/util/scanner/filesystem/FileSystemScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

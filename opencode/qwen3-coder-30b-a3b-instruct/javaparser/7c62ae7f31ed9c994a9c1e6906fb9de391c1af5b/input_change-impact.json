@@ -1,0 +1,126 @@
+{
+  "project" : "onebusaway-gtfs-modules",
+  "breakingCommit" : "7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b",
+  "dependency" : {
+    "groupId" : "org.hibernate",
+    "artifactId" : "hibernate-core",
+    "previousVersion" : "4.0.1.Final",
+    "newVersion" : "5.4.24.Final",
+    "previousJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/hibernate-core-4.0.1.Final.jar",
+    "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/hibernate-core-5.4.24.Final.jar"
+  },
+  "classification" : {
+    "datasetCategory" : "COMPILATION_FAILURE",
+    "inferredCategory" : "COMPILATION_FAILURE",
+    "logFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/onebusaway-gtfs-modules/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b.log",
+    "classifierReport" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/qwen3-coder-30b-a3b-instruct/agent/opencode/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/breaking-classifier-report.json"
+  },
+  "files" : [ {
+    "filePath" : "/onebusaway-gtfs-modules/onebusaway-gtfs-hibernate/src/main/java/org/onebusaway/gtfs/impl/ServiceDateUserType.java",
+    "errors" : [ {
+      "lineNumber" : 31,
+      "columnNumber" : 8,
+      "message" : "org.onebusaway.gtfs.impl.ServiceDateUserType is not abstract and does not override abstract method nullSafeSet(java.sql.PreparedStatement,java.lang.Object,int,org.hibernate.engine.spi.SharedSessionContractImplementor) in org.hibernate.usertype.UserType",
+      "details" : [ ],
+      "status" : "SUCCESS",
+      "errorMessage" : null,
+      "changeImpact" : {
+        "projectPath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/onebusaway-gtfs-modules",
+        "sourceFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/onebusaway-gtfs-modules/onebusaway-gtfs-hibernate/src/main/java/org/onebusaway/gtfs/impl/ServiceDateUserType.java",
+        "lineNumber" : 31,
+        "oldJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/hibernate-core-4.0.1.Final.jar",
+        "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/hibernate-core-5.4.24.Final.jar",
+        "generatedAt" : "2026-04-18T02:39:48.270800Z",
+        "constructs" : [ {
+          "constructType" : "TYPE_REFERENCE",
+          "signature" : "org.hibernate.usertype.UserType",
+          "dependency" : {
+            "origin" : "UNKNOWN",
+            "groupId" : null,
+            "artifactId" : null,
+            "version" : null,
+            "coordinates" : "UNKNOWN",
+            "sourcePath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/hibernate-core-4.0.1.Final.jar"
+          },
+          "lineNumber" : 31,
+          "codeLine" : "public class ServiceDateUserType implements UserType {",
+          "apiChanges" : [ {
+            "elementType" : "CLASS",
+            "matchType" : "CLASS",
+            "name" : "org.hibernate.usertype.UserType",
+            "declaringType" : "org.hibernate.usertype.UserType",
+            "qualifiedSignature" : "org.hibernate.usertype.UserType",
+            "changeStatus" : "MODIFIED",
+            "binaryCompatible" : false,
+            "sourceCompatible" : false,
+            "compatibilityChanges" : [ ],
+            "signature" : null,
+            "value" : null,
+            "parameterTypes" : null,
+            "changedMemberCount" : 4
+          } ]
+        } ]
+      }
+    }, {
+      "lineNumber" : 68,
+      "columnNumber" : 3,
+      "message" : "method does not override or implement a method from a supertype",
+      "details" : [ ],
+      "status" : "SUCCESS",
+      "errorMessage" : null,
+      "changeImpact" : {
+        "projectPath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/onebusaway-gtfs-modules",
+        "sourceFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/onebusaway-gtfs-modules/onebusaway-gtfs-hibernate/src/main/java/org/onebusaway/gtfs/impl/ServiceDateUserType.java",
+        "lineNumber" : 68,
+        "oldJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/hibernate-core-4.0.1.Final.jar",
+        "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/hibernate-core-5.4.24.Final.jar",
+        "generatedAt" : "2026-04-18T02:39:48.271581Z",
+        "constructs" : [ {
+          "constructType" : "ANNOTATION_USAGE",
+          "signature" : "java.lang.Override",
+          "dependency" : {
+            "origin" : "JDK",
+            "groupId" : "java",
+            "artifactId" : "java.base",
+            "version" : null,
+            "coordinates" : "java:java.base",
+            "sourcePath" : null
+          },
+          "lineNumber" : 68,
+          "codeLine" : "  @Override",
+          "apiChanges" : [ ]
+        } ]
+      }
+    }, {
+      "lineNumber" : 84,
+      "columnNumber" : 3,
+      "message" : "method does not override or implement a method from a supertype",
+      "details" : [ ],
+      "status" : "SUCCESS",
+      "errorMessage" : null,
+      "changeImpact" : {
+        "projectPath" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/onebusaway-gtfs-modules",
+        "sourceFile" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/onebusaway-gtfs-modules/onebusaway-gtfs-hibernate/src/main/java/org/onebusaway/gtfs/impl/ServiceDateUserType.java",
+        "lineNumber" : 84,
+        "oldJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/hibernate-core-4.0.1.Final.jar",
+        "newJar" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/running-outputs/agent/opencode/qwen/qwen3-coder/javaparser/7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b/hibernate-core-5.4.24.Final.jar",
+        "generatedAt" : "2026-04-18T02:39:48.271873Z",
+        "constructs" : [ {
+          "constructType" : "ANNOTATION_USAGE",
+          "signature" : "java.lang.Override",
+          "dependency" : {
+            "origin" : "JDK",
+            "groupId" : "java",
+            "artifactId" : "java.base",
+            "version" : null,
+            "coordinates" : "java:java.base",
+            "sourcePath" : null
+          },
+          "lineNumber" : 84,
+          "codeLine" : "  @Override",
+          "apiChanges" : [ ]
+        } ]
+      }
+    } ]
+  } ]
+}

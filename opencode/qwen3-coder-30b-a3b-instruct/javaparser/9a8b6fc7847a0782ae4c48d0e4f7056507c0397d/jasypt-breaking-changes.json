@@ -1,0 +1,496 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.connectionprovider.EncryptedPasswordC3P0ConnectionProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.connectionprovider.EncryptedPasswordC3P0ConnectionProvider",
+    "location": {
+      "path": "org/jasypt/hibernate/connectionprovider/EncryptedPasswordC3P0ConnectionProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.connectionprovider.EncryptedPasswordDriverManagerConnectionProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.connectionprovider.EncryptedPasswordDriverManagerConnectionProvider",
+    "location": {
+      "path": "org/jasypt/hibernate/connectionprovider/EncryptedPasswordDriverManagerConnectionProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.connectionprovider.ParameterNaming",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.connectionprovider.ParameterNaming",
+    "location": {
+      "path": "org/jasypt/hibernate/connectionprovider/ParameterNaming.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.encryptor.HibernatePBEBigDecimalEncryptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.encryptor.HibernatePBEBigDecimalEncryptor",
+    "location": {
+      "path": "org/jasypt/hibernate/encryptor/HibernatePBEBigDecimalEncryptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.encryptor.HibernatePBEBigIntegerEncryptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.encryptor.HibernatePBEBigIntegerEncryptor",
+    "location": {
+      "path": "org/jasypt/hibernate/encryptor/HibernatePBEBigIntegerEncryptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.encryptor.HibernatePBEByteEncryptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.encryptor.HibernatePBEByteEncryptor",
+    "location": {
+      "path": "org/jasypt/hibernate/encryptor/HibernatePBEByteEncryptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.encryptor.HibernatePBEEncryptorRegistry",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.encryptor.HibernatePBEEncryptorRegistry",
+    "location": {
+      "path": "org/jasypt/hibernate/encryptor/HibernatePBEEncryptorRegistry.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.encryptor.HibernatePBEStringEncryptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.encryptor.HibernatePBEStringEncryptor",
+    "location": {
+      "path": "org/jasypt/hibernate/encryptor/HibernatePBEStringEncryptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.AbstractEncryptedAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.AbstractEncryptedAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/AbstractEncryptedAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedBigDecimalAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedBigDecimalAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedBigDecimalAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedBigDecimalType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedBigDecimalType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedBigDecimalType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedBigIntegerAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedBigIntegerAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedBigIntegerAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedBigIntegerType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedBigIntegerType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedBigIntegerType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedBinaryType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedBinaryType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedBinaryType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedBooleanAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedBooleanAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedBooleanAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedByteAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedByteAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedByteAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedCalendarAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedCalendarAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedCalendarAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedDateAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedDateAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedDateAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedDoubleAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedDoubleAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedDoubleAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedFloatAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedFloatAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedFloatAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedIntegerAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedIntegerAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedIntegerAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedLongAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedLongAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedLongAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedShortAsStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedShortAsStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedShortAsStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.EncryptedStringType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.EncryptedStringType",
+    "location": {
+      "path": "org/jasypt/hibernate/type/EncryptedStringType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.hibernate.type.ParameterNaming",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.hibernate.type.ParameterNaming",
+    "location": {
+      "path": "org/jasypt/hibernate/type/ParameterNaming.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.spring.properties.EncryptablePreferencesPlaceholderConfigurer",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.spring.properties.EncryptablePreferencesPlaceholderConfigurer",
+    "location": {
+      "path": "org/jasypt/spring/properties/EncryptablePreferencesPlaceholderConfigurer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.spring.properties.EncryptablePropertyOverrideConfigurer",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.spring.properties.EncryptablePropertyOverrideConfigurer",
+    "location": {
+      "path": "org/jasypt/spring/properties/EncryptablePropertyOverrideConfigurer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.spring.properties.EncryptablePropertyPlaceholderConfigurer",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.spring.properties.EncryptablePropertyPlaceholderConfigurer",
+    "location": {
+      "path": "org/jasypt/spring/properties/EncryptablePropertyPlaceholderConfigurer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.spring.properties.EncryptableServletContextPropertyPlaceholderConfigurer",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.spring.properties.EncryptableServletContextPropertyPlaceholderConfigurer",
+    "location": {
+      "path": "org/jasypt/spring/properties/EncryptableServletContextPropertyPlaceholderConfigurer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.spring.security.PBEPasswordEncoder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.spring.security.PBEPasswordEncoder",
+    "location": {
+      "path": "org/jasypt/spring/security/PBEPasswordEncoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.spring.security.PasswordEncoder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.spring.security.PasswordEncoder",
+    "location": {
+      "path": "org/jasypt/spring/security/PasswordEncoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.spring.security2.PBEPasswordEncoder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.spring.security2.PBEPasswordEncoder",
+    "location": {
+      "path": "org/jasypt/spring/security2/PBEPasswordEncoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.spring.security2.PasswordEncoder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.spring.security2.PasswordEncoder",
+    "location": {
+      "path": "org/jasypt/spring/security2/PasswordEncoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.spring.security3.PBEPasswordEncoder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.spring.security3.PBEPasswordEncoder",
+    "location": {
+      "path": "org/jasypt/spring/security3/PBEPasswordEncoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.spring.security3.PasswordEncoder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.spring.security3.PasswordEncoder",
+    "location": {
+      "path": "org/jasypt/spring/security3/PasswordEncoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.spring.security3.TokenBasedRememberMeServices",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.spring.security3.TokenBasedRememberMeServices",
+    "location": {
+      "path": "org/jasypt/spring/security3/TokenBasedRememberMeServices.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.wicket.JasyptCrypt",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.wicket.JasyptCrypt",
+    "location": {
+      "path": "org/jasypt/wicket/JasyptCrypt.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.jasypt.wicket.JasyptCryptFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.jasypt.wicket.JasyptCryptFactory",
+    "location": {
+      "path": "org/jasypt/wicket/JasyptCryptFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

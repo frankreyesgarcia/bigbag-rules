@@ -1,0 +1,1046 @@
+{
+  "info": {
+    "id": "ses_2d0b527d4ffenBzRVciITrpaet",
+    "slug": "eager-knight",
+    "projectID": "global",
+    "directory": "/workspace",
+    "title": "Fix pay-adminusers compilation errors",
+    "version": "1.3.0",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "permission": [
+      {
+        "permission": "question",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_enter",
+        "pattern": "*",
+        "action": "deny"
+      },
+      {
+        "permission": "plan_exit",
+        "pattern": "*",
+        "action": "deny"
+      }
+    ],
+    "time": {
+      "created": 1774614927403,
+      "updated": 1774614966143
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1774614927426
+        },
+        "summary": {
+          "diffs": []
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "openrouter",
+          "modelID": "qwen/qwen3.5-397b-a17b"
+        },
+        "id": "msg_d2f4ad842001z6pNu1ZBllDwgK",
+        "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "text": "\"Project @pay-adminusers/ does not compile. Plan: 1) Run mvn compile in the project @pay-adminusers/ to get the compilation errors only. 2) Generate a JavaParser source code transformation to fix the errors.    - Use the project in folder @/workspace/javaparser-base-template/ as the base project template.    - Use JavaParser AST manipulation to create the transformation.    - Save the transformation rules inside the folder @/workspace/javaparser-base-template/, e.g., in /workspace/javaparser-base-template/src/main/java/github/chains/Main.java.    - Use the JavaParser API documentation located in folder /workspace/javaparser-api-docs/ for reference. 3) Ensure the generated transformation compiles correctly. 4) Apply the transformation to fix the compilation errors. 5) Verify that the project now compiles successfully with mvn compile. \"",
+          "id": "prt_d2f4ad844001B7063z2s9u7N46",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4ad842001z6pNu1ZBllDwgK"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "assistant",
+        "time": {
+          "created": 1774614927496,
+          "completed": 1774614931570
+        },
+        "parentID": "msg_d2f4ad842001z6pNu1ZBllDwgK",
+        "modelID": "qwen/qwen3.5-397b-a17b",
+        "providerID": "openrouter",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/workspace",
+          "root": "/"
+        },
+        "cost": 0.0079614,
+        "tokens": {
+          "total": 10778,
+          "input": 10437,
+          "output": 341,
+          "reasoning": 131,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "finish": "tool-calls",
+        "id": "msg_d2f4ad888001pGdct1jvmIUlgJ",
+        "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_d2f4adead001ss9rtZ2ikbpbwR",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4ad888001pGdct1jvmIUlgJ"
+        },
+        {
+          "type": "reasoning",
+          "text": "This is a complex multi-step task. Let me break it down:\n\n1. Run `mvn compile` in `/workspace/pay-adminusers/` to get compilation errors\n2. Look at the JavaParser base template in `/workspace/javaparser-base-template/`\n3. Look at JavaParser API docs in `/workspace/javaparser-api-docs/`\n4. Create a JavaParser transformation to fix the errors\n5. Ensure the transformation compiles\n6. Apply the transformation to fix the errors\n7. Verify the project compiles\n\nLet me start by creating a todo list and then running the initial commands in parallel.",
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "This is a complex multi-step task. Let me break it down:\n\n1. Run `mvn compile` in `/workspace/pay-adminusers/` to get compilation errors\n2. Look at the JavaParser base template in `/workspace/javaparser-base-template/`\n3. Look at JavaParser API docs in `/workspace/javaparser-api-docs/`\n4. Create a JavaParser transformation to fix the errors\n5. Ensure the transformation compiles\n6. Apply the transformation to fix the errors\n7. Verify the project compiles\n\nLet me start by creating a todo list and then running the initial commands in parallel.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "time": {
+            "start": 1774614929070,
+            "end": 1774614931559
+          },
+          "id": "prt_d2f4adeae001fCd5WfUqQO05uo",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4ad888001pGdct1jvmIUlgJ"
+        },
+        {
+          "type": "tool",
+          "callID": "call_68d4ec2688f1408aa8b6c4ba",
+          "tool": "todowrite",
+          "state": {
+            "status": "completed",
+            "input": {
+              "todos": [
+                {
+                  "content": "Run mvn compile in pay-adminusers/ to get compilation errors",
+                  "status": "in_progress",
+                  "priority": "high"
+                },
+                {
+                  "content": "Examine javaparser-base-template/ project structure",
+                  "status": "pending",
+                  "priority": "high"
+                },
+                {
+                  "content": "Review JavaParser API docs for reference",
+                  "status": "pending",
+                  "priority": "medium"
+                },
+                {
+                  "content": "Create JavaParser transformation to fix errors",
+                  "status": "pending",
+                  "priority": "high"
+                },
+                {
+                  "content": "Ensure transformation compiles correctly",
+                  "status": "pending",
+                  "priority": "medium"
+                },
+                {
+                  "content": "Apply transformation to fix compilation errors",
+                  "status": "pending",
+                  "priority": "high"
+                },
+                {
+                  "content": "Verify project compiles successfully with mvn compile",
+                  "status": "pending",
+                  "priority": "high"
+                }
+              ]
+            },
+            "output": "[\n  {\n    \"content\": \"Run mvn compile in pay-adminusers/ to get compilation errors\",\n    \"status\": \"in_progress\",\n    \"priority\": \"high\"\n  },\n  {\n    \"content\": \"Examine javaparser-base-template/ project structure\",\n    \"status\": \"pending\",\n    \"priority\": \"high\"\n  },\n  {\n    \"content\": \"Review JavaParser API docs for reference\",\n    \"status\": \"pending\",\n    \"priority\": \"medium\"\n  },\n  {\n    \"content\": \"Create JavaParser transformation to fix errors\",\n    \"status\": \"pending\",\n    \"priority\": \"high\"\n  },\n  {\n    \"content\": \"Ensure transformation compiles correctly\",\n    \"status\": \"pending\",\n    \"priority\": \"medium\"\n  },\n  {\n    \"content\": \"Apply transformation to fix compilation errors\",\n    \"status\": \"pending\",\n    \"priority\": \"high\"\n  },\n  {\n    \"content\": \"Verify project compiles successfully with mvn compile\",\n    \"status\": \"pending\",\n    \"priority\": \"high\"\n  }\n]",
+            "title": "7 todos",
+            "metadata": {
+              "todos": [
+                {
+                  "content": "Run mvn compile in pay-adminusers/ to get compilation errors",
+                  "status": "in_progress",
+                  "priority": "high"
+                },
+                {
+                  "content": "Examine javaparser-base-template/ project structure",
+                  "status": "pending",
+                  "priority": "high"
+                },
+                {
+                  "content": "Review JavaParser API docs for reference",
+                  "status": "pending",
+                  "priority": "medium"
+                },
+                {
+                  "content": "Create JavaParser transformation to fix errors",
+                  "status": "pending",
+                  "priority": "high"
+                },
+                {
+                  "content": "Ensure transformation compiles correctly",
+                  "status": "pending",
+                  "priority": "medium"
+                },
+                {
+                  "content": "Apply transformation to fix compilation errors",
+                  "status": "pending",
+                  "priority": "high"
+                },
+                {
+                  "content": "Verify project compiles successfully with mvn compile",
+                  "status": "pending",
+                  "priority": "high"
+                }
+              ],
+              "truncated": false
+            },
+            "time": {
+              "start": 1774614931529,
+              "end": 1774614931532
+            }
+          },
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "This is a complex multi-step task. Let me break it down:\n\n1. Run `mvn compile` in `/workspace/pay-adminusers/` to get compilation errors\n2. Look at the JavaParser base template in `/workspace/javaparser-base-template/`\n3. Look at JavaParser API docs in `/workspace/javaparser-api-docs/`\n4. Create a JavaParser transformation to fix the errors\n5. Ensure the transformation compiles\n6. Apply the transformation to fix the errors\n7. Verify the project compiles\n\nLet me start by creating a todo list and then running the initial commands in parallel.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "id": "prt_d2f4ae2f3001tNOe1LcJQ9xsOs",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4ad888001pGdct1jvmIUlgJ"
+        },
+        {
+          "type": "step-finish",
+          "reason": "tool-calls",
+          "cost": 0.0079614,
+          "tokens": {
+            "total": 10778,
+            "input": 10437,
+            "output": 341,
+            "reasoning": 131,
+            "cache": {
+              "read": 0,
+              "write": 0
+            }
+          },
+          "id": "prt_d2f4ae86c0016pwt9BWXA0SGwV",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4ad888001pGdct1jvmIUlgJ"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "assistant",
+        "time": {
+          "created": 1774614931571,
+          "completed": 1774614942104
+        },
+        "parentID": "msg_d2f4ad842001z6pNu1ZBllDwgK",
+        "modelID": "qwen/qwen3.5-397b-a17b",
+        "providerID": "openrouter",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/workspace",
+          "root": "/"
+        },
+        "cost": 0.007656,
+        "tokens": {
+          "total": 11402,
+          "input": 11188,
+          "output": 214,
+          "reasoning": 48,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "finish": "tool-calls",
+        "id": "msg_d2f4ae873001kyscd5eDhAmd5g",
+        "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_d2f4aeca600166xjRgvrk5mM05",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4ae873001kyscd5eDhAmd5g"
+        },
+        {
+          "type": "reasoning",
+          "text": "Now let me run the initial commands in parallel:\n1. Run mvn compile in pay-adminusers/\n2. Examine the javaparser-base-template/ structure\n3. Look at the javaparser-api-docs/",
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Now let me run the initial commands in parallel:\n1. Run mvn compile in pay-adminusers/\n2. Examine the javaparser-base-template/ structure\n3. Look at the javaparser-api-docs/",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "time": {
+            "start": 1774614932647,
+            "end": 1774614934089
+          },
+          "id": "prt_d2f4aeca70011f7W4W3JgLcnzG",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4ae873001kyscd5eDhAmd5g"
+        },
+        {
+          "type": "tool",
+          "callID": "call_2e163d4ff1c2465aad18efa6",
+          "tool": "bash",
+          "state": {
+            "status": "completed",
+            "input": {
+              "command": "cd /workspace/pay-adminusers && mvn compile 2>&1",
+              "description": "Run mvn compile to get compilation errors",
+              "timeout": 120000
+            },
+            "output": "[INFO] Scanning for projects...\n[INFO] \n[INFO] ---------------------< uk.gov.pay:pay-adminusers >----------------------\n[INFO] Building pay-adminusers 0.1-SNAPSHOT\n[INFO]   from pom.xml\n[INFO] --------------------------------[ jar ]---------------------------------\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/maven-metadata.xml\nProgress (1): 4.8 kB\rProgress (1): 5.7 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/maven-metadata.xml (5.7 kB at 30 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.3-android/guava-32.1.3-android.pom\nProgress (1): 910 B\rProgress (1): 2.2 kB\rProgress (1): 4.3 kB\rProgress (1): 5.8 kB\rProgress (1): 7.3 kB\rProgress (1): 9.2 kB\rProgress (1): 12 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.3-android/guava-32.1.3-android.pom (13 kB at 585 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/32.1.3-android/guava-parent-32.1.3-android.pom\nProgress (1): 874 B\rProgress (1): 2.1 kB\rProgress (1): 4.0 kB\rProgress (1): 5.9 kB\rProgress (1): 7.4 kB\rProgress (1): 9.9 kB\rProgress (1): 12 kB \rProgress (1): 13 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 18 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/32.1.3-android/guava-parent-32.1.3-android.pom (21 kB at 1.0 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.pom\nProgress (1): 940 B\rProgress (1): 2.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.pom (2.1 kB at 123 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.pom\nProgress (1): 840 B\rProgress (1): 1.8 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.pom (1.8 kB at 122 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.21.1/error_prone_parent-2.21.1.pom\nProgress (1): 722 B\rProgress (1): 1.6 kB\rProgress (1): 3.6 kB\rProgress (1): 5.8 kB\rProgress (1): 8.7 kB\rProgress (1): 12 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.21.1/error_prone_parent-2.21.1.pom (13 kB at 582 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.pom\nProgress (1): 910 B\rProgress (1): 2.2 kB\rProgress (1): 4.3 kB\rProgress (1): 5.8 kB\rProgress (1): 7.3 kB\rProgress (1): 9.2 kB\rProgress (1): 12 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.pom (13 kB at 535 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/32.1.3-jre/guava-parent-32.1.3-jre.pom\nProgress (1): 902 B\rProgress (1): 2.1 kB\rProgress (1): 4.0 kB\rProgress (1): 6.0 kB\rProgress (1): 8.0 kB\rProgress (1): 10 kB \rProgress (1): 12 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/32.1.3-jre/guava-parent-32.1.3-jre.pom (20 kB at 838 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-android/guava-33.0.0-android.pom\nProgress (1): 911 B\rProgress (1): 2.2 kB\rProgress (1): 4.3 kB\rProgress (1): 5.8 kB\rProgress (1): 7.3 kB\rProgress (1): 9.1 kB\rProgress (1): 12 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-android/guava-33.0.0-android.pom (13 kB at 546 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.0.0-android/guava-parent-33.0.0-android.pom\nProgress (1): 875 B\rProgress (1): 2.0 kB\rProgress (1): 3.9 kB\rProgress (1): 6.0 kB\rProgress (1): 7.2 kB\rProgress (1): 9.5 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 19 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.0.0-android/guava-parent-33.0.0-android.pom (19 kB at 1.0 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.pom\nProgress (1): 975 B\rProgress (1): 2.6 kB\rProgress (1): 3.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.pom (3.3 kB at 196 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.pom\nProgress (1): 952 B\rProgress (1): 2.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.pom (2.1 kB at 116 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.pom\nProgress (1): 840 B\rProgress (1): 1.8 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.pom (1.8 kB at 108 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.23.0/error_prone_parent-2.23.0.pom\nProgress (1): 722 B\rProgress (1): 2.1 kB\rProgress (1): 4.1 kB\rProgress (1): 6.5 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.23.0/error_prone_parent-2.23.0.pom (13 kB at 712 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.pom\nProgress (1): 910 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.3 kB\rProgress (1): 8.1 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.pom (13 kB at 570 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.0.0-jre/guava-parent-33.0.0-jre.pom\nProgress (1): 904 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.8 kB\rProgress (1): 9.2 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.0.0-jre/guava-parent-33.0.0-jre.pom (19 kB at 848 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.1.0-android/guava-33.1.0-android.pom\nProgress (1): 952 B\rProgress (1): 2.9 kB\rProgress (1): 4.8 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.1.0-android/guava-33.1.0-android.pom (9.1 kB at 506 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.1.0-android/guava-parent-33.1.0-android.pom\nProgress (1): 875 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.7 kB\rProgress (1): 8.8 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.1.0-android/guava-parent-33.1.0-android.pom (20 kB at 794 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom\nProgress (1): 940 B\rProgress (1): 2.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom (2.1 kB at 116 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.pom\nProgress (1): 759 B\rProgress (1): 2.7 kB\rProgress (1): 4.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.pom (4.3 kB at 224 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.26.1/error_prone_parent-2.26.1.pom\nProgress (1): 719 B\rProgress (1): 2.1 kB\rProgress (1): 4.1 kB\rProgress (1): 6.5 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.26.1/error_prone_parent-2.26.1.pom (13 kB at 656 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.pom\nProgress (1): 827 B\rProgress (1): 2.5 kB\rProgress (1): 5.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.pom (5.1 kB at 253 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.pom\nProgress (1): 953 B\rProgress (1): 2.9 kB\rProgress (1): 4.8 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.pom (9.1 kB at 363 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.1.0-jre/guava-parent-33.1.0-jre.pom\nProgress (1): 901 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.7 kB\rProgress (1): 9.4 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.1.0-jre/guava-parent-33.1.0-jre.pom (19 kB at 972 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.0-android/guava-33.2.0-android.pom\nProgress (1): 941 B\rProgress (1): 2.9 kB\rProgress (1): 4.8 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.0-android/guava-33.2.0-android.pom (9.1 kB at 569 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.0-android/guava-parent-33.2.0-android.pom\nProgress (1): 873 B\rProgress (1): 2.5 kB\rProgress (1): 4.6 kB\rProgress (1): 6.6 kB\rProgress (1): 8.7 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.0-android/guava-parent-33.2.0-android.pom (20 kB at 1.0 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.pom\nProgress (1): 951 B\rProgress (1): 2.9 kB\rProgress (1): 4.8 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.pom (9.1 kB at 505 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.0-jre/guava-parent-33.2.0-jre.pom\nProgress (1): 875 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.7 kB\rProgress (1): 9.4 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.0-jre/guava-parent-33.2.0-jre.pom (19 kB at 972 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-android/guava-33.2.1-android.pom\nProgress (1): 941 B\rProgress (1): 2.9 kB\rProgress (1): 4.8 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-android/guava-33.2.1-android.pom (9.1 kB at 506 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.1-android/guava-parent-33.2.1-android.pom\nProgress (1): 873 B\rProgress (1): 2.5 kB\rProgress (1): 4.6 kB\rProgress (1): 6.6 kB\rProgress (1): 8.7 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 15 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.1-android/guava-parent-33.2.1-android.pom (20 kB at 993 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.pom\nProgress (1): 951 B\rProgress (1): 2.9 kB\rProgress (1): 4.7 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.pom (9.1 kB at 568 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.1-jre/guava-parent-33.2.1-jre.pom\nProgress (1): 894 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.7 kB\rProgress (1): 9.4 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\rProgress (1): 19 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.1-jre/guava-parent-33.2.1-jre.pom (19 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.0-android/guava-33.3.0-android.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 9.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.0-android/guava-33.3.0-android.pom (9.3 kB at 548 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.0-android/guava-parent-33.3.0-android.pom\nProgress (1): 808 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.0-android/guava-parent-33.3.0-android.pom (21 kB at 1.2 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.pom\nProgress (1): 952 B\rProgress (1): 2.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.pom (2.1 kB at 140 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.pom\nProgress (1): 759 B\rProgress (1): 2.8 kB\rProgress (1): 4.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.pom (4.3 kB at 236 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.28.0/error_prone_parent-2.28.0.pom\nProgress (1): 720 B\rProgress (1): 2.1 kB\rProgress (1): 4.1 kB\rProgress (1): 6.5 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.28.0/error_prone_parent-2.28.0.pom (13 kB at 597 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.0-jre/guava-33.3.0-jre.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 9.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.0-jre/guava-33.3.0-jre.pom (9.3 kB at 547 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.0-jre/guava-parent-33.3.0-jre.pom\nProgress (1): 806 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.3 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.0-jre/guava-parent-33.3.0-jre.pom (20 kB at 927 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.1-android/guava-33.3.1-android.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 9.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.1-android/guava-33.3.1-android.pom (9.3 kB at 518 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.1-android/guava-parent-33.3.1-android.pom\nProgress (1): 803 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.1-android/guava-parent-33.3.1-android.pom (21 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 9.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.pom (9.3 kB at 582 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.1-jre/guava-parent-33.3.1-jre.pom\nProgress (1): 804 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.1-jre/guava-parent-33.3.1-jre.pom (20 kB at 842 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-android/guava-33.4.0-android.pom\nProgress (1): 956 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 8.8 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-android/guava-33.4.0-android.pom (8.8 kB at 440 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.0-android/guava-parent-33.4.0-android.pom\nProgress (1): 810 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 22 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.0-android/guava-parent-33.4.0-android.pom (22 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.pom\nProgress (1): 759 B\rProgress (1): 2.7 kB\rProgress (1): 4.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.pom (4.3 kB at 236 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.36.0/error_prone_parent-2.36.0.pom\nProgress (1): 728 B\rProgress (1): 2.1 kB\rProgress (1): 4.1 kB\rProgress (1): 6.4 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.36.0/error_prone_parent-2.36.0.pom (16 kB at 939 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.pom\nProgress (1): 953 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 8.8 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.pom (8.8 kB at 488 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.0-jre/guava-parent-33.4.0-jre.pom\nProgress (1): 818 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.0-jre/guava-parent-33.4.0-jre.pom (21 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.1-android/guava-33.4.1-android.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 5.0 kB\rProgress (1): 6.7 kB\rProgress (1): 8.9 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.1-android/guava-33.4.1-android.pom (8.9 kB at 469 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.1-android/guava-parent-33.4.1-android.pom\nProgress (1): 810 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 22 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.1-android/guava-parent-33.4.1-android.pom (22 kB at 988 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.pom\nProgress (1): 994 B\rProgress (1): 1.5 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.pom (1.5 kB at 89 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.1-jre/guava-33.4.1-jre.pom\nProgress (1): 953 B\rProgress (1): 3.0 kB\rProgress (1): 5.0 kB\rProgress (1): 6.7 kB\rProgress (1): 8.9 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.1-jre/guava-33.4.1-jre.pom (8.9 kB at 494 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.1-jre/guava-parent-33.4.1-jre.pom\nProgress (1): 811 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 6.0 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.1-jre/guava-parent-33.4.1-jre.pom (21 kB at 927 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.2-android/guava-33.4.2-android.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 5.0 kB\rProgress (1): 6.7 kB\rProgress (1): 8.9 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.2-android/guava-33.4.2-android.pom (8.9 kB at 495 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.2-android/guava-parent-33.4.2-android.pom\nProgress (1): 810 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 22 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.2-android/guava-parent-33.4.2-android.pom (22 kB at 1.0 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.2-jre/guava-33.4.2-jre.pom\nProgress (1): 953 B\rProgress (1): 3.0 kB\rProgress (1): 5.0 kB\rProgress (1): 6.7 kB\rProgress (1): 8.9 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.2-jre/guava-33.4.2-jre.pom (8.9 kB at 468 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.2-jre/guava-parent-33.4.2-jre.pom\nProgress (1): 811 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 6.0 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.2-jre/guava-parent-33.4.2-jre.pom (21 kB at 1.0 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.3-android/guava-33.4.3-android.pom\nProgress (1): 956 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 7.1 kB\rProgress (1): 8.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.3-android/guava-33.4.3-android.pom (8.3 kB at 439 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.3-android/guava-parent-33.4.3-android.pom\nProgress (1): 810 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 22 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.3-android/guava-parent-33.4.3-android.pom (22 kB at 978 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.3-jre/guava-33.4.3-jre.pom\nProgress (1): 953 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 7.1 kB\rProgress (1): 8.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.3-jre/guava-33.4.3-jre.pom (8.3 kB at 489 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.3-jre/guava-parent-33.4.3-jre.pom\nProgress (1): 811 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 6.0 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.3-jre/guava-parent-33.4.3-jre.pom (21 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.4-android/guava-33.4.4-android.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 7.0 kB\rProgress (1): 8.0 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.4-android/guava-33.4.4-android.pom (8.0 kB at 501 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.4-android/guava-parent-33.4.4-android.pom\nProgress (1): 817 B\rProgress (1): 2.0 kB\rProgress (1): 3.9 kB\rProgress (1): 5.8 kB\rProgress (1): 7.8 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 20 kB\rProgress (1): 23 kB\rProgress (1): 24 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.4-android/guava-parent-33.4.4-android.pom (24 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.4-jre/guava-33.4.4-jre.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 7.0 kB\rProgress (1): 8.0 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.4-jre/guava-33.4.4-jre.pom (8.0 kB at 471 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.4-jre/guava-parent-33.4.4-jre.pom\nProgress (1): 819 B\rProgress (1): 2.0 kB\rProgress (1): 3.9 kB\rProgress (1): 5.9 kB\rProgress (1): 7.8 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 23 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.4-jre/guava-parent-33.4.4-jre.pom (23 kB at 1.2 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.5-android/guava-33.4.5-android.pom\nProgress (1): 922 B\rProgress (1): 2.9 kB\rProgress (1): 4.9 kB\rProgress (1): 7.0 kB\rProgress (1): 9.3 kB\rProgress (1): 9.5 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.5-android/guava-33.4.5-android.pom (9.5 kB at 595 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.5-android/guava-parent-33.4.5-android.pom\nProgress (1): 810 B\rProgress (1): 2.1 kB\rProgress (1): 3.9 kB\rProgress (1): 5.9 kB\rProgress (1): 8.0 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 23 kB\rProgress (1): 24 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.5-android/guava-parent-33.4.5-android.pom (24 kB at 1.4 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.pom\nProgress (1): 947 B\rProgress (1): 2.9 kB\rProgress (1): 5.2 kB\rProgress (1): 5.6 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.pom (5.6 kB at 327 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.5-jre/guava-33.4.5-jre.pom\nProgress (1): 937 B\rProgress (1): 2.9 kB\rProgress (1): 4.9 kB\rProgress (1): 7.0 kB\rProgress (1): 9.4 kB\rProgress (1): 9.5 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.5-jre/guava-33.4.5-jre.pom (9.5 kB at 559 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.5-jre/guava-parent-33.4.5-jre.pom\nProgress (1): 813 B\rProgress (1): 2.1 kB\rProgress (1): 3.9 kB\rProgress (1): 5.9 kB\rProgress (1): 8.1 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 21 kB\rProgress (1): 24 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.5-jre/guava-parent-33.4.5-jre.pom (24 kB at 1.3 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.6-android/guava-33.4.6-android.pom\nProgress (1): 922 B\rProgress (1): 2.9 kB\rProgress (1): 5.0 kB\rProgress (1): 7.1 kB\rProgress (1): 9.4 kB\rProgress (1): 9.6 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.6-android/guava-33.4.6-android.pom (9.6 kB at 566 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.6-android/guava-parent-33.4.6-android.pom\nProgress (1): 810 B\rProgress (1): 2.1 kB\rProgress (1): 3.9 kB\rProgress (1): 5.9 kB\rProgress (1): 8.0 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 23 kB\rProgress (1): 25 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.6-android/guava-parent-33.4.6-android.pom (25 kB at 1.3 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.6-jre/guava-33.4.6-jre.pom\nProgress (1): 937 B\rProgress (1): 2.9 kB\rProgress (1): 5.0 kB\rProgress (1): 7.1 kB\rProgress (1): 9.4 kB\rProgress (1): 9.6 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.6-jre/guava-33.4.6-jre.pom (9.6 kB at 565 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.6-jre/guava-parent-33.4.6-jre.pom\nProgress (1): 807 B\rProgress (1): 2.1 kB\rProgress (1): 3.9 kB\rProgress (1): 5.9 kB\rProgress (1): 8.1 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 21 kB\rProgress (1): 24 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.6-jre/guava-parent-33.4.6-jre.pom (24 kB at 1.0 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.7-android/guava-33.4.7-android.pom\nProgress (1): 922 B\rProgress (1): 2.9 kB\rProgress (1): 5.0 kB\rProgress (1): 7.1 kB\rProgress (1): 9.4 kB\rProgress (1): 9.6 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.7-android/guava-33.4.7-android.pom (9.6 kB at 535 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.7-android/guava-parent-33.4.7-android.pom\nProgress (1): 803 B\rProgress (1): 2.1 kB\rProgress (1): 3.9 kB\rProgress (1): 5.9 kB\rProgress (1): 8.0 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 21 kB\rProgress (1): 23 kB\rProgress (1): 25 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.7-android/guava-parent-33.4.7-android.pom (25 kB at 1.3 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.7-jre/guava-33.4.7-jre.pom\nProgress (1): 937 B\rProgress (1): 2.9 kB\rProgress (1): 5.0 kB\rProgress (1): 7.1 kB\rProgress (1): 9.4 kB\rProgress (1): 9.6 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.7-jre/guava-33.4.7-jre.pom (9.6 kB at 506 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.7-jre/guava-parent-33.4.7-jre.pom\nProgress (1): 806 B\rProgress (1): 2.1 kB\rProgress (1): 3.9 kB\rProgress (1): 5.9 kB\rProgress (1): 8.0 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 21 kB\rProgress (1): 25 kB\rProgress (1): 25 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.7-jre/guava-parent-33.4.7-jre.pom (25 kB at 572 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.8-android/guava-parent-33.4.8-android.pom\nProgress (1): 803 B\rProgress (1): 2.1 kB\rProgress (1): 3.9 kB\rProgress (1): 5.9 kB\rProgress (1): 8.0 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 21 kB\rProgress (1): 23 kB\rProgress (1): 25 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.8-android/guava-parent-33.4.8-android.pom (25 kB at 1.6 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.pom\nProgress (1): 937 B\rProgress (1): 2.9 kB\rProgress (1): 5.0 kB\rProgress (1): 7.1 kB\rProgress (1): 9.4 kB\rProgress (1): 9.6 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.pom (9.6 kB at 565 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.8-jre/guava-parent-33.4.8-jre.pom\nProgress (1): 806 B\rProgress (1): 2.1 kB\rProgress (1): 3.9 kB\rProgress (1): 5.9 kB\rProgress (1): 8.0 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 21 kB\rProgress (1): 25 kB\rProgress (1): 25 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.8-jre/guava-parent-33.4.8-jre.pom (25 kB at 1.3 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-android/guava-33.5.0-android.pom\nProgress (1): 921 B\rProgress (1): 2.9 kB\rProgress (1): 5.0 kB\rProgress (1): 7.2 kB\rProgress (1): 9.1 kB\rProgress (1): 9.9 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-android/guava-33.5.0-android.pom (9.9 kB at 493 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.5.0-android/guava-parent-33.5.0-android.pom\nProgress (1): 886 B\rProgress (1): 2.4 kB\rProgress (1): 3.9 kB\rProgress (1): 5.9 kB\rProgress (1): 7.6 kB\rProgress (1): 10 kB \rProgress (1): 13 kB\rProgress (1): 15 kB\rProgress (1): 18 kB\rProgress (1): 21 kB\rProgress (1): 24 kB\rProgress (1): 24 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.5.0-android/guava-parent-33.5.0-android.pom (24 kB at 1.2 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.pom\nProgress (1): 759 B\rProgress (1): 2.7 kB\rProgress (1): 4.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.pom (4.3 kB at 266 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.41.0/error_prone_parent-2.41.0.pom\nProgress (1): 729 B\rProgress (1): 2.2 kB\rProgress (1): 4.1 kB\rProgress (1): 6.4 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.41.0/error_prone_parent-2.41.0.pom (16 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.pom\nProgress (1): 827 B\rProgress (1): 2.5 kB\rProgress (1): 5.4 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.pom (5.4 kB at 339 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.pom\nProgress (1): 919 B\rProgress (1): 2.9 kB\rProgress (1): 5.0 kB\rProgress (1): 7.1 kB\rProgress (1): 9.4 kB\rProgress (1): 9.6 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.pom (9.6 kB at 601 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.5.0-jre/guava-parent-33.5.0-jre.pom\nProgress (1): 885 B\rProgress (1): 2.4 kB\rProgress (1): 4.0 kB\rProgress (1): 5.9 kB\rProgress (1): 7.6 kB\rProgress (1): 10 kB \rProgress (1): 13 kB\rProgress (1): 15 kB\rProgress (1): 19 kB\rProgress (1): 21 kB\rProgress (1): 24 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.5.0-jre/guava-parent-33.5.0-jre.pom (24 kB at 1.3 MB/s)\n[INFO] \n[INFO] --- resources:3.3.1:copy-resources (copy-resources) @ pay-adminusers ---\n[INFO] Copying 5 resources from src/main/resources/config to target\n[INFO] \n[INFO] --- resources:3.3.1:resources (default-resources) @ pay-adminusers ---\n[INFO] Copying 94 resources from src/main/resources to target/classes\n[INFO] \n[INFO] --- compiler:3.11.0:compile (default-compile) @ pay-adminusers ---\n[INFO] Changes detected - recompiling the module! :input tree\n[INFO] Compiling 164 source files with javac [debug release 11] to target/classes\n[INFO] /workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Link.java: Some input files use or override a deprecated API.\n[INFO] /workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Link.java: Recompile with -Xlint:deprecation for details.\n[INFO] /workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/persistence/dao/UserDao.java: Some input files use unchecked or unsafe operations.\n[INFO] /workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/persistence/dao/UserDao.java: Recompile with -Xlint:unchecked for details.\n[INFO] \n[INFO] --- swagger:2.2.10:resolve (default) @ pay-adminusers ---\n[INFO] Resolving OpenAPI specification..\n[INFO] YAML output: /workspace/pay-adminusers/openapi/adminusers_spec.yaml\n[INFO] ------------------------------------------------------------------------\n[INFO] BUILD SUCCESS\n[INFO] ------------------------------------------------------------------------\n[INFO] Total time:  7.306 s\n[INFO] Finished at: 2026-03-27T12:35:41Z\n[INFO] ------------------------------------------------------------------------\n",
+            "title": "Run mvn compile to get compilation errors",
+            "metadata": {
+              "output": "[INFO] Scanning for projects...\n[INFO] \n[INFO] ---------------------< uk.gov.pay:pay-adminusers >----------------------\n[INFO] Building pay-adminusers 0.1-SNAPSHOT\n[INFO]   from pom.xml\n[INFO] --------------------------------[ jar ]---------------------------------\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/maven-metadata.xml\nProgress (1): 4.8 kB\rProgress (1): 5.7 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/maven-metadata.xml (5.7 kB at 30 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.3-android/guava-32.1.3-android.pom\nProgress (1): 910 B\rProgress (1): 2.2 kB\rProgress (1): 4.3 kB\rProgress (1): 5.8 kB\rProgress (1): 7.3 kB\rProgress (1): 9.2 kB\rProgress (1): 12 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.3-android/guava-32.1.3-android.pom (13 kB at 585 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/32.1.3-android/guava-parent-32.1.3-android.pom\nProgress (1): 874 B\rProgress (1): 2.1 kB\rProgress (1): 4.0 kB\rProgress (1): 5.9 kB\rProgress (1): 7.4 kB\rProgress (1): 9.9 kB\rProgress (1): 12 kB \rProgress (1): 13 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 18 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/32.1.3-android/guava-parent-32.1.3-android.pom (21 kB at 1.0 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.pom\nProgress (1): 940 B\rProgress (1): 2.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.pom (2.1 kB at 123 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.pom\nProgress (1): 840 B\rProgress (1): 1.8 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.pom (1.8 kB at 122 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.21.1/error_prone_parent-2.21.1.pom\nProgress (1): 722 B\rProgress (1): 1.6 kB\rProgress (1): 3.6 kB\rProgress (1): 5.8 kB\rProgress (1): 8.7 kB\rProgress (1): 12 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.21.1/error_prone_parent-2.21.1.pom (13 kB at 582 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.pom\nProgress (1): 910 B\rProgress (1): 2.2 kB\rProgress (1): 4.3 kB\rProgress (1): 5.8 kB\rProgress (1): 7.3 kB\rProgress (1): 9.2 kB\rProgress (1): 12 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.pom (13 kB at 535 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/32.1.3-jre/guava-parent-32.1.3-jre.pom\nProgress (1): 902 B\rProgress (1): 2.1 kB\rProgress (1): 4.0 kB\rProgress (1): 6.0 kB\rProgress (1): 8.0 kB\rProgress (1): 10 kB \rProgress (1): 12 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/32.1.3-jre/guava-parent-32.1.3-jre.pom (20 kB at 838 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-android/guava-33.0.0-android.pom\nProgress (1): 911 B\rProgress (1): 2.2 kB\rProgress (1): 4.3 kB\rProgress (1): 5.8 kB\rProgress (1): 7.3 kB\rProgress (1): 9.1 kB\rProgress (1): 12 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-android/guava-33.0.0-android.pom (13 kB at 546 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.0.0-android/guava-parent-33.0.0-android.pom\nProgress (1): 875 B\rProgress (1): 2.0 kB\rProgress (1): 3.9 kB\rProgress (1): 6.0 kB\rProgress (1): 7.2 kB\rProgress (1): 9.5 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 19 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.0.0-android/guava-parent-33.0.0-android.pom (19 kB at 1.0 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.pom\nProgress (1): 975 B\rProgress (1): 2.6 kB\rProgress (1): 3.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.pom (3.3 kB at 196 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.pom\nProgress (1): 952 B\rProgress (1): 2.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.pom (2.1 kB at 116 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.pom\nProgress (1): 840 B\rProgress (1): 1.8 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.pom (1.8 kB at 108 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.23.0/error_prone_parent-2.23.0.pom\nProgress (1): 722 B\rProgress (1): 2.1 kB\rProgress (1): 4.1 kB\rProgress (1): 6.5 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.23.0/error_prone_parent-2.23.0.pom (13 kB at 712 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.pom\nProgress (1): 910 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.3 kB\rProgress (1): 8.1 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.pom (13 kB at 570 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.0.0-jre/guava-parent-33.0.0-jre.pom\nProgress (1): 904 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.8 kB\rProgress (1): 9.2 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.0.0-jre/guava-parent-33.0.0-jre.pom (19 kB at 848 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.1.0-android/guava-33.1.0-android.pom\nProgress (1): 952 B\rProgress (1): 2.9 kB\rProgress (1): 4.8 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.1.0-android/guava-33.1.0-android.pom (9.1 kB at 506 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.1.0-android/guava-parent-33.1.0-android.pom\nProgress (1): 875 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.7 kB\rProgress (1): 8.8 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.1.0-android/guava-parent-33.1.0-android.pom (20 kB at 794 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom\nProgress (1): 940 B\rProgress (1): 2.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom (2.1 kB at 116 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.pom\nProgress (1): 759 B\rProgress (1): 2.7 kB\rProgress (1): 4.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.pom (4.3 kB at 224 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.26.1/error_prone_parent-2.26.1.pom\nProgress (1): 719 B\rProgress (1): 2.1 kB\rProgress (1): 4.1 kB\rProgress (1): 6.5 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.26.1/error_prone_parent-2.26.1.pom (13 kB at 656 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.pom\nProgress (1): 827 B\rProgress (1): 2.5 kB\rProgress (1): 5.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.pom (5.1 kB at 253 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.pom\nProgress (1): 953 B\rProgress (1): 2.9 kB\rProgress (1): 4.8 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.pom (9.1 kB at 363 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.1.0-jre/guava-parent-33.1.0-jre.pom\nProgress (1): 901 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.7 kB\rProgress (1): 9.4 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.1.0-jre/guava-parent-33.1.0-jre.pom (19 kB at 972 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.0-android/guava-33.2.0-android.pom\nProgress (1): 941 B\rProgress (1): 2.9 kB\rProgress (1): 4.8 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.0-android/guava-33.2.0-android.pom (9.1 kB at 569 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.0-android/guava-parent-33.2.0-android.pom\nProgress (1): 873 B\rProgress (1): 2.5 kB\rProgress (1): 4.6 kB\rProgress (1): 6.6 kB\rProgress (1): 8.7 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.0-android/guava-parent-33.2.0-android.pom (20 kB at 1.0 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.pom\nProgress (1): 951 B\rProgress (1): 2.9 kB\rProgress (1): 4.8 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.pom (9.1 kB at 505 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.0-jre/guava-parent-33.2.0-jre.pom\nProgress (1): 875 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.7 kB\rProgress (1): 9.4 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.0-jre/guava-parent-33.2.0-jre.pom (19 kB at 972 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-android/guava-33.2.1-android.pom\nProgress (1): 941 B\rProgress (1): 2.9 kB\rProgress (1): 4.8 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-android/guava-33.2.1-android.pom (9.1 kB at 506 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.1-android/guava-parent-33.2.1-android.pom\nProgress (1): 873 B\rProgress (1): 2.5 kB\rProgress (1): 4.6 kB\rProgress (1): 6.6 kB\rProgress (1): 8.7 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 15 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.1-android/guava-parent-33.2.1-android.pom (20 kB at 993 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.pom\nProgress (1): 951 B\rProgress (1): 2.9 kB\rProgress (1): 4.7 kB\rProgress (1): 6.4 kB\rProgress (1): 9.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.pom (9.1 kB at 568 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.1-jre/guava-parent-33.2.1-jre.pom\nProgress (1): 894 B\rProgress (1): 2.5 kB\rProgress (1): 4.7 kB\rProgress (1): 6.7 kB\rProgress (1): 9.4 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 19 kB\rProgress (1): 19 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.2.1-jre/guava-parent-33.2.1-jre.pom (19 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.0-android/guava-33.3.0-android.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 9.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.0-android/guava-33.3.0-android.pom (9.3 kB at 548 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.0-android/guava-parent-33.3.0-android.pom\nProgress (1): 808 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.0-android/guava-parent-33.3.0-android.pom (21 kB at 1.2 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.pom\nProgress (1): 952 B\rProgress (1): 2.1 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.pom (2.1 kB at 140 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.pom\nProgress (1): 759 B\rProgress (1): 2.8 kB\rProgress (1): 4.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.pom (4.3 kB at 236 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.28.0/error_prone_parent-2.28.0.pom\nProgress (1): 720 B\rProgress (1): 2.1 kB\rProgress (1): 4.1 kB\rProgress (1): 6.5 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.28.0/error_prone_parent-2.28.0.pom (13 kB at 597 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.0-jre/guava-33.3.0-jre.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 9.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.0-jre/guava-33.3.0-jre.pom (9.3 kB at 547 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.0-jre/guava-parent-33.3.0-jre.pom\nProgress (1): 806 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.3 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.0-jre/guava-parent-33.3.0-jre.pom (20 kB at 927 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.1-android/guava-33.3.1-android.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 9.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.1-android/guava-33.3.1-android.pom (9.3 kB at 518 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.1-android/guava-parent-33.3.1-android.pom\nProgress (1): 803 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 13 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.1-android/guava-parent-33.3.1-android.pom (21 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 9.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.3.1-jre/guava-33.3.1-jre.pom (9.3 kB at 582 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.1-jre/guava-parent-33.3.1-jre.pom\nProgress (1): 804 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 20 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.3.1-jre/guava-parent-33.3.1-jre.pom (20 kB at 842 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-android/guava-33.4.0-android.pom\nProgress (1): 956 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 8.8 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-android/guava-33.4.0-android.pom (8.8 kB at 440 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.0-android/guava-parent-33.4.0-android.pom\nProgress (1): 810 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 22 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.0-android/guava-parent-33.4.0-android.pom (22 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.pom\nProgress (1): 759 B\rProgress (1): 2.7 kB\rProgress (1): 4.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.pom (4.3 kB at 236 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.36.0/error_prone_parent-2.36.0.pom\nProgress (1): 728 B\rProgress (1): 2.1 kB\rProgress (1): 4.1 kB\rProgress (1): 6.4 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.36.0/error_prone_parent-2.36.0.pom (16 kB at 939 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.pom\nProgress (1): 953 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 6.6 kB\rProgress (1): 8.8 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.pom (8.8 kB at 488 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.0-jre/guava-parent-33.4.0-jre.pom\nProgress (1): 818 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.0-jre/guava-parent-33.4.0-jre.pom (21 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.1-android/guava-33.4.1-android.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 5.0 kB\rProgress (1): 6.7 kB\rProgress (1): 8.9 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.1-android/guava-33.4.1-android.pom (8.9 kB at 469 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.1-android/guava-parent-33.4.1-android.pom\nProgress (1): 810 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 22 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.1-android/guava-parent-33.4.1-android.pom (22 kB at 988 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.pom\nProgress (1): 994 B\rProgress (1): 1.5 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.pom (1.5 kB at 89 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.1-jre/guava-33.4.1-jre.pom\nProgress (1): 953 B\rProgress (1): 3.0 kB\rProgress (1): 5.0 kB\rProgress (1): 6.7 kB\rProgress (1): 8.9 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.1-jre/guava-33.4.1-jre.pom (8.9 kB at 494 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.1-jre/guava-parent-33.4.1-jre.pom\nProgress (1): 811 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 6.0 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.1-jre/guava-parent-33.4.1-jre.pom (21 kB at 927 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.2-android/guava-33.4.2-android.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 5.0 kB\rProgress (1): 6.7 kB\rProgress (1): 8.9 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.2-android/guava-33.4.2-android.pom (8.9 kB at 495 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.2-android/guava-parent-33.4.2-android.pom\nProgress (1): 810 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 22 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.2-android/guava-parent-33.4.2-android.pom (22 kB at 1.0 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.2-jre/guava-33.4.2-jre.pom\nProgress (1): 953 B\rProgress (1): 3.0 kB\rProgress (1): 5.0 kB\rProgress (1): 6.7 kB\rProgress (1): 8.9 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.2-jre/guava-33.4.2-jre.pom (8.9 kB at 468 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.2-jre/guava-parent-33.4.2-jre.pom\nProgress (1): 811 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 6.0 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.2-jre/guava-parent-33.4.2-jre.pom (21 kB at 1.0 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.3-android/guava-33.4.3-android.pom\nProgress (1): 956 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 7.1 kB\rProgress (1): 8.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.3-android/guava-33.4.3-android.pom (8.3 kB at 439 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.3-android/guava-parent-33.4.3-android.pom\nProgress (1): 810 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 5.9 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 22 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.3-android/guava-parent-33.4.3-android.pom (22 kB at 978 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.3-jre/guava-33.4.3-jre.pom\nProgress (1): 953 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 7.1 kB\rProgress (1): 8.3 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.3-jre/guava-33.4.3-jre.pom (8.3 kB at 489 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.3-jre/guava-parent-33.4.3-jre.pom\nProgress (1): 811 B\rProgress (1): 2.4 kB\rProgress (1): 4.2 kB\rProgress (1): 6.0 kB\rProgress (1): 8.2 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 19 kB\rProgress (1): 20 kB\rProgress (1): 21 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.3-jre/guava-parent-33.4.3-jre.pom (21 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.4-android/guava-33.4.4-android.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 7.0 kB\rProgress (1): 8.0 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.4-android/guava-33.4.4-android.pom (8.0 kB at 501 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.4-android/guava-parent-33.4.4-android.pom\nProgress (1): 817 B\rProgress (1): 2.0 kB\rProgress (1): 3.9 kB\rProgress (1): 5.8 kB\rProgress (1): 7.8 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 15 kB\rProgress (1): 17 kB\rProgress (1): 20 kB\rProgress (1): 23 kB\rProgress (1): 24 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.4-android/guava-parent-33.4.4-android.pom (24 kB at 1.1 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.4-jre/guava-33.4.4-jre.pom\nProgress (1): 952 B\rProgress (1): 3.0 kB\rProgress (1): 4.9 kB\rProgress (1): 7.0 kB\rProgress (1): 8.0 kB\r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.4-jre/guava-33.4.4-jre.pom (8.0 kB at 471 kB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.4-jre/guava-parent-33.4.4-jre.pom\nProgress (1): 819 B\rProgress (1): 2.0 kB\rProgress (1): 3.9 kB\rProgress (1): 5.9 kB\rProgress (1): 7.8 kB\rProgress (1): 11 kB \rProgress (1): 14 kB\rProgress (1): 16 kB\rProgress (1): 18 kB\rProgress (1): 20 kB\rProgress (1): 23 kB\r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.4-jre/guava-parent-33.4.4-jre.pom (23 kB at 1.2 MB/s)\nDownloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.5-android/guava-33.4.5-android.pom\nProgress (1): 922 B\rProgress (1): 2.9 kB\rProgress (1): 4.9 kB\rProgress (1): 7.0 kB\rProgress (1): 9.3 kB\rProgress (1): 9.5 kB\r                    \rDow\n\n...",
+              "exit": 0,
+              "description": "Run mvn compile to get compilation errors",
+              "truncated": false
+            },
+            "time": {
+              "start": 1774614933540,
+              "end": 1774614941981
+            }
+          },
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Now let me run the initial commands in parallel:\n1. Run mvn compile in pay-adminusers/\n2. Examine the javaparser-base-template/ structure\n3. Look at the javaparser-api-docs/",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "id": "prt_d2f4aee35001frsty2oUKC5tEx",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4ae873001kyscd5eDhAmd5g"
+        },
+        {
+          "type": "tool",
+          "callID": "call_de2fbcf9091b4fc88be96cf8",
+          "tool": "glob",
+          "state": {
+            "status": "completed",
+            "input": {
+              "pattern": "**/*",
+              "path": "/workspace/javaparser-base-template"
+            },
+            "output": "/workspace/javaparser-base-template/pom.xml\n/workspace/javaparser-base-template/.DS_Store\n/workspace/javaparser-base-template/src/.DS_Store\n/workspace/javaparser-base-template/target/classes/github/chains/Main.class\n/workspace/javaparser-base-template/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst\n/workspace/javaparser-base-template/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst\n/workspace/javaparser-base-template/src/main/java/github/.DS_Store\n/workspace/javaparser-base-template/src/main/java/github/chains/Main.java\n/workspace/javaparser-base-template/.gitignore\n/workspace/javaparser-base-template/src/main/.DS_Store\n/workspace/javaparser-base-template/src/main/java/.DS_Store",
+            "title": "workspace/javaparser-base-template",
+            "metadata": {
+              "count": 11,
+              "truncated": false
+            },
+            "time": {
+              "start": 1774614933777,
+              "end": 1774614933789
+            }
+          },
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Now let me run the initial commands in parallel:\n1. Run mvn compile in pay-adminusers/\n2. Examine the javaparser-base-template/ structure\n3. Look at the javaparser-api-docs/",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "id": "prt_d2f4af044001KNqJfQN95V2V14",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4ae873001kyscd5eDhAmd5g"
+        },
+        {
+          "type": "tool",
+          "callID": "call_63e8eda860914370b394582d",
+          "tool": "glob",
+          "state": {
+            "status": "completed",
+            "input": {
+              "pattern": "**/*",
+              "path": "/workspace/javaparser-api-docs"
+            },
+            "output": "/workspace/javaparser-api-docs/index-all.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/visitor/package-use.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/metamodel/class-use/NodeMetaModelGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/metamodel/class-use/MetaModelGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/visitor/package-frame.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/visitor/package-tree.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/visitor/ModifierVisitorGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/visitor/ObjectIdentityHashCodeVisitorGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/visitor/NoCommentEqualsVisitorGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/visitor/EqualsVisitorGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/visitor/GenericListVisitorAdapterGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/class-use/JavaParserJsonSerializer.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/class-use/JavaParserJsonSerializer.JsonToken.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/class-use/JavaParserJsonSerializer.JsonTokenRange.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/class-use/JavaParserJsonSerializer.JsonRange.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/class-use/JavaParserJsonDeserializer.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/class-use/JavaParserJsonSerializer.JsonNode.html\n/workspace/javaparser-api-docs/com/github/javaparser/quality/class-use/Preconditions.html\n/workspace/javaparser-api-docs/com/github/javaparser/quality/class-use/NotNull.html\n/workspace/javaparser-api-docs/com/github/javaparser/quality/class-use/Nullable.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/metamodel/NodeMetaModelGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/metamodel/package-use.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/metamodel/package-tree.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/metamodel/MetaModelGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/metamodel/package-frame.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/metamodel/package-summary.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/package-use.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/package-tree.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/CoreGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/core/package-frame.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/package-use.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/JavaParserJsonSerializer.JsonNode.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/package-frame.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/package-tree.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/package-summary.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/JavaParserJsonSerializer.JsonTokenRange.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/JavaParserJsonSerializer.JsonRange.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/JavaParserJsonDeserializer.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/JavaParserJsonSerializer.html\n/workspace/javaparser-api-docs/com/github/javaparser/serialization/JavaParserJsonSerializer.JsonToken.html\n/workspace/javaparser-api-docs/com/github/javaparser/quality/package-use.html\n/workspace/javaparser-api-docs/com/github/javaparser/quality/package-summary.html\n/workspace/javaparser-api-docs/com/github/javaparser/quality/package-frame.html\n/workspace/javaparser-api-docs/com/github/javaparser/quality/NotNull.html\n/workspace/javaparser-api-docs/com/github/javaparser/quality/package-tree.html\n/workspace/javaparser-api-docs/com/github/javaparser/printer/DefaultPrettyPrinterVisitor.html\n/workspace/javaparser-api-docs/com/github/javaparser/printer/package-use.html\n/workspace/javaparser-api-docs/com/github/javaparser/quality/Preconditions.html\n/workspace/javaparser-api-docs/com/github/javaparser/quality/Nullable.html\n/workspace/javaparser-api-docs/com/github/javaparser/printer/package-summary.html\n/workspace/javaparser-api-docs/com/github/javaparser/printer/XmlPrinter.html\n/workspace/javaparser-api-docs/com/github/javaparser/printer/Printer.html\n/workspace/javaparser-api-docs/com/github/javaparser/printer/package-frame.html\n/workspace/javaparser-api-docs/com/github/javaparser/printer/DotPrinter.html\n/workspace/javaparser-api-docs/com/github/javaparser/printer/ConfigurablePrinter.html\n/workspace/javaparser-api-docs/com/github/javaparser/printer/DefaultPrettyPrinter.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/package-use.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/package-tree.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/package-frame.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/package-summary.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/CompilationUnitGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/NodeGenerator.html\n/workspace/javaparser-api-docs/com/github/javaparser/generator/Generator.html\n/workspace/javaparser-api-docs/com/github/javaparser/Processor.html\n/workspace/javaparser-api-docs/com/github/javaparser/StringProvider.html\n/workspace/javaparser-api-docs/com/github/javaparser/package-summary.html\n/workspace/javaparser-api-docs/com/github/javaparser/package-tree.html\n/workspace/javaparser-api-docs/com/github/javaparser/UnicodeEscapeProcessingProvider.html\n/workspace/javaparser-api-docs/com/github/javaparser/UnicodeEscapeProcessingProvider.PositionMapping.html\n/workspace/javaparser-api-docs/com/github/javaparser/TokenTypes.html\n/workspace/javaparser-api-docs/com/github/javaparser/UnicodeEscapeProcessingProvider.LineCounter.html\n/workspace/javaparser-api-docs/com/github/javaparser/TokenRange.html\n/workspace/javaparser-api-docs/com/github/javaparser/SimpleCharStream.html\n/workspace/javaparser-api-docs/com/github/javaparser/Token.html\n/workspace/javaparser-api-docs/com/github/javaparser/StreamProvider.html\n/workspace/javaparser-api-docs/com/github/javaparser/Range.html\n/workspace/javaparser-api-docs/com/github/javaparser/Provider.html\n/workspace/javaparser-api-docs/com/github/javaparser/ParserConfiguration.LanguageLevel.html\n/workspace/javaparser-api-docs/com/github/javaparser/Providers.html\n/workspace/javaparser-api-docs/com/github/javaparser/ParseException.html\n/workspace/javaparser-api-docs/com/github/javaparser/Problem.html\n/workspace/javaparser-api-docs/com/github/javaparser/ParseResult.html\n/workspace/javaparser-api-docs/com/github/javaparser/LineEndingProcessingProvider.html\n/workspace/javaparser-api-docs/com/github/javaparser/JavaParserBuild.html\n/workspace/javaparser-api-docs/com/github/javaparser/ParseProblemException.html\n/workspace/javaparser-api-docs/com/github/javaparser/JavaToken.Kind.html\n/workspace/javaparser-api-docs/com/github/javaparser/JavaParser.html\n/workspace/javaparser-api-docs/overview-tree.html\n/workspace/javaparser-api-docs/script.js\n/workspace/javaparser-api-docs/allclasses-frame.html\n/workspace/javaparser-api-docs/overview-summary.html\n/workspace/javaparser-api-docs/stylesheet.css\n/workspace/javaparser-api-docs/package-list\n/workspace/javaparser-api-docs/serialized-form.html\n/workspace/javaparser-api-docs/overview-frame.html\n/workspace/javaparser-api-docs/index.html\n/workspace/javaparser-api-docs/constant-values.html\n/workspace/javaparser-api-docs/help-doc.html\n/workspace/javaparser-api-docs/deprecated-list.html\n/workspace/javaparser-api-docs/allclasses-noframe.html\n\n(Results are truncated: showing first 100 results. Consider using a more specific path or pattern.)",
+            "title": "workspace/javaparser-api-docs",
+            "metadata": {
+              "count": 100,
+              "truncated": true
+            },
+            "time": {
+              "start": 1774614934083,
+              "end": 1774614934094
+            }
+          },
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Now let me run the initial commands in parallel:\n1. Run mvn compile in pay-adminusers/\n2. Examine the javaparser-base-template/ structure\n3. Look at the javaparser-api-docs/",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "id": "prt_d2f4af172001GLTya09GZWqLfd",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4ae873001kyscd5eDhAmd5g"
+        },
+        {
+          "type": "step-finish",
+          "reason": "tool-calls",
+          "cost": 0.007656,
+          "tokens": {
+            "total": 11402,
+            "input": 11188,
+            "output": 214,
+            "reasoning": 48,
+            "cache": {
+              "read": 0,
+              "write": 0
+            }
+          },
+          "id": "prt_d2f4b118d001UExX0oBiLsnOpr",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4ae873001kyscd5eDhAmd5g"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "assistant",
+        "time": {
+          "created": 1774614942107,
+          "completed": 1774614948238
+        },
+        "parentID": "msg_d2f4ad842001z6pNu1ZBllDwgK",
+        "modelID": "qwen/qwen3.5-397b-a17b",
+        "providerID": "openrouter",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/workspace",
+          "root": "/"
+        },
+        "cost": 0.019302,
+        "tokens": {
+          "total": 29934,
+          "input": 29644,
+          "output": 290,
+          "reasoning": 131,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "finish": "tool-calls",
+        "id": "msg_d2f4b119b0017hrl6oh5OgKo50",
+        "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_d2f4b20aa001wYwcwgsLjQyzCt",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b119b0017hrl6oh5OgKo50"
+        },
+        {
+          "type": "reasoning",
+          "text": "Interesting! The `mvn compile` actually succeeded. Let me check if there are any errors or if the project actually compiles fine. Let me also look at the javaparser-base-template Main.java to understand the structure.\n\nWait, the build says \"BUILD SUCCESS\". Let me re-read the user's request. They said \"Project @pay-adminusers/ does not compile.\" but the mvn compile succeeded. Let me check if there's something else going on - maybe there's a test failure or the user wants me to look for specific issues.\n\nLet me look at the project structure and the base template to understand what's expected.",
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Interesting! The `mvn compile` actually succeeded. Let me check if there are any errors or if the project actually compiles fine. Let me also look at the javaparser-base-template Main.java to understand the structure.\n\nWait, the build says \"BUILD SUCCESS\". Let me re-read the user's request. They said \"Project @pay-adminusers/ does not compile.\" but the mvn compile succeeded. Let me check if there's something else going on - maybe there's a test failure or the user wants me to look for specific issues.\n\nLet me look at the project structure and the base template to understand what's expected.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "time": {
+            "start": 1774614945963,
+            "end": 1774614947092
+          },
+          "id": "prt_d2f4b20ab001t2ftGMfIw5TmKp",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b119b0017hrl6oh5OgKo50"
+        },
+        {
+          "type": "text",
+          "text": "The project actually compiles successfully. Let me verify the project structure and check if there are any specific issues to address:",
+          "time": {
+            "start": 1774614948227,
+            "end": 1774614948227
+          },
+          "id": "prt_d2f4b2515001mceFUro2YS0Mi4",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b119b0017hrl6oh5OgKo50"
+        },
+        {
+          "type": "tool",
+          "callID": "call_24e43bec1bd144a29b1bb8a4",
+          "tool": "bash",
+          "state": {
+            "status": "completed",
+            "input": {
+              "command": "ls -la /workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/",
+              "description": "List project source directories"
+            },
+            "output": "total 52\ndrwxrwxr-x 13 1022 1023 4096 Mar 27 12:34 .\ndrwxrwxr-x  3 1022 1023 4096 Mar 27 12:34 ..\ndrwxrwxr-x  6 1022 1023 4096 Mar 27 12:34 app\ndrwxrwxr-x  3 1022 1023 4096 Mar 27 12:34 client\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 exception\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 filters\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 model\ndrwxrwxr-x  4 1022 1023 4096 Mar 27 12:34 persistence\ndrwxrwxr-x  5 1022 1023 4096 Mar 27 12:34 queue\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 resources\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 service\ndrwxrwxr-x  7 1022 1023 4096 Mar 27 12:34 utils\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 validations\n",
+            "title": "List project source directories",
+            "metadata": {
+              "output": "total 52\ndrwxrwxr-x 13 1022 1023 4096 Mar 27 12:34 .\ndrwxrwxr-x  3 1022 1023 4096 Mar 27 12:34 ..\ndrwxrwxr-x  6 1022 1023 4096 Mar 27 12:34 app\ndrwxrwxr-x  3 1022 1023 4096 Mar 27 12:34 client\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 exception\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 filters\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 model\ndrwxrwxr-x  4 1022 1023 4096 Mar 27 12:34 persistence\ndrwxrwxr-x  5 1022 1023 4096 Mar 27 12:34 queue\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 resources\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 service\ndrwxrwxr-x  7 1022 1023 4096 Mar 27 12:34 utils\ndrwxrwxr-x  2 1022 1023 4096 Mar 27 12:34 validations\n",
+              "exit": 0,
+              "description": "List project source directories",
+              "truncated": false
+            },
+            "time": {
+              "start": 1774614947744,
+              "end": 1774614947748
+            }
+          },
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Interesting! The `mvn compile` actually succeeded. Let me check if there are any errors or if the project actually compiles fine. Let me also look at the javaparser-base-template Main.java to understand the structure.\n\nWait, the build says \"BUILD SUCCESS\". Let me re-read the user's request. They said \"Project @pay-adminusers/ does not compile.\" but the mvn compile succeeded. Let me check if there's something else going on - maybe there's a test failure or the user wants me to look for specific issues.\n\nLet me look at the project structure and the base template to understand what's expected.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "id": "prt_d2f4b2626001YGMmJKC3NjEKTO",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b119b0017hrl6oh5OgKo50"
+        },
+        {
+          "type": "tool",
+          "callID": "call_753be1c108d04998ac0bf52b",
+          "tool": "read",
+          "state": {
+            "status": "completed",
+            "input": {
+              "filePath": "/workspace/javaparser-base-template/src/main/java/github/chains/Main.java"
+            },
+            "output": "<path>/workspace/javaparser-base-template/src/main/java/github/chains/Main.java</path>\n<type>file</type>\n<content>1: package github.chains;\n2: \n3: public class Main {\n4:     public static void main(String[] args) {\n5: \n6:     }\n7: }\n\n(End of file - total 7 lines)\n</content>",
+            "title": "workspace/javaparser-base-template/src/main/java/github/chains/Main.java",
+            "metadata": {
+              "preview": "package github.chains;\n\npublic class Main {\n    public static void main(String[] args) {\n\n    }\n}",
+              "truncated": false,
+              "loaded": []
+            },
+            "time": {
+              "start": 1774614947987,
+              "end": 1774614948007
+            }
+          },
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Interesting! The `mvn compile` actually succeeded. Let me check if there are any errors or if the project actually compiles fine. Let me also look at the javaparser-base-template Main.java to understand the structure.\n\nWait, the build says \"BUILD SUCCESS\". Let me re-read the user's request. They said \"Project @pay-adminusers/ does not compile.\" but the mvn compile succeeded. Let me check if there's something else going on - maybe there's a test failure or the user wants me to look for specific issues.\n\nLet me look at the project structure and the base template to understand what's expected.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "id": "prt_d2f4b27c9001TlrMdDvdT00RVu",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b119b0017hrl6oh5OgKo50"
+        },
+        {
+          "type": "tool",
+          "callID": "call_f9cd6a65cc1d4c5ea24c3c67",
+          "tool": "read",
+          "state": {
+            "status": "completed",
+            "input": {
+              "filePath": "/workspace/javaparser-base-template/pom.xml"
+            },
+            "output": "<path>/workspace/javaparser-base-template/pom.xml</path>\n<type>file</type>\n<content>1: <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n2: <project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n3:          xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n4:          xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n5:     <modelVersion>4.0.0</modelVersion>\n6: \n7:     <groupId>github.chains</groupId>\n8:     <artifactId>javaparser</artifactId>\n9:     <version>1.0-SNAPSHOT</version>\n10: \n11:     <properties>\n12:         <maven.compiler.source>11</maven.compiler.source>\n13:         <maven.compiler.target>11</maven.compiler.target>\n14:         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\n15:     </properties>\n16: \n17:     <dependencies>\n18:         <dependency>\n19:             <groupId>com.github.javaparser</groupId>\n20:             <artifactId>javaparser-symbol-solver-core</artifactId>\n21:             <version>3.27.1</version>\n22:         </dependency>\n23:     </dependencies>\n24: \n25: </project>\n\n(End of file - total 25 lines)\n</content>",
+            "title": "workspace/javaparser-base-template/pom.xml",
+            "metadata": {
+              "preview": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n    <modelVersion>4.0.0</modelVersion>\n\n    <groupId>github.chains</groupId>\n    <artifactId>javaparser</artifactId>\n    <version>1.0-SNAPSHOT</version>\n\n    <properties>\n        <maven.compiler.source>11</maven.compiler.source>\n        <maven.compiler.target>11</maven.compiler.target>\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\n    </properties>\n\n    <dependencies>\n        <dependency>\n            <groupId>com.github.javaparser</groupId>\n            <artifactId>javaparser-symbol-solver-core</artifactId>",
+              "truncated": false,
+              "loaded": []
+            },
+            "time": {
+              "start": 1774614948184,
+              "end": 1774614948192
+            }
+          },
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Interesting! The `mvn compile` actually succeeded. Let me check if there are any errors or if the project actually compiles fine. Let me also look at the javaparser-base-template Main.java to understand the structure.\n\nWait, the build says \"BUILD SUCCESS\". Let me re-read the user's request. They said \"Project @pay-adminusers/ does not compile.\" but the mvn compile succeeded. Let me check if there's something else going on - maybe there's a test failure or the user wants me to look for specific issues.\n\nLet me look at the project structure and the base template to understand what's expected.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "id": "prt_d2f4b28c2001ZZ1bCat8suofIH",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b119b0017hrl6oh5OgKo50"
+        },
+        {
+          "type": "step-finish",
+          "reason": "tool-calls",
+          "cost": 0.019302,
+          "tokens": {
+            "total": 29934,
+            "input": 29644,
+            "output": 290,
+            "reasoning": 131,
+            "cache": {
+              "read": 0,
+              "write": 0
+            }
+          },
+          "id": "prt_d2f4b2986001SZSWtlpZSbiiTc",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b119b0017hrl6oh5OgKo50"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "assistant",
+        "time": {
+          "created": 1774614948243,
+          "completed": 1774614952079
+        },
+        "parentID": "msg_d2f4ad842001z6pNu1ZBllDwgK",
+        "modelID": "qwen/qwen3.5-397b-a17b",
+        "providerID": "openrouter",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/workspace",
+          "root": "/"
+        },
+        "cost": 0.0204258,
+        "tokens": {
+          "total": 31596,
+          "input": 31301,
+          "output": 295,
+          "reasoning": 162,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "finish": "tool-calls",
+        "id": "msg_d2f4b2993001CDGWK3IKgqIta6",
+        "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_d2f4b2f4c001feOlKEMibEvFgC",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b2993001CDGWK3IKgqIta6"
+        },
+        {
+          "type": "reasoning",
+          "text": "The pay-adminusers project compiled successfully. Let me check if maybe there's a different issue - perhaps the user wants me to look at a specific branch or there's a different problem. Let me check if there's a different state of the project or if there are any obvious issues in the source code that need fixing.\n\nLet me look at some of the source files to see if there are any obvious issues that might need fixing with JavaParser.\n\nActually, looking back at the user's request, they said \"Project @pay-adminusers/ does not compile.\" But the mvn compile succeeded. Perhaps there's a specific issue that needs to be fixed, or maybe I need to look more carefully at the compilation output.\n\nLet me check the source files to see if there are any obvious issues.",
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "The pay-adminusers project compiled successfully. Let me check if maybe there's a different issue - perhaps the user wants me to look at a specific branch or there's a different problem. Let me check if there's a different state of the project or if there are any obvious issues in the source code that need fixing.\n\nLet me look at some of the source files to see if there are any obvious issues that might need fixing with JavaParser.\n\nActually, looking back at the user's request, they said \"Project @pay-adminusers/ does not compile.\" But the mvn compile succeeded. Perhaps there's a specific issue that needs to be fixed, or maybe I need to look more carefully at the compilation output.\n\nLet me check the source files to see if there are any obvious issues.",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "time": {
+            "start": 1774614949709,
+            "end": 1774614951187
+          },
+          "id": "prt_d2f4b2f4d001smcHKkUh628RWm",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b2993001CDGWK3IKgqIta6"
+        },
+        {
+          "type": "text",
+          "text": "The project compiled successfully with `mvn compile`. Let me check if there are any specific issues in the source files that need fixing:",
+          "time": {
+            "start": 1774614952061,
+            "end": 1774614952061
+          },
+          "id": "prt_d2f4b3515001cUUkmhQ3UIRfMA",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b2993001CDGWK3IKgqIta6"
+        },
+        {
+          "type": "tool",
+          "callID": "call_4c4cd6e64e8c480491b0a9ee",
+          "tool": "bash",
+          "state": {
+            "status": "completed",
+            "input": {
+              "command": "find /workspace/pay-adminusers/src/main/java -name \"*.java\" | head -20",
+              "description": "List Java source files"
+            },
+            "output": "/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/StripeAgreement.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/User.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/SearchServicesResponse.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ForgottenPassword.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CreateInviteToJoinServiceRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/PatchRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CreateUserRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceName.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceUpdateRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/StripeAgreementRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Permission.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Invite.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CompleteInviteRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceRole.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/InviteValidateOtpRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceSearchRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/SecondFactorToken.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CreateSelfRegistrationInviteRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CompleteInviteResponse.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Role.java\n",
+            "title": "List Java source files",
+            "metadata": {
+              "output": "/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/StripeAgreement.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/User.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/SearchServicesResponse.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ForgottenPassword.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CreateInviteToJoinServiceRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/PatchRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CreateUserRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceName.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceUpdateRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/StripeAgreementRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Permission.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Invite.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CompleteInviteRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceRole.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/InviteValidateOtpRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceSearchRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/SecondFactorToken.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CreateSelfRegistrationInviteRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CompleteInviteResponse.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Role.java\n",
+              "exit": 0,
+              "description": "List Java source files",
+              "truncated": false
+            },
+            "time": {
+              "start": 1774614951767,
+              "end": 1774614951777
+            }
+          },
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "The pay-adminusers project compiled successfully. Let me check if maybe there's a different issue - perhaps the user wants me to look at a specific branch or there's a different problem. Let me check if there's a different state of the project or if there are any obvious issues in the source code that need fixing.\n\nLet me look at some of the source files to see if there are any obvious issues that might need fixing with JavaParser.\n\nActually, looking back at the user's request, they said \"Project @pay-adminusers/ does not compile.\" But the mvn compile succeeded. Perhaps there's a specific issue that needs to be fixed, or maybe I need to look more carefully at the compilation output.\n\nLet me check the source files to see if there are any obvious issues.",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "id": "prt_d2f4b36290017IriCJwIxEQAy2",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b2993001CDGWK3IKgqIta6"
+        },
+        {
+          "type": "tool",
+          "callID": "call_d923d328bea44c78bafea048",
+          "tool": "glob",
+          "state": {
+            "status": "completed",
+            "input": {
+              "path": "/workspace/pay-adminusers",
+              "pattern": "**/*.java"
+            },
+            "output": "/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/UserCreatorTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/ServiceUserRemoverTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/StripeAgreementServiceTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/ServiceUpdaterTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/UserServicesTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/SelfRegistrationInviteCreatorTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/SendLiveAccountCreatedEmailServiceTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/ServiceCreatorTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/ServiceRoleCreatorTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/ServiceRoleUpdaterTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/SecondFactorAuthenticatorTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/ServiceFinderTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/ResetPasswordServiceTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/PasswordHasherTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/NotificationServiceTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/LinksBuilderTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/InviteFinderTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/ForgottenPasswordServicesTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/JoinServiceInviteCreatorTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/InviteServiceTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/GovUkPayAgreementServiceTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/EmailServiceTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/AdminUsersExceptionsTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/service/ExistingUserOtpDispatcherTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/entity/SecondFactorMethodConverterTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/entity/ServiceEntityTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/dao/StripeAgreementDaoIT.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/dao/UserDaoIT.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/dao/ServiceRoleDaoIT.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/dao/ServiceDaoIT.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/entity/MerchantDetailsEntityBuilder.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/entity/InviteExpiryTest.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/dao/DaoTestBase.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/dao/GovUkPayAgreementDaoIT.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/dao/InviteDaoIT.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/dao/ForgottenPasswordDaoIT.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/persistence/dao/RoleDaoIT.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/infra/LedgerStub.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/infra/SqsTestDocker.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/infra/NotifyStub.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/infra/GuicedTestEnvironment.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/infra/AppWithPostgresExtension.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/infra/AppWithPostgresAndSqsRule.java\n/workspace/pay-adminusers/src/test/java/uk/gov/pay/adminusers/TestTemplateResourceLoader.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/UserCreator.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/UserServicesFactory.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/ServiceUserRemover.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/StaticEmailContent.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/ServiceUpdater.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/StripeAgreementService.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/UserServices.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/SendLiveAccountCreatedEmailService.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/ServiceServicesFactory.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/ServiceCreator.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/ServiceRoleUpdater.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/SecondFactorAuthenticator.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/ServiceRoleCreator.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/ServiceFinder.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/SelfRegistrationInviteCreator.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/NotifyClientProvider.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/ResetPasswordService.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/InviteServiceFactory.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/InviteService.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/NotificationService.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/LinksBuilder.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/PasswordHasher.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/JoinServiceInviteCreator.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/GovUkPayAgreementService.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/ExistingUserOtpDispatcher.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/EmailService.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/ForgottenPasswordServices.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/AdminUsersExceptions.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/service/InviteFinder.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/UpdateMerchantDetailsRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceSearchRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceRole.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/StripeAgreementRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceUpdateRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/PspTestAccountStage.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/PaymentType.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Service.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/SecondFactorMethod.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Role.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/SecondFactorToken.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Permission.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ServiceName.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/SearchServicesResponse.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/MerchantDetails.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/GoLiveStage.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/GovUkPayAgreement.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Link.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/InviteValidateOtpRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/Invite.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CreateUserRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/PatchRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/ForgottenPassword.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CreateSelfRegistrationInviteRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CreateInviteToJoinServiceRequest.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CompleteInviteResponse.java\n/workspace/pay-adminusers/src/main/java/uk/gov/pay/adminusers/model/CompleteInviteRequest.java\n\n(Results are truncated: showing first 100 results. Consider using a more specific path or pattern.)",
+            "title": "workspace/pay-adminusers",
+            "metadata": {
+              "count": 100,
+              "truncated": true
+            },
+            "time": {
+              "start": 1774614952056,
+              "end": 1774614952070
+            }
+          },
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "The pay-adminusers project compiled successfully. Let me check if maybe there's a different issue - perhaps the user wants me to look at a specific branch or there's a different problem. Let me check if there's a different state of the project or if there are any obvious issues in the source code that need fixing.\n\nLet me look at some of the source files to see if there are any obvious issues that might need fixing with JavaParser.\n\nActually, looking back at the user's request, they said \"Project @pay-adminusers/ does not compile.\" But the mvn compile succeeded. Perhaps there's a specific issue that needs to be fixed, or maybe I need to look more carefully at the compilation output.\n\nLet me check the source files to see if there are any obvious issues.",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "id": "prt_d2f4b3791001RgfNUHP0qgXJo6",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b2993001CDGWK3IKgqIta6"
+        },
+        {
+          "type": "step-finish",
+          "reason": "tool-calls",
+          "cost": 0.0204258,
+          "tokens": {
+            "total": 31596,
+            "input": 31301,
+            "output": 295,
+            "reasoning": 162,
+            "cache": {
+              "read": 0,
+              "write": 0
+            }
+          },
+          "id": "prt_d2f4b3888001nwynI00R73rW4Z",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b2993001CDGWK3IKgqIta6"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "assistant",
+        "time": {
+          "created": 1774614952082,
+          "completed": 1774614961172
+        },
+        "parentID": "msg_d2f4ad842001z6pNu1ZBllDwgK",
+        "modelID": "qwen/qwen3.5-397b-a17b",
+        "providerID": "openrouter",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/workspace",
+          "root": "/"
+        },
+        "cost": 0.0220032,
+        "tokens": {
+          "total": 34788,
+          "input": 34554,
+          "output": 234,
+          "reasoning": 119,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "finish": "tool-calls",
+        "id": "msg_d2f4b38910012jmioZP5HUXzP0",
+        "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_d2f4b43ee001QxPLS7d26eENjb",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b38910012jmioZP5HUXzP0"
+        },
+        {
+          "type": "reasoning",
+          "text": "The compilation succeeded. Let me check if there's perhaps a different issue - maybe the user has a specific problem they want to fix, or perhaps there's a different state of the code. Let me look at some source files to see if there are any obvious issues.\n\nActually, let me re-run the compile with more verbose output to see if there are any warnings or issues. Or maybe the user wants me to look at a specific file.\n\nLet me check if maybe there's a specific file with issues. Let me look at a few source files to understand the codebase better.",
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "The compilation succeeded. Let me check if there's perhaps a different issue - maybe the user has a specific problem they want to fix, or perhaps there's a different state of the code. Let me look at some source files to see if there are any obvious issues.\n\nActually, let me re-run the compile with more verbose output to see if there are any warnings or issues. Or maybe the user wants me to look at a specific file.\n\nLet me check if maybe there's a specific file with issues. Let me look at a few source files to understand the codebase better.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "time": {
+            "start": 1774614954991,
+            "end": 1774614956276
+          },
+          "id": "prt_d2f4b43ef001ChQaDMTL7xKd9E",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b38910012jmioZP5HUXzP0"
+        },
+        {
+          "type": "text",
+          "text": "The project compiled successfully. Let me check if there are any specific source files with potential issues:",
+          "time": {
+            "start": 1774614957234,
+            "end": 1774614957234
+          },
+          "id": "prt_d2f4b48f5001P4ALK2J57doPPI",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b38910012jmioZP5HUXzP0"
+        },
+        {
+          "type": "tool",
+          "callID": "call_4e7e62e70f8c446a98eb03f7",
+          "tool": "bash",
+          "state": {
+            "status": "completed",
+            "input": {
+              "command": "cd /workspace/pay-adminusers && mvn compile -X 2>&1 | grep -i \"error\\|ERROR\" | head -30",
+              "description": "Check for compilation errors with verbose output",
+              "timeout": 120000
+            },
+            "output": "[INFO] Error stacktraces are turned on.\n[DEBUG] Message styles: debug info warning error success failure strong mojo project\n  <failOnError default-value=\"true\">${maven.compiler.failOnError}</failOnError>\n[DEBUG]       com.google.errorprone:error_prone_annotations:jar:2.11.0:compile\n[DEBUG]   (f) compilePath = [/workspace/pay-adminusers/target/classes, /root/.m2/repository/uk/gov/service/payments/logging/1.0.20230601160155/logging-1.0.20230601160155.jar, /root/.m2/repository/net/logstash/logback/logstash-logback-encoder/7.3/logstash-logback-encoder-7.3.jar, /root/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.25.1/jersey-guava-2.25.1.jar, /root/.m2/repository/uk/gov/service/payments/model/1.0.20230601160155/model-1.0.20230601160155.jar, /root/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar, /root/.m2/repository/uk/gov/service/payments/queue/1.0.20230601160155/queue-1.0.20230601160155.jar, /root/.m2/repository/io/dropwizard/dropwizard-core/2.1.4/dropwizard-core-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-util/2.1.4/dropwizard-util-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-jackson/2.1.4/dropwizard-jackson-2.1.4.jar, /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.4/jackson-datatype-jdk8-2.13.4.jar, /root/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.4/jackson-module-parameter-names-2.13.4.jar, /root/.m2/repository/com/fasterxml/jackson/module/jackson-module-blackbird/2.13.4/jackson-module-blackbird-2.13.4.jar, /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.4/jackson-datatype-joda-2.13.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-validation/2.1.4/dropwizard-validation-2.1.4.jar, /root/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar, /root/.m2/repository/org/glassfish/jakarta.el/3.0.4/jakarta.el-3.0.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-configuration/2.1.4/dropwizard-configuration-2.1.4.jar, /root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.4/jackson-dataformat-yaml-2.13.4.jar, /root/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar, /root/.m2/repository/io/dropwizard/dropwizard-logging/2.1.4/dropwizard-logging-2.1.4.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-logback/4.2.12/metrics-logback-4.2.12.jar, /root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar, /root/.m2/repository/io/dropwizard/logback/logback-throttling-appender/1.1.9/logback-throttling-appender-1.1.9.jar, /root/.m2/repository/io/dropwizard/dropwizard-metrics/2.1.4/dropwizard-metrics-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-jersey/2.1.4/dropwizard-jersey-2.1.4.jar, /root/.m2/repository/org/javassist/javassist/3.29.2-GA/javassist-3.29.2-GA.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-jersey2/4.2.12/metrics-jersey2-4.2.12.jar, /root/.m2/repository/org/glassfish/hk2/hk2-api/2.6.1/hk2-api-2.6.1.jar, /root/.m2/repository/org/glassfish/hk2/hk2-utils/2.6.1/hk2-utils-2.6.1.jar, /root/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar, /root/.m2/repository/io/dropwizard/dropwizard-servlets/2.1.4/dropwizard-servlets-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-jetty/2.1.4/dropwizard-jetty-2.1.4.jar, /root/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.49.v20220914/jetty-servlets-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.49.v20220914/jetty-continuation-9.4.49.v20220914.jar, /root/.m2/repository/io/dropwizard/dropwizard-lifecycle/2.1.4/dropwizard-lifecycle-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-health/2.1.4/dropwizard-health-2.1.4.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-core/4.2.12/metrics-core-4.2.12.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-jetty9/4.2.12/metrics-jetty9-4.2.12.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-jvm/4.2.12/metrics-jvm-4.2.12.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-jmx/4.2.12/metrics-jmx-4.2.12.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-servlets/4.2.12/metrics-servlets-4.2.12.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-json/4.2.12/metrics-json-4.2.12.jar, /root/.m2/repository/com/helger/profiler/1.1.1/profiler-1.1.1.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-healthchecks/4.2.12/metrics-healthchecks-4.2.12.jar, /root/.m2/repository/io/dropwizard/dropwizard-request-logging/2.1.4/dropwizard-request-logging-2.1.4.jar, /root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /root/.m2/repository/jakarta/servlet/jakarta.servlet-api/4.0.4/jakarta.servlet-api-4.0.4.jar, /root/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar, /root/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar, /root/.m2/repository/net/sourceforge/argparse4j/argparse4j/0.9.0/argparse4j-0.9.0.jar, /root/.m2/repository/org/eclipse/jetty/jetty-security/9.4.49.v20220914/jetty-security-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/jetty-server/9.4.49.v20220914/jetty-server-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.49.v20220914/jetty-servlet-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.4.49.v20220914/jetty-util-ajax-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/jetty-util/9.4.49.v20220914/jetty-util-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/toolchain/setuid/jetty-setuid-java/1.0.4/jetty-setuid-java-1.0.4.jar, /root/.m2/repository/jakarta/inject/jakarta.inject-api/1.0.5/jakarta.inject-api-1.0.5.jar, /root/.m2/repository/org/glassfish/jersey/core/jersey-common/2.37/jersey-common-2.37.jar, /root/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar, /root/.m2/repository/org/glassfish/jersey/ext/jersey-bean-validation/2.37/jersey-bean-validation-2.37.jar, /root/.m2/repository/org/hibernate/validator/hibernate-validator/6.2.5.Final/hibernate-validator-6.2.5.Final.jar, /root/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar, /root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar, /root/.m2/repository/io/dropwizard/dropwizard-auth/2.1.4/dropwizard-auth-2.1.4.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-caffeine/4.2.12/metrics-caffeine-4.2.12.jar, /root/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar, /root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar, /root/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.37/jersey-container-servlet-core-2.37.jar, /root/.m2/repository/org/glassfish/jersey/core/jersey-server/2.37/jersey-server-2.37.jar, /root/.m2/repository/io/dropwizard/dropwizard-client/2.1.4/dropwizard-client-2.1.4.jar, /root/.m2/repository/org/glassfish/jersey/core/jersey-client/2.37/jersey-client-2.37.jar, /root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar, /root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-httpclient/4.2.12/metrics-httpclient-4.2.12.jar, /root/.m2/repository/io/dropwizard/dropwizard-json-logging/2.1.4/dropwizard-json-logging-2.1.4.jar, /root/.m2/repository/ch/qos/logback/logback-access/1.2.11/logback-access-1.2.11.jar, /root/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar, /root/.m2/repository/org/eclipse/jetty/jetty-http/9.4.49.v20220914/jetty-http-9.4.49.v20220914.jar, /root/.m2/repository/io/dropwizard/dropwizard-migrations/2.1.4/dropwizard-migrations-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-db/2.1.4/dropwizard-db-2.1.4.jar, /root/.m2/repository/org/apache/tomcat/tomcat-jdbc/9.0.68/tomcat-jdbc-9.0.68.jar, /root/.m2/repository/org/apache/tomcat/tomcat-juli/9.0.68/tomcat-juli-9.0.68.jar, /root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-graphite/4.2.19/metrics-graphite-4.2.19.jar, /root/.m2/repository/com/rabbitmq/amqp-client/5.17.0/amqp-client-5.17.0.jar, /root/.m2/repository/org/liquibase/liquibase-core/4.18.0/liquibase-core-4.18.0.jar, /root/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar, /root/.m2/repository/com/opencsv/opencsv/5.7.1/opencsv-5.7.1.jar, /root/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar, /root/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar, /root/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.2/jackson-datatype-jsr310-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.14.2/jackson-datatype-guava-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.14.2/jackson-jaxrs-base-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.14.2/jackson-jaxrs-json-provider-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.14.2/jackson-module-jaxb-annotations-2.14.2.jar, /root/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar, /root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar, /root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /root/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar, /root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar, /root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/2.7.11/org.eclipse.persistence.jpa-2.7.11.jar, /root/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar, /root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/9.3.0/org.eclipse.persistence.asm-9.3.0.jar, /root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.antlr/2.7.11/org.eclipse.persistence.antlr-2.7.11.jar, /root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.7.11/org.eclipse.persistence.jpa.jpql-2.7.11.jar, /root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/2.7.11/org.eclipse.persistence.core-2.7.11.jar, /root/.m2/repository/com/google/inject/guice/5.1.0/guice-5.1.0.jar, /root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, /root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, /root/.m2/repository/com/google/inject/extensions/guice-persist/5.1.0/guice-persist-5.1.0.jar, /root/.m2/repository/com/google/inject/extensions/guice-assistedinject/5.1.0/guice-assistedinject-5.1.0.jar, /root/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar, /root/.m2/repository/org/mindrot/jbcrypt/0.4/jbcrypt-0.4.jar, /root/.m2/repository/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar, /root/.m2/repository/commons-codec/commons-codec/1.14/commons-codec-1.14.jar, /root/.m2/repository/ch/qos/logback/logback-classic/1.4.8/logback-classic-1.4.8.jar, /root/.m2/repository/uk/gov/service/notify/notifications-java-client/3.19.1-RELEASE/notifications-java-client-3.19.1-RELEASE.jar, /root/.m2/repository/org/bitbucket/b_c/jose4j/0.7.7/jose4j-0.7.7.jar, /root/.m2/repository/org/json/json/20230227/json-20230227.jar, /root/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar, /root/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar, /root/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar, /root/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar, /root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar, /root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar, /root/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.13.11/libphonenumber-8.13.11.jar, /root/.m2/repository/uk/gov/service/payments/utils/1.0.20230601160155/utils-1.0.20230601160155.jar, /root/.m2/repository/org/dhatim/dropwizard-sentry/2.1.2-4/dropwizard-sentry-2.1.2-4.jar, /root/.m2/repository/io/sentry/sentry/6.5.0/sentry-6.5.0.jar, /root/.m2/repository/io/sentry/sentry-logback/6.5.0/sentry-logback-6.5.0.jar, /root/.m2/repository/com/amazonaws/aws-java-sdk-sqs/1.12.468/aws-java-sdk-sqs-1.12.468.jar, /root/.m2/repository/com/amazonaws/aws-java-sdk-core/1.12.468/aws-java-sdk-core-1.12.468.jar, /root/.m2/repository/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar, /root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.6/jackson-dataformat-cbor-2.12.6.jar, /root/.m2/repository/com/amazonaws/jmespath-java/1.12.468/jmespath-java-1.12.468.jar, /root/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-annotation/4.2.12/metrics-annotation-4.2.12.jar, /root/.m2/repository/org/eclipse/jetty/jetty-io/9.4.49.v20220914/jetty-io-9.4.49.v20220914.jar, /root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar, /root/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar, /root/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar, /root/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar, /root/.m2/repository/io/swagger/core/v3/swagger-annotations/2.2.10/swagger-annotations-2.2.10.jar]\n[DEBUG]   (f) failOnError = true\n",
+            "title": "Check for compilation errors with verbose output",
+            "metadata": {
+              "output": "[INFO] Error stacktraces are turned on.\n[DEBUG] Message styles: debug info warning error success failure strong mojo project\n  <failOnError default-value=\"true\">${maven.compiler.failOnError}</failOnError>\n[DEBUG]       com.google.errorprone:error_prone_annotations:jar:2.11.0:compile\n[DEBUG]   (f) compilePath = [/workspace/pay-adminusers/target/classes, /root/.m2/repository/uk/gov/service/payments/logging/1.0.20230601160155/logging-1.0.20230601160155.jar, /root/.m2/repository/net/logstash/logback/logstash-logback-encoder/7.3/logstash-logback-encoder-7.3.jar, /root/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.25.1/jersey-guava-2.25.1.jar, /root/.m2/repository/uk/gov/service/payments/model/1.0.20230601160155/model-1.0.20230601160155.jar, /root/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar, /root/.m2/repository/uk/gov/service/payments/queue/1.0.20230601160155/queue-1.0.20230601160155.jar, /root/.m2/repository/io/dropwizard/dropwizard-core/2.1.4/dropwizard-core-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-util/2.1.4/dropwizard-util-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-jackson/2.1.4/dropwizard-jackson-2.1.4.jar, /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.4/jackson-datatype-jdk8-2.13.4.jar, /root/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.4/jackson-module-parameter-names-2.13.4.jar, /root/.m2/repository/com/fasterxml/jackson/module/jackson-module-blackbird/2.13.4/jackson-module-blackbird-2.13.4.jar, /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.13.4/jackson-datatype-joda-2.13.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-validation/2.1.4/dropwizard-validation-2.1.4.jar, /root/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar, /root/.m2/repository/org/glassfish/jakarta.el/3.0.4/jakarta.el-3.0.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-configuration/2.1.4/dropwizard-configuration-2.1.4.jar, /root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.4/jackson-dataformat-yaml-2.13.4.jar, /root/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar, /root/.m2/repository/io/dropwizard/dropwizard-logging/2.1.4/dropwizard-logging-2.1.4.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-logback/4.2.12/metrics-logback-4.2.12.jar, /root/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar, /root/.m2/repository/io/dropwizard/logback/logback-throttling-appender/1.1.9/logback-throttling-appender-1.1.9.jar, /root/.m2/repository/io/dropwizard/dropwizard-metrics/2.1.4/dropwizard-metrics-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-jersey/2.1.4/dropwizard-jersey-2.1.4.jar, /root/.m2/repository/org/javassist/javassist/3.29.2-GA/javassist-3.29.2-GA.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-jersey2/4.2.12/metrics-jersey2-4.2.12.jar, /root/.m2/repository/org/glassfish/hk2/hk2-api/2.6.1/hk2-api-2.6.1.jar, /root/.m2/repository/org/glassfish/hk2/hk2-utils/2.6.1/hk2-utils-2.6.1.jar, /root/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar, /root/.m2/repository/io/dropwizard/dropwizard-servlets/2.1.4/dropwizard-servlets-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-jetty/2.1.4/dropwizard-jetty-2.1.4.jar, /root/.m2/repository/org/eclipse/jetty/jetty-servlets/9.4.49.v20220914/jetty-servlets-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/jetty-continuation/9.4.49.v20220914/jetty-continuation-9.4.49.v20220914.jar, /root/.m2/repository/io/dropwizard/dropwizard-lifecycle/2.1.4/dropwizard-lifecycle-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-health/2.1.4/dropwizard-health-2.1.4.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-core/4.2.12/metrics-core-4.2.12.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-jetty9/4.2.12/metrics-jetty9-4.2.12.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-jvm/4.2.12/metrics-jvm-4.2.12.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-jmx/4.2.12/metrics-jmx-4.2.12.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-servlets/4.2.12/metrics-servlets-4.2.12.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-json/4.2.12/metrics-json-4.2.12.jar, /root/.m2/repository/com/helger/profiler/1.1.1/profiler-1.1.1.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-healthchecks/4.2.12/metrics-healthchecks-4.2.12.jar, /root/.m2/repository/io/dropwizard/dropwizard-request-logging/2.1.4/dropwizard-request-logging-2.1.4.jar, /root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /root/.m2/repository/jakarta/servlet/jakarta.servlet-api/4.0.4/jakarta.servlet-api-4.0.4.jar, /root/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar, /root/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar, /root/.m2/repository/net/sourceforge/argparse4j/argparse4j/0.9.0/argparse4j-0.9.0.jar, /root/.m2/repository/org/eclipse/jetty/jetty-security/9.4.49.v20220914/jetty-security-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/jetty-server/9.4.49.v20220914/jetty-server-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.49.v20220914/jetty-servlet-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.4.49.v20220914/jetty-util-ajax-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/jetty-util/9.4.49.v20220914/jetty-util-9.4.49.v20220914.jar, /root/.m2/repository/org/eclipse/jetty/toolchain/setuid/jetty-setuid-java/1.0.4/jetty-setuid-java-1.0.4.jar, /root/.m2/repository/jakarta/inject/jakarta.inject-api/1.0.5/jakarta.inject-api-1.0.5.jar, /root/.m2/repository/org/glassfish/jersey/core/jersey-common/2.37/jersey-common-2.37.jar, /root/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar, /root/.m2/repository/org/glassfish/jersey/ext/jersey-bean-validation/2.37/jersey-bean-validation-2.37.jar, /root/.m2/repository/org/hibernate/validator/hibernate-validator/6.2.5.Final/hibernate-validator-6.2.5.Final.jar, /root/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar, /root/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar, /root/.m2/repository/io/dropwizard/dropwizard-auth/2.1.4/dropwizard-auth-2.1.4.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-caffeine/4.2.12/metrics-caffeine-4.2.12.jar, /root/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar, /root/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar, /root/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.37/jersey-container-servlet-core-2.37.jar, /root/.m2/repository/org/glassfish/jersey/core/jersey-server/2.37/jersey-server-2.37.jar, /root/.m2/repository/io/dropwizard/dropwizard-client/2.1.4/dropwizard-client-2.1.4.jar, /root/.m2/repository/org/glassfish/jersey/core/jersey-client/2.37/jersey-client-2.37.jar, /root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar, /root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-httpclient/4.2.12/metrics-httpclient-4.2.12.jar, /root/.m2/repository/io/dropwizard/dropwizard-json-logging/2.1.4/dropwizard-json-logging-2.1.4.jar, /root/.m2/repository/ch/qos/logback/logback-access/1.2.11/logback-access-1.2.11.jar, /root/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar, /root/.m2/repository/org/eclipse/jetty/jetty-http/9.4.49.v20220914/jetty-http-9.4.49.v20220914.jar, /root/.m2/repository/io/dropwizard/dropwizard-migrations/2.1.4/dropwizard-migrations-2.1.4.jar, /root/.m2/repository/io/dropwizard/dropwizard-db/2.1.4/dropwizard-db-2.1.4.jar, /root/.m2/repository/org/apache/tomcat/tomcat-jdbc/9.0.68/tomcat-jdbc-9.0.68.jar, /root/.m2/repository/org/apache/tomcat/tomcat-juli/9.0.68/tomcat-juli-9.0.68.jar, /root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-graphite/4.2.19/metrics-graphite-4.2.19.jar, /root/.m2/repository/com/rabbitmq/amqp-client/5.17.0/amqp-client-5.17.0.jar, /root/.m2/repository/org/liquibase/liquibase-core/4.18.0/liquibase-core-4.18.0.jar, /root/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar, /root/.m2/repository/com/opencsv/opencsv/5.7.1/opencsv-5.7.1.jar, /root/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar, /root/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar, /root/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.14.2/jackson-datatype-jsr310-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-guava/2.14.2/jackson-datatype-guava-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.14.2/jackson-jaxrs-base-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.14.2/jackson-jaxrs-json-provider-2.14.2.jar, /root/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.14.2/jackson-module-jaxb-annotations-2.14.2.jar, /root/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar, /root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar, /root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /root/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar, /root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar, /root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/2.7.11/org.eclipse.persistence.jpa-2.7.11.jar, /root/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar, /root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/9.3.0/org.eclipse.persistence.asm-9.3.0.jar, /root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.antlr/2.7.11/org.eclipse.persistence.antlr-2.7.11.jar, /root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.7.11/org.eclipse.persistence.jpa.jpql-2.7.11.jar, /root/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/2.7.11/org.eclipse.persistence.core-2.7.11.jar, /root/.m2/repository/com/google/inject/guice/5.1.0/guice-5.1.0.jar, /root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar, /root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar, /root/.m2/repository/com/google/inject/extensions/guice-persist/5.1.0/guice-persist-5.1.0.jar, /root/.m2/repository/com/google/inject/extensions/guice-assistedinject/5.1.0/guice-assistedinject-5.1.0.jar, /root/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar, /root/.m2/repository/org/mindrot/jbcrypt/0.4/jbcrypt-0.4.jar, /root/.m2/repository/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar, /root/.m2/repository/commons-codec/commons-codec/1.14/commons-codec-1.14.jar, /root/.m2/repository/ch/qos/logback/logback-classic/1.4.8/logback-classic-1.4.8.jar, /root/.m2/repository/uk/gov/service/notify/notifications-java-client/3.19.1-RELEASE/notifications-java-client-3.19.1-RELEASE.jar, /root/.m2/repository/org/bitbucket/b_c/jose4j/0.7.7/jose4j-0.7.7.jar, /root/.m2/repository/org/json/json/20230227/json-20230227.jar, /root/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar, /root/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar, /root/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar, /root/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar, /root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar, /root/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar, /root/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.13.11/libphonenumber-8.13.11.jar, /root/.m2/repository/uk/gov/service/payments/utils/1.0.20230601160155/utils-1.0.20230601160155.jar, /root/.m2/repository/org/dhatim/dropwizard-sentry/2.1.2-4/dropwizard-sentry-2.1.2-4.jar, /root/.m2/repository/io/sentry/sentry/6.5.0/sentry-6.5.0.jar, /root/.m2/repository/io/sentry/sentry-logback/6.5.0/sentry-logback-6.5.0.jar, /root/.m2/repository/com/amazonaws/aws-java-sdk-sqs/1.12.468/aws-java-sdk-sqs-1.12.468.jar, /root/.m2/repository/com/amazonaws/aws-java-sdk-core/1.12.468/aws-java-sdk-core-1.12.468.jar, /root/.m2/repository/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar, /root/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.12.6/jackson-dataformat-cbor-2.12.6.jar, /root/.m2/repository/com/amazonaws/jmespath-java/1.12.468/jmespath-java-1.12.468.jar, /root/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar, /root/.m2/repository/io/dropwizard/metrics/metrics-annotation/4.2.12/metrics-annotation-4.2.12.jar, /root/.m2/repository/org/eclipse/jetty/jetty-io/9.4.49.v20220914/jetty-io-9.4.49.v20220914.jar, /root/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar, /root/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar, /root/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar, /root/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar, /root/.m2/repository/io/swagger/core/v3/swagger-annotations/2.2.10/swagger-annotations-2.2.10.jar]\n[DEBUG]   (f) failOnError = true\n",
+              "exit": 0,
+              "description": "Check for compilation errors with verbose output",
+              "truncated": false
+            },
+            "time": {
+              "start": 1774614957213,
+              "end": 1774614960979
+            }
+          },
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "The compilation succeeded. Let me check if there's perhaps a different issue - maybe the user has a specific problem they want to fix, or perhaps there's a different state of the code. Let me look at some source files to see if there are any obvious issues.\n\nActually, let me re-run the compile with more verbose output to see if there are any warnings or issues. Or maybe the user wants me to look at a specific file.\n\nLet me check if maybe there's a specific file with issues. Let me look at a few source files to understand the codebase better.\n",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "id": "prt_d2f4b49e8001O2ksxzeZhNiWdN",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b38910012jmioZP5HUXzP0"
+        },
+        {
+          "type": "step-finish",
+          "reason": "tool-calls",
+          "cost": 0.0220032,
+          "tokens": {
+            "total": 34788,
+            "input": 34554,
+            "output": 234,
+            "reasoning": 119,
+            "cache": {
+              "read": 0,
+              "write": 0
+            }
+          },
+          "id": "prt_d2f4b5c09001M71Ed0yF63z1wV",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b38910012jmioZP5HUXzP0"
+        }
+      ]
+    },
+    {
+      "info": {
+        "role": "assistant",
+        "time": {
+          "created": 1774614961177,
+          "completed": 1774614966145
+        },
+        "parentID": "msg_d2f4ad842001z6pNu1ZBllDwgK",
+        "modelID": "qwen/qwen3.5-397b-a17b",
+        "providerID": "openrouter",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/workspace",
+          "root": "/"
+        },
+        "cost": 0.0259206,
+        "tokens": {
+          "total": 40611,
+          "input": 40303,
+          "output": 308,
+          "reasoning": 175,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "finish": "stop",
+        "id": "msg_d2f4b5c19001AjZbuT50qvn4LE",
+        "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet"
+      },
+      "parts": [
+        {
+          "type": "step-start",
+          "id": "prt_d2f4b6274001DzGLOMSzoW2aHK",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b5c19001AjZbuT50qvn4LE"
+        },
+        {
+          "type": "reasoning",
+          "text": "There don't seem to be any compilation errors. The project compiled successfully. Let me inform the user about this and ask for clarification.\n\nActually, let me re-read the user's request more carefully. They said \"Project @pay-adminusers/ does not compile.\" But when I ran `mvn compile`, it succeeded. Perhaps:\n\n1. There's a different state of the code that they're referring to\n2. They want me to introduce some errors and then fix them as an exercise\n3. There's a misunderstanding about the project state\n\nLet me inform the user that the project compiles successfully and ask for clarification.\n\nActually, wait - maybe I should look more carefully. Let me check if there are any test compilation errors or if there's a different issue.\n\nActually, let me just inform the user that the project compiles successfully.",
+          "metadata": {
+            "openrouter": {
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "There don't seem to be any compilation errors. The project compiled successfully. Let me inform the user about this and ask for clarification.\n\nActually, let me re-read the user's request more carefully. They said \"Project @pay-adminusers/ does not compile.\" But when I ran `mvn compile`, it succeeded. Perhaps:\n\n1. There's a different state of the code that they're referring to\n2. They want me to introduce some errors and then fix them as an exercise\n3. There's a misunderstanding about the project state\n\nLet me inform the user that the project compiles successfully and ask for clarification.\n\nActually, wait - maybe I should look more carefully. Let me check if there are any test compilation errors or if there's a different issue.\n\nActually, let me just inform the user that the project compiles successfully.",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          "time": {
+            "start": 1774614962805,
+            "end": 1774614964786
+          },
+          "id": "prt_d2f4b6275001RvL48pc06URu1e",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b5c19001AjZbuT50qvn4LE"
+        },
+        {
+          "type": "text",
+          "text": "The project **compiles successfully** with `mvn compile`. The build output shows:\n\n```\n[INFO] BUILD SUCCESS\n[INFO] Total time:  7.306 s\n```\n\nThere are no compilation errors to fix. The project has 164 source files that all compile correctly with Java 11.\n\nWould you like me to:\n1. Check for test compilation issues (`mvn test-compile`)?\n2. Look for specific code quality issues that could be improved with JavaParser?\n3. Or did you have a different version/state of the project in mind?",
+          "time": {
+            "start": 1774614966134,
+            "end": 1774614966134
+          },
+          "id": "prt_d2f4b6a33001vIuTy79ww1FPJ8",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b5c19001AjZbuT50qvn4LE"
+        },
+        {
+          "type": "step-finish",
+          "reason": "stop",
+          "cost": 0.0259206,
+          "tokens": {
+            "total": 40611,
+            "input": 40303,
+            "output": 308,
+            "reasoning": 175,
+            "cache": {
+              "read": 0,
+              "write": 0
+            }
+          },
+          "id": "prt_d2f4b6f78001qu28Qs3q40YRLn",
+          "sessionID": "ses_2d0b527d4ffenBzRVciITrpaet",
+          "messageID": "msg_d2f4b5c19001AjZbuT50qvn4LE"
+        }
+      ]
+    }
+  ]
+}

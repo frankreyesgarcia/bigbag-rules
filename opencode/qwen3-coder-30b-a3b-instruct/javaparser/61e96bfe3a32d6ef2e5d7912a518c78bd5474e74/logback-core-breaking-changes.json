@@ -1,0 +1,652 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.BindDataSourceToJNDIAction",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.BindDataSourceToJNDIAction",
+    "location": {
+      "path": "ch/qos/logback/core/db/BindDataSourceToJNDIAction.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.ConnectionSource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.ConnectionSource",
+    "location": {
+      "path": "ch/qos/logback/core/db/ConnectionSource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.ConnectionSourceBase",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.ConnectionSourceBase",
+    "location": {
+      "path": "ch/qos/logback/core/db/ConnectionSourceBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.DBAppenderBase",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.DBAppenderBase",
+    "location": {
+      "path": "ch/qos/logback/core/db/DBAppenderBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.DBHelper",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.DBHelper",
+    "location": {
+      "path": "ch/qos/logback/core/db/DBHelper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.DataSourceConnectionSource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.DataSourceConnectionSource",
+    "location": {
+      "path": "ch/qos/logback/core/db/DataSourceConnectionSource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.DriverManagerConnectionSource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.DriverManagerConnectionSource",
+    "location": {
+      "path": "ch/qos/logback/core/db/DriverManagerConnectionSource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.JNDIConnectionSource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.JNDIConnectionSource",
+    "location": {
+      "path": "ch/qos/logback/core/db/JNDIConnectionSource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.dialect.DBUtil",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.dialect.DBUtil",
+    "location": {
+      "path": "ch/qos/logback/core/db/dialect/DBUtil.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.dialect.H2Dialect",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.dialect.H2Dialect",
+    "location": {
+      "path": "ch/qos/logback/core/db/dialect/H2Dialect.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.dialect.HSQLDBDialect",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.dialect.HSQLDBDialect",
+    "location": {
+      "path": "ch/qos/logback/core/db/dialect/HSQLDBDialect.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.dialect.MsSQLDialect",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.dialect.MsSQLDialect",
+    "location": {
+      "path": "ch/qos/logback/core/db/dialect/MsSQLDialect.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.dialect.MySQLDialect",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.dialect.MySQLDialect",
+    "location": {
+      "path": "ch/qos/logback/core/db/dialect/MySQLDialect.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.dialect.OracleDialect",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.dialect.OracleDialect",
+    "location": {
+      "path": "ch/qos/logback/core/db/dialect/OracleDialect.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.dialect.PostgreSQLDialect",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.dialect.PostgreSQLDialect",
+    "location": {
+      "path": "ch/qos/logback/core/db/dialect/PostgreSQLDialect.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.dialect.SQLDialect",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.dialect.SQLDialect",
+    "location": {
+      "path": "ch/qos/logback/core/db/dialect/SQLDialect.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.dialect.SQLDialectCode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.dialect.SQLDialectCode",
+    "location": {
+      "path": "ch/qos/logback/core/db/dialect/SQLDialectCode.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.dialect.SQLiteDialect",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.dialect.SQLiteDialect",
+    "location": {
+      "path": "ch/qos/logback/core/db/dialect/SQLiteDialect.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.db.dialect.SybaseSqlAnywhereDialect",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.db.dialect.SybaseSqlAnywhereDialect",
+    "location": {
+      "path": "ch/qos/logback/core/db/dialect/SybaseSqlAnywhereDialect.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EchoEncoder.close()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EchoEncoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EchoEncoder.java",
+      "line": 34
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EchoEncoder.doEncode(E)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EchoEncoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EchoEncoder.java",
+      "line": 27
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EchoEncoder.init(java.io.OutputStream)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EchoEncoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EchoEncoder.java",
+      "line": 41
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EncoderBase.outputStream",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EchoEncoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EncoderBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.core.encoder.Encoder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.Encoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/Encoder.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.core.encoder.Encoder.headerBytes()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.core.encoder.Encoder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.Encoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/Encoder.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.core.encoder.Encoder.encode(E)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.core.encoder.Encoder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.Encoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/Encoder.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.core.encoder.Encoder.footerBytes()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.Encoder.close()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.Encoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/Encoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.Encoder.doEncode(E)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.Encoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/Encoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.Encoder.init(java.io.OutputStream)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.Encoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/Encoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.Encoder.close()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/Encoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.Encoder.doEncode(E)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/Encoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EncoderBase",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EncoderBase.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.core.encoder.Encoder.footerBytes()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EncoderBase",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EncoderBase.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.core.encoder.Encoder.encode(E)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EncoderBase",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EncoderBase.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.core.encoder.Encoder.headerBytes()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EncoderBase.init(java.io.OutputStream)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EncoderBase.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EncoderBase.outputStream",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EncoderBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EventObjectInputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.EventObjectInputStream",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EventObjectInputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EncoderBase.outputStream",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EncoderBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.LayoutWrappingEncoder.close()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/LayoutWrappingEncoder.java",
+      "line": 102
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.LayoutWrappingEncoder.doEncode(E)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/LayoutWrappingEncoder.java",
+      "line": 130
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.LayoutWrappingEncoder.init(java.io.OutputStream)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/LayoutWrappingEncoder.java",
+      "line": 81
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.LayoutWrappingEncoder.isImmediateFlush()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/LayoutWrappingEncoder.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.ObjectStreamEncoder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.encoder.ObjectStreamEncoder",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/ObjectStreamEncoder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.net.JMSAppenderBase",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.net.JMSAppenderBase",
+    "location": {
+      "path": "ch/qos/logback/core/net/JMSAppenderBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "ch.qos.logback.core.net.ssl.SSLConfigurable",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.net.ssl.SSLConfigurable",
+    "location": {
+      "path": "ch/qos/logback/core/net/ssl/SSLConfigurable.java",
+      "line": null
+    },
+    "newSymbol": "ch.qos.logback.core.net.ssl.SSLConfigurable.setHostnameVerification(boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.EncoderBase.outputStream",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/EncoderBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.LayoutWrappingEncoder.close()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/LayoutWrappingEncoder.java",
+      "line": 102
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.LayoutWrappingEncoder.doEncode(E)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/LayoutWrappingEncoder.java",
+      "line": 130
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.LayoutWrappingEncoder.init(java.io.OutputStream)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/LayoutWrappingEncoder.java",
+      "line": 81
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "ch.qos.logback.core.encoder.LayoutWrappingEncoder.isImmediateFlush()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+    "location": {
+      "path": "ch/qos/logback/core/encoder/LayoutWrappingEncoder.java",
+      "line": 51
+    },
+    "newSymbol": null
+  }
+]

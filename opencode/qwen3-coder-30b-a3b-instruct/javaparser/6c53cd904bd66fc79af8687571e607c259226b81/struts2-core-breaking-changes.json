@@ -1,0 +1,3161 @@
+[
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.opensymphony.xwork2.config.ServletContextAwareConfigurationProvider",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.opensymphony.xwork2.config.ServletContextAwareConfigurationProvider",
+    "location": {
+      "path": "com/opensymphony/xwork2/config/ServletContextAwareConfigurationProvider.java",
+      "line": null
+    },
+    "newSymbol": "com.opensymphony.xwork2.config.ContainerProvider.destroy()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.opensymphony.xwork2.config.ServletContextAwareConfigurationProvider",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.opensymphony.xwork2.config.ServletContextAwareConfigurationProvider",
+    "location": {
+      "path": "com/opensymphony/xwork2/config/ServletContextAwareConfigurationProvider.java",
+      "line": null
+    },
+    "newSymbol": "com.opensymphony.xwork2.config.ContainerProvider.init(com.opensymphony.xwork2.config.Configuration)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.opensymphony.xwork2.config.ServletContextAwareConfigurationProvider",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.opensymphony.xwork2.config.ServletContextAwareConfigurationProvider",
+    "location": {
+      "path": "com/opensymphony/xwork2/config/ServletContextAwareConfigurationProvider.java",
+      "line": null
+    },
+    "newSymbol": "com.opensymphony.xwork2.config.PackageProvider.loadPackages()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.opensymphony.xwork2.config.ServletContextAwareConfigurationProvider",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.opensymphony.xwork2.config.ServletContextAwareConfigurationProvider",
+    "location": {
+      "path": "com/opensymphony/xwork2/config/ServletContextAwareConfigurationProvider.java",
+      "line": null
+    },
+    "newSymbol": "com.opensymphony.xwork2.config.ContainerProvider.register(com.opensymphony.xwork2.inject.ContainerBuilder,com.opensymphony.xwork2.util.location.LocatableProperties)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.opensymphony.xwork2.config.ServletContextAwareConfigurationProvider",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.opensymphony.xwork2.config.ServletContextAwareConfigurationProvider",
+    "location": {
+      "path": "com/opensymphony/xwork2/config/ServletContextAwareConfigurationProvider.java",
+      "line": null
+    },
+    "newSymbol": "com.opensymphony.xwork2.config.ContainerProvider.needsReload()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.StrutsConstants.STRUTS_FREEMARKER_TEMPLATES_CACHE",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.StrutsConstants",
+    "location": {
+      "path": "org/apache/struts2/StrutsConstants.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ActionComponent.createParametersForContext()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.components.ActionComponent",
+    "location": {
+      "path": "org/apache/struts2/components/ActionComponent.java",
+      "line": 216
+    },
+    "newSymbol": "org.apache.struts2.components.ActionComponent.createParametersForContext()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.ActionComponent.createParametersForContext()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.ActionComponent",
+    "location": {
+      "path": "org/apache/struts2/components/ActionComponent.java",
+      "line": 216
+    },
+    "newSymbol": "org.apache.struts2.components.ActionComponent.createParametersForContext()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ContextBean.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.ActionComponent",
+    "location": {
+      "path": "org/apache/struts2/components/ContextBean.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.ActionError",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.ActionMessage",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Anchor",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ContextBean.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.AppendIterator",
+    "location": {
+      "path": "org/apache/struts2/components/ContextBean.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.Bean.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.components.Bean",
+    "location": {
+      "path": "org/apache/struts2/components/Bean.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.components.Bean.LOG"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.Bean.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Bean",
+    "location": {
+      "path": "org/apache/struts2/components/Bean.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.components.Bean.LOG"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ContextBean.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Bean",
+    "location": {
+      "path": "org/apache/struts2/components/ContextBean.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.Checkbox.readonly",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Checkbox",
+    "location": {
+      "path": "org/apache/struts2/components/Checkbox.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.Checkbox.setReadonly(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Checkbox",
+    "location": {
+      "path": "org/apache/struts2/components/Checkbox.java",
+      "line": 96
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Checkbox",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.CheckboxList.readonly",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.CheckboxList",
+    "location": {
+      "path": "org/apache/struts2/components/CheckboxList.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.CheckboxList.setReadonly(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.CheckboxList",
+    "location": {
+      "path": "org/apache/struts2/components/CheckboxList.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.CheckboxList",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.ClosingUIBean",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.ComboBox",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ContextBean.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.ContextBean",
+    "location": {
+      "path": "org/apache/struts2/components/ContextBean.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ContextBean.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Date",
+    "location": {
+      "path": "org/apache/struts2/components/ContextBean.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.DateTextField",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Debug",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.Div",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Div",
+    "location": {
+      "path": "org/apache/struts2/components/Div.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.DoubleListUIBean",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.DoubleSelect",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.FieldError",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.File",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Form",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.Form$FieldVisitorValidatorWrapper.validate(java.lang.Object)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Form$FieldVisitorValidatorWrapper",
+    "location": {
+      "path": "org/apache/struts2/components/Form.java",
+      "line": 382
+    },
+    "newSymbol": "org.apache.struts2.components.Form$FieldVisitorValidatorWrapper.validate(java.lang.Object)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.FormButton.align",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.FormButton",
+    "location": {
+      "path": "org/apache/struts2/components/FormButton.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.FormButton.setAlign(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.FormButton",
+    "location": {
+      "path": "org/apache/struts2/components/FormButton.java",
+      "line": 163
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.FormButton",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.GenericUIBean",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Head",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Hidden",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.I18n.container",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.I18n",
+    "location": {
+      "path": "org/apache/struts2/components/I18n.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.I18n.setContainer(com.opensymphony.xwork2.inject.Container)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.I18n",
+    "location": {
+      "path": "org/apache/struts2/components/I18n.java",
+      "line": 105
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.I18n.setLocaleProvider(com.opensymphony.xwork2.LocaleProvider)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.I18n",
+    "location": {
+      "path": "org/apache/struts2/components/I18n.java",
+      "line": 115
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.Include.include(java.lang.String,java.io.Writer,javax.servlet.ServletRequest,javax.servlet.http.HttpServletResponse)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Include",
+    "location": {
+      "path": "org/apache/struts2/components/Include.java",
+      "line": 252
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.InputTransferSelect",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ContextBean.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.IteratorComponent",
+    "location": {
+      "path": "org/apache/struts2/components/ContextBean.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Label",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.ListUIBean",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ContextBean.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.MergeIterator",
+    "location": {
+      "path": "org/apache/struts2/components/ContextBean.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ContextBean.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Number",
+    "location": {
+      "path": "org/apache/struts2/components/ContextBean.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.OptionTransferSelect",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Password",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.Property.setEscape(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Property",
+    "location": {
+      "path": "org/apache/struts2/components/Property.java",
+      "line": 112
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.Radio.readonly",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Radio",
+    "location": {
+      "path": "org/apache/struts2/components/Radio.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.Radio.setReadonly(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Radio",
+    "location": {
+      "path": "org/apache/struts2/components/Radio.java",
+      "line": 83
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Radio",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.FormButton.align",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Reset",
+    "location": {
+      "path": "org/apache/struts2/components/FormButton.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.FormButton.setAlign(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Reset",
+    "location": {
+      "path": "org/apache/struts2/components/FormButton.java",
+      "line": 163
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Reset",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Select",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ContextBean.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Set",
+    "location": {
+      "path": "org/apache/struts2/components/ContextBean.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.Set.setName(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Set",
+    "location": {
+      "path": "org/apache/struts2/components/Set.java",
+      "line": 135
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.FormButton.align",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Submit",
+    "location": {
+      "path": "org/apache/struts2/components/FormButton.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.FormButton.setAlign(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Submit",
+    "location": {
+      "path": "org/apache/struts2/components/FormButton.java",
+      "line": 163
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Submit",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ContextBean.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Text",
+    "location": {
+      "path": "org/apache/struts2/components/ContextBean.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.TextArea",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.TextField",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.Token.getTokenNameField()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Token",
+    "location": {
+      "path": "org/apache/struts2/components/Token.java",
+      "line": 106
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.Token",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.UIBean",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.components.ContextBean.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.URL",
+    "location": {
+      "path": "org/apache/struts2/components/ContextBean.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.components.UpDownSelect",
+    "location": {
+      "path": "org/apache/struts2/components/UIBean.java",
+      "line": 1258
+    },
+    "newSymbol": "org.apache.struts2.components.UIBean.setDynamicAttributes(java.util.Map<java.lang.String,java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.config.AbstractBeanSelectionProvider",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.config.AbstractBeanSelectionProvider",
+    "location": {
+      "path": "org/apache/struts2/config/AbstractBeanSelectionProvider.java",
+      "line": null
+    },
+    "newSymbol": "com.opensymphony.xwork2.config.ContainerProvider.register(com.opensymphony.xwork2.inject.ContainerBuilder,com.opensymphony.xwork2.util.location.LocatableProperties)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.config.ServletContextSingleton",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.config.ServletContextSingleton",
+    "location": {
+      "path": "org/apache/struts2/config/ServletContextSingleton.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ActionContextCleanUp",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ActionContextCleanUp",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ActionContextCleanUp.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.DefaultStaticContentLoader.setHostConfig(org.apache.struts2.dispatcher.ng.HostConfig)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.DefaultStaticContentLoader",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/DefaultStaticContentLoader.java",
+      "line": 144
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.Dispatcher.createContextMap(java.util.Map,java.util.Map,java.util.Map,java.util.Map,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.Dispatcher",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/Dispatcher.java",
+      "line": 693
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.Dispatcher.createContextMap(java.util.Map,java.util.Map,java.util.Map,java.util.Map,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.ServletContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.Dispatcher",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/Dispatcher.java",
+      "line": 670
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.Dispatcher.createContextMap(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.apache.struts2.dispatcher.mapper.ActionMapping,javax.servlet.ServletContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.Dispatcher",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/Dispatcher.java",
+      "line": 622
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.Dispatcher.createXmlConfigurationProvider(java.lang.String,boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.Dispatcher",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/Dispatcher.java",
+      "line": 390
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.Dispatcher.sendError(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.ServletContext,int,java.lang.Exception)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.Dispatcher",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/Dispatcher.java",
+      "line": 906
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.Dispatcher.serviceAction(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.ServletContext,org.apache.struts2.dispatcher.mapper.ActionMapping)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.Dispatcher",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/Dispatcher.java",
+      "line": 519
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.Dispatcher.setConfigurationManager(com.opensymphony.xwork2.config.ConfigurationManager)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.Dispatcher",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/Dispatcher.java",
+      "line": 962
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.Dispatcher.wrapRequest(javax.servlet.http.HttpServletRequest,javax.servlet.ServletContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.Dispatcher",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/Dispatcher.java",
+      "line": 821
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.FilterDispatcher",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.FilterDispatcher",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/FilterDispatcher.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.FilterDispatcherCompatWeblogic61",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.FilterDispatcherCompatWeblogic61",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/FilterDispatcherCompatWeblogic61.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.HttpHeaderResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.HttpHeaderResult",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/HttpHeaderResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.PlainTextResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.PlainTextResult",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/PlainTextResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.PostbackResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.PostbackResult",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/PostbackResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ServletActionRedirectResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ServletActionRedirectResult",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ServletActionRedirectResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ServletDispatcherResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ServletDispatcherResult",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ServletDispatcherResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ServletRedirectResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ServletRedirectResult",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ServletRedirectResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.StaticContentLoader",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.StaticContentLoader",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/StaticContentLoader.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.StaticContentLoader.setHostConfig(org.apache.struts2.dispatcher.HostConfig)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.StaticContentLoader.setHostConfig(org.apache.struts2.dispatcher.ng.HostConfig)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.StaticContentLoader",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/StaticContentLoader.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.StreamResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.StreamResult",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/StreamResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.StrutsResultSupport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.StrutsResultSupport",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/StrutsResultSupport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.VelocityResult",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.VelocityResult",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/VelocityResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.mapper.DefaultActionMapper.dropExtension(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.mapper.DefaultActionMapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java",
+      "line": 468
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.mapper.DefaultActionMapper.dropExtension(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.mapper.PrefixBasedActionMapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java",
+      "line": 468
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.mapper.DefaultActionMapper.dropExtension(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.mapper.Restful2ActionMapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/mapper/DefaultActionMapper.java",
+      "line": 468
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.mapper.Restful2ActionMapper.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.dispatcher.mapper.Restful2ActionMapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/mapper/Restful2ActionMapper.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.mapper.Restful2ActionMapper.LOG"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.mapper.Restful2ActionMapper.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.mapper.Restful2ActionMapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/mapper/Restful2ActionMapper.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.mapper.Restful2ActionMapper.LOG"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.mapper.RestfulActionMapper.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.dispatcher.mapper.RestfulActionMapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/mapper/RestfulActionMapper.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.mapper.RestfulActionMapper.LOG"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.mapper.RestfulActionMapper.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.mapper.RestfulActionMapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/mapper/RestfulActionMapper.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.mapper.RestfulActionMapper.LOG"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest.buildErrorMessage(java.lang.Throwable,java.lang.Object[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaMultiPartRequest.java",
+      "line": 119
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.AbstractMultiPartRequest.buildErrorMessage(java.lang.Throwable,java.lang.Object[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest.buildErrorMessage(java.lang.Throwable,java.lang.Object[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaMultiPartRequest.java",
+      "line": 119
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.AbstractMultiPartRequest.buildErrorMessage(java.lang.Throwable,java.lang.Object[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest.errors",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaMultiPartRequest.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.AbstractMultiPartRequest.errors"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest.getErrors()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaMultiPartRequest.java",
+      "line": 335
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.AbstractMultiPartRequest.getErrors()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest.getFile(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaMultiPartRequest.java",
+      "line": 240
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest.getFile(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest.getFile(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaMultiPartRequest.java",
+      "line": 240
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest.getFile(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest.setLocaleProvider(com.opensymphony.xwork2.LocaleProvider)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaMultiPartRequest.java",
+      "line": 78
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest.getErrors()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaStreamMultiPartRequest.java",
+      "line": 150
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.AbstractMultiPartRequest.getErrors()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest.getFile(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaStreamMultiPartRequest.java",
+      "line": 166
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest.getFile(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest.getFile(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaStreamMultiPartRequest.java",
+      "line": 166
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest.getFile(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest.getMesssages()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaStreamMultiPartRequest.java",
+      "line": 159
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest.setLocaleProvider(com.opensymphony.xwork2.LocaleProvider)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.JakartaStreamMultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/JakartaStreamMultiPartRequest.java",
+      "line": 113
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequest.getErrors()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.MultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/MultiPartRequest.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequest.getErrors()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequest.getFile(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.MultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/MultiPartRequest.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequest.getFile(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequest.getFile(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.MultiPartRequest",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/MultiPartRequest.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequest.getFile(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/MultiPartRequestWrapper.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.LOG"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/MultiPartRequestWrapper.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.LOG"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.addError(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/MultiPartRequestWrapper.java",
+      "line": 254
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.buildErrorMessage(java.lang.Throwable,java.lang.Object[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/MultiPartRequestWrapper.java",
+      "line": 107
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.buildErrorMessage(java.lang.Throwable,java.lang.Object[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.buildErrorMessage(java.lang.Throwable,java.lang.Object[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/MultiPartRequestWrapper.java",
+      "line": 107
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.buildErrorMessage(java.lang.Throwable,java.lang.Object[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.getErrors()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/MultiPartRequestWrapper.java",
+      "line": 245
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.getErrors()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.getFiles(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/MultiPartRequestWrapper.java",
+      "line": 153
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.getFiles(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.getFiles(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/multipart/MultiPartRequestWrapper.java",
+      "line": 153
+    },
+    "newSymbol": "org.apache.struts2.dispatcher.multipart.MultiPartRequestWrapper.getFiles(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.ExecuteOperations",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.ExecuteOperations",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/ExecuteOperations.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.HostConfig",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.HostConfig",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/HostConfig.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.InitOperations",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.InitOperations",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/InitOperations.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.PrepareOperations",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.PrepareOperations",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/PrepareOperations.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.filter.FilterHostConfig",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.filter.FilterHostConfig",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/filter/FilterHostConfig.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.filter.StrutsExecuteFilter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.filter.StrutsExecuteFilter",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/filter/StrutsExecuteFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/filter/StrutsPrepareAndExecuteFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.filter.StrutsPrepareFilter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.filter.StrutsPrepareFilter",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/filter/StrutsPrepareFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.listener.ListenerHostConfig",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.listener.ListenerHostConfig",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/listener/ListenerHostConfig.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.listener.StrutsListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.listener.StrutsListener",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/listener/StrutsListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.servlet.ServletHostConfig",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.servlet.ServletHostConfig",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/servlet/ServletHostConfig.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.dispatcher.ng.servlet.StrutsServlet",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.dispatcher.ng.servlet.StrutsServlet",
+    "location": {
+      "path": "org/apache/struts2/dispatcher/ng/servlet/StrutsServlet.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.impl.PrefixBasedActionProxyFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.impl.PrefixBasedActionProxyFactory",
+    "location": {
+      "path": "org/apache/struts2/impl/PrefixBasedActionProxyFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.impl.StrutsActionProxy",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.impl.StrutsActionProxy",
+    "location": {
+      "path": "org/apache/struts2/impl/StrutsActionProxy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.impl.StrutsActionProxyFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.impl.StrutsActionProxyFactory",
+    "location": {
+      "path": "org/apache/struts2/impl/StrutsActionProxyFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.impl.StrutsObjectFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.impl.StrutsObjectFactory",
+    "location": {
+      "path": "org/apache/struts2/impl/StrutsObjectFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.ActionMappingParametersInteceptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.ActionMappingParametersInteceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/ActionMappingParametersInteceptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.BackgroundProcess.action",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.BackgroundProcess",
+    "location": {
+      "path": "org/apache/struts2/interceptor/BackgroundProcess.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.DeprecationInterceptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.DeprecationInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/DeprecationInterceptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.FileUploadInterceptor.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.interceptor.FileUploadInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/FileUploadInterceptor.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.interceptor.FileUploadInterceptor.LOG"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.interceptor.FileUploadInterceptor.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.FileUploadInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/FileUploadInterceptor.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.interceptor.FileUploadInterceptor.LOG"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.FileUploadInterceptor.acceptFile(java.lang.Object,java.io.File,java.lang.String,java.lang.String,java.lang.String,com.opensymphony.xwork2.ValidationAware)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.FileUploadInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/FileUploadInterceptor.java",
+      "line": 341
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.I18nInterceptor",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.I18nInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/I18nInterceptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.I18nInterceptor.COOKIE_STORAGE",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.I18nInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/I18nInterceptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.I18nInterceptor.readStoredLocale(com.opensymphony.xwork2.ActionInvocation,java.util.Map<java.lang.String,java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.I18nInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/I18nInterceptor.java",
+      "line": 155
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.I18nInterceptor.storeLocale(com.opensymphony.xwork2.ActionInvocation,java.util.Locale,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.I18nInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/I18nInterceptor.java",
+      "line": 139
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.I18nInterceptor$CookieLocaleFinder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.I18nInterceptor$CookieLocaleFinder",
+    "location": {
+      "path": "org/apache/struts2/interceptor/I18nInterceptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.PrincipalProxy.getRequest()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.PrincipalProxy",
+    "location": {
+      "path": "org/apache/struts2/interceptor/PrincipalProxy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.TokenInterceptor.setTextProvider(com.opensymphony.xwork2.TextProvider)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.TokenInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/TokenInterceptor.java",
+      "line": 131
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.TokenInterceptor.setTextProvider(com.opensymphony.xwork2.TextProvider)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.TokenSessionStoreInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/TokenInterceptor.java",
+      "line": 131
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.getActionMethod(java.lang.Class,java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/validation/AnnotationValidationInterceptor.java",
+      "line": 81
+    },
+    "newSymbol": "org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.getActionMethod(java.lang.Class<? extends java.lang.Object>,java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.getActionMethod(java.lang.Class,java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/validation/AnnotationValidationInterceptor.java",
+      "line": 81
+    },
+    "newSymbol": "org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.getActionMethod(java.lang.Class<? extends java.lang.Object>,java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.setDevMode(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor",
+    "location": {
+      "path": "org/apache/struts2/interceptor/validation/AnnotationValidationInterceptor.java",
+      "line": 48
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.servlet.interceptor.ServletPrincipalProxy",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.servlet.interceptor.ServletPrincipalProxy",
+    "location": {
+      "path": "org/apache/struts2/servlet/interceptor/ServletPrincipalProxy.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.util.RegexPatternMatcher",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.util.RegexPatternMatcher",
+    "location": {
+      "path": "org/apache/struts2/util/RegexPatternMatcher.java",
+      "line": null
+    },
+    "newSymbol": "com.opensymphony.xwork2.util.PatternMatcher.match(java.util.Map<java.lang.String,java.lang.String>,java.lang.String,E)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.util.StrutsTestCaseHelper.setUp()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.util.StrutsTestCaseHelper",
+    "location": {
+      "path": "org/apache/struts2/util/StrutsTestCaseHelper.java",
+      "line": 50
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.util.StrutsUtil.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.util.StrutsUtil",
+    "location": {
+      "path": "org/apache/struts2/util/StrutsUtil.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.util.StrutsUtil.LOG"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.util.StrutsUtil.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.util.StrutsUtil",
+    "location": {
+      "path": "org/apache/struts2/util/StrutsUtil.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.util.StrutsUtil.LOG"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.util.StrutsUtil.include(java.lang.Object,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.util.StrutsUtil",
+    "location": {
+      "path": "org/apache/struts2/util/StrutsUtil.java",
+      "line": 107
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.util.StrutsUtil.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.util.VelocityStrutsUtil",
+    "location": {
+      "path": "org/apache/struts2/util/StrutsUtil.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.util.StrutsUtil.LOG"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.util.StrutsUtil.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.util.VelocityStrutsUtil",
+    "location": {
+      "path": "org/apache/struts2/util/StrutsUtil.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.util.StrutsUtil.LOG"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.util.StrutsUtil.include(java.lang.Object,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.util.VelocityStrutsUtil",
+    "location": {
+      "path": "org/apache/struts2/util/StrutsUtil.java",
+      "line": 107
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.DefaultTagLibrary",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.DefaultTagLibrary",
+    "location": {
+      "path": "org/apache/struts2/views/DefaultTagLibrary.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.TagLibrary",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.TagLibrary",
+    "location": {
+      "path": "org/apache/struts2/views/TagLibrary.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.freemarker.FreemarkerManager.oldTagLibraries",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.freemarker.FreemarkerManager",
+    "location": {
+      "path": "org/apache/struts2/views/freemarker/FreemarkerManager.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.freemarker.FreemarkerResult",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.freemarker.FreemarkerResult",
+    "location": {
+      "path": "org/apache/struts2/views/freemarker/FreemarkerResult.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.freemarker.FreemarkerResult.setWriteIfCompleted(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.freemarker.FreemarkerResult",
+    "location": {
+      "path": "org/apache/struts2/views/freemarker/FreemarkerResult.java",
+      "line": 378
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.freemarker.StrutsBeanWrapper.<init>(boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.freemarker.StrutsBeanWrapper",
+    "location": {
+      "path": "org/apache/struts2/views/freemarker/StrutsBeanWrapper.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.freemarker.tags.DivModel",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.freemarker.tags.DivModel",
+    "location": {
+      "path": "org/apache/struts2/views/freemarker/tags/DivModel.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.freemarker.tags.StrutsModels.div",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.freemarker.tags.StrutsModels",
+    "location": {
+      "path": "org/apache/struts2/views/freemarker/tags/StrutsModels.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.freemarker.tags.StrutsModels.getDiv()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.freemarker.tags.StrutsModels",
+    "location": {
+      "path": "org/apache/struts2/views/freemarker/tags/StrutsModels.java",
+      "line": 288
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ContextBeanTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ActionTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ContextBeanTag.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.BeanTag.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.struts2.views.jsp.BeanTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/BeanTag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.BeanTag.LOG"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.BeanTag.LOG",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.BeanTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/BeanTag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.BeanTag.LOG"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ContextBeanTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.BeanTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ContextBeanTag.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ContextBeanTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ContextBeanTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ContextBeanTag.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ContextBeanTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.DateTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ContextBeanTag.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ContextBeanTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.IteratorTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ContextBeanTag.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ContextBeanTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.NumberTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ContextBeanTag.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.PropertyTag.setEscape(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.PropertyTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/PropertyTag.java",
+      "line": 68
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ContextBeanTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.SetTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ContextBeanTag.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ContextBeanTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.TextTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ContextBeanTag.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ContextBeanTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.URLTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ContextBeanTag.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ContextBeanTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.iterator.AppendIteratorTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ContextBeanTag.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.iterator.IteratorGeneratorTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.iterator.IteratorGeneratorTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/iterator/IteratorGeneratorTag.java",
+      "line": 177
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ContextBeanTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.iterator.MergeIteratorTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ContextBeanTag.java",
+      "line": 46
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.iterator.SortIteratorTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.iterator.SortIteratorTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/iterator/SortIteratorTag.java",
+      "line": 114
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.iterator.SubsetIteratorTag.setId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.iterator.SubsetIteratorTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/iterator/SubsetIteratorTag.java",
+      "line": 196
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.AbstractClosingTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.AbstractDoubleListTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.AbstractListTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.AbstractRequiredListTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.AbstractUITag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.ActionErrorTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.ActionMessageTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.AnchorTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.CheckboxListTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.CheckboxTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.ComboBoxTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.TextFieldTag.setMaxLength(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.ComboBoxTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/TextFieldTag.java",
+      "line": 61
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.ComponentTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.DateTextFieldTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.DebugTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.DivTag",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.DivTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/DivTag.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.DoubleSelectTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.FieldErrorTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.FileTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.FormTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.HeadTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.HiddenTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.InputTransferSelectTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.LabelTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.OptionTransferSelectTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.PasswordTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.TextFieldTag.setMaxLength(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.PasswordTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/TextFieldTag.java",
+      "line": 61
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.RadioTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.ResetTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.ResetTag.align",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.ResetTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/ResetTag.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.ResetTag.setAlign(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.ResetTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/ResetTag.java",
+      "line": 68
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.SelectTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.SubmitTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.SubmitTag.align",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.SubmitTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/SubmitTag.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.SubmitTag.setAlign(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.SubmitTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/SubmitTag.java",
+      "line": 69
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.TextFieldTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.TextFieldTag.setMaxLength(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.TextFieldTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/TextFieldTag.java",
+      "line": 61
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.TextareaTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.TokenTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.jsp.ui.UpDownSelectTag",
+    "location": {
+      "path": "org/apache/struts2/views/jsp/ui/AbstractUITag.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.struts2.views.jsp.ui.AbstractUITag.dynamicAttributes"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.velocity.components.DivDirective",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.velocity.components.DivDirective",
+    "location": {
+      "path": "org/apache/struts2/views/velocity/components/DivDirective.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.xslt.XSLTResult.getExcludingPattern()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.xslt.XSLTResult",
+    "location": {
+      "path": "org/apache/struts2/views/xslt/XSLTResult.java",
+      "line": 306
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.xslt.XSLTResult.getMatchingPattern()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.xslt.XSLTResult",
+    "location": {
+      "path": "org/apache/struts2/views/xslt/XSLTResult.java",
+      "line": 292
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.xslt.XSLTResult.setExcludingPattern(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.xslt.XSLTResult",
+    "location": {
+      "path": "org/apache/struts2/views/xslt/XSLTResult.java",
+      "line": 313
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.xslt.XSLTResult.setLocation(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.xslt.XSLTResult",
+    "location": {
+      "path": "org/apache/struts2/views/xslt/XSLTResult.java",
+      "line": 267
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.struts2.views.xslt.XSLTResult.setMatchingPattern(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.struts2.views.xslt.XSLTResult",
+    "location": {
+      "path": "org/apache/struts2/views/xslt/XSLTResult.java",
+      "line": 299
+    },
+    "newSymbol": null
+  }
+]

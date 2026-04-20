@@ -1,0 +1,83 @@
+/* Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+ */
+package org.apache.bval.jsr.example;
+import jakarta.validation.GroupSequence;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+@jakarta.validation.GroupSequence({ org.apache.bval.jsr.example.First.class, org.apache.bval.jsr.example.Second.class, org.apache.bval.jsr.example.Book.class, org.apache.bval.jsr.example.Last.class })
+public class Book {
+    @jakarta.validation.constraints.NotEmpty(groups = org.apache.bval.jsr.example.First.class)
+    private java.lang.String title;
+
+    @jakarta.validation.constraints.Size(max = 30, groups = org.apache.bval.jsr.example.Second.class)
+    private java.lang.String subtitle;
+
+    @jakarta.validation.Valid
+    @jakarta.validation.constraints.NotNull(groups = org.apache.bval.jsr.example.First.class)
+    private org.apache.bval.jsr.example.Author author;
+
+    @jakarta.validation.constraints.NotNull
+    private int uselessField;
+
+    private int unconstraintField;
+
+    public int getUnconstraintField() {
+        return unconstraintField;
+    }
+
+    public void setUnconstraintField(int unconstraintField) {
+        this.unconstraintField = unconstraintField;
+    }
+
+    public java.lang.String getTitle() {
+        return title;
+    }
+
+    public void setTitle(java.lang.String title) {
+        this.title = title;
+    }
+
+    public java.lang.String getSubtitle() {
+        return subtitle;
+    }
+
+    public void setSubtitle(java.lang.String subtitle) {
+        this.subtitle = subtitle;
+    }
+
+    public org.apache.bval.jsr.example.Author getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(org.apache.bval.jsr.example.Author author) {
+        this.author = author;
+    }
+
+    @jakarta.validation.GroupSequence({ org.apache.bval.jsr.example.First.class, org.apache.bval.jsr.example.Second.class, org.apache.bval.jsr.example.Last.class })
+    public interface All {}
+
+    /**
+     * a get() without any name blew up with a failure.
+     * See BVAL-157
+     */
+    public int get() {
+        return 42;
+    }
+}

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.jcabi.aspects"},{"l":"com.jcabi.aspects.aj"},{"l":"com.jcabi.aspects.apt"},{"l":"com.jcabi.aspects.version"}]

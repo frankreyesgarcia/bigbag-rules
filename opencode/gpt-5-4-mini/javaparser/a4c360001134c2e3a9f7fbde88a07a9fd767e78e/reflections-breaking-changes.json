@@ -1,0 +1,3213 @@
+[
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.Configuration",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Configuration",
+    "location": {
+      "path": "org/reflections/Configuration.java",
+      "line": null
+    },
+    "newSymbol": "org.reflections.Configuration.isParallel()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.Configuration",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Configuration",
+    "location": {
+      "path": "org/reflections/Configuration.java",
+      "line": null
+    },
+    "newSymbol": "org.reflections.Configuration.shouldExpandSuperTypes()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Configuration.getExecutorService()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Configuration",
+    "location": {
+      "path": "org/reflections/Configuration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Configuration.getInputsFilter()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.Configuration",
+    "location": {
+      "path": "org/reflections/Configuration.java",
+      "line": null
+    },
+    "newSymbol": "org.reflections.Configuration.getInputsFilter()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.Configuration.getInputsFilter()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Configuration",
+    "location": {
+      "path": "org/reflections/Configuration.java",
+      "line": null
+    },
+    "newSymbol": "org.reflections.Configuration.getInputsFilter()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Configuration.getMetadataAdapter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Configuration",
+    "location": {
+      "path": "org/reflections/Configuration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Configuration.getSerializer()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Configuration",
+    "location": {
+      "path": "org/reflections/Configuration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.forName(java.lang.String,java.lang.ClassLoader[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 348
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.forNames(java.lang.Iterable<java.lang.String>,java.lang.ClassLoader[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 395
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.getAll(java.util.Set<T>,com.google.common.base.Predicate<? super T>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 133
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.getAllAnnotations(T,com.google.common.base.Predicate<java.lang.annotation.Annotation>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 115
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.getAllConstructors(java.lang.Class<? extends java.lang.Object>,com.google.common.base.Predicate<? super java.lang.reflect.Constructor>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 89
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.getAllFields(java.lang.Class<? extends java.lang.Object>,com.google.common.base.Predicate<? super java.lang.reflect.Field>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 103
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.getAllMethods(java.lang.Class<? extends java.lang.Object>,com.google.common.base.Predicate<? super java.lang.reflect.Method>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 75
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.getAllSuperTypes(java.lang.Class<? extends java.lang.Object>,com.google.common.base.Predicate<? super java.lang.Class<? extends java.lang.Object>>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 64
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.getAnnotations(T,com.google.common.base.Predicate<java.lang.annotation.Annotation>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 128
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.getConstructors(java.lang.Class<? extends java.lang.Object>,com.google.common.base.Predicate<? super java.lang.reflect.Constructor>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 98
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.getFields(java.lang.Class<? extends java.lang.Object>,com.google.common.base.Predicate<? super java.lang.reflect.Field>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 110
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.getMethods(java.lang.Class<? extends java.lang.Object>,com.google.common.base.Predicate<? super java.lang.reflect.Method>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 84
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.includeObject",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnnotation(java.lang.Class<? extends java.lang.annotation.Annotation>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 171
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnnotation(java.lang.Class<? extends java.lang.annotation.Annotation>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnnotation(java.lang.Class<? extends java.lang.annotation.Annotation>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 171
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnnotation(java.lang.Class<? extends java.lang.annotation.Annotation>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnnotation(java.lang.annotation.Annotation)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 189
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnnotation(java.lang.annotation.Annotation)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnnotation(java.lang.annotation.Annotation)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 189
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnnotation(java.lang.annotation.Annotation)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnnotations(java.lang.Class<? extends java.lang.annotation.Annotation>[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 180
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnnotations(java.lang.Class<? extends java.lang.annotation.Annotation>[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnnotations(java.lang.Class<? extends java.lang.annotation.Annotation>[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 180
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnnotations(java.lang.Class<? extends java.lang.annotation.Annotation>[])"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnnotations(java.lang.annotation.Annotation[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 199
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnnotations(java.lang.annotation.Annotation[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnnotations(java.lang.annotation.Annotation[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 199
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnnotations(java.lang.annotation.Annotation[])"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnyParameterAnnotation(java.lang.Class<? extends java.lang.annotation.Annotation>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 255
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnyParameterAnnotation(java.lang.Class<? extends java.lang.annotation.Annotation>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnyParameterAnnotation(java.lang.Class<? extends java.lang.annotation.Annotation>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 255
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnyParameterAnnotation(java.lang.Class<? extends java.lang.annotation.Annotation>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnyParameterAnnotation(java.lang.annotation.Annotation)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 268
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnyParameterAnnotation(java.lang.annotation.Annotation)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withAnyParameterAnnotation(java.lang.annotation.Annotation)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 268
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withAnyParameterAnnotation(java.lang.annotation.Annotation)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withClassModifier(int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 336
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withClassModifier(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withClassModifier(int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 336
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withClassModifier(int)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withModifier(int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 322
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withModifier(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withModifier(int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 322
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withModifier(int)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withName(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 139
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withName(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withName(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 139
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withName(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withParameters(java.lang.Class<? extends java.lang.Object>[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 216
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withParameters(java.lang.Class<? extends java.lang.Object>[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withParameters(java.lang.Class<? extends java.lang.Object>[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 216
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withParameters(java.lang.Class<? extends java.lang.Object>[])"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withParametersAssignableTo(java.lang.Class[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 225
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withParametersAssignableTo(java.lang.Class[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withParametersAssignableTo(java.lang.Class[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 225
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withParametersAssignableTo(java.lang.Class[])"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withParametersCount(int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 246
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withParametersCount(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withParametersCount(int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 246
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withParametersCount(int)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withPattern(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 162
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withPattern(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withPattern(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 162
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withPattern(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withPrefix(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 148
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withPrefix(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withPrefix(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 148
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withPrefix(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withReturnType(java.lang.Class<T>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 299
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withReturnType(java.lang.Class<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withReturnType(java.lang.Class<T>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 299
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withReturnType(java.lang.Class<T>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withReturnTypeAssignableTo(java.lang.Class<T>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 308
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withType(java.lang.Class<T>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 281
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withType(java.lang.Class<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withType(java.lang.Class<T>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 281
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withType(java.lang.Class<T>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withTypeAssignableTo(java.lang.Class<T>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 290
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withTypeAssignableTo(java.lang.Class<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.ReflectionUtils.withTypeAssignableTo(java.lang.Class<T>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.ReflectionUtils",
+    "location": {
+      "path": "org/reflections/ReflectionUtils.java",
+      "line": 290
+    },
+    "newSymbol": "org.reflections.util.ReflectionUtilsPredicates.withTypeAssignableTo(java.lang.Class<T>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.collect(java.io.File)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 323
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.collect(java.io.InputStream)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 310
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.collect(java.lang.String,com.google.common.base.Predicate<java.lang.String>,org.reflections.serializers.Serializer[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 271
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getAllAnnotated(java.lang.Iterable<java.lang.String>,boolean,boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 410
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getConstructorParamNames(java.lang.reflect.Constructor)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 549
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getConstructorUsage(java.lang.reflect.Constructor)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 571
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getConstructorsMatchParams(java.lang.Class<? extends java.lang.Object>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 484
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getConstructorsWithAnyParamAnnotated(java.lang.Class<? extends java.lang.annotation.Annotation>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 489
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getConstructorsWithAnyParamAnnotated(java.lang.annotation.Annotation)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 494
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getFieldUsage(java.lang.reflect.Field)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 557
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getMethodParamNames(java.lang.reflect.Method)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 541
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getMethodUsage(java.lang.reflect.Method)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 564
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getMethodsMatchParams(java.lang.Class<? extends java.lang.Object>[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 446
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.Reflections.getMethodsReturn(java.lang.Class)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 451
+    },
+    "newSymbol": "org.reflections.Reflections.getMethodsReturn(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getMethodsWithAnyParamAnnotated(java.lang.Class<? extends java.lang.annotation.Annotation>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 456
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getMethodsWithAnyParamAnnotated(java.lang.annotation.Annotation)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 462
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.getResources(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 521
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.log",
+    "nature": "MUTATION",
+    "kind": "FIELD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": null
+    },
+    "newSymbol": "org.reflections.Reflections.log"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.scan()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 179
+    },
+    "newSymbol": "org.reflections.Reflections.scan()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.Reflections.scan()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 179
+    },
+    "newSymbol": "org.reflections.Reflections.scan()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.scan(java.net.URL)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": 236
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Reflections.store",
+    "nature": "MUTATION",
+    "kind": "FIELD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Reflections",
+    "location": {
+      "path": "org/reflections/Reflections.java",
+      "line": null
+    },
+    "newSymbol": "org.reflections.Reflections.store"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Store.<init>(org.reflections.Configuration)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Store",
+    "location": {
+      "path": "org/reflections/Store.java",
+      "line": 27
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Store.get(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Store",
+    "location": {
+      "path": "org/reflections/Store.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Store.get(java.lang.String,java.lang.Iterable<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Store",
+    "location": {
+      "path": "org/reflections/Store.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Store.get(java.lang.String,java.lang.String[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Store",
+    "location": {
+      "path": "org/reflections/Store.java",
+      "line": 65
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Store.getAll(java.lang.String,java.lang.Iterable<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Store",
+    "location": {
+      "path": "org/reflections/Store.java",
+      "line": 97
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Store.getAll(java.lang.String,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Store",
+    "location": {
+      "path": "org/reflections/Store.java",
+      "line": 92
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.Store.getOrCreate(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Store",
+    "location": {
+      "path": "org/reflections/Store.java",
+      "line": 39
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.Store.keySet()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.Store",
+    "location": {
+      "path": "org/reflections/Store.java",
+      "line": 34
+    },
+    "newSymbol": "java.util.HashMap.keySet()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.adapters.JavaReflectionAdapter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.adapters.JavaReflectionAdapter",
+    "location": {
+      "path": "org/reflections/adapters/JavaReflectionAdapter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.adapters.JavassistAdapter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.adapters.JavassistAdapter",
+    "location": {
+      "path": "org/reflections/adapters/JavassistAdapter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.adapters.MetadataAdapter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.adapters.MetadataAdapter",
+    "location": {
+      "path": "org/reflections/adapters/MetadataAdapter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.AbstractScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.acceptResult(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.FieldAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 72
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.filterResultsBy(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.FieldAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 67
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getConfiguration()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.FieldAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getMetadataAdapter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.FieldAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getResultFilter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.FieldAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getStore()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.FieldAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.scan(org.reflections.vfs.Vfs$File,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.FieldAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setConfiguration(org.reflections.Configuration)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.FieldAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setResultFilter(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.FieldAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 63
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setStore(com.google.common.collect.Multimap<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.FieldAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.FieldAnnotationsScanner.scan(java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.FieldAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/FieldAnnotationsScanner.java",
+      "line": 9
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.acceptResult(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 72
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.filterResultsBy(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 67
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getConfiguration()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getMetadataAdapter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getResultFilter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getStore()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.scan(org.reflections.vfs.Vfs$File,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setConfiguration(org.reflections.Configuration)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setResultFilter(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 63
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setStore(com.google.common.collect.Multimap<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.MemberUsageScanner",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/MemberUsageScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.MemberUsageScanner.scan(java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MemberUsageScanner",
+    "location": {
+      "path": "org/reflections/scanners/MemberUsageScanner.java",
+      "line": 19
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.acceptResult(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 72
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.filterResultsBy(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 67
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getConfiguration()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getMetadataAdapter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getResultFilter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getStore()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.scan(org.reflections.vfs.Vfs$File,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setConfiguration(org.reflections.Configuration)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setResultFilter(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 63
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setStore(com.google.common.collect.Multimap<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.MethodAnnotationsScanner.scan(java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/MethodAnnotationsScanner.java",
+      "line": 9
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.acceptResult(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 72
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.filterResultsBy(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 67
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getConfiguration()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getMetadataAdapter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getResultFilter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getStore()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.scan(org.reflections.vfs.Vfs$File,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setConfiguration(org.reflections.Configuration)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setResultFilter(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 63
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setStore(com.google.common.collect.Multimap<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.MethodParameterNamesScanner",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/MethodParameterNamesScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.MethodParameterNamesScanner.scan(java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterNamesScanner",
+    "location": {
+      "path": "org/reflections/scanners/MethodParameterNamesScanner.java",
+      "line": 19
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.acceptResult(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 72
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.filterResultsBy(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 67
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getConfiguration()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getMetadataAdapter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getResultFilter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getStore()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.scan(org.reflections.vfs.Vfs$File,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setConfiguration(org.reflections.Configuration)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setResultFilter(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 63
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setStore(com.google.common.collect.Multimap<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.MethodParameterScanner.scan(java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.MethodParameterScanner",
+    "location": {
+      "path": "org/reflections/scanners/MethodParameterScanner.java",
+      "line": 13
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.acceptResult(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.ResourcesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 72
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.filterResultsBy(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.ResourcesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 67
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getConfiguration()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.ResourcesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getMetadataAdapter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.ResourcesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getResultFilter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.ResourcesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getStore()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.ResourcesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setConfiguration(org.reflections.Configuration)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.ResourcesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setResultFilter(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.ResourcesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 63
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setStore(com.google.common.collect.Multimap<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.ResourcesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.ResourcesScanner.scan(java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.ResourcesScanner",
+    "location": {
+      "path": "org/reflections/scanners/ResourcesScanner.java",
+      "line": 18
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.ResourcesScanner.scan(org.reflections.vfs.Vfs$File,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.ResourcesScanner",
+    "location": {
+      "path": "org/reflections/scanners/ResourcesScanner.java",
+      "line": 13
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.scanners.Scanner",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.Scanner",
+    "location": {
+      "path": "org/reflections/scanners/Scanner.java",
+      "line": null
+    },
+    "newSymbol": "org.reflections.scanners.Scanner.scan(javassist.bytecode.ClassFile)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.Scanner.acceptResult(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.Scanner",
+    "location": {
+      "path": "org/reflections/scanners/Scanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.Scanner.filterResultsBy(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.Scanner",
+    "location": {
+      "path": "org/reflections/scanners/Scanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.Scanner.getStore()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.Scanner",
+    "location": {
+      "path": "org/reflections/scanners/Scanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.Scanner.scan(org.reflections.vfs.Vfs$File,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.Scanner",
+    "location": {
+      "path": "org/reflections/scanners/Scanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.Scanner.setConfiguration(org.reflections.Configuration)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.Scanner",
+    "location": {
+      "path": "org/reflections/scanners/Scanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.Scanner.setStore(com.google.common.collect.Multimap<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.Scanner",
+    "location": {
+      "path": "org/reflections/scanners/Scanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.acceptResult(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.SubTypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 72
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.filterResultsBy(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.SubTypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 67
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getConfiguration()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.SubTypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getMetadataAdapter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.SubTypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getResultFilter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.SubTypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getStore()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.SubTypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.scan(org.reflections.vfs.Vfs$File,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.SubTypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setConfiguration(org.reflections.Configuration)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.SubTypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setResultFilter(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.SubTypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 63
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setStore(com.google.common.collect.Multimap<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.SubTypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.SubTypesScanner.scan(java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.SubTypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/SubTypesScanner.java",
+      "line": 25
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.acceptResult(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 72
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.filterResultsBy(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 67
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getConfiguration()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getMetadataAdapter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getResultFilter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getStore()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.scan(org.reflections.vfs.Vfs$File,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setConfiguration(org.reflections.Configuration)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setResultFilter(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 63
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setStore(com.google.common.collect.Multimap<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.TypeAnnotationsScanner.scan(java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeAnnotationsScanner",
+    "location": {
+      "path": "org/reflections/scanners/TypeAnnotationsScanner.java",
+      "line": 10
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.acceptResult(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 72
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.filterResultsBy(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 67
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getConfiguration()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getMetadataAdapter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getResultFilter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 59
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.getStore()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.scan(org.reflections.vfs.Vfs$File,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setConfiguration(org.reflections.Configuration)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setResultFilter(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 63
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.AbstractScanner.setStore(com.google.common.collect.Multimap<java.lang.String,java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/AbstractScanner.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.TypeElementsScanner",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/TypeElementsScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.TypeElementsScanner.scan(java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypeElementsScanner",
+    "location": {
+      "path": "org/reflections/scanners/TypeElementsScanner.java",
+      "line": 14
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.scanners.TypesScanner",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.scanners.TypesScanner",
+    "location": {
+      "path": "org/reflections/scanners/TypesScanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.serializers.JavaCodeSerializer.resolveAnnotation(java.lang.Class)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.serializers.JavaCodeSerializer",
+    "location": {
+      "path": "org/reflections/serializers/JavaCodeSerializer.java",
+      "line": 290
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.serializers.JavaCodeSerializer.resolveClass(java.lang.Class)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.serializers.JavaCodeSerializer",
+    "location": {
+      "path": "org/reflections/serializers/JavaCodeSerializer.java",
+      "line": 272
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.serializers.JavaCodeSerializer.resolveClassOf(java.lang.Class)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.serializers.JavaCodeSerializer",
+    "location": {
+      "path": "org/reflections/serializers/JavaCodeSerializer.java",
+      "line": 258
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.serializers.JavaCodeSerializer.resolveField(java.lang.Class)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.serializers.JavaCodeSerializer",
+    "location": {
+      "path": "org/reflections/serializers/JavaCodeSerializer.java",
+      "line": 280
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.serializers.JavaCodeSerializer.resolveMethod(java.lang.Class)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.serializers.JavaCodeSerializer",
+    "location": {
+      "path": "org/reflections/serializers/JavaCodeSerializer.java",
+      "line": 302
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.serializers.JavaCodeSerializer.toString(org.reflections.Reflections)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.serializers.JavaCodeSerializer",
+    "location": {
+      "path": "org/reflections/serializers/JavaCodeSerializer.java",
+      "line": 121
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.serializers.JavaCodeSerializer1",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.serializers.JavaCodeSerializer1",
+    "location": {
+      "path": "org/reflections/serializers/JavaCodeSerializer1.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.serializers.JavassistSerializer",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.serializers.JavassistSerializer",
+    "location": {
+      "path": "org/reflections/serializers/JavassistSerializer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.serializers.JsonSerializer.toString(org.reflections.Reflections)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.serializers.JsonSerializer",
+    "location": {
+      "path": "org/reflections/serializers/JsonSerializer.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.serializers.Serializer.toString(org.reflections.Reflections)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.serializers.Serializer",
+    "location": {
+      "path": "org/reflections/serializers/Serializer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.serializers.XmlSerializer.toString(org.reflections.Reflections)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.serializers.XmlSerializer",
+    "location": {
+      "path": "org/reflections/serializers/XmlSerializer.java",
+      "line": 89
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.addClassLoader(java.lang.ClassLoader)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 276
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.addClassLoaders(java.util.Collection<java.lang.ClassLoader>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 287
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.filterInputsBy(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 225
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.getExecutorService()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 231
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.getInputsFilter()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 213
+    },
+    "newSymbol": "org.reflections.util.ConfigurationBuilder.getInputsFilter()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.getInputsFilter()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 213
+    },
+    "newSymbol": "org.reflections.util.ConfigurationBuilder.getInputsFilter()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.getMetadataAdapter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 193
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.getSerializer()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 254
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.metadataAdapter",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.setClassLoaders(java.lang.ClassLoader[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 271
+    },
+    "newSymbol": "org.reflections.util.ConfigurationBuilder.setClassLoaders(java.lang.ClassLoader[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.setClassLoaders(java.lang.ClassLoader[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 271
+    },
+    "newSymbol": "org.reflections.util.ConfigurationBuilder.setClassLoaders(java.lang.ClassLoader[])"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.setExecutorService(java.util.concurrent.ExecutorService)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 236
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.setInputsFilter(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 219
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.setMetadataAdapter(org.reflections.adapters.MetadataAdapter)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 207
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.setSerializer(org.reflections.serializers.Serializer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 259
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.useParallelExecutor()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 243
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.ConfigurationBuilder.useParallelExecutor(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.ConfigurationBuilder",
+    "location": {
+      "path": "org/reflections/util/ConfigurationBuilder.java",
+      "line": 249
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.FilterBuilder",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.util.FilterBuilder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": null
+    },
+    "newSymbol": "java.util.function.Predicate.test(T)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.FilterBuilder.add(com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": 34
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.FilterBuilder.apply(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": 60
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.FilterBuilder.excludePackage(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": 40
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.FilterBuilder.includePackage(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": 37
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.FilterBuilder.includePackage(java.lang.String[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": 44
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.FilterBuilder.parse(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": 105
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.FilterBuilder.prefix(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.FilterBuilder$Exclude",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder$Exclude",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.FilterBuilder$Include",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder$Include",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.FilterBuilder$Matcher",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.FilterBuilder$Matcher",
+    "location": {
+      "path": "org/reflections/util/FilterBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.util.Utils",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.util.Utils",
+    "location": {
+      "path": "org/reflections/util/Utils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.vfs.CommonsVfs2UrlType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.vfs.CommonsVfs2UrlType",
+    "location": {
+      "path": "org/reflections/vfs/CommonsVfs2UrlType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.vfs.CommonsVfs2UrlType$Dir",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.vfs.CommonsVfs2UrlType$Dir",
+    "location": {
+      "path": "org/reflections/vfs/CommonsVfs2UrlType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.vfs.CommonsVfs2UrlType$File",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.vfs.CommonsVfs2UrlType$File",
+    "location": {
+      "path": "org/reflections/vfs/CommonsVfs2UrlType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.reflections.vfs.JarInputFile.openInputStream()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.vfs.JarInputFile",
+    "location": {
+      "path": "org/reflections/vfs/JarInputFile.java",
+      "line": 33
+    },
+    "newSymbol": "org.reflections.vfs.JarInputFile.openInputStream()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.vfs.Vfs.findFiles(java.util.Collection<java.net.URL>,com.google.common.base.Predicate<org.reflections.vfs.Vfs$File>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.vfs.Vfs",
+    "location": {
+      "path": "org/reflections/vfs/Vfs.java",
+      "line": 138
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.vfs.Vfs.findFiles(java.util.Collection<java.net.URL>,java.lang.String,com.google.common.base.Predicate<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.vfs.Vfs",
+    "location": {
+      "path": "org/reflections/vfs/Vfs.java",
+      "line": 121
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.reflections.vfs.Vfs$DefaultUrlTypes.commons_vfs2",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.reflections.vfs.Vfs$DefaultUrlTypes",
+    "location": {
+      "path": "org/reflections/vfs/Vfs.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

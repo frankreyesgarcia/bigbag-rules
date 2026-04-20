@@ -1,0 +1,40 @@
+package liquibase.ext.mssql.change;
+import java.util.ArrayList;
+import java.util.List;
+import liquibase.ext.mssql.database.MSSQLDatabase;
+import liquibase.ext.mssql.statement.AddPrimaryKeyStatementMSSQL;
+import liquibase.change.ChangeMetaData;
+import liquibase.change.DatabaseChange;
+import liquibase.change.core.AddPrimaryKeyChange;
+import liquibase.database.Database;
+import liquibase.statement.SqlStatement;
+import liquibase.statement.core.AddPrimaryKeyStatement;
+@DatabaseChange(name = "addPrimaryKey", description = "Adds creates a primary key out of an existing column or set of columns.", priority = ChangeMetaData.PRIORITY_DATABASE, appliesTo = "column")
+public class AddPrimaryKeyChangeMSSQL extends AddPrimaryKeyChange {
+    private Integer fillFactor;
+
+    public Integer getFillFactor() {
+        return fillFactor;
+    }
+
+    public void setFillFactor(Integer fillFactor) {
+        this.fillFactor = fillFactor;
+    }
+
+    @Override
+    public SqlStatement[] generateStatements(Database database) {
+        SqlStatement[] statements = super.generateStatements(database);
+        if (!PRODUCT_NAME.equals(database.getDatabaseProductName())) {
+            return statements;
+        }
+        List<SqlStatement> extendedStatements = new ArrayList<SqlStatement>(statements.length);
+        for (SqlStatement statement : statements) {
+            if (statement instanceof AddPrimaryKeyStatement) {
+                extendedStatements.add(new AddPrimaryKeyStatementMSSQL(((AddPrimaryKeyStatement) (statement)), fillFactor));
+            } else {
+                extendedStatements.add(statement);
+            }
+        }
+        return extendedStatements.toArray(new SqlStatement[0]);
+    }
+}

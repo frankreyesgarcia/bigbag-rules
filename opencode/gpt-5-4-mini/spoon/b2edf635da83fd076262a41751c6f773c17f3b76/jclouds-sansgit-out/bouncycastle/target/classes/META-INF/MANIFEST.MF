@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-Description: jclouds bouncycastle EncryptionService Module
+Bundle-ManifestVersion: 2
+Bundle-Name: jclouds bouncycastle EncryptionService Module
+Bundle-SymbolicName: jclouds-bouncycastle
+Bundle-Version: 2.6.0.SNAPSHOT
+Export-Package: org.jclouds.encryption.bouncycastle;version="2.6.0.SNA
+ PSHOT";uses:="javax.crypto,javax.inject,org.jclouds.encryption.intern
+ al",org.jclouds.encryption.bouncycastle.config;version="2.6.0.SNAPSHO
+ T";uses:="com.google.inject"
+Implementation-Vendor: jclouds
+Implementation-Vendor-Id: org.apache.jclouds
+Implementation-Version: 2.6.0-SNAPSHOT
+Import-Package: com.google.inject;version="[1.4,2)",com.google.inject.
+ binder;version="[1.4,2)",javax.crypto,javax.inject,org.bouncycastle.j
+ ce.provider;version="[1.71,2)",org.jclouds.crypto;version="[2.6,3)",o
+ rg.jclouds.encryption.internal;version="[2.6,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: jclouds jclouds bouncycastle EncryptionService Mo
+ dule
+Specification-Vendor: jclouds
+X-Compile-Source-JDK: 1.8
+X-Compile-Target-JDK: 1.8
+

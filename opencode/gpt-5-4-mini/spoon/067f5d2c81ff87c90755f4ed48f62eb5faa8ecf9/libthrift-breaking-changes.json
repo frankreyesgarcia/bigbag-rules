@@ -1,0 +1,1536 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.ShortStack",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.ShortStack",
+    "location": {
+      "path": "org/apache/thrift/ShortStack.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.TAsyncProcessor.process(org.apache.thrift.server.AbstractNonblockingServer$AsyncFrameBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.thrift.TAsyncProcessor",
+    "location": {
+      "path": "org/apache/thrift/TAsyncProcessor.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.TAsyncProcessor.process(org.apache.thrift.server.AbstractNonblockingServer$AsyncFrameBuffer)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.TAsyncProcessor.process(org.apache.thrift.server.AbstractNonblockingServer$AsyncFrameBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.TAsyncProcessor",
+    "location": {
+      "path": "org/apache/thrift/TAsyncProcessor.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.TAsyncProcessor.process(org.apache.thrift.server.AbstractNonblockingServer$AsyncFrameBuffer)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.TBaseAsyncProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.thrift.TBaseAsyncProcessor",
+    "location": {
+      "path": "org/apache/thrift/TBaseAsyncProcessor.java",
+      "line": 103
+    },
+    "newSymbol": "org.apache.thrift.TBaseAsyncProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.TBaseAsyncProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.TBaseAsyncProcessor",
+    "location": {
+      "path": "org/apache/thrift/TBaseAsyncProcessor.java",
+      "line": 103
+    },
+    "newSymbol": "org.apache.thrift.TBaseAsyncProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.TBaseAsyncProcessor.process(org.apache.thrift.server.AbstractNonblockingServer$AsyncFrameBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.thrift.TBaseAsyncProcessor",
+    "location": {
+      "path": "org/apache/thrift/TBaseAsyncProcessor.java",
+      "line": 48
+    },
+    "newSymbol": "org.apache.thrift.TBaseAsyncProcessor.process(org.apache.thrift.server.AbstractNonblockingServer$AsyncFrameBuffer)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.TBaseAsyncProcessor.process(org.apache.thrift.server.AbstractNonblockingServer$AsyncFrameBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.TBaseAsyncProcessor",
+    "location": {
+      "path": "org/apache/thrift/TBaseAsyncProcessor.java",
+      "line": 48
+    },
+    "newSymbol": "org.apache.thrift.TBaseAsyncProcessor.process(org.apache.thrift.server.AbstractNonblockingServer$AsyncFrameBuffer)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.TBaseProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.thrift.TBaseProcessor",
+    "location": {
+      "path": "org/apache/thrift/TBaseProcessor.java",
+      "line": 27
+    },
+    "newSymbol": "org.apache.thrift.TBaseProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.TBaseProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.TBaseProcessor",
+    "location": {
+      "path": "org/apache/thrift/TBaseProcessor.java",
+      "line": 27
+    },
+    "newSymbol": "org.apache.thrift.TBaseProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.TDeserializer.<init>()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.TDeserializer",
+    "location": {
+      "path": "org/apache/thrift/TDeserializer.java",
+      "line": 46
+    },
+    "newSymbol": "org.apache.thrift.TDeserializer.<init>()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.TDeserializer.<init>(org.apache.thrift.protocol.TProtocolFactory)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.TDeserializer",
+    "location": {
+      "path": "org/apache/thrift/TDeserializer.java",
+      "line": 55
+    },
+    "newSymbol": "org.apache.thrift.TDeserializer.<init>(org.apache.thrift.protocol.TProtocolFactory)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.TMultiplexedProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.thrift.TMultiplexedProcessor",
+    "location": {
+      "path": "org/apache/thrift/TMultiplexedProcessor.java",
+      "line": 101
+    },
+    "newSymbol": "org.apache.thrift.TMultiplexedProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.TMultiplexedProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.TMultiplexedProcessor",
+    "location": {
+      "path": "org/apache/thrift/TMultiplexedProcessor.java",
+      "line": 101
+    },
+    "newSymbol": "org.apache.thrift.TMultiplexedProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.TProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.thrift.TProcessor",
+    "location": {
+      "path": "org/apache/thrift/TProcessor.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.TProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.TProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.TProcessor",
+    "location": {
+      "path": "org/apache/thrift/TProcessor.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.TProcessor.process(org.apache.thrift.protocol.TProtocol,org.apache.thrift.protocol.TProtocol)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.TSerializer.<init>()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.TSerializer",
+    "location": {
+      "path": "org/apache/thrift/TSerializer.java",
+      "line": 56
+    },
+    "newSymbol": "org.apache.thrift.TSerializer.<init>()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.TSerializer.<init>(org.apache.thrift.protocol.TProtocolFactory)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.TSerializer",
+    "location": {
+      "path": "org/apache/thrift/TSerializer.java",
+      "line": 40
+    },
+    "newSymbol": "org.apache.thrift.TSerializer.<init>(org.apache.thrift.protocol.TProtocolFactory)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.TSerializer.toString(org.apache.thrift.TBase,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.TSerializer",
+    "location": {
+      "path": "org/apache/thrift/TSerializer.java",
+      "line": 93
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readFieldEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 254
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readFieldEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readListEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 270
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readListEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readMapEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 262
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readMapEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readMessageEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 240
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readMessageEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readSetEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 278
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readSetEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readStructBegin()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 243
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readStructBegin()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readStructEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 246
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.readStructEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeFieldEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 137
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeFieldEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeListEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 156
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeListEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeMapEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 149
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeMapEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeMessageEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 126
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeMessageEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeSetEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 163
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeSetEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeStructBegin(org.apache.thrift.protocol.TStruct)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 128
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeStructBegin(org.apache.thrift.protocol.TStruct)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeStructEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TBinaryProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TBinaryProtocol.java",
+      "line": 130
+    },
+    "newSymbol": "org.apache.thrift.protocol.TBinaryProtocol.writeStructEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TProtocol",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TProtocol.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.protocol.TProtocol.getMinSerializedSize(byte)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readFieldEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TSimpleJSONProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TSimpleJSONProtocol.java",
+      "line": 376
+    },
+    "newSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readFieldEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readListEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TSimpleJSONProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TSimpleJSONProtocol.java",
+      "line": 390
+    },
+    "newSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readListEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readMapEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TSimpleJSONProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TSimpleJSONProtocol.java",
+      "line": 383
+    },
+    "newSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readMapEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readMessageEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TSimpleJSONProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TSimpleJSONProtocol.java",
+      "line": 362
+    },
+    "newSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readMessageEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readSetEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TSimpleJSONProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TSimpleJSONProtocol.java",
+      "line": 397
+    },
+    "newSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readSetEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readStructBegin()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TSimpleJSONProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TSimpleJSONProtocol.java",
+      "line": 366
+    },
+    "newSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readStructBegin()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readStructEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TSimpleJSONProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TSimpleJSONProtocol.java",
+      "line": 369
+    },
+    "newSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.readStructEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.writeFieldEnd()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TSimpleJSONProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TSimpleJSONProtocol.java",
+      "line": 200
+    },
+    "newSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.writeFieldEnd()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.writeFieldStop()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.protocol.TSimpleJSONProtocol",
+    "location": {
+      "path": "org/apache/thrift/protocol/TSimpleJSONProtocol.java",
+      "line": 202
+    },
+    "newSymbol": "org.apache.thrift.protocol.TSimpleJSONProtocol.writeFieldStop()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.server.AbstractNonblockingServer$AsyncFrameBuffer.<init>(org.apache.thrift.transport.TNonblockingTransport,java.nio.channels.SelectionKey,org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.AbstractNonblockingServer$AsyncFrameBuffer",
+    "location": {
+      "path": "org/apache/thrift/server/AbstractNonblockingServer.java",
+      "line": 579
+    },
+    "newSymbol": "org.apache.thrift.server.AbstractNonblockingServer$AsyncFrameBuffer.<init>(org.apache.thrift.transport.TNonblockingTransport,java.nio.channels.SelectionKey,org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.<init>(org.apache.thrift.transport.TNonblockingTransport,java.nio.channels.SelectionKey,org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer",
+    "location": {
+      "path": "org/apache/thrift/server/AbstractNonblockingServer.java",
+      "line": 270
+    },
+    "newSymbol": "org.apache.thrift.server.AbstractNonblockingServer$FrameBuffer.<init>(org.apache.thrift.transport.TNonblockingTransport,java.nio.channels.SelectionKey,org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.server.ServerContext",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.ServerContext",
+    "location": {
+      "path": "org/apache/thrift/server/ServerContext.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.server.ServerContext.unwrap(java.lang.Class<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.server.ServerContext",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.ServerContext",
+    "location": {
+      "path": "org/apache/thrift/server/ServerContext.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.server.ServerContext.isWrapperFor(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.createFrameBuffer(org.apache.thrift.transport.TNonblockingTransport,java.nio.channels.SelectionKey,org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.TNonblockingServer$SelectAcceptThread",
+    "location": {
+      "path": "org/apache/thrift/server/TNonblockingServer.java",
+      "line": 219
+    },
+    "newSymbol": "org.apache.thrift.server.TNonblockingServer$SelectAcceptThread.createFrameBuffer(org.apache.thrift.transport.TNonblockingTransport,java.nio.channels.SelectionKey,org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.server.TThreadPoolServer.waitForShutdown()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.thrift.server.TThreadPoolServer",
+    "location": {
+      "path": "org/apache/thrift/server/TThreadPoolServer.java",
+      "line": 237
+    },
+    "newSymbol": "org.apache.thrift.server.TThreadPoolServer.waitForShutdown()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.server.TThreadPoolServer.waitForShutdown()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.TThreadPoolServer",
+    "location": {
+      "path": "org/apache/thrift/server/TThreadPoolServer.java",
+      "line": 237
+    },
+    "newSymbol": "org.apache.thrift.server.TThreadPoolServer.waitForShutdown()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.server.TThreadPoolServer$Args.beBackoffSlotLength",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.TThreadPoolServer$Args",
+    "location": {
+      "path": "org/apache/thrift/server/TThreadPoolServer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.server.TThreadPoolServer$Args.beBackoffSlotLength(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.TThreadPoolServer$Args",
+    "location": {
+      "path": "org/apache/thrift/server/TThreadPoolServer.java",
+      "line": 94
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.server.TThreadPoolServer$Args.beBackoffSlotLengthUnit",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.TThreadPoolServer$Args",
+    "location": {
+      "path": "org/apache/thrift/server/TThreadPoolServer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.server.TThreadPoolServer$Args.beBackoffSlotLengthUnit(java.util.concurrent.TimeUnit)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.TThreadPoolServer$Args",
+    "location": {
+      "path": "org/apache/thrift/server/TThreadPoolServer.java",
+      "line": 100
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.server.TThreadPoolServer$Args.requestTimeout",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.TThreadPoolServer$Args",
+    "location": {
+      "path": "org/apache/thrift/server/TThreadPoolServer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.server.TThreadPoolServer$Args.requestTimeout(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.TThreadPoolServer$Args",
+    "location": {
+      "path": "org/apache/thrift/server/TThreadPoolServer.java",
+      "line": 84
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.server.TThreadPoolServer$Args.requestTimeoutUnit",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.TThreadPoolServer$Args",
+    "location": {
+      "path": "org/apache/thrift/server/TThreadPoolServer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.server.TThreadPoolServer$Args.requestTimeoutUnit(java.util.concurrent.TimeUnit)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.TThreadPoolServer$Args",
+    "location": {
+      "path": "org/apache/thrift/server/TThreadPoolServer.java",
+      "line": 89
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.server.TThreadedSelectorServer$SelectorThread.createFrameBuffer(org.apache.thrift.transport.TNonblockingTransport,java.nio.channels.SelectionKey,org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.server.TThreadedSelectorServer$SelectorThread",
+    "location": {
+      "path": "org/apache/thrift/server/TThreadedSelectorServer.java",
+      "line": 689
+    },
+    "newSymbol": "org.apache.thrift.server.TThreadedSelectorServer$SelectorThread.createFrameBuffer(org.apache.thrift.transport.TNonblockingTransport,java.nio.channels.SelectionKey,org.apache.thrift.server.AbstractNonblockingServer$AbstractSelectThread)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.AutoExpandingBuffer.<init>(int,double)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.AutoExpandingBuffer",
+    "location": {
+      "path": "org/apache/thrift/transport/AutoExpandingBuffer.java",
+      "line": 33
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.AutoExpandingBufferReadTransport.<init>(int,double)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.AutoExpandingBufferReadTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/AutoExpandingBufferReadTransport.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.AutoExpandingBufferWriteTransport.<init>(int,double)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.AutoExpandingBufferWriteTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/AutoExpandingBufferWriteTransport.java",
+      "line": 29
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.AutoExpandingBufferWriteTransport.getPos()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.AutoExpandingBufferWriteTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/AutoExpandingBufferWriteTransport.java",
+      "line": 60
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TByteBuffer.<init>(java.nio.ByteBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TByteBuffer",
+    "location": {
+      "path": "org/apache/thrift/transport/TByteBuffer.java",
+      "line": 16
+    },
+    "newSymbol": "org.apache.thrift.transport.TByteBuffer.<init>(java.nio.ByteBuffer)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TFastFramedTransport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TFastFramedTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TFastFramedTransport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TFastFramedTransport$Factory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TFastFramedTransport$Factory",
+    "location": {
+      "path": "org/apache/thrift/transport/TFastFramedTransport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TFramedTransport",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TFramedTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TFramedTransport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TFramedTransport$Factory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TFramedTransport$Factory",
+    "location": {
+      "path": "org/apache/thrift/transport/TFramedTransport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TIOStreamTransport.<init>()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TIOStreamTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TIOStreamTransport.java",
+      "line": 41
+    },
+    "newSymbol": "org.apache.thrift.transport.TIOStreamTransport.<init>()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TIOStreamTransport.<init>(java.io.InputStream)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TIOStreamTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TIOStreamTransport.java",
+      "line": 41
+    },
+    "newSymbol": "org.apache.thrift.transport.TIOStreamTransport.<init>(java.io.InputStream)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TIOStreamTransport.<init>(java.io.InputStream,java.io.OutputStream)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TIOStreamTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TIOStreamTransport.java",
+      "line": 41
+    },
+    "newSymbol": "org.apache.thrift.transport.TIOStreamTransport.<init>(java.io.InputStream,java.io.OutputStream)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TIOStreamTransport.<init>(java.io.OutputStream)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TIOStreamTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TIOStreamTransport.java",
+      "line": 41
+    },
+    "newSymbol": "org.apache.thrift.transport.TIOStreamTransport.<init>(java.io.OutputStream)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TMemoryBuffer.<init>(int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TMemoryBuffer",
+    "location": {
+      "path": "org/apache/thrift/transport/TMemoryBuffer.java",
+      "line": 34
+    },
+    "newSymbol": "org.apache.thrift.transport.TMemoryBuffer.<init>(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TMemoryBuffer.read(byte[],int,int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TMemoryBuffer",
+    "location": {
+      "path": "org/apache/thrift/transport/TMemoryBuffer.java",
+      "line": 55
+    },
+    "newSymbol": "org.apache.thrift.transport.TMemoryBuffer.read(byte[],int,int)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TMemoryBuffer.toString(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TMemoryBuffer",
+    "location": {
+      "path": "org/apache/thrift/transport/TMemoryBuffer.java",
+      "line": 76
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TMemoryInputTransport.<init>()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TMemoryInputTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TMemoryInputTransport.java",
+      "line": 27
+    },
+    "newSymbol": "org.apache.thrift.transport.TMemoryInputTransport.<init>()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TMemoryInputTransport.<init>(byte[])",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TMemoryInputTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TMemoryInputTransport.java",
+      "line": 30
+    },
+    "newSymbol": "org.apache.thrift.transport.TMemoryInputTransport.<init>(byte[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TMemoryInputTransport.<init>(byte[],int,int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TMemoryInputTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TMemoryInputTransport.java",
+      "line": 34
+    },
+    "newSymbol": "org.apache.thrift.transport.TMemoryInputTransport.<init>(byte[],int,int)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingServerSocket.acceptImpl()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingServerSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingServerSocket.java",
+      "line": 112
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TServerTransport.accept()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.thrift.transport.TNonblockingServerSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TServerTransport.java",
+      "line": 60
+    },
+    "newSymbol": "org.apache.thrift.transport.TNonblockingServerSocket.accept()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TServerTransport.accept()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.thrift.transport.TNonblockingServerTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TServerTransport.java",
+      "line": 60
+    },
+    "newSymbol": "org.apache.thrift.transport.TNonblockingServerTransport.accept()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TServerTransport.accept()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingServerTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TServerTransport.java",
+      "line": 60
+    },
+    "newSymbol": "org.apache.thrift.transport.TNonblockingServerTransport.accept()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TServerTransport.acceptImpl()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingServerTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TServerTransport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingSocket.<init>(java.lang.String,int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingSocket.java",
+      "line": 51
+    },
+    "newSymbol": "org.apache.thrift.transport.TNonblockingSocket.<init>(java.lang.String,int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingSocket.<init>(java.lang.String,int,int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingSocket.java",
+      "line": 61
+    },
+    "newSymbol": "org.apache.thrift.transport.TNonblockingSocket.<init>(java.lang.String,int,int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingSocket.<init>(java.nio.channels.SocketChannel)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingSocket.java",
+      "line": 71
+    },
+    "newSymbol": "org.apache.thrift.transport.TNonblockingSocket.<init>(java.nio.channels.SocketChannel)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingSocket.read(java.nio.ByteBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingSocket.java",
+      "line": 141
+    },
+    "newSymbol": "org.apache.thrift.transport.TNonblockingSocket.read(java.nio.ByteBuffer)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingSocket.read(java.nio.ByteBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingSocket.java",
+      "line": 141
+    },
+    "newSymbol": "org.apache.thrift.transport.TNonblockingSocket.read(java.nio.ByteBuffer)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingSocket.write(java.nio.ByteBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingSocket.java",
+      "line": 164
+    },
+    "newSymbol": "org.apache.thrift.transport.TNonblockingSocket.write(java.nio.ByteBuffer)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingSocket.write(java.nio.ByteBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingSocket.java",
+      "line": 164
+    },
+    "newSymbol": "org.apache.thrift.transport.TNonblockingSocket.write(java.nio.ByteBuffer)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingTransport.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingTransport.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingTransport.read(java.nio.ByteBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingTransport.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.transport.TTransport.read(java.nio.ByteBuffer)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingTransport.read(java.nio.ByteBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingTransport.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.transport.TTransport.read(java.nio.ByteBuffer)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingTransport.write(java.nio.ByteBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingTransport.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.transport.TTransport.write(java.nio.ByteBuffer)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TNonblockingTransport.write(java.nio.ByteBuffer)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TNonblockingTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TNonblockingTransport.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.transport.TTransport.write(java.nio.ByteBuffer)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TSaslClientTransport.<init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,javax.security.auth.callback.CallbackHandler,org.apache.thrift.transport.TTransport)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSaslClientTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TSaslClientTransport.java",
+      "line": 73
+    },
+    "newSymbol": "org.apache.thrift.transport.TSaslClientTransport.<init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,javax.security.auth.callback.CallbackHandler,org.apache.thrift.transport.TTransport)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TSaslClientTransport.<init>(javax.security.sasl.SaslClient,org.apache.thrift.transport.TTransport)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSaslClientTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TSaslClientTransport.java",
+      "line": 57
+    },
+    "newSymbol": "org.apache.thrift.transport.TSaslClientTransport.<init>(javax.security.sasl.SaslClient,org.apache.thrift.transport.TTransport)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TSaslTransport.sendAndThrowMessage(org.apache.thrift.transport.TSaslTransport$NegotiationStatus,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSaslClientTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TSaslTransport.java",
+      "line": 227
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TSaslTransport.sendSaslMessage(org.apache.thrift.transport.TSaslTransport$NegotiationStatus,byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSaslClientTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TSaslTransport.java",
+      "line": 155
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TSaslServerTransport.<init>(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,javax.security.auth.callback.CallbackHandler,org.apache.thrift.transport.TTransport)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSaslServerTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TSaslServerTransport.java",
+      "line": 51
+    },
+    "newSymbol": "org.apache.thrift.transport.TSaslServerTransport.<init>(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,javax.security.auth.callback.CallbackHandler,org.apache.thrift.transport.TTransport)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TSaslServerTransport.<init>(org.apache.thrift.transport.TTransport)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSaslServerTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TSaslServerTransport.java",
+      "line": 51
+    },
+    "newSymbol": "org.apache.thrift.transport.TSaslServerTransport.<init>(org.apache.thrift.transport.TTransport)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TSaslTransport.sendAndThrowMessage(org.apache.thrift.transport.TSaslTransport$NegotiationStatus,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSaslServerTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TSaslTransport.java",
+      "line": 227
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TSaslTransport.sendSaslMessage(org.apache.thrift.transport.TSaslTransport$NegotiationStatus,byte[])",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSaslServerTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TSaslTransport.java",
+      "line": 155
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TSaslServerTransport$Factory.getTransport(org.apache.thrift.transport.TTransport)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSaslServerTransport$Factory",
+    "location": {
+      "path": "org/apache/thrift/transport/TSaslServerTransport.java",
+      "line": 218
+    },
+    "newSymbol": "org.apache.thrift.transport.TSaslServerTransport$Factory.getTransport(org.apache.thrift.transport.TTransport)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TSaslTransportException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSaslTransportException",
+    "location": {
+      "path": "org/apache/thrift/transport/TSaslTransportException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TServerSocket.acceptImpl()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TServerSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TServerSocket.java",
+      "line": 125
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TServerTransport.accept()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "org.apache.thrift.transport.TServerSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TServerTransport.java",
+      "line": 60
+    },
+    "newSymbol": "org.apache.thrift.transport.TServerSocket.accept()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TServerTransport.accept()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TServerTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TServerTransport.java",
+      "line": 60
+    },
+    "newSymbol": "org.apache.thrift.transport.TServerTransport.accept()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TServerTransport.acceptImpl()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TServerTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TServerTransport.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TSocket.<init>(java.lang.String,int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TSocket.java",
+      "line": 100
+    },
+    "newSymbol": "org.apache.thrift.transport.TSocket.<init>(java.lang.String,int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TSocket.<init>(java.lang.String,int,int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TSocket.java",
+      "line": 112
+    },
+    "newSymbol": "org.apache.thrift.transport.TSocket.<init>(java.lang.String,int,int)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "org.apache.thrift.transport.TSocket.<init>(java.lang.String,int,int,int)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TSocket",
+    "location": {
+      "path": "org/apache/thrift/transport/TSocket.java",
+      "line": 125
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TTransport",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TTransport.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.transport.TTransport.updateKnownMessageSize(long)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TTransport",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TTransport.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.transport.TTransport.getConfiguration()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TTransport",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TTransport.java",
+      "line": null
+    },
+    "newSymbol": "org.apache.thrift.transport.TTransport.checkReadBytesAvailable(long)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TTransportFactory.getTransport(org.apache.thrift.transport.TTransport)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TTransportFactory",
+    "location": {
+      "path": "org/apache/thrift/transport/TTransportFactory.java",
+      "line": 38
+    },
+    "newSymbol": "org.apache.thrift.transport.TTransportFactory.getTransport(org.apache.thrift.transport.TTransport)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TZlibTransport.<init>(org.apache.thrift.transport.TTransport)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TZlibTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TZlibTransport.java",
+      "line": 51
+    },
+    "newSymbol": "org.apache.thrift.transport.TZlibTransport.<init>(org.apache.thrift.transport.TTransport)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TZlibTransport.<init>(org.apache.thrift.transport.TTransport,int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TZlibTransport",
+    "location": {
+      "path": "org/apache/thrift/transport/TZlibTransport.java",
+      "line": 34
+    },
+    "newSymbol": "org.apache.thrift.transport.TZlibTransport.<init>(org.apache.thrift.transport.TTransport,int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "org.apache.thrift.transport.TZlibTransport$Factory.getTransport(org.apache.thrift.transport.TTransport)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "org.apache.thrift.transport.TZlibTransport$Factory",
+    "location": {
+      "path": "org/apache/thrift/transport/TZlibTransport.java",
+      "line": 42
+    },
+    "newSymbol": "org.apache.thrift.transport.TZlibTransport$Factory.getTransport(org.apache.thrift.transport.TTransport)"
+  }
+]

@@ -1,0 +1,743 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.ConfiguredCloseableHttpClient.getClient()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "io.dropwizard.client.ConfiguredCloseableHttpClient",
+    "location": {
+      "path": "io/dropwizard/client/ConfiguredCloseableHttpClient.java",
+      "line": 20
+    },
+    "newSymbol": "io.dropwizard.client.ConfiguredCloseableHttpClient.getClient()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.ConfiguredCloseableHttpClient.getClient()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.ConfiguredCloseableHttpClient",
+    "location": {
+      "path": "io/dropwizard/client/ConfiguredCloseableHttpClient.java",
+      "line": 20
+    },
+    "newSymbol": "io.dropwizard.client.ConfiguredCloseableHttpClient.getClient()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.ConfiguredCloseableHttpClient.getDefaultRequestConfig()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "io.dropwizard.client.ConfiguredCloseableHttpClient",
+    "location": {
+      "path": "io/dropwizard/client/ConfiguredCloseableHttpClient.java",
+      "line": 16
+    },
+    "newSymbol": "io.dropwizard.client.ConfiguredCloseableHttpClient.getDefaultRequestConfig()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.ConfiguredCloseableHttpClient.getDefaultRequestConfig()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.ConfiguredCloseableHttpClient",
+    "location": {
+      "path": "io/dropwizard/client/ConfiguredCloseableHttpClient.java",
+      "line": 16
+    },
+    "newSymbol": "io.dropwizard.client.ConfiguredCloseableHttpClient.getDefaultRequestConfig()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.DropwizardApacheConnector.<init>(org.apache.http.impl.client.CloseableHttpClient,org.apache.http.client.config.RequestConfig,boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.DropwizardApacheConnector",
+    "location": {
+      "path": "io/dropwizard/client/DropwizardApacheConnector.java",
+      "line": 74
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.DropwizardApacheConnector.getHttpEntity(org.glassfish.jersey.client.ClientRequest)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "io.dropwizard.client.DropwizardApacheConnector",
+    "location": {
+      "path": "io/dropwizard/client/DropwizardApacheConnector.java",
+      "line": 173
+    },
+    "newSymbol": "io.dropwizard.client.DropwizardApacheConnector.getHttpEntity(org.glassfish.jersey.client.ClientRequest)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.DropwizardApacheConnector.getHttpEntity(org.glassfish.jersey.client.ClientRequest)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.DropwizardApacheConnector",
+    "location": {
+      "path": "io/dropwizard/client/DropwizardApacheConnector.java",
+      "line": 173
+    },
+    "newSymbol": "io.dropwizard.client.DropwizardApacheConnector.getHttpEntity(org.glassfish.jersey.client.ClientRequest)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.DropwizardSSLConnectionSocketFactory.getSocketFactory()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "io.dropwizard.client.DropwizardSSLConnectionSocketFactory",
+    "location": {
+      "path": "io/dropwizard/client/DropwizardSSLConnectionSocketFactory.java",
+      "line": 44
+    },
+    "newSymbol": "io.dropwizard.client.DropwizardSSLConnectionSocketFactory.getSocketFactory()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.DropwizardSSLConnectionSocketFactory.getSocketFactory()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.DropwizardSSLConnectionSocketFactory",
+    "location": {
+      "path": "io/dropwizard/client/DropwizardSSLConnectionSocketFactory.java",
+      "line": 44
+    },
+    "newSymbol": "io.dropwizard.client.DropwizardSSLConnectionSocketFactory.getSocketFactory()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.<init>(io.dropwizard.setup.Environment)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 113
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.build(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 281
+    },
+    "newSymbol": "io.dropwizard.client.HttpClientBuilder.build(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.build(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 281
+    },
+    "newSymbol": "io.dropwizard.client.HttpClientBuilder.build(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.configureConnectionManager(com.codahale.metrics.httpclient.InstrumentedHttpClientConnectionManager)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 525
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.configureCredentials(io.dropwizard.client.proxy.AuthConfiguration)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 538
+    },
+    "newSymbol": "io.dropwizard.client.HttpClientBuilder.configureCredentials(io.dropwizard.client.proxy.AuthConfiguration)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.configureCredentials(io.dropwizard.client.proxy.AuthConfiguration)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 538
+    },
+    "newSymbol": "io.dropwizard.client.HttpClientBuilder.configureCredentials(io.dropwizard.client.proxy.AuthConfiguration)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.createBuilder()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 330
+    },
+    "newSymbol": "io.dropwizard.client.HttpClientBuilder.createBuilder()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.createBuilder()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 330
+    },
+    "newSymbol": "io.dropwizard.client.HttpClientBuilder.createBuilder()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.createClient(org.apache.http.impl.client.HttpClientBuilder,com.codahale.metrics.httpclient.InstrumentedHttpClientConnectionManager,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 359
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.createConnectionManager(org.apache.http.config.Registry<org.apache.http.conn.socket.ConnectionSocketFactory>,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 487
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.createRequestExecutor(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 317
+    },
+    "newSymbol": "io.dropwizard.client.HttpClientBuilder.createRequestExecutor(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.createRequestExecutor(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 317
+    },
+    "newSymbol": "io.dropwizard.client.HttpClientBuilder.createRequestExecutor(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.customizeBuilder(org.apache.http.impl.client.HttpClientBuilder)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 343
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.using(com.codahale.metrics.httpclient.HttpClientMetricNameStrategy)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 213
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.using(java.util.List<? extends org.apache.http.Header>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 235
+    },
+    "newSymbol": "io.dropwizard.client.HttpClientBuilder.using(java.util.List<? extends org.apache.hc.core5.http.Header>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.using(org.apache.http.client.CredentialsProvider)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 202
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.using(org.apache.http.client.HttpRequestRetryHandler)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 169
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.using(org.apache.http.client.RedirectStrategy)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 224
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.using(org.apache.http.client.ServiceUnavailableRetryStrategy)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 259
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.using(org.apache.http.config.Registry<org.apache.http.conn.socket.ConnectionSocketFactory>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 180
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.using(org.apache.http.conn.DnsResolver)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 147
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.using(org.apache.http.conn.routing.HttpRoutePlanner)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 191
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientBuilder.using(org.apache.http.protocol.HttpProcessor)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientBuilder.java",
+      "line": 246
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientConfiguration.isNormalizeUriEnabled()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientConfiguration",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientConfiguration.java",
+      "line": 142
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientConfiguration.setNormalizeUriEnabled(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.HttpClientConfiguration",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientConfiguration.java",
+      "line": 152
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.<init>(io.dropwizard.setup.Environment)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.build(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 335
+    },
+    "newSymbol": "io.dropwizard.client.JerseyClientBuilder.build(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.build(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 335
+    },
+    "newSymbol": "io.dropwizard.client.JerseyClientBuilder.build(java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.buildRx(java.lang.String,java.lang.Class<RX>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 326
+    },
+    "newSymbol": "io.dropwizard.client.JerseyClientBuilder.buildRx(java.lang.String,java.lang.Class<RX>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.buildRx(java.lang.String,java.lang.Class<RX>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 326
+    },
+    "newSymbol": "io.dropwizard.client.JerseyClientBuilder.buildRx(java.lang.String,java.lang.Class<RX>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.buildRx(java.lang.String,java.lang.Class<RX>)",
+    "nature": "MUTATION",
+    "kind": "FORMAL_TYPE_PARAMETER_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 326
+    },
+    "newSymbol": "io.dropwizard.client.JerseyClientBuilder.buildRx(java.lang.String,java.lang.Class<RX>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.using(com.codahale.metrics.httpclient.HttpClientMetricNameStrategy)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 270
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.using(io.dropwizard.setup.Environment)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 148
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.using(javax.validation.Validator)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 159
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.using(org.apache.http.client.CredentialsProvider)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 303
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.using(org.apache.http.client.HttpRequestRetryHandler)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 221
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.using(org.apache.http.client.ServiceUnavailableRetryStrategy)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 316
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.using(org.apache.http.config.Registry<org.apache.http.conn.socket.ConnectionSocketFactory>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 259
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.using(org.apache.http.conn.DnsResolver)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 232
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyClientBuilder.using(org.apache.http.conn.routing.HttpRoutePlanner)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientBuilder",
+    "location": {
+      "path": "io/dropwizard/client/JerseyClientBuilder.java",
+      "line": 292
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientConfiguration.isNormalizeUriEnabled()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientConfiguration",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientConfiguration.java",
+      "line": 142
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.HttpClientConfiguration.setNormalizeUriEnabled(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyClientConfiguration",
+    "location": {
+      "path": "io/dropwizard/client/HttpClientConfiguration.java",
+      "line": 152
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyIgnoreRequestUserAgentHeaderFilter",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyIgnoreRequestUserAgentHeaderFilter",
+    "location": {
+      "path": "io/dropwizard/client/JerseyIgnoreRequestUserAgentHeaderFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.JerseyIgnoreRequestUserAgentHeaderFilter.filter(javax.ws.rs.client.ClientRequestContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.JerseyIgnoreRequestUserAgentHeaderFilter",
+    "location": {
+      "path": "io/dropwizard/client/JerseyIgnoreRequestUserAgentHeaderFilter.java",
+      "line": 18
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.proxy.NonProxyListProxyRoutePlanner",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.proxy.NonProxyListProxyRoutePlanner",
+    "location": {
+      "path": "io/dropwizard/client/proxy/NonProxyListProxyRoutePlanner.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.proxy.NonProxyListProxyRoutePlanner.<init>(org.apache.http.HttpHost,java.util.List<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.proxy.NonProxyListProxyRoutePlanner",
+    "location": {
+      "path": "io/dropwizard/client/proxy/NonProxyListProxyRoutePlanner.java",
+      "line": 28
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.proxy.NonProxyListProxyRoutePlanner.<init>(org.apache.http.HttpHost,org.apache.http.conn.SchemePortResolver,java.util.List<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.proxy.NonProxyListProxyRoutePlanner",
+    "location": {
+      "path": "io/dropwizard/client/proxy/NonProxyListProxyRoutePlanner.java",
+      "line": 34
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.client.proxy.NonProxyListProxyRoutePlanner.determineProxy(org.apache.http.HttpHost,org.apache.http.HttpRequest,org.apache.http.protocol.HttpContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.client.proxy.NonProxyListProxyRoutePlanner",
+    "location": {
+      "path": "io/dropwizard/client/proxy/NonProxyListProxyRoutePlanner.java",
+      "line": 58
+    },
+    "newSymbol": null
+  }
+]

@@ -1,0 +1,32 @@
+package io.simplelocalize.cli.io;
+import java.io.IOException;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+public class FileContentReader {
+    private static final Logger log = LoggerFactory.getLogger(FileContentReader.class);
+
+    private FileContentReader() {
+    }
+
+    public static String tryReadContent(Path filePath) {
+        Path decodedFilePath = null;
+        try {
+            decodedFilePath = Paths.get(URLDecoder.decode(String.valueOf(Paths.get(String.valueOf(filePath))), StandardCharsets.UTF_8));
+            return Files.readString(decodedFilePath, StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            log.warn("Cannot read file from path " + decodedFilePath, e);
+        }
+        return "";
+    }
+
+    public static String transformTextToOneLine(String fileContent) {
+        fileContent = fileContent.replace("\n", " ");
+        fileContent = fileContent.replaceAll("\\s+", " ");
+        return fileContent;
+    }
+}

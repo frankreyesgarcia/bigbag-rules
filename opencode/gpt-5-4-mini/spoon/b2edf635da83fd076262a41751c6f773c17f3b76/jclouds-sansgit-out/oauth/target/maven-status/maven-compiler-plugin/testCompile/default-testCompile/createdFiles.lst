@@ -1,0 +1,8 @@
+org/jclouds/oauth/v2/OAuthTestUtils.class
+org/jclouds/oauth/v2/AuthorizationApiLiveTest$1.class
+org/jclouds/oauth/v2/filters/TestJWTBearerTokenFlow.class
+org/jclouds/oauth/v2/AuthorizationApiMockTest$1.class
+org/jclouds/oauth/v2/config/PrivateKeySupplierTest.class
+org/jclouds/oauth/v2/AuthorizationApiMockTest.class
+org/jclouds/oauth/v2/functions/ClaimsToAssertionTest.class
+org/jclouds/oauth/v2/AuthorizationApiLiveTest.class

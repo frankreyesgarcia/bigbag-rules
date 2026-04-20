@@ -1,0 +1,2 @@
+/jclouds/loadbalancer/src/test/java/org/jclouds/loadbalancer/BaseLoadBalancerServiceLiveTest.java
+/jclouds/loadbalancer/src/test/java/org/jclouds/loadbalancer/internal/BaseLoadBalancerServiceApiMetadataTest.java

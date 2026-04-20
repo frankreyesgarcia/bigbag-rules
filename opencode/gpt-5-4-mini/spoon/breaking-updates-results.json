@@ -1,0 +1,2144 @@
+{
+  "00a7cc31784ac4a9cc27d506a73ae589d6df36d6" : {
+    "breakingCommit" : "00a7cc31784ac4a9cc27d506a73ae589d6df36d6",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "db0a0f4c",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-db0a0f4c",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "db0a0f4c",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 4,
+      "prefixErrors" : 5,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "36fe64b19cec02ac2093ddfd171de31cf128257ae194cf91f38f84b90cc2a5e7",
+      "agentStats" : {
+        "totalApiRequests" : 34,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 1023100,
+        "totalTokens" : 1751888,
+        "inputTokens" : 106131,
+        "outputTokens" : 8356,
+        "cachedTokens" : 1619968,
+        "totalToolCalls" : 66,
+        "totalToolSuccess" : 65,
+        "totalToolFail" : 1,
+        "tools" : {
+          "glob" : 12,
+          "read" : 20,
+          "grep" : 13,
+          "apply_patch" : 7,
+          "bash" : 14
+        }
+      }
+    } ]
+  },
+  "0a11c04038eae517540051dbf51f7f26b7221f20" : {
+    "breakingCommit" : "0a11c04038eae517540051dbf51f7f26b7221f20",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "e7ea827d",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-e7ea827d",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "e7ea827d",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "ea937c745bd9fd369bad4a8afce8122c3c3dac92a1acf3ea15fe9b8a19a52f0d",
+      "agentStats" : {
+        "totalApiRequests" : 20,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 182270,
+        "totalTokens" : 1227132,
+        "inputTokens" : 102303,
+        "outputTokens" : 4085,
+        "cachedTokens" : 1116672,
+        "totalToolCalls" : 47,
+        "totalToolSuccess" : 46,
+        "totalToolFail" : 1,
+        "tools" : {
+          "glob" : 9,
+          "bash" : 8,
+          "todowrite" : 2,
+          "read" : 10,
+          "grep" : 16,
+          "apply_patch" : 2
+        }
+      }
+    } ]
+  },
+  "0e8625f492854a78c0e1ceff67b2abd7e081d42b" : {
+    "breakingCommit" : "0e8625f492854a78c0e1ceff67b2abd7e081d42b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "0f6d52fa",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-0f6d52fa",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "0f6d52fa",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 8,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "a54b710bbfd159d43ad87d34f6eb67863b56b7fbc7c61a9a86d8068cbc7ab7e4",
+      "agentStats" : {
+        "totalApiRequests" : 29,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 392219,
+        "totalTokens" : 847744,
+        "inputTokens" : 38573,
+        "outputTokens" : 7124,
+        "cachedTokens" : 776192,
+        "totalToolCalls" : 55,
+        "totalToolSuccess" : 54,
+        "totalToolFail" : 1,
+        "tools" : {
+          "todowrite" : 1,
+          "glob" : 9,
+          "read" : 15,
+          "bash" : 7,
+          "grep" : 16,
+          "apply_patch" : 7
+        }
+      }
+    } ]
+  },
+  "1a2fb9f65e12d6c43a8472b9b035299b29a75ce8" : {
+    "breakingCommit" : "1a2fb9f65e12d6c43a8472b9b035299b29a75ce8",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "34ca5feb",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-34ca5feb",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "34ca5feb",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 16,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "65e0829e5e819d498a21bb8e2e9e6d275e7376736a0b3a42b153cbfa7bc1f9af",
+      "agentStats" : {
+        "totalApiRequests" : 45,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 635001,
+        "totalTokens" : 3761883,
+        "inputTokens" : 113557,
+        "outputTokens" : 9546,
+        "cachedTokens" : 3616256,
+        "totalToolCalls" : 96,
+        "totalToolSuccess" : 96,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 7,
+          "read" : 12,
+          "grep" : 54,
+          "apply_patch" : 7,
+          "bash" : 16
+        }
+      }
+    } ]
+  },
+  "1cc7071371953a7880c2c2c3a5a32c36af7f88f9" : {
+    "breakingCommit" : "1cc7071371953a7880c2c2c3a5a32c36af7f88f9",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "10c11da6",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-10c11da6",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "10c11da6",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 2,
+      "prefixErrors" : 35,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "d24042a055043d01ea2ac7ccdbc444eef0e75699aacd3bf81d37529675f4250d",
+      "agentStats" : {
+        "totalApiRequests" : 29,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 568457,
+        "totalTokens" : 2211666,
+        "inputTokens" : 117547,
+        "outputTokens" : 6384,
+        "cachedTokens" : 2077696,
+        "totalToolCalls" : 70,
+        "totalToolSuccess" : 70,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 10,
+          "bash" : 11,
+          "todowrite" : 2,
+          "read" : 11,
+          "grep" : 32,
+          "apply_patch" : 4
+        }
+      }
+    } ]
+  },
+  "1d43bce1de6a81ac017c233d72f348d3c850299e" : {
+    "breakingCommit" : "1d43bce1de6a81ac017c233d72f348d3c850299e",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "69f03a86",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-69f03a86",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "69f03a86",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 5,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "cdfb5e6bb306611878513d382e910cf5bca3dfe4f59905171cd6e193955f68cb",
+      "agentStats" : {
+        "totalApiRequests" : 35,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 520995,
+        "totalTokens" : 1464571,
+        "inputTokens" : 64320,
+        "outputTokens" : 10329,
+        "cachedTokens" : 1366016,
+        "totalToolCalls" : 67,
+        "totalToolSuccess" : 67,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 9,
+          "grep" : 18,
+          "read" : 17,
+          "bash" : 14,
+          "apply_patch" : 9
+        }
+      }
+    } ]
+  },
+  "1ef97ea6c5b6e34151fe6167001b69e003449f95" : {
+    "breakingCommit" : "1ef97ea6c5b6e34151fe6167001b69e003449f95",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "0fd777cd",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-0fd777cd",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "0fd777cd",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "ed9df9225522790dd18084a05a8bf7e5c75cfd5bf6c434e8461901ef842d1fb9",
+      "agentStats" : {
+        "totalApiRequests" : 22,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 869908,
+        "totalTokens" : 781304,
+        "inputTokens" : 48516,
+        "outputTokens" : 4357,
+        "cachedTokens" : 718336,
+        "totalToolCalls" : 46,
+        "totalToolSuccess" : 46,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 12,
+          "bash" : 8,
+          "todowrite" : 1,
+          "read" : 15,
+          "grep" : 7,
+          "apply_patch" : 3
+        }
+      }
+    } ]
+  },
+  "2b4d49d68112941b8abb818549389709d8327963" : {
+    "breakingCommit" : "2b4d49d68112941b8abb818549389709d8327963",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "44f6ef14",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-44f6ef14",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "44f6ef14",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 4,
+      "prefixErrors" : 24,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "c1b795c1c7d44f65e8e319976c82a4d41638b4f88165504db7b7c42b5552d243",
+      "agentStats" : {
+        "totalApiRequests" : 73,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 858267,
+        "totalTokens" : 10298873,
+        "inputTokens" : 415228,
+        "outputTokens" : 19607,
+        "cachedTokens" : 9831936,
+        "totalToolCalls" : 162,
+        "totalToolSuccess" : 160,
+        "totalToolFail" : 2,
+        "tools" : {
+          "glob" : 7,
+          "read" : 53,
+          "grep" : 72,
+          "bash" : 17,
+          "todowrite" : 1,
+          "apply_patch" : 12
+        }
+      }
+    } ]
+  },
+  "2dfaa41bfb97674d11f09a5885011f19808548a3" : {
+    "breakingCommit" : "2dfaa41bfb97674d11f09a5885011f19808548a3",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "16fe92af",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-16fe92af",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "16fe92af",
+      "failureCategory" : "DEPENDENCY_RESOLUTION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "07a271c0aad6dfba92f4567cb4ee652678a808e59358ee70690ee45ef37fff67",
+      "agentStats" : {
+        "totalApiRequests" : 45,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 353662,
+        "totalTokens" : 2930955,
+        "inputTokens" : 97168,
+        "outputTokens" : 8447,
+        "cachedTokens" : 2812416,
+        "totalToolCalls" : 74,
+        "totalToolSuccess" : 72,
+        "totalToolFail" : 2,
+        "tools" : {
+          "todowrite" : 1,
+          "glob" : 11,
+          "read" : 22,
+          "grep" : 9,
+          "apply_patch" : 10,
+          "bash" : 21
+        }
+      }
+    } ]
+  },
+  "2f01c46b96a8edf437edf20e6dbd848edcb27085" : {
+    "breakingCommit" : "2f01c46b96a8edf437edf20e6dbd848edcb27085",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "c8892177",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-c8892177",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "c8892177",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "1734513b8537a28a5cba1d7407462be7b4dc0051f40cd2b52b568ba5e5e7446b",
+      "agentStats" : {
+        "totalApiRequests" : 69,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 885374,
+        "totalTokens" : 4337797,
+        "inputTokens" : 119309,
+        "outputTokens" : 16227,
+        "cachedTokens" : 4183040,
+        "totalToolCalls" : 136,
+        "totalToolSuccess" : 133,
+        "totalToolFail" : 3,
+        "tools" : {
+          "glob" : 18,
+          "bash" : 66,
+          "todowrite" : 2,
+          "read" : 19,
+          "grep" : 20,
+          "webfetch" : 1,
+          "apply_patch" : 10
+        }
+      }
+    } ]
+  },
+  "067f5d2c81ff87c90755f4ed48f62eb5faa8ecf9" : {
+    "breakingCommit" : "067f5d2c81ff87c90755f4ed48f62eb5faa8ecf9",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "59e9e543",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-59e9e543",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "59e9e543",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "a177871096dad500266b540e00b5d19510f3c84a02ec74733a9f23333dc63cae",
+      "agentStats" : {
+        "totalApiRequests" : 37,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 499212,
+        "totalTokens" : 3837968,
+        "inputTokens" : 331298,
+        "outputTokens" : 9628,
+        "cachedTokens" : 3474432,
+        "totalToolCalls" : 86,
+        "totalToolSuccess" : 84,
+        "totalToolFail" : 2,
+        "tools" : {
+          "glob" : 15,
+          "read" : 21,
+          "grep" : 27,
+          "bash" : 17,
+          "apply_patch" : 6
+        }
+      }
+    } ]
+  },
+  "07fad972bb884e9fa6143b4f870d08305811607d" : {
+    "breakingCommit" : "07fad972bb884e9fa6143b4f870d08305811607d",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "c94e1b11",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-c94e1b11",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "c94e1b11",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "7c7ea643c2b275b55fe340869337d364745d699aca1d0b02c02b224407e0ee5d",
+      "agentStats" : {
+        "totalApiRequests" : 33,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 608020,
+        "totalTokens" : 1951255,
+        "inputTokens" : 114026,
+        "outputTokens" : 11515,
+        "cachedTokens" : 1792512,
+        "totalToolCalls" : 62,
+        "totalToolSuccess" : 62,
+        "totalToolFail" : 0,
+        "tools" : {
+          "read" : 16,
+          "glob" : 7,
+          "grep" : 15,
+          "bash" : 20,
+          "apply_patch" : 4
+        }
+      }
+    } ]
+  },
+  "10d7545c5771b03dd9f6122bd5973a759eb2cd03" : {
+    "breakingCommit" : "10d7545c5771b03dd9f6122bd5973a759eb2cd03",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "00ad8797",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-00ad8797",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "00ad8797",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "a1bccd932385b035f21c43e2ded24b4b7f30e3152277d81d95cc9024564f5fa6",
+      "agentStats" : {
+        "totalApiRequests" : 44,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 756070,
+        "totalTokens" : 6218676,
+        "inputTokens" : 199283,
+        "outputTokens" : 9568,
+        "cachedTokens" : 5957632,
+        "totalToolCalls" : 112,
+        "totalToolSuccess" : 112,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 4,
+          "read" : 29,
+          "grep" : 53,
+          "apply_patch" : 5,
+          "bash" : 21
+        }
+      }
+    } ]
+  },
+  "14fc5fa696f499cac48401b3a86882b3bf7d9b82" : {
+    "breakingCommit" : "14fc5fa696f499cac48401b3a86882b3bf7d9b82",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "36517115",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-36517115",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "36517115",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 5,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "d30fed872c517c16c37fc213ce29cebc13fe4333302e93728f5db678f1054259",
+      "agentStats" : {
+        "totalApiRequests" : 44,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 467804,
+        "totalTokens" : 3056573,
+        "inputTokens" : 109816,
+        "outputTokens" : 12384,
+        "cachedTokens" : 2915328,
+        "totalToolCalls" : 94,
+        "totalToolSuccess" : 94,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 4,
+          "read" : 17,
+          "grep" : 39,
+          "apply_patch" : 10,
+          "bash" : 24
+        }
+      }
+    } ]
+  },
+  "16ae40b1e17e14ee3ae20ac211647e47399a01a9" : {
+    "breakingCommit" : "16ae40b1e17e14ee3ae20ac211647e47399a01a9",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "1ecffbdf",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-1ecffbdf",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "1ecffbdf",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "571d7d196b05eea87c3e4ee587133f52071fb9cf07064c937c7256eb1cdd80ca",
+      "agentStats" : {
+        "totalApiRequests" : 62,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 458697,
+        "totalTokens" : 2353520,
+        "inputTokens" : 64119,
+        "outputTokens" : 13172,
+        "cachedTokens" : 2260480,
+        "totalToolCalls" : 110,
+        "totalToolSuccess" : 110,
+        "totalToolFail" : 0,
+        "tools" : {
+          "todowrite" : 1,
+          "glob" : 11,
+          "read" : 16,
+          "grep" : 18,
+          "apply_patch" : 13,
+          "bash" : 51
+        }
+      }
+    } ]
+  },
+  "24d4a90ec1b375751e71f33d18949405c9529d77" : {
+    "breakingCommit" : "24d4a90ec1b375751e71f33d18949405c9529d77",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "2710f2d9",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-2710f2d9",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "2710f2d9",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 2,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "ce1ab3a10f3a233b9b9ec6ee67f9fe9e4e01862aac6b826c159c8e4ed6efbb61",
+      "agentStats" : {
+        "totalApiRequests" : 55,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 498800,
+        "totalTokens" : 3076877,
+        "inputTokens" : 85654,
+        "outputTokens" : 13090,
+        "cachedTokens" : 2968064,
+        "totalToolCalls" : 113,
+        "totalToolSuccess" : 111,
+        "totalToolFail" : 2,
+        "tools" : {
+          "glob" : 17,
+          "read" : 19,
+          "grep" : 22,
+          "bash" : 42,
+          "apply_patch" : 13
+        }
+      }
+    } ]
+  },
+  "28be199c825d419957bc753a9519e8e9ecc6a08e" : {
+    "breakingCommit" : "28be199c825d419957bc753a9519e8e9ecc6a08e",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "6ef03218",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-6ef03218",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "6ef03218",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "0085ddc00acdb9233949e50c7c00aed2d117e33cafafc3b7d861ff514ec8191d",
+      "agentStats" : {
+        "totalApiRequests" : 38,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 427391,
+        "totalTokens" : 4638023,
+        "inputTokens" : 340860,
+        "outputTokens" : 11637,
+        "cachedTokens" : 4265984,
+        "totalToolCalls" : 72,
+        "totalToolSuccess" : 70,
+        "totalToolFail" : 2,
+        "tools" : {
+          "bash" : 26,
+          "read" : 17,
+          "glob" : 3,
+          "grep" : 16,
+          "apply_patch" : 10
+        }
+      }
+    } ]
+  },
+  "3f30dfff617fd652412260ecf648a25769a27101" : {
+    "breakingCommit" : "3f30dfff617fd652412260ecf648a25769a27101",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "86f2edac",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-86f2edac",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "86f2edac",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 10,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "bae9cb6528234f51a58b67bab78b3b533b632ea8d57cc944c15409c740e4466d",
+      "agentStats" : {
+        "totalApiRequests" : 29,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 224897,
+        "totalTokens" : 3241521,
+        "inputTokens" : 152955,
+        "outputTokens" : 7447,
+        "cachedTokens" : 3071488,
+        "totalToolCalls" : 66,
+        "totalToolSuccess" : 64,
+        "totalToolFail" : 2,
+        "tools" : {
+          "read" : 15,
+          "glob" : 6,
+          "grep" : 20,
+          "apply_patch" : 7,
+          "bash" : 18
+        }
+      }
+    } ]
+  },
+  "3ff575ae202cdf76ddfa8a4228a1711a6fa1e921" : {
+    "breakingCommit" : "3ff575ae202cdf76ddfa8a4228a1711a6fa1e921",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "64ee05a9",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-64ee05a9",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "64ee05a9",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "66e7697d571e82152c7472cc14a225d4d3c5199d733c6c4448c7b24db4842d90",
+      "agentStats" : {
+        "totalApiRequests" : 33,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 233392,
+        "totalTokens" : 1694479,
+        "inputTokens" : 81803,
+        "outputTokens" : 6361,
+        "cachedTokens" : 1599488,
+        "totalToolCalls" : 66,
+        "totalToolSuccess" : 66,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 15,
+          "read" : 15,
+          "grep" : 18,
+          "bash" : 12,
+          "apply_patch" : 6
+        }
+      }
+    } ]
+  },
+  "4a3efad6e00824e5814b9c8f571c9c98aad40281" : {
+    "breakingCommit" : "4a3efad6e00824e5814b9c8f571c9c98aad40281",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "b78f0704",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-b78f0704",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "b78f0704",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "ce2e3f62e47d7f9de8cfb88cb2d3b5e2724639c96080db2136161d17a7a04715",
+      "agentStats" : {
+        "totalApiRequests" : 65,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 509058,
+        "totalTokens" : 3244039,
+        "inputTokens" : 75707,
+        "outputTokens" : 10411,
+        "cachedTokens" : 3134976,
+        "totalToolCalls" : 105,
+        "totalToolSuccess" : 105,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 13,
+          "read" : 22,
+          "grep" : 30,
+          "bash" : 29,
+          "apply_patch" : 11
+        }
+      }
+    } ]
+  },
+  "4bba3fb6147e72946f64724fe55eee5d15ff6206" : {
+    "breakingCommit" : "4bba3fb6147e72946f64724fe55eee5d15ff6206",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "0fc9e597",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-0fc9e597",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "0fc9e597",
+      "failureCategory" : "DEPENDENCY_RESOLUTION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "2ff73c92550018d8cc50175a18c8522ac3d729a16a6f1e87c95969fb3517cb5b",
+      "agentStats" : {
+        "totalApiRequests" : 30,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 283362,
+        "totalTokens" : 1891689,
+        "inputTokens" : 93836,
+        "outputTokens" : 7494,
+        "cachedTokens" : 1775104,
+        "totalToolCalls" : 72,
+        "totalToolSuccess" : 69,
+        "totalToolFail" : 3,
+        "tools" : {
+          "glob" : 17,
+          "read" : 26,
+          "grep" : 13,
+          "bash" : 11,
+          "apply_patch" : 5
+        }
+      }
+    } ]
+  },
+  "500d9c021d34b307b1a70d3f29fb7f9b5ab9d1a6" : {
+    "breakingCommit" : "500d9c021d34b307b1a70d3f29fb7f9b5ab9d1a6",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "a7aa87b6",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-a7aa87b6",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "a7aa87b6",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 10,
+      "prefixErrors" : 57,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "cd3e16652ddf6d11df3b3aa1d88acfe46d4071f9aa305223a41120e19f77061a",
+      "agentStats" : {
+        "totalApiRequests" : 53,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 660796,
+        "totalTokens" : 3330859,
+        "inputTokens" : 103910,
+        "outputTokens" : 10288,
+        "cachedTokens" : 3184128,
+        "totalToolCalls" : 100,
+        "totalToolSuccess" : 97,
+        "totalToolFail" : 3,
+        "tools" : {
+          "glob" : 16,
+          "read" : 17,
+          "bash" : 22,
+          "grep" : 30,
+          "apply_patch" : 13,
+          "webfetch" : 2
+        }
+      }
+    } ]
+  },
+  "5cf5a482bd430d81257b4ecd85b3d4f7da911621" : {
+    "breakingCommit" : "5cf5a482bd430d81257b4ecd85b3d4f7da911621",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "6da45eb7",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-6da45eb7",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "6da45eb7",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 10,
+      "prefixErrors" : 57,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "586931677cd5f639853a7087287f4594ee226ce5fd3ef2ae02e3bf10c81a1304",
+      "agentStats" : {
+        "totalApiRequests" : 41,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 342688,
+        "totalTokens" : 5176365,
+        "inputTokens" : 347635,
+        "outputTokens" : 9886,
+        "cachedTokens" : 4804608,
+        "totalToolCalls" : 81,
+        "totalToolSuccess" : 81,
+        "totalToolFail" : 0,
+        "tools" : {
+          "todowrite" : 2,
+          "glob" : 8,
+          "read" : 20,
+          "grep" : 27,
+          "apply_patch" : 8,
+          "bash" : 16
+        }
+      }
+    } ]
+  },
+  "61e96bfe3a32d6ef2e5d7912a518c78bd5474e74" : {
+    "breakingCommit" : "61e96bfe3a32d6ef2e5d7912a518c78bd5474e74",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "2bf61ca8",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-2bf61ca8",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "2bf61ca8",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 4,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "3113f294d0a0a90a5235e8f488c72b9d26cf63de7cf1ec68fd2409c8baa71cb6",
+      "agentStats" : {
+        "totalApiRequests" : 39,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 411820,
+        "totalTokens" : 3834478,
+        "inputTokens" : 137957,
+        "outputTokens" : 9802,
+        "cachedTokens" : 3665408,
+        "totalToolCalls" : 91,
+        "totalToolSuccess" : 91,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 3,
+          "read" : 25,
+          "grep" : 50,
+          "bash" : 7,
+          "apply_patch" : 6
+        }
+      }
+    } ]
+  },
+  "6ad104c4fb9263ad1bb29e6b33618b8225efd92d" : {
+    "breakingCommit" : "6ad104c4fb9263ad1bb29e6b33618b8225efd92d",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "2c67c329",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-2c67c329",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "2c67c329",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 4,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "0d47031b621fce181fb4ee76252b02c89ed83168f4cdb513ad44af9748057ff9",
+      "agentStats" : {
+        "totalApiRequests" : 34,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 355999,
+        "totalTokens" : 3486971,
+        "inputTokens" : 162901,
+        "outputTokens" : 8425,
+        "cachedTokens" : 3294720,
+        "totalToolCalls" : 89,
+        "totalToolSuccess" : 89,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 13,
+          "read" : 21,
+          "grep" : 37,
+          "apply_patch" : 5,
+          "bash" : 13
+        }
+      }
+    } ]
+  },
+  "6c53cd904bd66fc79af8687571e607c259226b81" : {
+    "breakingCommit" : "6c53cd904bd66fc79af8687571e607c259226b81",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "71f16012",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-71f16012",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "71f16012",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 3,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "06041a7fafe809aac052324d58beb17b407d540d52d6a7492be86e0d8f035e2c",
+      "agentStats" : {
+        "totalApiRequests" : 39,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 265916,
+        "totalTokens" : 1326215,
+        "inputTokens" : 47410,
+        "outputTokens" : 7429,
+        "cachedTokens" : 1260032,
+        "totalToolCalls" : 69,
+        "totalToolSuccess" : 68,
+        "totalToolFail" : 1,
+        "tools" : {
+          "glob" : 18,
+          "read" : 15,
+          "grep" : 9,
+          "todowrite" : 1,
+          "apply_patch" : 7,
+          "bash" : 19
+        }
+      }
+    } ]
+  },
+  "7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b" : {
+    "breakingCommit" : "7c62ae7f31ed9c994a9c1e6906fb9de391c1af5b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "429949a4",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-429949a4",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "429949a4",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 3,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "1c83c9ffac14530874c4601ed9344460c36894dc786325ba0d1fe5759091a89b",
+      "agentStats" : {
+        "totalApiRequests" : 47,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 323787,
+        "totalTokens" : 3039813,
+        "inputTokens" : 82898,
+        "outputTokens" : 9321,
+        "cachedTokens" : 2936832,
+        "totalToolCalls" : 66,
+        "totalToolSuccess" : 66,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 7,
+          "read" : 13,
+          "grep" : 16,
+          "bash" : 22,
+          "apply_patch" : 8
+        }
+      }
+    } ]
+  },
+  "7f7de81d28b68b091bef2e6f6ffd1836167be6ea" : {
+    "breakingCommit" : "7f7de81d28b68b091bef2e6f6ffd1836167be6ea",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "6c8f0449",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-6c8f0449",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "6c8f0449",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "0aabadf6cc25291162169e77423729994108c0b7237863bbe8f6f2f351413fb2",
+      "agentStats" : {
+        "totalApiRequests" : 43,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 368122,
+        "totalTokens" : 2848615,
+        "inputTokens" : 134301,
+        "outputTokens" : 10427,
+        "cachedTokens" : 2682368,
+        "totalToolCalls" : 74,
+        "totalToolSuccess" : 71,
+        "totalToolFail" : 3,
+        "tools" : {
+          "glob" : 9,
+          "read" : 20,
+          "grep" : 19,
+          "bash" : 13,
+          "apply_patch" : 13
+        }
+      }
+    } ]
+  },
+  "9a8b6fc7847a0782ae4c48d0e4f7056507c0397d" : {
+    "breakingCommit" : "9a8b6fc7847a0782ae4c48d0e4f7056507c0397d",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "cf72e513",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-cf72e513",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "cf72e513",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 7,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "dbd19f667779515300ea41a3f5d84f0ee04226b5f91631a67e463a17c27ccd30",
+      "agentStats" : {
+        "totalApiRequests" : 32,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 480556,
+        "totalTokens" : 2800042,
+        "inputTokens" : 129549,
+        "outputTokens" : 7697,
+        "cachedTokens" : 2622976,
+        "totalToolCalls" : 73,
+        "totalToolSuccess" : 73,
+        "totalToolFail" : 0,
+        "tools" : {
+          "todowrite" : 2,
+          "glob" : 10,
+          "read" : 18,
+          "grep" : 33,
+          "bash" : 6,
+          "apply_patch" : 4
+        }
+      }
+    } ]
+  },
+  "115827c6675f532a4d33751d1a0c0ba394bbd304" : {
+    "breakingCommit" : "115827c6675f532a4d33751d1a0c0ba394bbd304",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "ee834cc5",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-ee834cc5",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "ee834cc5",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 6,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "b2975d7cc6846e739c7071554ed84c990a4013167a8e5c965e2c31406a271fd5",
+      "agentStats" : {
+        "totalApiRequests" : 45,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 263249,
+        "totalTokens" : 2932618,
+        "inputTokens" : 99143,
+        "outputTokens" : 8921,
+        "cachedTokens" : 2815488,
+        "totalToolCalls" : 70,
+        "totalToolSuccess" : 68,
+        "totalToolFail" : 2,
+        "tools" : {
+          "glob" : 13,
+          "read" : 14,
+          "grep" : 17,
+          "apply_patch" : 7,
+          "bash" : 19
+        }
+      }
+    } ]
+  },
+  "165381d26b2c3d2278fde88c16f95807506451fe" : {
+    "breakingCommit" : "165381d26b2c3d2278fde88c16f95807506451fe",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "d459dc5e",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-d459dc5e",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "d459dc5e",
+      "failureCategory" : "DEPENDENCY_RESOLUTION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "0667c4d3caab049a264ac31be7612fe1c82a72cfd6b1583349e5bc8f17c3ca0b",
+      "agentStats" : {
+        "totalApiRequests" : 41,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 293788,
+        "totalTokens" : 1998781,
+        "inputTokens" : 80261,
+        "outputTokens" : 6466,
+        "cachedTokens" : 1902592,
+        "totalToolCalls" : 73,
+        "totalToolSuccess" : 73,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 10,
+          "read" : 12,
+          "bash" : 13,
+          "grep" : 33,
+          "apply_patch" : 5
+        }
+      }
+    } ]
+  },
+  "36859167815292f279e570d39dd2ddbcf1622dc6" : {
+    "breakingCommit" : "36859167815292f279e570d39dd2ddbcf1622dc6",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "023bce08",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-023bce08",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "023bce08",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "351cc9b2890592eff057b1096d5003e15e21b4881088304fa14cbc3083e77c03",
+      "agentStats" : {
+        "totalApiRequests" : 49,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 449838,
+        "totalTokens" : 4163097,
+        "inputTokens" : 116763,
+        "outputTokens" : 19626,
+        "cachedTokens" : 4008960,
+        "totalToolCalls" : 79,
+        "totalToolSuccess" : 79,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 5,
+          "read" : 21,
+          "grep" : 17,
+          "apply_patch" : 13,
+          "bash" : 23
+        }
+      }
+    } ]
+  },
+  "402082609522c66a3b790aedafd0570148a7d53f" : {
+    "breakingCommit" : "402082609522c66a3b790aedafd0570148a7d53f",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "56d71628",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-56d71628",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "56d71628",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 15,
+      "prefixErrors" : 100,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "b9b0649471fe0eb6d88b4d8193356c17d2b4ee159c291aa8c002a029606934e6",
+      "agentStats" : {
+        "totalApiRequests" : 43,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 422490,
+        "totalTokens" : 4469469,
+        "inputTokens" : 196002,
+        "outputTokens" : 13856,
+        "cachedTokens" : 4236288,
+        "totalToolCalls" : 113,
+        "totalToolSuccess" : 112,
+        "totalToolFail" : 1,
+        "tools" : {
+          "read" : 44,
+          "glob" : 15,
+          "bash" : 7,
+          "grep" : 43,
+          "apply_patch" : 4
+        }
+      }
+    } ]
+  },
+  "46979207151a43361447d64afd2658df40033419" : {
+    "breakingCommit" : "46979207151a43361447d64afd2658df40033419",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "d5df5b37",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-d5df5b37",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "d5df5b37",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 45,
+      "prefixErrors" : 100,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "4a1f9e9767c6fcf0a771b7a20221f5acdd1a2576e4d14b0fb44b7cda943fdbc9",
+      "agentStats" : {
+        "totalApiRequests" : 34,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 461728,
+        "totalTokens" : 4649393,
+        "inputTokens" : 224183,
+        "outputTokens" : 8349,
+        "cachedTokens" : 4407296,
+        "totalToolCalls" : 79,
+        "totalToolSuccess" : 78,
+        "totalToolFail" : 1,
+        "tools" : {
+          "glob" : 11,
+          "read" : 19,
+          "grep" : 34,
+          "apply_patch" : 6,
+          "bash" : 9
+        }
+      }
+    } ]
+  },
+  "5769bdad76925da568294cb8a40e7d4469699ac3" : {
+    "breakingCommit" : "5769bdad76925da568294cb8a40e7d4469699ac3",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "16a5ac28",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-16a5ac28",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "16a5ac28",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "98d12885439b8288feeb1174d3b38d7bb2717837685bf95dbf8a094415a7806e",
+      "agentStats" : {
+        "totalApiRequests" : 45,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 322464,
+        "totalTokens" : 5320678,
+        "inputTokens" : 160680,
+        "outputTokens" : 9759,
+        "cachedTokens" : 5133312,
+        "totalToolCalls" : 89,
+        "totalToolSuccess" : 85,
+        "totalToolFail" : 4,
+        "tools" : {
+          "glob" : 6,
+          "read" : 18,
+          "grep" : 27,
+          "apply_patch" : 9,
+          "bash" : 29
+        }
+      }
+    } ]
+  },
+  "65200df71d5f6ab1c5502f74a5dc7bcbda459563" : {
+    "breakingCommit" : "65200df71d5f6ab1c5502f74a5dc7bcbda459563",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "f7bea58d",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-f7bea58d",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "f7bea58d",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "a6fe986b57cea99c6e471f9f9ff39dc2519cd5e007413b3b502de58297dd146e",
+      "agentStats" : {
+        "totalApiRequests" : 34,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 283600,
+        "totalTokens" : 2464753,
+        "inputTokens" : 111611,
+        "outputTokens" : 14183,
+        "cachedTokens" : 2324992,
+        "totalToolCalls" : 83,
+        "totalToolSuccess" : 79,
+        "totalToolFail" : 4,
+        "tools" : {
+          "todowrite" : 1,
+          "glob" : 9,
+          "read" : 30,
+          "grep" : 16,
+          "bash" : 16,
+          "apply_patch" : 11
+        }
+      }
+    } ]
+  },
+  "686ea4e18114ac180e35ca1c07e1f2e6dfbffbe0" : {
+    "breakingCommit" : "686ea4e18114ac180e35ca1c07e1f2e6dfbffbe0",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "f55f5364",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-f55f5364",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "f55f5364",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 13,
+      "prefixErrors" : 100,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "289ffd190635bbafbdecacbc9907a16d7234e57887e172acedcd856063bf774d",
+      "agentStats" : {
+        "totalApiRequests" : 39,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 464577,
+        "totalTokens" : 3118731,
+        "inputTokens" : 115349,
+        "outputTokens" : 8289,
+        "cachedTokens" : 2957824,
+        "totalToolCalls" : 88,
+        "totalToolSuccess" : 88,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 18,
+          "read" : 15,
+          "grep" : 38,
+          "bash" : 13,
+          "apply_patch" : 4
+        }
+      }
+    } ]
+  },
+  "741f3b5e20a91b0e9305ae79261e3c5e64971c98" : {
+    "breakingCommit" : "741f3b5e20a91b0e9305ae79261e3c5e64971c98",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "0950f4b3",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-0950f4b3",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "0950f4b3",
+      "failureCategory" : "DEPENDENCY_RESOLUTION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "11553d443b545196e73f29549c9195463d0f2ae6b95ab1e781f6c6d2cd5c44b5",
+      "agentStats" : {
+        "totalApiRequests" : 15,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 187746,
+        "totalTokens" : 458639,
+        "inputTokens" : 37026,
+        "outputTokens" : 4031,
+        "cachedTokens" : 406528,
+        "totalToolCalls" : 31,
+        "totalToolSuccess" : 31,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 6,
+          "grep" : 9,
+          "bash" : 4,
+          "read" : 10,
+          "apply_patch" : 2
+        }
+      }
+    } ]
+  },
+  "8436e73fa0c913774d9792fc986c74309765ab61" : {
+    "breakingCommit" : "8436e73fa0c913774d9792fc986c74309765ab61",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "ee0b7cc5",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-ee0b7cc5",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "ee0b7cc5",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 77,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "568b5fea7251b67e3185cfce6fa942b009ab9f250953388fe012977ea87fe4fd",
+      "agentStats" : {
+        "totalApiRequests" : 21,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 196324,
+        "totalTokens" : 1406685,
+        "inputTokens" : 113776,
+        "outputTokens" : 4960,
+        "cachedTokens" : 1276928,
+        "totalToolCalls" : 54,
+        "totalToolSuccess" : 54,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 14,
+          "read" : 10,
+          "grep" : 24,
+          "apply_patch" : 3,
+          "bash" : 3
+        }
+      }
+    } ]
+  },
+  "923a6b2027e3ca1762deb6a60fc0a768c284122b" : {
+    "breakingCommit" : "923a6b2027e3ca1762deb6a60fc0a768c284122b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "8674a32d",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-8674a32d",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "8674a32d",
+      "failureCategory" : "UNKNOWN_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "cbce03c4fa9b1931cec0ab31185f98e8939e26601f4ac35e4867dbcf43c6a51d",
+      "agentStats" : {
+        "totalApiRequests" : 55,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 1013446,
+        "totalTokens" : 4819603,
+        "inputTokens" : 130639,
+        "outputTokens" : 18964,
+        "cachedTokens" : 4592640,
+        "totalToolCalls" : 96,
+        "totalToolSuccess" : 96,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 9,
+          "read" : 28,
+          "grep" : 26,
+          "bash" : 26,
+          "apply_patch" : 7
+        }
+      }
+    } ]
+  },
+  "a4c360001134c2e3a9f7fbde88a07a9fd767e78e" : {
+    "breakingCommit" : "a4c360001134c2e3a9f7fbde88a07a9fd767e78e",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "f8015bfb",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-f8015bfb",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "f8015bfb",
+      "failureCategory" : "UNKNOWN_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "9e229dedf65a059d6c92ab54d5736cac35801c7a544071442d64da4d8ea8b96d",
+      "agentStats" : {
+        "totalApiRequests" : 45,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 1024735,
+        "totalTokens" : 1401998,
+        "inputTokens" : 62098,
+        "outputTokens" : 9887,
+        "cachedTokens" : 1314816,
+        "totalToolCalls" : 98,
+        "totalToolSuccess" : 98,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 18,
+          "read" : 27,
+          "grep" : 8,
+          "bash" : 36,
+          "apply_patch" : 9
+        }
+      }
+    } ]
+  },
+  "b1a941400d68445d76056ab8833cd6d2e3455954" : {
+    "breakingCommit" : "b1a941400d68445d76056ab8833cd6d2e3455954",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "3c8a19ff",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-3c8a19ff",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "3c8a19ff",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "cfc50f8f2ef79ce72838a07fc87303b5b8992174682a68c204c9029c44138cc8",
+      "agentStats" : {
+        "totalApiRequests" : 42,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 3943468,
+        "totalTokens" : 4050788,
+        "inputTokens" : 283357,
+        "outputTokens" : 9865,
+        "cachedTokens" : 3744256,
+        "totalToolCalls" : 97,
+        "totalToolSuccess" : 95,
+        "totalToolFail" : 2,
+        "tools" : {
+          "glob" : 11,
+          "read" : 18,
+          "grep" : 36,
+          "apply_patch" : 11,
+          "bash" : 21
+        }
+      }
+    } ]
+  },
+  "b2edf635da83fd076262a41751c6f773c17f3b76" : {
+    "breakingCommit" : "b2edf635da83fd076262a41751c6f773c17f3b76",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "eb68ae0d",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-eb68ae0d",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "eb68ae0d",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 2,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "ec0886358a190e1f7478cc16ee3115f08f919735e1981f741a42ecbfd4cad24b",
+      "agentStats" : {
+        "modelName" : "gpt-5.4-mini",
+        "totalApiRequests" : 29,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 450468,
+        "totalTokens" : 1922111,
+        "inputTokens" : 94834,
+        "outputTokens" : 5985,
+        "cachedTokens" : 1812480,
+        "totalToolCalls" : 43,
+        "totalToolSuccess" : 40,
+        "totalToolFail" : 3,
+        "tools" : {
+          "todowrite" : 2,
+          "glob" : 9,
+          "read" : 10,
+          "grep" : 4,
+          "bash" : 11,
+          "apply_patch" : 6,
+          "task" : 1
+        }
+      }
+    } ]
+  },
+  "b5b64613a1a650a5784ff39386b4e00e05e5c21c" : {
+    "breakingCommit" : "b5b64613a1a650a5784ff39386b4e00e05e5c21c",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "7b0c6f54",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-7b0c6f54",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "7b0c6f54",
+      "failureCategory" : "FAILURE_JAVADOC_GENERATION",
+      "prefixFiles" : 7,
+      "prefixErrors" : 8,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : false,
+      "containerId" : null,
+      "agentStats" : null
+    } ]
+  },
+  "bd3ce213e2771c6ef7817c80818807a757d4e94a" : {
+    "breakingCommit" : "bd3ce213e2771c6ef7817c80818807a757d4e94a",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "8994af30",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-8994af30",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "8994af30",
+      "failureCategory" : "DEPENDENCY_RESOLUTION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 1,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "636d12cbba3c81de5655efde1fcd0fceec70ec9b9fa5191ff8c4e02a438c5c21",
+      "agentStats" : {
+        "totalApiRequests" : 17,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 224721,
+        "totalTokens" : 537719,
+        "inputTokens" : 39727,
+        "outputTokens" : 4656,
+        "cachedTokens" : 479232,
+        "totalToolCalls" : 41,
+        "totalToolSuccess" : 41,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 7,
+          "read" : 13,
+          "bash" : 9,
+          "grep" : 11,
+          "apply_patch" : 1
+        }
+      }
+    } ]
+  },
+  "d54b56b91c11f21b97d4903143b04b7c1f10c255" : {
+    "breakingCommit" : "d54b56b91c11f21b97d4903143b04b7c1f10c255",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "cf34f50b",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-cf34f50b",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "cf34f50b",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 3,
+      "prefixErrors" : 7,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "d397d014511e28bb65d2320349c228a5a3c6ec6bfb2173b50b456cbb7e4710f9",
+      "agentStats" : {
+        "totalApiRequests" : 46,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 307507,
+        "totalTokens" : 3947621,
+        "inputTokens" : 281023,
+        "outputTokens" : 10570,
+        "cachedTokens" : 3644928,
+        "totalToolCalls" : 103,
+        "totalToolSuccess" : 103,
+        "totalToolFail" : 0,
+        "tools" : {
+          "todowrite" : 2,
+          "glob" : 19,
+          "bash" : 28,
+          "read" : 18,
+          "grep" : 25,
+          "apply_patch" : 11
+        }
+      }
+    } ]
+  },
+  "dc9a40fde9a9fee5aaec3f60695385ba539406d4" : {
+    "breakingCommit" : "dc9a40fde9a9fee5aaec3f60695385ba539406d4",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "65dcdf1a",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-65dcdf1a",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "65dcdf1a",
+      "failureCategory" : "TEST_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "7804a65f03bf99e7b184e9c2626aee33c02c4fedabb47c546ae868937a664148",
+      "agentStats" : {
+        "modelName" : "gpt-5.4-mini",
+        "totalApiRequests" : 38,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 510067,
+        "totalTokens" : 3623387,
+        "inputTokens" : 139488,
+        "outputTokens" : 8397,
+        "cachedTokens" : 3452928,
+        "totalToolCalls" : 75,
+        "totalToolSuccess" : 72,
+        "totalToolFail" : 3,
+        "tools" : {
+          "glob" : 7,
+          "read" : 16,
+          "grep" : 32,
+          "bash" : 15,
+          "apply_patch" : 4,
+          "task" : 1
+        }
+      }
+    } ]
+  },
+  "ea03f6488449fcfe8cd0a678b4c64891e1427a32" : {
+    "breakingCommit" : "ea03f6488449fcfe8cd0a678b4c64891e1427a32",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "213e6b58",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-213e6b58",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "213e6b58",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 5,
+      "prefixErrors" : 79,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "307c00d6c61bef6ef14e059da9e55ced468b29f2082cb92b7c8bdb5c448020ac",
+      "agentStats" : {
+        "totalApiRequests" : 40,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 401458,
+        "totalTokens" : 5349867,
+        "inputTokens" : 187596,
+        "outputTokens" : 16508,
+        "cachedTokens" : 5119488,
+        "totalToolCalls" : 83,
+        "totalToolSuccess" : 81,
+        "totalToolFail" : 2,
+        "tools" : {
+          "todowrite" : 1,
+          "glob" : 7,
+          "grep" : 23,
+          "read" : 34,
+          "bash" : 6,
+          "apply_patch" : 12
+        }
+      }
+    } ]
+  },
+  "ee0827d4c9bf80982241e8c3559dceb8b39063e4" : {
+    "breakingCommit" : "ee0827d4c9bf80982241e8c3559dceb8b39063e4",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "e2d8d6e3",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-e2d8d6e3",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "e2d8d6e3",
+      "failureCategory" : "FAILURE_JAVADOC_GENERATION",
+      "prefixFiles" : 5,
+      "prefixErrors" : 15,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : false,
+      "containerId" : null,
+      "agentStats" : null
+    } ]
+  },
+  "f714a41f0ffe9720939d4980da5119d1f45bd770" : {
+    "breakingCommit" : "f714a41f0ffe9720939d4980da5119d1f45bd770",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "65796009",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-65796009",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "65796009",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 1,
+      "prefixErrors" : 10,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "221df9b1b29a699a31a7406f82df100c553d1ba66f473400f80ef68d0016b16f",
+      "agentStats" : {
+        "totalApiRequests" : 62,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 3308316,
+        "totalTokens" : 7772607,
+        "inputTokens" : 328527,
+        "outputTokens" : 14487,
+        "cachedTokens" : 7390720,
+        "totalToolCalls" : 102,
+        "totalToolSuccess" : 102,
+        "totalToolFail" : 0,
+        "tools" : {
+          "todowrite" : 1,
+          "glob" : 10,
+          "read" : 18,
+          "grep" : 36,
+          "bash" : 27,
+          "apply_patch" : 10
+        }
+      }
+    } ]
+  },
+  "f78d34b82926216c0f203c0350f646d481c675e3" : {
+    "breakingCommit" : "f78d34b82926216c0f203c0350f646d481c675e3",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "da4354eb",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-da4354eb",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "da4354eb",
+      "failureCategory" : "FAILURE_JAVADOC_GENERATION",
+      "prefixFiles" : 4,
+      "prefixErrors" : 14,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : false,
+      "containerId" : null,
+      "agentStats" : null
+    } ]
+  },
+  "feb582661e77de66eadaa7550720a8751b266ee4" : {
+    "breakingCommit" : "feb582661e77de66eadaa7550720a8751b266ee4",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "d16b45d0",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-d16b45d0",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "d16b45d0",
+      "failureCategory" : "COMPILATION_FAILURE",
+      "prefixFiles" : 3,
+      "prefixErrors" : 5,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "2be138a53a6056a4c4fb0a89230274bc00781791cf91ced7635b5efe960715e6",
+      "agentStats" : {
+        "totalApiRequests" : 54,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 365044,
+        "totalTokens" : 6187125,
+        "inputTokens" : 188293,
+        "outputTokens" : 12104,
+        "cachedTokens" : 5971968,
+        "totalToolCalls" : 109,
+        "totalToolSuccess" : 107,
+        "totalToolFail" : 2,
+        "tools" : {
+          "todowrite" : 1,
+          "glob" : 14,
+          "read" : 20,
+          "grep" : 51,
+          "apply_patch" : 10,
+          "bash" : 13
+        }
+      }
+    } ]
+  },
+  "ff8b5b61548d50cf60b77784a181e917cb35033b" : {
+    "breakingCommit" : "ff8b5b61548d50cf60b77784a181e917cb35033b",
+    "originalFailureCategory" : "COMPILATION_FAILURE",
+    "processId" : "23258bc2",
+    "fullProcessId" : null,
+    "branches" : {
+      "main" : "main",
+      "agent" : "agent-spoon-23258bc2",
+      "repair" : null,
+      "attempts" : [ ]
+    },
+    "attempts" : [ {
+      "index" : 1,
+      "processId" : "23258bc2",
+      "failureCategory" : "BUILD_SUCCESS",
+      "prefixFiles" : 1,
+      "prefixErrors" : 2,
+      "outputFolder" : "/Users/frankreyesgarcia/Documents/WORK/PHD/Transformer/transformation-rules-report/agent/opencode/gpt-5.4-mini-out-1-spoon/agent/opencode/spoon",
+      "successful" : true,
+      "containerId" : "ab1e4591e0089a7240d7e9de632ffd7347271eec9dc236d4df7f0647ec86c0e2",
+      "agentStats" : {
+        "totalApiRequests" : 38,
+        "totalApiErrors" : 0,
+        "totalLatencyMs" : 250429,
+        "totalTokens" : 2274446,
+        "inputTokens" : 99622,
+        "outputTokens" : 7178,
+        "cachedTokens" : 2157056,
+        "totalToolCalls" : 83,
+        "totalToolSuccess" : 83,
+        "totalToolFail" : 0,
+        "tools" : {
+          "glob" : 16,
+          "read" : 14,
+          "grep" : 28,
+          "bash" : 19,
+          "apply_patch" : 6
+        }
+      }
+    } ]
+  }
+}

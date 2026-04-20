@@ -1,0 +1,1406 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.CertificationPermission",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.CertificationPermission",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/CertificationPermission.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.PAdESSignatureParameters.getPermission()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "eu.europa.esig.dss.pades.PAdESSignatureParameters",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/PAdESSignatureParameters.java",
+      "line": 257
+    },
+    "newSymbol": "eu.europa.esig.dss.pades.PAdESSignatureParameters.getPermission()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pades.PAdESSignatureParameters.getPermission()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.PAdESSignatureParameters",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/PAdESSignatureParameters.java",
+      "line": 257
+    },
+    "newSymbol": "eu.europa.esig.dss.pades.PAdESSignatureParameters.getPermission()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.PAdESSignatureParameters.setPermission(eu.europa.esig.dss.pades.CertificationPermission)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.PAdESSignatureParameters",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/PAdESSignatureParameters.java",
+      "line": 266
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.PAdESSignatureParameters.setSignatureFieldId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.PAdESSignatureParameters",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/PAdESSignatureParameters.java",
+      "line": 234
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.PAdESTimestampParameters.setFieldId(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.PAdESTimestampParameters",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/PAdESTimestampParameters.java",
+      "line": 171
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.SignatureImageParameters.setHeight(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.SignatureImageParameters",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/SignatureImageParameters.java",
+      "line": 194
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.SignatureImageParameters.setPage(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.SignatureImageParameters",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/SignatureImageParameters.java",
+      "line": 170
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.SignatureImageParameters.setWidth(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.SignatureImageParameters",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/SignatureImageParameters.java",
+      "line": 182
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.SignatureImageParameters.setxAxis(float)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.SignatureImageParameters",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/SignatureImageParameters.java",
+      "line": 144
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.SignatureImageParameters.setyAxis(float)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.SignatureImageParameters",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/SignatureImageParameters.java",
+      "line": 156
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PAdESCRLSource",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESCRLSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PAdESCRLSource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PAdESCRLSource.<init>(eu.europa.esig.dss.pdf.PdfDssDict,java.lang.String,org.bouncycastle.asn1.cms.AttributeTable)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESCRLSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PAdESCRLSource.java",
+      "line": 57
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PAdESCRLSource.extractVRICRLs(eu.europa.esig.dss.pdf.PdfVRIDict)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESCRLSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PAdESCRLSource.java",
+      "line": 89
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfDssDictCRLSource.extractDSSCRLs(eu.europa.esig.dss.pdf.PdfDssDict)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESCRLSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfDssDictCRLSource.java",
+      "line": 86
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfDssDictCRLSource.extractVRICRLs(eu.europa.esig.dss.pdf.PdfDssDict)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESCRLSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfDssDictCRLSource.java",
+      "line": 98
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PAdESCertificateSource.<init>(eu.europa.esig.dss.pdf.PdfSignatureRevision,org.bouncycastle.cms.SignerInformation)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESCertificateSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PAdESCertificateSource.java",
+      "line": 51
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PAdESOCSPSource",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESOCSPSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PAdESOCSPSource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PAdESOCSPSource.<init>(eu.europa.esig.dss.pdf.PdfDssDict,java.lang.String,org.bouncycastle.asn1.cms.AttributeTable)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESOCSPSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PAdESOCSPSource.java",
+      "line": 60
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PAdESOCSPSource.extractVRIOCSPs(eu.europa.esig.dss.pdf.PdfVRIDict)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESOCSPSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PAdESOCSPSource.java",
+      "line": 91
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfDssDictOCSPSource.extractDSSOCSPs(eu.europa.esig.dss.pdf.PdfDssDict)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESOCSPSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfDssDictOCSPSource.java",
+      "line": 93
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfDssDictOCSPSource.extractVRIOCSPs(eu.europa.esig.dss.pdf.PdfDssDict)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESOCSPSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfDssDictOCSPSource.java",
+      "line": 105
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfDssDictOCSPSource.getOcspMap()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESOCSPSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfDssDictOCSPSource.java",
+      "line": 68
+    },
+    "newSymbol": "eu.europa.esig.dss.pades.validation.PAdESOCSPSource.getOcspMap()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PAdESSignature.createBaselineRequirementsChecker()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESSignature",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PAdESSignature.java",
+      "line": 263
+    },
+    "newSymbol": "eu.europa.esig.dss.pades.validation.PAdESSignature.createBaselineRequirementsChecker()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PAdESSignature.createBaselineRequirementsChecker()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESSignature",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PAdESSignature.java",
+      "line": 263
+    },
+    "newSymbol": "eu.europa.esig.dss.pades.validation.PAdESSignature.createBaselineRequirementsChecker()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PAdESSignatureIdentifierBuilder.getSignatureFilePosition()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PAdESSignatureIdentifierBuilder",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PAdESSignatureIdentifierBuilder.java",
+      "line": 47
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfDssDictCRLSource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PdfDssDictCRLSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfDssDictCRLSource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfDssDictCertificateSource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PdfDssDictCertificateSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfDssDictCertificateSource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfDssDictOCSPSource",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PdfDssDictOCSPSource",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfDssDictOCSPSource.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfModificationDetection",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PdfModificationDetection",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfModificationDetection.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pades.validation.PdfModificationDetection.getObjectModifications()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfRevision",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PdfRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfRevision.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pades.validation.PdfRevision.getFields()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfRevision.getFieldNames()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PdfRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfRevision.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfSignatureDictionary",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PdfSignatureDictionary",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfSignatureDictionary.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pades.validation.PdfSignatureDictionary.getDocMDP()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.PdfSignatureDictionary",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.PdfSignatureDictionary",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/PdfSignatureDictionary.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pades.validation.PdfSignatureDictionary.getFieldMDP()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.scope.PAdESSignatureScopeFinder.findSignatureScope(eu.europa.esig.dss.pdf.PdfCMSRevision)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.scope.PAdESSignatureScopeFinder",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/scope/PAdESSignatureScopeFinder.java",
+      "line": 55
+    },
+    "newSymbol": "eu.europa.esig.dss.pades.validation.scope.PdfRevisionScopeFinder.findSignatureScope(eu.europa.esig.dss.pdf.PdfCMSRevision)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.scope.PdfByteRangeSignatureScope",
+    "nature": "MUTATION",
+    "kind": "TYPE_SUPERTYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.scope.PdfByteRangeSignatureScope",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/scope/PdfByteRangeSignatureScope.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.scope.PdfByteRangeSignatureScope",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.scope.PdfByteRangeSignatureScope",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/scope/PdfByteRangeSignatureScope.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pades.validation.scope.PdfByteRangeSignatureScope.<init>(java.lang.String,eu.europa.esig.dss.pades.validation.ByteRange,eu.europa.esig.dss.model.Digest)",
+    "nature": "MUTATION",
+    "kind": "CONSTRUCTOR_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pades.validation.scope.PdfByteRangeSignatureScope",
+    "location": {
+      "path": "eu/europa/esig/dss/pades/validation/scope/PdfByteRangeSignatureScope.java",
+      "line": 46
+    },
+    "newSymbol": "eu.europa.esig.dss.pades.validation.scope.PdfByteRangeSignatureScope.<init>(java.lang.String,eu.europa.esig.dss.pades.validation.ByteRange,eu.europa.esig.dss.model.Digest)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPDFSignatureService.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService.addDssDictionary(eu.europa.esig.dss.model.DSSDocument,eu.europa.esig.dss.pades.validation.PdfValidationDataContainer,java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPDFSignatureService.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService.previewSignatureField(eu.europa.esig.dss.model.DSSDocument,eu.europa.esig.dss.pades.PAdESCommonParameters)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPDFSignatureService.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService.previewPageWithVisualSignature(eu.europa.esig.dss.model.DSSDocument,eu.europa.esig.dss.pades.PAdESCommonParameters)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService.addDssDictionary(eu.europa.esig.dss.model.DSSDocument,eu.europa.esig.dss.validation.ValidationDataContainer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPDFSignatureService.java",
+      "line": 282
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService.buildKnownObjects(java.util.Collection<eu.europa.esig.dss.validation.AdvancedSignature>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPDFSignatureService.java",
+      "line": 472
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService.checkDocumentPermissions(eu.europa.esig.dss.model.DSSDocument,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPDFSignatureService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService.checkVisibleSignatureFieldBoxPosition(eu.europa.esig.dss.pdf.PdfDocumentReader,eu.europa.esig.dss.pades.SignatureFieldParameters)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPDFSignatureService.java",
+      "line": 574
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService.checkVisibleSignatureFieldBoxPosition(eu.europa.esig.dss.pdf.visible.SignatureDrawer,eu.europa.esig.dss.pdf.PdfDocumentReader,eu.europa.esig.dss.pades.SignatureFieldParameters)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPDFSignatureService.java",
+      "line": 532
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService.getTokenKey(eu.europa.esig.dss.model.x509.Token)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPDFSignatureService.java",
+      "line": 516
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService.addDssDictionary(eu.europa.esig.dss.model.DSSDocument,eu.europa.esig.dss.validation.ValidationDataContainer,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.AbstractPDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PDFSignatureService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPdfDssDict.getOCSPs()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.AbstractPdfDssDict",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPdfDssDict.java",
+      "line": 91
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.AbstractPdfDssDict.getOCSPs()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryCallback",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.DSSDictionaryCallback",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/DSSDictionaryCallback.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/DSSDictionaryExtractionUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/DSSDictionaryExtractionUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/DSSDictionaryExtractionUtils.java",
+      "line": 38
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils.getCRLsFromArray(eu.europa.esig.dss.pdf.PdfDict,java.lang.String,java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/DSSDictionaryExtractionUtils.java",
+      "line": 80
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils.getCRLsFromArray(eu.europa.esig.dss.pdf.PdfDict,java.lang.String,java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils.getCertsFromArray(eu.europa.esig.dss.pdf.PdfDict,java.lang.String,java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/DSSDictionaryExtractionUtils.java",
+      "line": 51
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils.getCertsFromArray(eu.europa.esig.dss.pdf.PdfDict,java.lang.String,java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils.getOCSPsFromArray(eu.europa.esig.dss.pdf.PdfDict,java.lang.String,java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/DSSDictionaryExtractionUtils.java",
+      "line": 109
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils.getOCSPsFromArray(eu.europa.esig.dss.pdf.PdfDict,java.lang.String,java.lang.String)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils.getOCSPsFromArray(eu.europa.esig.dss.pdf.PdfDict,java.lang.String,java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/DSSDictionaryExtractionUtils.java",
+      "line": 109
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.DSSDictionaryExtractionUtils.getOCSPsFromArray(eu.europa.esig.dss.pdf.PdfDict,java.lang.String,java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PDFSignatureService.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService.previewPageWithVisualSignature(eu.europa.esig.dss.model.DSSDocument,eu.europa.esig.dss.pades.PAdESCommonParameters)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PDFSignatureService.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService.previewSignatureField(eu.europa.esig.dss.model.DSSDocument,eu.europa.esig.dss.pades.PAdESCommonParameters)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PDFSignatureService.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService.addDssDictionary(eu.europa.esig.dss.model.DSSDocument,eu.europa.esig.dss.pades.validation.PdfValidationDataContainer,java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PDFSignatureService.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService.addDssDictionary(eu.europa.esig.dss.model.DSSDocument,eu.europa.esig.dss.pades.validation.PdfValidationDataContainer)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService.addDssDictionary(eu.europa.esig.dss.model.DSSDocument,eu.europa.esig.dss.validation.ValidationDataContainer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PDFSignatureService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PDFSignatureService.addDssDictionary(eu.europa.esig.dss.model.DSSDocument,eu.europa.esig.dss.validation.ValidationDataContainer,java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PDFSignatureService",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PDFSignatureService.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfAnnotation.isSigned()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfAnnotation",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfAnnotation.java",
+      "line": 80
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfAnnotation.setSigned(boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfAnnotation",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfAnnotation.java",
+      "line": 89
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfArray",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfArray",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfArray.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfArray.getAsDict(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfArray",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfArray",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfArray.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfArray.getObject(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfArray",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfArray",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfArray.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfArray.getStreamBytes(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfArray",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfArray",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfArray.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfArray.getString(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfArray",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfArray",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfArray.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfArray.getNumber(int)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfArray.getBytes(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfArray",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfArray.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfArray.getInt(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfArray",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfArray.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfArray.getObjectNumber(int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfArray",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfArray.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfArray.getObjectNumber(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfArray.getObjectNumber(int)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfArray",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfArray.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfArray.getObjectNumber(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfCMSRevision.<init>(eu.europa.esig.dss.pades.validation.PdfSignatureDictionary,java.util.List<java.lang.String>,eu.europa.esig.dss.model.DSSDocument,boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfCMSRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfCMSRevision.java",
+      "line": 79
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfCMSRevision.<init>(eu.europa.esig.dss.pades.validation.PdfSignatureDictionary,java.util.List<eu.europa.esig.dss.pades.validation.PdfSignatureField>,eu.europa.esig.dss.model.DSSDocument,boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfCMSRevision.getFieldNames()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfCMSRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfCMSRevision.java",
+      "line": 132
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDict",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDict",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDict.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDict.getObjectNumber(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDict",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDict",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDict.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDict.getObject(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDict",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDict",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDict.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDict.getNumberValue(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDict",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDict",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDict.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDict.getStreamBytes()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.<init>(eu.europa.esig.dss.pdf.PdfDssDict)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocDssRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocDssRevision.java",
+      "line": 58
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getCRLSource()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocDssRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocDssRevision.java",
+      "line": 108
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getCRLSource()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getCRLSource()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocDssRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocDssRevision.java",
+      "line": 108
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getCRLSource()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getCertificateSource()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocDssRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocDssRevision.java",
+      "line": 96
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getCertificateSource()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getCertificateSource()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocDssRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocDssRevision.java",
+      "line": 96
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getCertificateSource()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getFieldNames()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocDssRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocDssRevision.java",
+      "line": 81
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getOCSPSource()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocDssRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocDssRevision.java",
+      "line": 120
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getOCSPSource()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getOCSPSource()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocDssRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocDssRevision.java",
+      "line": 120
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocDssRevision.getOCSPSource()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfCMSRevision.getFieldNames()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocTimestampRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfCMSRevision.java",
+      "line": 132
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocTimestampRevision.<init>(eu.europa.esig.dss.pades.validation.PdfSignatureDictionary,java.util.List<java.lang.String>,eu.europa.esig.dss.model.DSSDocument,boolean)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocTimestampRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocTimestampRevision.java",
+      "line": 61
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocTimestampRevision.<init>(eu.europa.esig.dss.pades.validation.PdfSignatureDictionary,java.util.List<eu.europa.esig.dss.pades.validation.PdfSignatureField>,eu.europa.esig.dss.model.DSSDocument,boolean)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocTimestampRevision.getTimestampToken()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocTimestampRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocTimestampRevision.java",
+      "line": 84
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocTimestampRevision.getTimestampToken()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocTimestampRevision.getTimestampToken()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocTimestampRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocTimestampRevision.java",
+      "line": 84
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocTimestampRevision.getTimestampToken()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocumentReader",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocumentReader.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader.getCatalogDictionary()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocumentReader",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocumentReader.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader.getPageRotation(int)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocumentReader",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocumentReader.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader.isUsageRightsSignaturePresent()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocumentReader",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocumentReader.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader.checkDocumentPermissions()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocumentReader",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocumentReader.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader.getCertificationPermission()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader.extractSigDictionaries()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDocumentReader",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDocumentReader.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDocumentReader.extractSigDictionaries()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfDssDict.getOCSPs()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfDssDict",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfDssDict.java",
+      "line": null
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.PdfDssDict.getOCSPs()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfModificationImpl",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfModificationImpl",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfModificationImpl.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfCMSRevision.getFieldNames()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfSignatureRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfCMSRevision.java",
+      "line": 132
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.PdfSignatureRevision.<init>(eu.europa.esig.dss.pades.validation.PdfSignatureDictionary,eu.europa.esig.dss.pdf.PdfDssDict,java.util.List<java.lang.String>,eu.europa.esig.dss.model.DSSDocument,boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfSignatureRevision",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/PdfSignatureRevision.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPdfDssDict.getOCSPs()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.PdfVRIDict",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPdfDssDict.java",
+      "line": 91
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.AbstractPdfDssDict.getOCSPs()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.AbstractPdfDssDict.getOCSPs()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.SingleDssDict",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/AbstractPdfDssDict.java",
+      "line": 91
+    },
+    "newSymbol": "eu.europa.esig.dss.pdf.AbstractPdfDssDict.getOCSPs()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.visible.ImageUtils.readImage(eu.europa.esig.dss.model.DSSDocument)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.visible.ImageUtils",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/visible/ImageUtils.java",
+      "line": 249
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.visible.ImageUtils.readImageInputStream(java.io.InputStream)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.visible.ImageUtils",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/visible/ImageUtils.java",
+      "line": 263
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.visible.TextFitter",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.visible.TextFitter",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/visible/TextFitter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "eu.europa.esig.dss.pdf.visible.TextFitter.<init>()",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "eu.europa.esig.dss.pdf.visible.TextFitter",
+    "location": {
+      "path": "eu/europa/esig/dss/pdf/visible/TextFitter.java",
+      "line": 34
+    },
+    "newSymbol": null
+  }
+]

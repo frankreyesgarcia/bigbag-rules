@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.3" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/jclouds/apis/oauth/target/test-classes:/jclouds/apis/oauth/target/classes:/jclouds/core/target/classes:/root/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/root/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/com/google/inject/guice/5.1.0/guice-5.1.0.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/google/inject/extensions/guice-assistedinject/5.1.0/guice-assistedinject-5.1.0.jar:/root/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/root/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/root/.m2/repository/com/google/auto/value/auto-value/1.4.1/auto-value-1.4.1.jar:/jclouds/core/target/test-classes:/jclouds/drivers/slf4j/target/classes:/root/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar:/root/.m2/repository/com/squareup/okhttp3/mockwebserver/3.14.9/mockwebserver-3.14.9.jar:/root/.m2/repository/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar:/root/.m2/repository/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9.jar:/root/.m2/repository/org/testng/testng/7.5/testng-7.5.jar:/root/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/root/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/root/.m2/repository/org/easymock/easymock/4.3/easymock-4.3.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/root/.m2/repository/xmlunit/xmlunit/1.3/xmlunit-1.3.jar:/root/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/root/.m2/repository/org/assertj/assertj-guava/1.3.0/assertj-guava-1.3.0.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:"/>
+    <property name="java.vm.vendor" value="Alpine"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://alpinelinux.org/"/>
+    <property name="user.timezone" value="GMT"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk/lib"/>
+    <property name="sun.java.command" value="/jclouds/apis/oauth/target/surefire/surefirebooter-20230811181320895_1284.jar /jclouds/apis/oauth/target/surefire 2023-08-11T18-12-10_353-jvmRun1 surefire-20230811181320895_1282tmp surefire_7-20230811181320895_1283tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/jclouds/apis/oauth/target/test-classes:/jclouds/apis/oauth/target/classes:/jclouds/core/target/classes:/root/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/root/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/com/google/inject/guice/5.1.0/guice-5.1.0.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/google/inject/extensions/guice-assistedinject/5.1.0/guice-assistedinject-5.1.0.jar:/root/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/root/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/root/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/root/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/root/.m2/repository/com/google/auto/value/auto-value/1.4.1/auto-value-1.4.1.jar:/jclouds/core/target/test-classes:/jclouds/drivers/slf4j/target/classes:/root/.m2/repository/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar:/root/.m2/repository/com/squareup/okhttp3/mockwebserver/3.14.9/mockwebserver-3.14.9.jar:/root/.m2/repository/com/squareup/okhttp3/okhttp/3.14.9/okhttp-3.14.9.jar:/root/.m2/repository/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar:/root/.m2/repository/junit/junit/4.12/junit-4.12.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/ch/qos/logback/logback-classic/1.2.9/logback-classic-1.2.9.jar:/root/.m2/repository/ch/qos/logback/logback-core/1.2.9/logback-core-1.2.9.jar:/root/.m2/repository/org/testng/testng/7.5/testng-7.5.jar:/root/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/root/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/root/.m2/repository/org/easymock/easymock/4.3/easymock-4.3.jar:/root/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/root/.m2/repository/xmlunit/xmlunit/1.3/xmlunit-1.3.jar:/root/.m2/repository/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/root/.m2/repository/org/assertj/assertj-guava/1.3.0/assertj-guava-1.3.0.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk"/>
+    <property name="jclouds.wire.httpstream.url" value="https://archive.apache.org/dist/commons/logging/binaries/commons-logging-1.1.1-bin.tar.gz"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/jclouds/apis/oauth"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="jclouds.wire.httpstream.md5" value="e5de09672af9b386c30a311654d8541a"/>
+    <property name="surefire.real.class.path" value="/jclouds/apis/oauth/target/surefire/surefirebooter-20230811181320895_1284.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.19+7-alpine-r1"/>
+    <property name="user.name" value="root"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-69-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="sun.net.http.allowRestrictedHeaders" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/root/.m2/repository"/>
+    <property name="http.maxConnections" value="20"/>
+    <property name="java.vendor.url.bug" value="https://gitlab.alpinelinux.org/alpine/aports/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.19"/>
+    <property name="user.dir" value="/jclouds/apis/oauth"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/lib/jvm/java-11-openjdk/lib/server:/usr/lib/jvm/java-11-openjdk/lib:/usr/lib/jvm/java-11-openjdk/../lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Alpine"/>
+    <property name="java.vm.version" value="11.0.19+7-alpine-r1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="OAuthApiMockTest" classname="org.jclouds.oauth.v2.AuthorizationApiMockTest" time="0.94">
+    <system-out><![CDATA[Starting test testGenerateClientSecretRequest(org.jclouds.oauth.v2.AuthorizationApiMockTest)
+Starting test testGenerateJWTRequest(org.jclouds.oauth.v2.AuthorizationApiMockTest)
+Starting test testGenerateClientCredentialsJWTRequest(org.jclouds.oauth.v2.AuthorizationApiMockTest)
+Starting test testAuthorizationExceptionIsPopulatedOn4xx(org.jclouds.oauth.v2.AuthorizationApiMockTest)
+]]></system-out>
+    <system-err><![CDATA[Aug 11, 2023 6:13:21 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[33929] starting to accept connections
+Aug 11, 2023 6:13:21 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[58887] starting to accept connections
+Aug 11, 2023 6:13:21 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[52667] starting to accept connections
+Aug 11, 2023 6:13:21 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[35543] starting to accept connections
+Aug 11, 2023 6:13:22 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[58887] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Aug 11, 2023 6:13:22 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[35543] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Aug 11, 2023 6:13:22 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[52667] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+Aug 11, 2023 6:13:22 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[33929] received request: POST / HTTP/1.1 and responded: HTTP/1.1 400 Client Error
+Aug 11, 2023 6:13:22 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[35543] done accepting connections: Socket closed
+Aug 11, 2023 6:13:22 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[58887] done accepting connections: Socket closed
+Aug 11, 2023 6:13:22 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[52667] done accepting connections: Socket closed
+]]></system-err>
+  </testcase>
+  <testcase name="OAuthApiMockTest" classname="org.jclouds.oauth.v2.AuthorizationApiMockTest" time="0.94"/>
+  <testcase name="OAuthApiMockTest" classname="org.jclouds.oauth.v2.AuthorizationApiMockTest" time="0.94"/>
+  <testcase name="OAuthApiMockTest" classname="org.jclouds.oauth.v2.AuthorizationApiMockTest" time="0.944">
+    <system-out><![CDATA[[TestNG-test=OAuthApiMockTest-2] Test testGenerateClientCredentialsJWTRequest(org.jclouds.oauth.v2.AuthorizationApiMockTest) succeeded: 942ms
+Test suite progress: tests succeeded: 1, failed: 0, skipped: 0.
+[TestNG-test=OAuthApiMockTest-3] Test testGenerateClientSecretRequest(org.jclouds.oauth.v2.AuthorizationApiMockTest) succeeded: 942ms
+Test suite progress: tests succeeded: 2, failed: 0, skipped: 0.
+[TestNG-test=OAuthApiMockTest-4] Test testGenerateJWTRequest(org.jclouds.oauth.v2.AuthorizationApiMockTest) succeeded: 943ms
+Test suite progress: tests succeeded: 3, failed: 0, skipped: 0.
+]]></system-out>
+    <system-err><![CDATA[Aug 11, 2023 6:13:22 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[33929] done accepting connections: Socket closed
+]]></system-err>
+  </testcase>
+  <testcase name="testCredentialsAreLoadedOnRightAlgoAndCredentials" classname="org.jclouds.oauth.v2.config.PrivateKeySupplierTest" time="0.001">
+    <system-out><![CDATA[[TestNG-test=OAuthApiMockTest-1] Test testAuthorizationExceptionIsPopulatedOn4xx(org.jclouds.oauth.v2.AuthorizationApiMockTest) succeeded: 946ms
+Test suite progress: tests succeeded: 4, failed: 0, skipped: 0.
+Starting test testCredentialsAreLoadedOnRightAlgoAndCredentials(org.jclouds.oauth.v2.config.PrivateKeySupplierTest)
+Starting test testAuthorizationExceptionIsThrownOnBadKeys(org.jclouds.oauth.v2.config.PrivateKeySupplierTest)
+Starting test sha256(org.jclouds.oauth.v2.functions.ClaimsToAssertionTest)
+Starting test testLoadPKString(org.jclouds.oauth.v2.config.PrivateKeySupplierTest)
+]]></system-out>
+  </testcase>
+  <testcase name="testAuthorizationExceptionIsThrownOnBadKeys" classname="org.jclouds.oauth.v2.config.PrivateKeySupplierTest" time="0.002">
+    <system-out><![CDATA[[TestNG-test=Surefire test-3] Test testCredentialsAreLoadedOnRightAlgoAndCredentials(org.jclouds.oauth.v2.config.PrivateKeySupplierTest) succeeded: 1ms
+Test suite progress: tests succeeded: 5, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="testLoadPKString" classname="org.jclouds.oauth.v2.config.PrivateKeySupplierTest" time="0.01">
+    <system-out><![CDATA[[TestNG-test=Surefire test-2] Test testAuthorizationExceptionIsThrownOnBadKeys(org.jclouds.oauth.v2.config.PrivateKeySupplierTest) succeeded: 2ms
+Test suite progress: tests succeeded: 6, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+  <testcase name="sha256" classname="org.jclouds.oauth.v2.functions.ClaimsToAssertionTest" time="0.017">
+    <system-out><![CDATA[[TestNG-test=Surefire test-4] Test testLoadPKString(org.jclouds.oauth.v2.config.PrivateKeySupplierTest) succeeded: 10ms
+Test suite progress: tests succeeded: 7, failed: 0, skipped: 0.
+]]></system-out>
+  </testcase>
+</testsuite>

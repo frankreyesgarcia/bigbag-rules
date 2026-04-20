@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="59" passed="59" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-11T18:13:42 GMT" name="Surefire suite" finished-at="2023-08-11T18:13:43 GMT" duration-ms="794">
+    <groups>
+      <group name="unit">
+        <method signature="BindMetadataToHeadersTest.testGood()[pri:0, instance:org.jclouds.atmos.binders.BindMetadataToHeadersTest@1046d517]" name="testGood" class="org.jclouds.atmos.binders.BindMetadataToHeadersTest"/>
+        <method signature="BindMetadataToHeadersTest.testMustBeAtmosObject()[pri:0, instance:org.jclouds.atmos.binders.BindMetadataToHeadersTest@1046d517]" name="testMustBeAtmosObject" class="org.jclouds.atmos.binders.BindMetadataToHeadersTest"/>
+        <method signature="BindMetadataToHeadersTest.testNullContentLengthIllegal()[pri:0, instance:org.jclouds.atmos.binders.BindMetadataToHeadersTest@1046d517]" name="testNullContentLengthIllegal" class="org.jclouds.atmos.binders.BindMetadataToHeadersTest"/>
+        <method signature="BindMetadataToHeadersTest.testNullIsBad()[pri:0, instance:org.jclouds.atmos.binders.BindMetadataToHeadersTest@1046d517]" name="testNullIsBad" class="org.jclouds.atmos.binders.BindMetadataToHeadersTest"/>
+        <method signature="BindMetadataToHeadersTest.testNullPayloadIsBad()[pri:0, instance:org.jclouds.atmos.binders.BindMetadataToHeadersTest@1046d517]" name="testNullPayloadIsBad" class="org.jclouds.atmos.binders.BindMetadataToHeadersTest"/>
+        <method signature="BindUserMetadataToHeadersTest.testListableMeta()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" name="testListableMeta" class="org.jclouds.atmos.binders.BindUserMetadataToHeadersTest"/>
+        <method signature="BindUserMetadataToHeadersTest.testListableTags()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" name="testListableTags" class="org.jclouds.atmos.binders.BindUserMetadataToHeadersTest"/>
+        <method signature="BindUserMetadataToHeadersTest.testMeta()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" name="testMeta" class="org.jclouds.atmos.binders.BindUserMetadataToHeadersTest"/>
+        <method signature="BindUserMetadataToHeadersTest.testMustBeUserMetadata()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" name="testMustBeUserMetadata" class="org.jclouds.atmos.binders.BindUserMetadataToHeadersTest"/>
+        <method signature="BindUserMetadataToHeadersTest.testNullIsBad()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" name="testNullIsBad" class="org.jclouds.atmos.binders.BindUserMetadataToHeadersTest"/>
+        <method signature="BindUserMetadataToHeadersTest.testTags()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" name="testTags" class="org.jclouds.atmos.binders.BindUserMetadataToHeadersTest"/>
+        <method signature="EndpointIfAlreadyExistsTest.testFoundIsEndpointWhenSet()[pri:0, instance:org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest@6c2c1385]" name="testFoundIsEndpointWhenSet" class="org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest"/>
+        <method signature="EndpointIfAlreadyExistsTest.testFoundIsNullWhenEndpointNotSet()[pri:0, instance:org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest@6c2c1385]" name="testFoundIsNullWhenEndpointNotSet" class="org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest"/>
+        <method signature="EndpointIfAlreadyExistsTest.testNotFoundPropagates()[pri:0, instance:org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest@6c2c1385]" name="testNotFoundPropagates" class="org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest"/>
+        <method signature="EndpointIfAlreadyExistsTest.testNullIsBad()[pri:0, instance:org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest@6c2c1385]" name="testNullIsBad" class="org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest"/>
+        <method signature="SignRequestTest.testCreateStringToSign()[pri:0, instance:org.jclouds.atmos.filters.SignRequestTest@67545b57]" name="testCreateStringToSign" class="org.jclouds.atmos.filters.SignRequestTest"/>
+        <method signature="SignRequestTest.testFilter()[pri:0, instance:org.jclouds.atmos.filters.SignRequestTest@67545b57]" name="testFilter" class="org.jclouds.atmos.filters.SignRequestTest"/>
+        <method signature="SignRequestTest.testFilterReplacesOldValues()[pri:0, instance:org.jclouds.atmos.filters.SignRequestTest@67545b57]" name="testFilterReplacesOldValues" class="org.jclouds.atmos.filters.SignRequestTest"/>
+        <method signature="SignRequestTest.testSignString()[pri:0, instance:org.jclouds.atmos.filters.SignRequestTest@67545b57]" name="testSignString" class="org.jclouds.atmos.filters.SignRequestTest"/>
+        <method signature="AtmosObjectNameTest.testCorrectContentMetadataName()[pri:0, instance:org.jclouds.atmos.functions.AtmosObjectNameTest@41005828]" name="testCorrectContentMetadataName" class="org.jclouds.atmos.functions.AtmosObjectNameTest"/>
+        <method signature="AtmosObjectNameTest.testCorrectSystemMetadataObjectName()[pri:0, instance:org.jclouds.atmos.functions.AtmosObjectNameTest@41005828]" name="testCorrectSystemMetadataObjectName" class="org.jclouds.atmos.functions.AtmosObjectNameTest"/>
+        <method signature="AtmosObjectNameTest.testMustBeAtmosObject()[pri:0, instance:org.jclouds.atmos.functions.AtmosObjectNameTest@41005828]" name="testMustBeAtmosObject" class="org.jclouds.atmos.functions.AtmosObjectNameTest"/>
+        <method signature="AtmosObjectNameTest.testNullIsBad()[pri:0, instance:org.jclouds.atmos.functions.AtmosObjectNameTest@41005828]" name="testNullIsBad" class="org.jclouds.atmos.functions.AtmosObjectNameTest"/>
+        <method signature="ParseSystemMetadataFromHeadersTest.test()[pri:0, instance:org.jclouds.atmos.functions.ParseSystemMetadataFromHeadersTest@74bf1791]" name="test" class="org.jclouds.atmos.functions.ParseSystemMetadataFromHeadersTest"/>
+        <method signature="ParseUserMetadataFromHeadersTest.test()[pri:0, instance:org.jclouds.atmos.functions.ParseUserMetadataFromHeadersTest@4f3bbf68]" name="test" class="org.jclouds.atmos.functions.ParseUserMetadataFromHeadersTest"/>
+        <method signature="AtmosServerErrorRetryHandlerTest.testGet500WithError1040()[pri:0, instance:org.jclouds.atmos.handlers.AtmosServerErrorRetryHandlerTest@5be46f9d]" name="testGet500WithError1040" class="org.jclouds.atmos.handlers.AtmosServerErrorRetryHandlerTest"/>
+        <method signature="AtmosServerErrorRetryHandlerTest.testGet500WithoutError()[pri:0, instance:org.jclouds.atmos.handlers.AtmosServerErrorRetryHandlerTest@5be46f9d]" name="testGet500WithoutError" class="org.jclouds.atmos.handlers.AtmosServerErrorRetryHandlerTest"/>
+        <method signature="ListOptionsTest.testLimit()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" name="testLimit" class="org.jclouds.atmos.options.ListOptionsTest"/>
+        <method signature="ListOptionsTest.testLimitStatic()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" name="testLimitStatic" class="org.jclouds.atmos.options.ListOptionsTest"/>
+        <method signature="ListOptionsTest.testMeta()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" name="testMeta" class="org.jclouds.atmos.options.ListOptionsTest"/>
+        <method signature="ListOptionsTest.testMetaStatic()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" name="testMetaStatic" class="org.jclouds.atmos.options.ListOptionsTest"/>
+        <method signature="ListOptionsTest.testNoMeta()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" name="testNoMeta" class="org.jclouds.atmos.options.ListOptionsTest"/>
+        <method signature="ListOptionsTest.testToken()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" name="testToken" class="org.jclouds.atmos.options.ListOptionsTest"/>
+        <method signature="ListOptionsTest.testTokenStatic()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" name="testTokenStatic" class="org.jclouds.atmos.options.ListOptionsTest"/>
+        <method signature="AtmosBlobRequestSignerTest.testSignGetBlob()[pri:0, instance:org.jclouds.atmos.blobstore.AtmosBlobRequestSignerTest@7331196b]" name="testSignGetBlob" class="org.jclouds.atmos.blobstore.AtmosBlobRequestSignerTest"/>
+        <method signature="AtmosBlobRequestSignerTest.testSignPutBlob()[pri:0, instance:org.jclouds.atmos.blobstore.AtmosBlobRequestSignerTest@7331196b]" name="testSignPutBlob" class="org.jclouds.atmos.blobstore.AtmosBlobRequestSignerTest"/>
+        <method signature="AtmosClientTest.testCreateDirectory()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testCreateDirectory" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testCreateDirectoryOptions()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testCreateDirectoryOptions" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testCreateFile()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testCreateFile" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testCreateFileOptions()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testCreateFileOptions" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testDeletePath()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testDeletePath" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testGetSystemMetadata()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testGetSystemMetadata" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testIsPublic()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testIsPublic" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testListDirectories()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testListDirectories" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testListDirectoriesOptions()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testListDirectoriesOptions" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testListDirectory()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testListDirectory" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testListDirectoryOptions()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testListDirectoryOptions" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testNewObject()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testNewObject" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testReadFile()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testReadFile" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testUpdateFile()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testUpdateFile" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="AtmosClientTest.testUpdateFileOptions()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" name="testUpdateFileOptions" class="org.jclouds.atmos.AtmosClientTest"/>
+        <method signature="ParseDirectoryListFromContentAndHeadersTest.testWithToken()[pri:0, instance:org.jclouds.atmos.functions.ParseDirectoryListFromContentAndHeadersTest@539d019]" name="testWithToken" class="org.jclouds.atmos.functions.ParseDirectoryListFromContentAndHeadersTest"/>
+        <method signature="ParseDirectoryListFromContentAndHeadersTest.testWithoutToken()[pri:0, instance:org.jclouds.atmos.functions.ParseDirectoryListFromContentAndHeadersTest@539d019]" name="testWithoutToken" class="org.jclouds.atmos.functions.ParseDirectoryListFromContentAndHeadersTest"/>
+        <method signature="ParseObjectFromHeadersAndHttpContentTest.test()[pri:0, instance:org.jclouds.atmos.functions.ParseObjectFromHeadersAndHttpContentTest@5a1de7fb]" name="test" class="org.jclouds.atmos.functions.ParseObjectFromHeadersAndHttpContentTest"/>
+        <method signature="BaseApiMetadataTest.testAllContains()[pri:0, instance:org.jclouds.atmos.AtmosApiMetadataTest@5d12a356]" name="testAllContains" class="org.jclouds.apis.internal.BaseApiMetadataTest"/>
+        <method signature="BaseApiMetadataTest.testTransformableToContains()[pri:0, instance:org.jclouds.atmos.AtmosApiMetadataTest@5d12a356]" name="testTransformableToContains" class="org.jclouds.apis.internal.BaseApiMetadataTest"/>
+        <method signature="BaseApiMetadataTest.testWithId()[pri:0, instance:org.jclouds.atmos.AtmosApiMetadataTest@5d12a356]" name="testWithId" class="org.jclouds.apis.internal.BaseApiMetadataTest"/>
+        <method signature="ListDirectoryResponseHandlerTest.testApplyInputStreamBase()[pri:0, instance:org.jclouds.atmos.xml.ListDirectoryResponseHandlerTest@4b3ed2f0]" name="testApplyInputStreamBase" class="org.jclouds.atmos.xml.ListDirectoryResponseHandlerTest"/>
+        <method signature="ErrorHandlerTest.testApplyInputStream()[pri:0, instance:org.jclouds.atmos.xml.ErrorHandlerTest@1941a8ff]" name="testApplyInputStream" class="org.jclouds.atmos.xml.ErrorHandlerTest"/>
+      </group> <!-- unit -->
+    </groups>
+    <test started-at="2023-08-11T18:13:42 GMT" name="Surefire test" finished-at="2023-08-11T18:13:43 GMT" duration-ms="446">
+      <class name="org.jclouds.atmos.options.ListOptionsTest">
+        <test-method signature="testMetaStatic()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" started-at="2023-08-11T18:13:42 GMT" name="testMetaStatic" finished-at="2023-08-11T18:13:42 GMT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMetaStatic -->
+        <test-method signature="testLimit()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" started-at="2023-08-11T18:13:42 GMT" name="testLimit" finished-at="2023-08-11T18:13:42 GMT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLimit -->
+        <test-method signature="testNoMeta()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" started-at="2023-08-11T18:13:42 GMT" name="testNoMeta" finished-at="2023-08-11T18:13:42 GMT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoMeta -->
+        <test-method signature="testLimitStatic()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" started-at="2023-08-11T18:13:42 GMT" name="testLimitStatic" finished-at="2023-08-11T18:13:42 GMT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLimitStatic -->
+        <test-method signature="testMeta()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" started-at="2023-08-11T18:13:42 GMT" name="testMeta" finished-at="2023-08-11T18:13:42 GMT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeta -->
+        <test-method signature="testToken()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" started-at="2023-08-11T18:13:42 GMT" name="testToken" finished-at="2023-08-11T18:13:42 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToken -->
+        <test-method signature="testTokenStatic()[pri:0, instance:org.jclouds.atmos.options.ListOptionsTest@229f66ed]" started-at="2023-08-11T18:13:42 GMT" name="testTokenStatic" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTokenStatic -->
+      </class> <!-- org.jclouds.atmos.options.ListOptionsTest -->
+      <class name="org.jclouds.atmos.functions.AtmosObjectNameTest">
+        <test-method signature="testCorrectContentMetadataName()[pri:0, instance:org.jclouds.atmos.functions.AtmosObjectNameTest@41005828]" started-at="2023-08-11T18:13:42 GMT" name="testCorrectContentMetadataName" finished-at="2023-08-11T18:13:42 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCorrectContentMetadataName -->
+        <test-method signature="testCorrectSystemMetadataObjectName()[pri:0, instance:org.jclouds.atmos.functions.AtmosObjectNameTest@41005828]" started-at="2023-08-11T18:13:42 GMT" name="testCorrectSystemMetadataObjectName" finished-at="2023-08-11T18:13:42 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCorrectSystemMetadataObjectName -->
+        <test-method signature="testMustBeAtmosObject()[pri:0, instance:org.jclouds.atmos.functions.AtmosObjectNameTest@41005828]" started-at="2023-08-11T18:13:42 GMT" name="testMustBeAtmosObject" finished-at="2023-08-11T18:13:42 GMT" duration-ms="1" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[this function is only valid for AtmosObjects!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: this function is only valid for AtmosObjects!
+at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+at org.jclouds.atmos.functions.AtmosObjectName.apply(AtmosObjectName.java:32)
+at org.jclouds.atmos.functions.AtmosObjectNameTest.testMustBeAtmosObject(AtmosObjectNameTest.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMustBeAtmosObject -->
+        <test-method signature="testNullIsBad()[pri:0, instance:org.jclouds.atmos.functions.AtmosObjectNameTest@41005828]" started-at="2023-08-11T18:13:42 GMT" name="testNullIsBad" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: input
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:907)
+at org.jclouds.atmos.functions.AtmosObjectName.apply(AtmosObjectName.java:32)
+at org.jclouds.atmos.functions.AtmosObjectNameTest.testNullIsBad(AtmosObjectNameTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullIsBad -->
+      </class> <!-- org.jclouds.atmos.functions.AtmosObjectNameTest -->
+      <class name="org.jclouds.atmos.filters.SignRequestTest">
+        <test-method is-config="true" signature="createFilter()[pri:0, instance:org.jclouds.atmos.filters.SignRequestTest@67545b57]" started-at="2023-08-11T18:13:42 GMT" name="createFilter" finished-at="2023-08-11T18:13:43 GMT" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFilter -->
+        <test-method signature="testCreateStringToSign()[pri:0, instance:org.jclouds.atmos.filters.SignRequestTest@67545b57]" started-at="2023-08-11T18:13:43 GMT" name="testCreateStringToSign" finished-at="2023-08-11T18:13:43 GMT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateStringToSign -->
+        <test-method signature="testFilterReplacesOldValues()[pri:0, instance:org.jclouds.atmos.filters.SignRequestTest@67545b57]" started-at="2023-08-11T18:13:43 GMT" name="testFilterReplacesOldValues" finished-at="2023-08-11T18:13:43 GMT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterReplacesOldValues -->
+        <test-method signature="testSignString()[pri:0, instance:org.jclouds.atmos.filters.SignRequestTest@67545b57]" started-at="2023-08-11T18:13:43 GMT" name="testSignString" finished-at="2023-08-11T18:13:43 GMT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignString -->
+        <test-method signature="testFilter()[pri:0, instance:org.jclouds.atmos.filters.SignRequestTest@67545b57]" started-at="2023-08-11T18:13:43 GMT" name="testFilter" finished-at="2023-08-11T18:13:43 GMT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilter -->
+      </class> <!-- org.jclouds.atmos.filters.SignRequestTest -->
+      <class name="org.jclouds.atmos.binders.BindMetadataToHeadersTest">
+        <test-method signature="testGood()[pri:0, instance:org.jclouds.atmos.binders.BindMetadataToHeadersTest@1046d517]" started-at="2023-08-11T18:13:42 GMT" name="testGood" finished-at="2023-08-11T18:13:42 GMT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGood -->
+        <test-method signature="testMustBeAtmosObject()[pri:0, instance:org.jclouds.atmos.binders.BindMetadataToHeadersTest@1046d517]" started-at="2023-08-11T18:13:42 GMT" name="testMustBeAtmosObject" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[this binder is only valid for AtmosObject!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: this binder is only valid for AtmosObject!
+at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+at org.jclouds.atmos.binders.BindMetadataToHeaders.bindToRequest(BindMetadataToHeaders.java:43)
+at org.jclouds.atmos.binders.BindMetadataToHeadersTest.testMustBeAtmosObject(BindMetadataToHeadersTest.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMustBeAtmosObject -->
+        <test-method signature="testNullContentLengthIllegal()[pri:0, instance:org.jclouds.atmos.binders.BindMetadataToHeadersTest@1046d517]" started-at="2023-08-11T18:13:42 GMT" name="testNullContentLengthIllegal" finished-at="2023-08-11T18:13:42 GMT" duration-ms="1" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[contentLength must be set, streaming not supported]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: contentLength must be set, streaming not supported
+at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+at org.jclouds.atmos.binders.BindMetadataToHeaders.bindToRequest(BindMetadataToHeaders.java:48)
+at org.jclouds.atmos.binders.BindMetadataToHeadersTest.testNullContentLengthIllegal(BindMetadataToHeadersTest.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullContentLengthIllegal -->
+        <test-method signature="testNullIsBad()[pri:0, instance:org.jclouds.atmos.binders.BindMetadataToHeadersTest@1046d517]" started-at="2023-08-11T18:13:42 GMT" name="testNullIsBad" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: input
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:907)
+at org.jclouds.atmos.binders.BindMetadataToHeaders.bindToRequest(BindMetadataToHeaders.java:43)
+at org.jclouds.atmos.binders.BindMetadataToHeadersTest.testNullIsBad(BindMetadataToHeadersTest.java:60)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullIsBad -->
+        <test-method signature="testNullPayloadIsBad()[pri:0, instance:org.jclouds.atmos.binders.BindMetadataToHeadersTest@1046d517]" started-at="2023-08-11T18:13:42 GMT" name="testNullPayloadIsBad" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[object payload]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: object payload
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:907)
+at org.jclouds.atmos.binders.BindMetadataToHeaders.bindToRequest(BindMetadataToHeaders.java:47)
+at org.jclouds.atmos.binders.BindMetadataToHeadersTest.testNullPayloadIsBad(BindMetadataToHeadersTest.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullPayloadIsBad -->
+      </class> <!-- org.jclouds.atmos.binders.BindMetadataToHeadersTest -->
+      <class name="org.jclouds.atmos.handlers.AtmosServerErrorRetryHandlerTest">
+        <test-method signature="testGet500WithError1040()[pri:0, instance:org.jclouds.atmos.handlers.AtmosServerErrorRetryHandlerTest@5be46f9d]" started-at="2023-08-11T18:13:42 GMT" name="testGet500WithError1040" finished-at="2023-08-11T18:13:42 GMT" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet500WithError1040 -->
+        <test-method signature="testGet500WithoutError()[pri:0, instance:org.jclouds.atmos.handlers.AtmosServerErrorRetryHandlerTest@5be46f9d]" started-at="2023-08-11T18:13:42 GMT" name="testGet500WithoutError" finished-at="2023-08-11T18:13:42 GMT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet500WithoutError -->
+      </class> <!-- org.jclouds.atmos.handlers.AtmosServerErrorRetryHandlerTest -->
+      <class name="org.jclouds.atmos.binders.BindUserMetadataToHeadersTest">
+        <test-method signature="testListableMeta()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" started-at="2023-08-11T18:13:42 GMT" name="testListableMeta" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListableMeta -->
+        <test-method signature="testListableTags()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" started-at="2023-08-11T18:13:42 GMT" name="testListableTags" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListableTags -->
+        <test-method signature="testMeta()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" started-at="2023-08-11T18:13:42 GMT" name="testMeta" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeta -->
+        <test-method signature="testMustBeUserMetadata()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" started-at="2023-08-11T18:13:42 GMT" name="testMustBeUserMetadata" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[this binder is only valid for UserMetadatas!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: this binder is only valid for UserMetadatas!
+at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+at org.jclouds.atmos.binders.BindUserMetadataToHeaders.bindToRequest(BindUserMetadataToHeaders.java:42)
+at org.jclouds.atmos.binders.BindUserMetadataToHeadersTest.testMustBeUserMetadata(BindUserMetadataToHeadersTest.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMustBeUserMetadata -->
+        <test-method signature="testNullIsBad()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" started-at="2023-08-11T18:13:42 GMT" name="testNullIsBad" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: input
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:907)
+at org.jclouds.atmos.binders.BindUserMetadataToHeaders.bindToRequest(BindUserMetadataToHeaders.java:42)
+at org.jclouds.atmos.binders.BindUserMetadataToHeadersTest.testNullIsBad(BindUserMetadataToHeadersTest.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullIsBad -->
+        <test-method signature="testTags()[pri:0, instance:org.jclouds.atmos.binders.BindUserMetadataToHeadersTest@2bb3058]" started-at="2023-08-11T18:13:42 GMT" name="testTags" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTags -->
+      </class> <!-- org.jclouds.atmos.binders.BindUserMetadataToHeadersTest -->
+      <class name="org.jclouds.atmos.functions.ParseUserMetadataFromHeadersTest">
+        <test-method signature="test()[pri:0, instance:org.jclouds.atmos.functions.ParseUserMetadataFromHeadersTest@4f3bbf68]" started-at="2023-08-11T18:13:42 GMT" name="test" finished-at="2023-08-11T18:13:42 GMT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.jclouds.atmos.functions.ParseUserMetadataFromHeadersTest -->
+      <class name="org.jclouds.atmos.functions.ParseSystemMetadataFromHeadersTest">
+        <test-method signature="test()[pri:0, instance:org.jclouds.atmos.functions.ParseSystemMetadataFromHeadersTest@74bf1791]" started-at="2023-08-11T18:13:42 GMT" name="test" finished-at="2023-08-11T18:13:42 GMT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.jclouds.atmos.functions.ParseSystemMetadataFromHeadersTest -->
+      <class name="org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest">
+        <test-method signature="testFoundIsEndpointWhenSet()[pri:0, instance:org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest@6c2c1385]" started-at="2023-08-11T18:13:42 GMT" name="testFoundIsEndpointWhenSet" finished-at="2023-08-11T18:13:42 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFoundIsEndpointWhenSet -->
+        <test-method signature="testFoundIsNullWhenEndpointNotSet()[pri:0, instance:org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest@6c2c1385]" started-at="2023-08-11T18:13:42 GMT" name="testFoundIsNullWhenEndpointNotSet" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFoundIsNullWhenEndpointNotSet -->
+        <test-method signature="testNotFoundPropagates()[pri:0, instance:org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest@6c2c1385]" started-at="2023-08-11T18:13:42 GMT" name="testNotFoundPropagates" finished-at="2023-08-11T18:13:42 GMT" duration-ms="2" status="PASS">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+at org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest.testNotFoundPropagates(EndpointIfAlreadyExistsTest.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotFoundPropagates -->
+        <test-method signature="testNullIsBad()[pri:0, instance:org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest@6c2c1385]" started-at="2023-08-11T18:13:42 GMT" name="testNullIsBad" finished-at="2023-08-11T18:13:42 GMT" duration-ms="0" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[throwable]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: throwable
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:907)
+at org.jclouds.atmos.fallbacks.EndpointIfAlreadyExists.createOrPropagate(EndpointIfAlreadyExists.java:38)
+at org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest.testNullIsBad(EndpointIfAlreadyExistsTest.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullIsBad -->
+      </class> <!-- org.jclouds.atmos.fallbacks.EndpointIfAlreadyExistsTest -->
+    </test> <!-- Surefire test -->
+    <test started-at="2023-08-11T18:13:43 GMT" name="AtmosBlobRequestSignerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="68">
+      <class name="org.jclouds.atmos.blobstore.AtmosBlobRequestSignerTest">
+        <test-method is-config="true" signature="setupFactory()[pri:0, instance:org.jclouds.atmos.blobstore.AtmosBlobRequestSignerTest@7331196b]" started-at="2023-08-11T18:13:43 GMT" name="setupFactory" test-instance-name="AtmosBlobRequestSignerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupFactory -->
+        <test-method signature="testSignGetBlob()[pri:0, instance:org.jclouds.atmos.blobstore.AtmosBlobRequestSignerTest@7331196b]" started-at="2023-08-11T18:13:43 GMT" name="testSignGetBlob" test-instance-name="AtmosBlobRequestSignerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignGetBlob -->
+        <test-method signature="testSignPutBlob()[pri:0, instance:org.jclouds.atmos.blobstore.AtmosBlobRequestSignerTest@7331196b]" started-at="2023-08-11T18:13:43 GMT" name="testSignPutBlob" test-instance-name="AtmosBlobRequestSignerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignPutBlob -->
+      </class> <!-- org.jclouds.atmos.blobstore.AtmosBlobRequestSignerTest -->
+    </test> <!-- AtmosBlobRequestSignerTest -->
+    <test started-at="2023-08-11T18:13:43 GMT" name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="156">
+      <class name="org.jclouds.atmos.AtmosClientTest">
+        <test-method is-config="true" signature="setupFactory()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="setupFactory" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupFactory -->
+        <test-method signature="testCreateDirectory()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testCreateDirectory" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateDirectory -->
+        <test-method signature="testDeletePath()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testDeletePath" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePath -->
+        <test-method signature="testCreateFileOptions()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testCreateFileOptions" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateFileOptions -->
+        <test-method signature="testCreateFile()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testCreateFile" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateFile -->
+        <test-method signature="testCreateDirectoryOptions()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testCreateDirectoryOptions" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateDirectoryOptions -->
+        <test-method signature="testGetSystemMetadata()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testGetSystemMetadata" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSystemMetadata -->
+        <test-method signature="testIsPublic()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testIsPublic" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsPublic -->
+        <test-method signature="testListDirectories()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testListDirectories" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListDirectories -->
+        <test-method signature="testListDirectoriesOptions()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testListDirectoriesOptions" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListDirectoriesOptions -->
+        <test-method signature="testListDirectory()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testListDirectory" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListDirectory -->
+        <test-method signature="testListDirectoryOptions()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testListDirectoryOptions" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListDirectoryOptions -->
+        <test-method signature="testReadFile()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testReadFile" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReadFile -->
+        <test-method signature="testNewObject()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testNewObject" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewObject -->
+        <test-method signature="testUpdateFileOptions()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testUpdateFileOptions" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateFileOptions -->
+        <test-method signature="testUpdateFile()[pri:0, instance:org.jclouds.atmos.AtmosClientTest@7a1234bf]" started-at="2023-08-11T18:13:43 GMT" name="testUpdateFile" test-instance-name="AtmosClientTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateFile -->
+      </class> <!-- org.jclouds.atmos.AtmosClientTest -->
+    </test> <!-- AtmosClientTest -->
+    <test started-at="2023-08-11T18:13:43 GMT" name="ParseDirectoryListFromContentAndHeadersTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="44">
+      <class name="org.jclouds.atmos.functions.ParseDirectoryListFromContentAndHeadersTest">
+        <test-method is-config="true" signature="setUpInjector()[pri:0, instance:org.jclouds.atmos.functions.ParseDirectoryListFromContentAndHeadersTest@539d019]" started-at="2023-08-11T18:13:43 GMT" name="setUpInjector" test-instance-name="ParseDirectoryListFromContentAndHeadersTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpInjector -->
+        <test-method is-config="true" signature="setUpRequest()[pri:0, instance:org.jclouds.atmos.functions.ParseDirectoryListFromContentAndHeadersTest@539d019]" started-at="2023-08-11T18:13:43 GMT" name="setUpRequest" test-instance-name="ParseDirectoryListFromContentAndHeadersTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRequest -->
+        <test-method signature="testWithToken()[pri:0, instance:org.jclouds.atmos.functions.ParseDirectoryListFromContentAndHeadersTest@539d019]" started-at="2023-08-11T18:13:43 GMT" name="testWithToken" test-instance-name="ParseDirectoryListFromContentAndHeadersTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithToken -->
+        <test-method signature="testWithoutToken()[pri:0, instance:org.jclouds.atmos.functions.ParseDirectoryListFromContentAndHeadersTest@539d019]" started-at="2023-08-11T18:13:43 GMT" name="testWithoutToken" test-instance-name="ParseDirectoryListFromContentAndHeadersTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutToken -->
+        <test-method is-config="true" signature="tearDownInjector()[pri:0, instance:org.jclouds.atmos.functions.ParseDirectoryListFromContentAndHeadersTest@539d019]" started-at="2023-08-11T18:13:43 GMT" name="tearDownInjector" test-instance-name="ParseDirectoryListFromContentAndHeadersTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownInjector -->
+      </class> <!-- org.jclouds.atmos.functions.ParseDirectoryListFromContentAndHeadersTest -->
+    </test> <!-- ParseDirectoryListFromContentAndHeadersTest -->
+    <test started-at="2023-08-11T18:13:43 GMT" name="ParseObjectFromHeadersAndHttpContentTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="7">
+      <class name="org.jclouds.atmos.functions.ParseObjectFromHeadersAndHttpContentTest">
+        <test-method signature="test()[pri:0, instance:org.jclouds.atmos.functions.ParseObjectFromHeadersAndHttpContentTest@5a1de7fb]" started-at="2023-08-11T18:13:43 GMT" name="test" test-instance-name="ParseObjectFromHeadersAndHttpContentTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.jclouds.atmos.functions.ParseObjectFromHeadersAndHttpContentTest -->
+    </test> <!-- ParseObjectFromHeadersAndHttpContentTest -->
+    <test started-at="2023-08-11T18:13:43 GMT" name="AtmosApiMetadataTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="5">
+      <class name="org.jclouds.atmos.AtmosApiMetadataTest">
+        <test-method signature="testWithId()[pri:0, instance:org.jclouds.atmos.AtmosApiMetadataTest@5d12a356]" started-at="2023-08-11T18:13:43 GMT" name="testWithId" test-instance-name="AtmosApiMetadataTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithId -->
+        <test-method signature="testTransformableToContains()[pri:0, instance:org.jclouds.atmos.AtmosApiMetadataTest@5d12a356]" started-at="2023-08-11T18:13:43 GMT" name="testTransformableToContains" test-instance-name="AtmosApiMetadataTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransformableToContains -->
+        <test-method signature="testAllContains()[pri:0, instance:org.jclouds.atmos.AtmosApiMetadataTest@5d12a356]" started-at="2023-08-11T18:13:43 GMT" name="testAllContains" test-instance-name="AtmosApiMetadataTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllContains -->
+      </class> <!-- org.jclouds.atmos.AtmosApiMetadataTest -->
+    </test> <!-- AtmosApiMetadataTest -->
+    <test started-at="2023-08-11T18:13:43 GMT" name="ListDirectoryResponseHandlerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="7">
+      <class name="org.jclouds.atmos.xml.ListDirectoryResponseHandlerTest">
+        <test-method is-config="true" signature="setUpInjector()[pri:0, instance:org.jclouds.atmos.xml.ListDirectoryResponseHandlerTest@4b3ed2f0]" started-at="2023-08-11T18:13:43 GMT" name="setUpInjector" test-instance-name="ListDirectoryResponseHandlerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpInjector -->
+        <test-method is-config="true" signature="setUpRequest()[pri:0, instance:org.jclouds.atmos.xml.ListDirectoryResponseHandlerTest@4b3ed2f0]" started-at="2023-08-11T18:13:43 GMT" name="setUpRequest" test-instance-name="ListDirectoryResponseHandlerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRequest -->
+        <test-method signature="testApplyInputStreamBase()[pri:0, instance:org.jclouds.atmos.xml.ListDirectoryResponseHandlerTest@4b3ed2f0]" started-at="2023-08-11T18:13:43 GMT" name="testApplyInputStreamBase" test-instance-name="ListDirectoryResponseHandlerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplyInputStreamBase -->
+        <test-method is-config="true" signature="tearDownInjector()[pri:0, instance:org.jclouds.atmos.xml.ListDirectoryResponseHandlerTest@4b3ed2f0]" started-at="2023-08-11T18:13:43 GMT" name="tearDownInjector" test-instance-name="ListDirectoryResponseHandlerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownInjector -->
+      </class> <!-- org.jclouds.atmos.xml.ListDirectoryResponseHandlerTest -->
+    </test> <!-- ListDirectoryResponseHandlerTest -->
+    <test started-at="2023-08-11T18:13:43 GMT" name="ErrorHandlerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="8">
+      <class name="org.jclouds.atmos.xml.ErrorHandlerTest">
+        <test-method is-config="true" signature="setUpInjector()[pri:0, instance:org.jclouds.atmos.xml.ErrorHandlerTest@1941a8ff]" started-at="2023-08-11T18:13:43 GMT" name="setUpInjector" test-instance-name="ErrorHandlerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpInjector -->
+        <test-method is-config="true" signature="setUpRequest()[pri:0, instance:org.jclouds.atmos.xml.ErrorHandlerTest@1941a8ff]" started-at="2023-08-11T18:13:43 GMT" name="setUpRequest" test-instance-name="ErrorHandlerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRequest -->
+        <test-method signature="testApplyInputStream()[pri:0, instance:org.jclouds.atmos.xml.ErrorHandlerTest@1941a8ff]" started-at="2023-08-11T18:13:43 GMT" name="testApplyInputStream" test-instance-name="ErrorHandlerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplyInputStream -->
+        <test-method is-config="true" signature="tearDownInjector()[pri:0, instance:org.jclouds.atmos.xml.ErrorHandlerTest@1941a8ff]" started-at="2023-08-11T18:13:43 GMT" name="tearDownInjector" test-instance-name="ErrorHandlerTest" finished-at="2023-08-11T18:13:43 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownInjector -->
+      </class> <!-- org.jclouds.atmos.xml.ErrorHandlerTest -->
+    </test> <!-- ErrorHandlerTest -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

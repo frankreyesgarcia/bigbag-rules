@@ -1,0 +1,873 @@
+[
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.AdminClient",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.AdminClient",
+    "location": {
+      "path": "com/google/cloud/pubsublite/AdminClient.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.AdminClient.deleteReservation(com.google.cloud.pubsublite.ReservationPath)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.AdminClient",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.AdminClient",
+    "location": {
+      "path": "com/google/cloud/pubsublite/AdminClient.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.AdminClient.createReservation(com.google.cloud.pubsublite.proto.Reservation)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.AdminClient",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.AdminClient",
+    "location": {
+      "path": "com/google/cloud/pubsublite/AdminClient.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.AdminClient.seekSubscription(com.google.cloud.pubsublite.SubscriptionPath,com.google.cloud.pubsublite.SeekTarget)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.AdminClient",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.AdminClient",
+    "location": {
+      "path": "com/google/cloud/pubsublite/AdminClient.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.AdminClient.listReservations(com.google.cloud.pubsublite.LocationPath)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.AdminClient",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.AdminClient",
+    "location": {
+      "path": "com/google/cloud/pubsublite/AdminClient.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.AdminClient.listReservationTopics(com.google.cloud.pubsublite.ReservationPath)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.AdminClient",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.AdminClient",
+    "location": {
+      "path": "com/google/cloud/pubsublite/AdminClient.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.AdminClient.getReservation(com.google.cloud.pubsublite.ReservationPath)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.AdminClient",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.AdminClient",
+    "location": {
+      "path": "com/google/cloud/pubsublite/AdminClient.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.AdminClient.createSubscription(com.google.cloud.pubsublite.proto.Subscription,com.google.cloud.pubsublite.BacklogLocation)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.AdminClient",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.AdminClient",
+    "location": {
+      "path": "com/google/cloud/pubsublite/AdminClient.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.AdminClient.updateReservation(com.google.cloud.pubsublite.proto.Reservation,com.google.protobuf.FieldMask)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.Constants.MAX_PUBLISH_MESSAGE_BYTES",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.Constants",
+    "location": {
+      "path": "com/google/cloud/pubsublite/Constants.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.LocationPath.location()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.google.cloud.pubsublite.LocationPath",
+    "location": {
+      "path": "com/google/cloud/pubsublite/LocationPath.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.LocationPath.location()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.LocationPath.location()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.LocationPath",
+    "location": {
+      "path": "com/google/cloud/pubsublite/LocationPath.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.LocationPath.location()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.LocationPath$Builder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.LocationPath$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/LocationPath.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.ProjectLocationBuilderHelper.setLocation(com.google.cloud.pubsublite.CloudRegionOrZone)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.LocationPath$Builder.setLocation(com.google.cloud.pubsublite.CloudZone)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.google.cloud.pubsublite.LocationPath$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/LocationPath.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.ProjectLocationBuilderHelper.setLocation(com.google.cloud.pubsublite.CloudZone)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.LocationPath$Builder.setLocation(com.google.cloud.pubsublite.CloudZone)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.LocationPath$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/LocationPath.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.ProjectLocationBuilderHelper.setLocation(com.google.cloud.pubsublite.CloudZone)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.ProjectLookupUtils",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.ProjectLookupUtils",
+    "location": {
+      "path": "com/google/cloud/pubsublite/ProjectLookupUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.PublishMetadata",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.PublishMetadata",
+    "location": {
+      "path": "com/google/cloud/pubsublite/PublishMetadata.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.SubscriptionPath.location()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.google.cloud.pubsublite.SubscriptionPath",
+    "location": {
+      "path": "com/google/cloud/pubsublite/SubscriptionPath.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.SubscriptionPath.location()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.SubscriptionPath.location()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.SubscriptionPath",
+    "location": {
+      "path": "com/google/cloud/pubsublite/SubscriptionPath.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.SubscriptionPath.location()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.TopicPath.location()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.google.cloud.pubsublite.TopicPath",
+    "location": {
+      "path": "com/google/cloud/pubsublite/TopicPath.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.TopicPath.location()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.TopicPath.location()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.TopicPath",
+    "location": {
+      "path": "com/google/cloud/pubsublite/TopicPath.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.TopicPath.location()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.cloudpubsub.PublisherSettings$Builder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.cloudpubsub.PublisherSettings$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/cloudpubsub/PublisherSettings.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.cloudpubsub.PublisherSettings$Builder.setCredentialsProvider(com.google.api.gax.core.CredentialsProvider)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.cloudpubsub.PublisherSettings$Builder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.cloudpubsub.PublisherSettings$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/cloudpubsub/PublisherSettings.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.cloudpubsub.PublisherSettings$Builder.setFramework(com.google.cloud.pubsublite.internal.wire.PubsubContext$Framework)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.cloudpubsub.PublisherSettings$Builder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.cloudpubsub.PublisherSettings$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/cloudpubsub/PublisherSettings.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.cloudpubsub.PublisherSettings$Builder.setAdminClient(com.google.cloud.pubsublite.AdminClient)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.cloudpubsub.SubscriberSettings$Builder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.cloudpubsub.SubscriberSettings$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/cloudpubsub/SubscriberSettings.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.cloudpubsub.SubscriberSettings$Builder.setCredentialsProvider(com.google.api.gax.core.CredentialsProvider)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.cloudpubsub.SubscriberSettings$Builder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.cloudpubsub.SubscriberSettings$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/cloudpubsub/SubscriberSettings.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.cloudpubsub.SubscriberSettings$Builder.setFramework(com.google.cloud.pubsublite.internal.wire.PubsubContext$Framework)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.cloudpubsub.SubscriberSettings$Builder.build()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.cloudpubsub.SubscriberSettings$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/cloudpubsub/SubscriberSettings.java",
+      "line": 140
+    },
+    "newSymbol": "com.google.cloud.pubsublite.cloudpubsub.SubscriberSettings$Builder.build()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.cloudpubsub.internal.SinglePartitionSubscriber.<init>(com.google.cloud.pubsub.v1.MessageReceiver,com.google.cloud.pubsublite.MessageTransformer<com.google.cloud.pubsublite.SequencedMessage,com.google.pubsub.v1.PubsubMessage>,com.google.cloud.pubsublite.cloudpubsub.internal.AckSetTracker,com.google.cloud.pubsublite.cloudpubsub.NackHandler,com.google.cloud.pubsublite.internal.wire.SubscriberFactory,com.google.cloud.pubsublite.cloudpubsub.FlowControlSettings)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.cloudpubsub.internal.SinglePartitionSubscriber",
+    "location": {
+      "path": "com/google/cloud/pubsublite/cloudpubsub/internal/SinglePartitionSubscriber.java",
+      "line": 55
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.cloudpubsub.internal.WrappingPublisher.<init>(com.google.cloud.pubsublite.internal.Publisher<com.google.cloud.pubsublite.PublishMetadata>,com.google.cloud.pubsublite.MessageTransformer<com.google.pubsub.v1.PubsubMessage,com.google.cloud.pubsublite.Message>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.cloudpubsub.internal.WrappingPublisher",
+    "location": {
+      "path": "com/google/cloud/pubsublite/cloudpubsub/internal/WrappingPublisher.java",
+      "line": 43
+    },
+    "newSymbol": "com.google.cloud.pubsublite.cloudpubsub.internal.WrappingPublisher.<init>(com.google.cloud.pubsublite.internal.Publisher<com.google.cloud.pubsublite.MessageMetadata>,com.google.cloud.pubsublite.MessageTransformer<com.google.pubsub.v1.PubsubMessage,com.google.cloud.pubsublite.Message>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.BufferingPullSubscriber.<init>(com.google.cloud.pubsublite.internal.wire.SubscriberFactory,com.google.cloud.pubsublite.cloudpubsub.FlowControlSettings,com.google.cloud.pubsublite.proto.SeekRequest)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.BufferingPullSubscriber",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/BufferingPullSubscriber.java",
+      "line": 43
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.DefaultRoutingPolicy.<init>(int)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.DefaultRoutingPolicy",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/DefaultRoutingPolicy.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.Publisher",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.Publisher",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/Publisher.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.Publisher.cancelOutstandingPublishes()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.ServiceClients",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.ServiceClients",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/ServiceClients.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.TopicStatsClient",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.TopicStatsClient",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/TopicStatsClient.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.TopicStatsClient.computeCursorForPublishTime(com.google.cloud.pubsublite.TopicPath,com.google.cloud.pubsublite.Partition,com.google.protobuf.Timestamp)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.TopicStatsClient",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.TopicStatsClient",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/TopicStatsClient.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.TopicStatsClient.computeHeadCursor(com.google.cloud.pubsublite.TopicPath,com.google.cloud.pubsublite.Partition)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.TopicStatsClient",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.TopicStatsClient",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/TopicStatsClient.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.TopicStatsClient.computeCursorForEventTime(com.google.cloud.pubsublite.TopicPath,com.google.cloud.pubsublite.Partition,com.google.protobuf.Timestamp)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.ApiExceptionSubscriber",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.ApiExceptionSubscriber",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/ApiExceptionSubscriber.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.AssignerBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.AssignerBuilder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/AssignerBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.AssignerBuilder$Builder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.AssignerBuilder$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/AssignerBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.AssignerImpl.triggerReinitialize()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.AssignerImpl",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/AssignerImpl.java",
+      "line": 77
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.Committer",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.Committer",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/Committer.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.wire.Committer.waitUntilEmpty()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.CommitterBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.CommitterBuilder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/CommitterBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.CommitterBuilder$Builder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.CommitterBuilder$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/CommitterBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.CommitterImpl.triggerReinitialize()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.CommitterImpl",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/CommitterImpl.java",
+      "line": 112
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.PartitionPublisherFactory.newPublisher(com.google.cloud.pubsublite.Partition)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.PartitionPublisherFactory",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/PartitionPublisherFactory.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.wire.PartitionPublisherFactory.newPublisher(com.google.cloud.pubsublite.Partition)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.Predicates.isValidSeekRequest(com.google.cloud.pubsublite.proto.SeekRequest)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.Predicates",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/Predicates.java",
+      "line": 31
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.PublisherBuilder.DEFAULT_BATCHING_SETTINGS",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.PublisherBuilder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/PublisherBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.PublisherBuilder$Builder.setContext(com.google.cloud.pubsublite.internal.wire.PubsubContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.PublisherBuilder$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/PublisherBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.PublisherImpl.triggerReinitialize()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.PublisherImpl",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/PublisherImpl.java",
+      "line": 142
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.RetryingConnectionObserver",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.RetryingConnectionObserver",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/RetryingConnectionObserver.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.wire.RetryingConnectionObserver.triggerReinitialize(com.google.cloud.pubsublite.internal.CheckedApiException)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.RetryingConnectionObserver.triggerReinitialize()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.RetryingConnectionObserver",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/RetryingConnectionObserver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.RoutingPublisher.publish(com.google.cloud.pubsublite.Message)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.RoutingPublisher",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/RoutingPublisher.java",
+      "line": 51
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.wire.RoutingPublisher.publish(com.google.cloud.pubsublite.Message)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.RoutingPublisherBuilder$Builder.build()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.RoutingPublisherBuilder$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/RoutingPublisherBuilder.java",
+      "line": 57
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.wire.RoutingPublisherBuilder$Builder.build()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SinglePartitionPublisher.publish(com.google.cloud.pubsublite.Message)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SinglePartitionPublisher",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SinglePartitionPublisher.java",
+      "line": 45
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.wire.SinglePartitionPublisher.publish(com.google.cloud.pubsublite.Message)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SinglePartitionPublisherBuilder$Builder.build()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SinglePartitionPublisherBuilder$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SinglePartitionPublisherBuilder.java",
+      "line": 75
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.wire.SinglePartitionPublisherBuilder$Builder.build()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SinglePartitionPublisherBuilder$Builder.setContext(com.google.cloud.pubsublite.internal.wire.PubsubContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SinglePartitionPublisherBuilder$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SinglePartitionPublisherBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.Subscriber.seek(com.google.cloud.pubsublite.proto.SeekRequest)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.Subscriber",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/Subscriber.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.Subscriber.seekInFlight()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.Subscriber",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/Subscriber.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberBuilder$Builder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SubscriberBuilder$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SubscriberBuilder.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberBuilder$Builder.setResetHandler(com.google.cloud.pubsublite.internal.wire.SubscriberResetHandler)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberBuilder$Builder",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SubscriberBuilder$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SubscriberBuilder.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberBuilder$Builder.setInitialLocation(com.google.cloud.pubsublite.proto.SeekRequest)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberBuilder$Builder.setContext(com.google.cloud.pubsublite.internal.wire.PubsubContext)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SubscriberBuilder$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SubscriberBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberBuilder$Builder.setMessageConsumer(java.util.function.Consumer<com.google.common.collect.ImmutableList<com.google.cloud.pubsublite.SequencedMessage>>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SubscriberBuilder$Builder",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SubscriberBuilder.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberBuilder$Builder.setMessageConsumer(java.util.function.Consumer<java.util.List<com.google.cloud.pubsublite.SequencedMessage>>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberFactory.newSubscriber(java.util.function.Consumer<com.google.common.collect.ImmutableList<com.google.cloud.pubsublite.SequencedMessage>>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SubscriberFactory",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SubscriberFactory.java",
+      "line": null
+    },
+    "newSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberFactory.newSubscriber(java.util.function.Consumer<java.util.List<com.google.cloud.pubsublite.SequencedMessage>>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberImpl.<init>(com.google.cloud.pubsublite.v1.SubscriberServiceClient,com.google.cloud.pubsublite.proto.InitialSubscribeRequest,java.util.function.Consumer<com.google.common.collect.ImmutableList<com.google.cloud.pubsublite.SequencedMessage>>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SubscriberImpl",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SubscriberImpl.java",
+      "line": 113
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberImpl.onClientResponse(com.google.cloud.pubsublite.internal.wire.ConnectedSubscriber$Response)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SubscriberImpl",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SubscriberImpl.java",
+      "line": 236
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberImpl.seek(com.google.cloud.pubsublite.proto.SeekRequest)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SubscriberImpl",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SubscriberImpl.java",
+      "line": 159
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberImpl.seekInFlight()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SubscriberImpl",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SubscriberImpl.java",
+      "line": 186
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.google.cloud.pubsublite.internal.wire.SubscriberImpl.triggerReinitialize()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.google.cloud.pubsublite.internal.wire.SubscriberImpl",
+    "location": {
+      "path": "com/google/cloud/pubsublite/internal/wire/SubscriberImpl.java",
+      "line": 207
+    },
+    "newSymbol": null
+  }
+]

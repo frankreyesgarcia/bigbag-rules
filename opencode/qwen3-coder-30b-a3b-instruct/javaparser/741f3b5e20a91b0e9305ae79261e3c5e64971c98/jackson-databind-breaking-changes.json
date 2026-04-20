@@ -1,0 +1,3187 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.AnnotationIntrospector.findPropertiesToIgnore(com.fasterxml.jackson.databind.introspect.Annotated)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.AnnotationIntrospector",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/AnnotationIntrospector.java",
+      "line": 307
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.BeanDescription",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.BeanDescription",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/BeanDescription.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.BeanDescription.getConstructorsWithMode()"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.BeanDescription",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.BeanDescription",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/BeanDescription.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.BeanDescription.getFactoryMethodsWithMode()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.DatabindContext.constructSpecializedType(com.fasterxml.jackson.databind.JavaType,java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.DatabindContext",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/DatabindContext.java",
+      "line": 158
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.DatabindContext.constructSpecializedType(com.fasterxml.jackson.databind.JavaType,java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.DeserializationConfig.initialize(com.fasterxml.jackson.core.JsonParser)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.DeserializationConfig",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/DeserializationConfig.java",
+      "line": 624
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.DeserializationConfig.initialize(com.fasterxml.jackson.core.JsonParser)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.DeserializationConfig.initialize(com.fasterxml.jackson.core.JsonParser)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.DeserializationConfig",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/DeserializationConfig.java",
+      "line": 624
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.DeserializationConfig.initialize(com.fasterxml.jackson.core.JsonParser)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper._initForReading(com.fasterxml.jackson.core.JsonParser)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 4155
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper._unwrapAndDeserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.DeserializationConfig,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.JsonDeserializer<java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 4073
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.convertValue(java.lang.Object,com.fasterxml.jackson.core.type.TypeReference<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 3679
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.convertValue(java.lang.Object,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.getJsonFactory()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 1854
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readTree(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 2552
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readTree(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(byte[],com.fasterxml.jackson.core.type.TypeReference)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 3107
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(byte[],com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(byte[],int,int,com.fasterxml.jackson.core.type.TypeReference)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 3115
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(byte[],int,int,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 2301
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.io.File,com.fasterxml.jackson.core.type.TypeReference)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 2922
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.io.File,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.io.InputStream,com.fasterxml.jackson.core.type.TypeReference)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 3078
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.io.InputStream,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.io.Reader,com.fasterxml.jackson.core.type.TypeReference)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 3057
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.io.Reader,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.lang.String,com.fasterxml.jackson.core.type.TypeReference)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 3024
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.lang.String,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.lang.String,com.fasterxml.jackson.core.type.TypeReference)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 3024
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.lang.String,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.lang.String,com.fasterxml.jackson.databind.JavaType)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 3043
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.lang.String,com.fasterxml.jackson.databind.JavaType)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.lang.String,java.lang.Class<T>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 3005
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.lang.String,java.lang.Class<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.net.URL,com.fasterxml.jackson.core.type.TypeReference)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 2979
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValue(java.net.URL,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValues(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectMapper.java",
+      "line": 2460
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectMapper.readValues(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.jsontype.impl.StdTypeResolverBuilder.idResolver(com.fasterxml.jackson.databind.cfg.MapperConfig<? extends java.lang.Object>,com.fasterxml.jackson.databind.JavaType,java.util.Collection<com.fasterxml.jackson.databind.jsontype.NamedType>,boolean,boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectMapper$DefaultTypeResolverBuilder",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/jsontype/impl/StdTypeResolverBuilder.java",
+      "line": 255
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectReader._reportUnkownFormat(com.fasterxml.jackson.databind.deser.DataFormatReaders,com.fasterxml.jackson.databind.deser.DataFormatReaders$Match)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectReader",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectReader.java",
+      "line": 1820
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectReader._reportUnkownFormat(com.fasterxml.jackson.databind.deser.DataFormatReaders,com.fasterxml.jackson.databind.deser.DataFormatReaders$Match)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectReader._unwrapAndDeserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.JsonDeserializer<java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectReader",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectReader.java",
+      "line": 1679
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectReader.readTree(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectReader",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectReader.java",
+      "line": 1355
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectReader.readTree(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectReader.readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectReader",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectReader.java",
+      "line": 999
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectReader.readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectReader.readValue(java.lang.String)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NO_LONGER_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectReader",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectReader.java",
+      "line": 1215
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectReader.readValue(java.lang.String)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectReader.readValues(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_PARAMETER_GENERICS_CHANGED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectReader",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectReader.java",
+      "line": 1074
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectReader.readValues(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference<T>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(com.fasterxml.jackson.core.JsonGenerator,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectWriter.java",
+      "line": 1114
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectWriter._configureGenerator(com.fasterxml.jackson.core.JsonGenerator)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectWriter.java",
+      "line": 1158
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectWriter._configureGenerator(com.fasterxml.jackson.core.JsonGenerator)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ObjectWriter._configureGenerator(com.fasterxml.jackson.core.JsonGenerator)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ObjectWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ObjectWriter.java",
+      "line": 1158
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ObjectWriter._configureGenerator(com.fasterxml.jackson.core.JsonGenerator)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.SerializerProvider.getSerializationView()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.SerializerProvider",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/SerializerProvider.java",
+      "line": 344
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.BaseSettings.<init>(com.fasterxml.jackson.databind.introspect.ClassIntrospector,com.fasterxml.jackson.databind.AnnotationIntrospector,com.fasterxml.jackson.databind.PropertyNamingStrategy,com.fasterxml.jackson.databind.type.TypeFactory,com.fasterxml.jackson.databind.jsontype.TypeResolverBuilder<? extends java.lang.Object>,java.text.DateFormat,com.fasterxml.jackson.databind.cfg.HandlerInstantiator,java.util.Locale,java.util.TimeZone,com.fasterxml.jackson.core.Base64Variant)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.BaseSettings",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/BaseSettings.java",
+      "line": 137
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.MapperConfig",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/MapperConfig.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig.getDefaultPropertyInclusions(java.lang.Class<? extends java.lang.Object>,com.fasterxml.jackson.databind.introspect.AnnotatedClass)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig.<init>(com.fasterxml.jackson.databind.cfg.BaseSettings,int)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.MapperConfig",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/MapperConfig.java",
+      "line": 69
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig.<init>(com.fasterxml.jackson.databind.cfg.MapperConfig<T>,int)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.MapperConfig",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/MapperConfig.java",
+      "line": 75
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig._mapperFeatures",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.MapperConfig",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/MapperConfig.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig._mapperFeatures"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig._mapperFeatures",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.MapperConfig",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/MapperConfig.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig._mapperFeatures"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig._mapperFeatures",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.MapperConfigBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/MapperConfig.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig._mapperFeatures"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig._mapperFeatures",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.MapperConfigBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/MapperConfig.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfig._mapperFeatures"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfigBase",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.MapperConfigBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/MapperConfigBase.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfigBase._withMapperFeatures(long)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfigBase.<init>(com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG,T>,com.fasterxml.jackson.databind.introspect.SimpleMixInResolver,com.fasterxml.jackson.databind.util.RootNameLookup,com.fasterxml.jackson.databind.cfg.ConfigOverrides)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.MapperConfigBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/MapperConfigBase.java",
+      "line": 148
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfigBase.<init>(com.fasterxml.jackson.databind.cfg.MapperConfigBase<CFG,T>,int)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.MapperConfigBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/MapperConfigBase.java",
+      "line": 188
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.cfg.MapperConfigBase._withMapperFeatures(int)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.cfg.MapperConfigBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/cfg/MapperConfigBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._addDeserializerConstructors(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.BeanDescription,com.fasterxml.jackson.databind.introspect.VisibilityChecker<? extends java.lang.Object>,com.fasterxml.jackson.databind.AnnotationIntrospector,com.fasterxml.jackson.databind.deser.impl.CreatorCollector,java.util.Map<com.fasterxml.jackson.databind.introspect.AnnotatedWithParams,com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition[]>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BasicDeserializerFactory",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java",
+      "line": 440
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._addDeserializerFactoryMethods(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.BeanDescription,com.fasterxml.jackson.databind.introspect.VisibilityChecker<? extends java.lang.Object>,com.fasterxml.jackson.databind.AnnotationIntrospector,com.fasterxml.jackson.databind.deser.impl.CreatorCollector,java.util.Map<com.fasterxml.jackson.databind.introspect.AnnotatedWithParams,com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition[]>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BasicDeserializerFactory",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java",
+      "line": 848
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializer.withIgnorableProperties(java.util.Set<java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BeanDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BeanDeserializer.java",
+      "line": 122
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase.withIgnorableProperties(java.util.Set<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializer.withIgnorableProperties(java.util.Set<java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BeanDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BeanDeserializer.java",
+      "line": 122
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase.withIgnorableProperties(java.util.Set<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromArray(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BeanDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 657
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BeanDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase.withIgnoreAllUnknown(boolean)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase.withByNameInclusion(java.util.Set<java.lang.String>,java.util.Set<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase.<init>(com.fasterxml.jackson.databind.deser.BeanDeserializerBase,java.util.Set<java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "CONSTRUCTOR_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java",
+      "line": 342
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase.<init>(com.fasterxml.jackson.databind.deser.BeanDeserializerBase,java.util.Set<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase.<init>(com.fasterxml.jackson.databind.deser.BeanDeserializerBuilder,com.fasterxml.jackson.databind.BeanDescription,com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap,java.util.Map<java.lang.String,com.fasterxml.jackson.databind.deser.SettableBeanProperty>,java.util.Set<java.lang.String>,boolean,boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BeanDeserializerBase.java",
+      "line": 201
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._addDeserializerConstructors(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.BeanDescription,com.fasterxml.jackson.databind.introspect.VisibilityChecker<? extends java.lang.Object>,com.fasterxml.jackson.databind.AnnotationIntrospector,com.fasterxml.jackson.databind.deser.impl.CreatorCollector,java.util.Map<com.fasterxml.jackson.databind.introspect.AnnotatedWithParams,com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition[]>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BeanDeserializerFactory",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java",
+      "line": 440
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BasicDeserializerFactory._addDeserializerFactoryMethods(com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.BeanDescription,com.fasterxml.jackson.databind.introspect.VisibilityChecker<? extends java.lang.Object>,com.fasterxml.jackson.databind.AnnotationIntrospector,com.fasterxml.jackson.databind.deser.impl.CreatorCollector,java.util.Map<com.fasterxml.jackson.databind.introspect.AnnotatedWithParams,com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition[]>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BeanDeserializerFactory",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BasicDeserializerFactory.java",
+      "line": 848
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromArray(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BuilderBasedDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 657
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.BuilderBasedDeserializer._deserializeFromArray(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.BuilderBasedDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.CreatorProperty._injectableValueId",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.CreatorProperty",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/CreatorProperty.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.CreatorProperty",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.DataFormatReaders$AccessorForReader",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_STATIC",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.DataFormatReaders$AccessorForReader",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/DataFormatReaders.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.DefaultDeserializationContext",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.DefaultDeserializationContext",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/DefaultDeserializationContext.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.createDummyInstance(com.fasterxml.jackson.databind.DeserializationConfig)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.DeserializerFactory",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.DeserializerFactory",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/DeserializerFactory.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.DeserializerFactory.hasExplicitDeserializerFor(com.fasterxml.jackson.databind.DeserializationConfig,java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.Deserializers$Base",
+    "nature": "MUTATION",
+    "kind": "CLASS_NOW_ABSTRACT",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.Deserializers$Base",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/Deserializers.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.SettableBeanProperty",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.SettableBeanProperty$Delegating",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.ValueInstantiator.getIncompleteParameter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.ValueInstantiator",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/ValueInstantiator.java",
+      "line": 338
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.ValueInstantiator.getIncompleteParameter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.ValueInstantiator$Base",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/ValueInstantiator.java",
+      "line": 338
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.impl.BeanAsArrayBuilderDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.impl.BeanAsArrayDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.<init>(boolean,java.util.Collection<com.fasterxml.jackson.databind.deser.SettableBeanProperty>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+      "line": 159
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.construct(java.util.Collection<com.fasterxml.jackson.databind.deser.SettableBeanProperty>,boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+      "line": 261
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap.replace(com.fasterxml.jackson.databind.deser.SettableBeanProperty)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/impl/BeanPropertyMap.java",
+      "line": 369
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.impl.CreatorCollector$StdTypeConstructor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.impl.CreatorCollector$StdTypeConstructor",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/impl/CreatorCollector.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.impl.FailingDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.impl.MergingSettableBeanProperty",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.impl.ObjectIdReferenceProperty",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.ArrayBlockingQueueDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.AtomicBooleanDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.AtomicReferenceDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.ByteBufferDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.CollectionDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.ContainerDeserializerBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.DateDeserializers$CalendarDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.DateDeserializers$DateBasedDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.DateDeserializers$DateDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.DateDeserializers$SqlDateDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.DateDeserializers$TimestampDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.DelegatingDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.EnumDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.EnumMapDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.EnumSetDeserializer._enumClass",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.EnumSetDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/EnumSetDeserializer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.EnumSetDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 191
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std.STD_STRING_BUILDER",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std._deserializeFromEmptyString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 310
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std._deserializeFromEmptyString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 310
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer$Std",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.ValueInstantiator.getIncompleteParameter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.JsonLocationInstantiator",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/ValueInstantiator.java",
+      "line": 338
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._fromEmbedded(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.node.JsonNodeFactory)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java",
+      "line": 602
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._handleDuplicateField(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.node.JsonNodeFactory,java.lang.String,com.fasterxml.jackson.databind.node.ObjectNode,com.fasterxml.jackson.databind.JsonNode,com.fasterxml.jackson.databind.JsonNode)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java",
+      "line": 225
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._handleDuplicateField(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.node.JsonNodeFactory,java.lang.String,com.fasterxml.jackson.databind.node.ObjectNode,com.fasterxml.jackson.databind.JsonNode,com.fasterxml.jackson.databind.JsonNode)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.deserializeAny(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.node.JsonNodeFactory)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java",
+      "line": 515
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.deserializeArray(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.node.JsonNodeFactory)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java",
+      "line": 429
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.deserializeObject(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.node.JsonNodeFactory)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java",
+      "line": 245
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.deserializeObjectAtName(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.node.JsonNodeFactory)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java",
+      "line": 299
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.updateArray(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.node.ArrayNode)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java",
+      "line": 475
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.updateObject(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.node.ObjectNode)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/JsonNodeDeserializer.java",
+      "line": 354
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.MapDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.MapEntryDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.NullifyingDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.NumberDeserializers$BigDecimalDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.NumberDeserializers$BigIntegerDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.NumberDeserializers$ByteDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.NumberDeserializers$CharacterDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.NumberDeserializers$DoubleDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.NumberDeserializers$FloatDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.NumberDeserializers$NumberDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.NumberDeserializers$PrimitiveOrWrapperDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.NumberDeserializers$ShortDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer.NO_OBJECTS",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/ObjectArrayDeserializer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.ObjectArrayDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.PrimitiveArrayDeserializers",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.ReferenceTypeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.StackTraceElementDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.StdDelegatingDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.StdDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.StdNodeBasedDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdValueInstantiator._incompleteParameter",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.StdValueInstantiator",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdValueInstantiator.configureIncompleteParameter(com.fasterxml.jackson.databind.introspect.AnnotatedParameter)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.StdValueInstantiator",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java",
+      "line": 169
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdValueInstantiator.getIncompleteParameter()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.StdValueInstantiator",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java",
+      "line": 432
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.StringDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializer.withIgnorableProperties(java.util.Set<java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.ThrowableDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BeanDeserializer.java",
+      "line": 122
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase.withIgnorableProperties(java.util.Set<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializer.withIgnorableProperties(java.util.Set<java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.ThrowableDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/BeanDeserializer.java",
+      "line": 122
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase.withIgnorableProperties(java.util.Set<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromArray(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.ThrowableDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 657
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.BeanDeserializer._deserializeFromArray(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.ThrowableDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.TokenBufferDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.TokenBufferDeserializer.createBufferInstance(com.fasterxml.jackson.core.JsonParser)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.TokenBufferDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/TokenBufferDeserializer.java",
+      "line": 35
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.UUIDDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 191
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.UUIDDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.UUIDDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.UUIDDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer$Vanilla",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.CoreXMLDeserializers$Std",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 191
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.ext.CoreXMLDeserializers$Std",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.CoreXMLDeserializers$Std",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.CoreXMLDeserializers$Std",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 191
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer$DocumentDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 191
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer$DocumentDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer$DocumentDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer$DocumentDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_FINAL",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer$NodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 191
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer._deserializeFromEmptyString()"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer$NodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer$NodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.java",
+      "line": 90
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.deser.std.FromStringDeserializer.findDeserializer(java.lang.Class<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMDeserializer$NodeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ext.DOMSerializer._domImpl",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.DOMSerializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ext/DOMSerializer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ext.Java7Support.getClassJavaNioFilePath()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.Java7Support",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ext/Java7Support.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ext.Java7Support.getDeserializerForJavaNioFilePath(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.Java7Support",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ext/Java7Support.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ext.Java7Support.getSerializerForJavaNioFilePath(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.Java7Support",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ext/Java7Support.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ext.Java7SupportImpl.getClassJavaNioFilePath()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ext/Java7SupportImpl.java",
+      "line": 31
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ext.Java7SupportImpl.getDeserializerForJavaNioFilePath(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ext/Java7SupportImpl.java",
+      "line": 36
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ext.Java7SupportImpl.getSerializerForJavaNioFilePath(java.lang.Class<? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ext/Java7SupportImpl.java",
+      "line": 44
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.deser.std.StdDeserializer.parseDouble(java.lang.String)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ext.NioPathDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.java",
+      "line": 537
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getGenericType()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.Annotated",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getType(com.fasterxml.jackson.databind.type.TypeBindings)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.Annotated",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getGenericType()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedClass",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getType(com.fasterxml.jackson.databind.type.TypeBindings)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedClass",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getGenericType()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedConstructor",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getType(com.fasterxml.jackson.databind.type.TypeBindings)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedConstructor",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getType(com.fasterxml.jackson.databind.type.TypeBindings)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedField",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.AnnotatedField.getGenericType()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedField",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/AnnotatedField.java",
+      "line": 81
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector.collectFields(com.fasterxml.jackson.databind.AnnotationIntrospector,com.fasterxml.jackson.databind.introspect.TypeResolutionContext,com.fasterxml.jackson.databind.introspect.ClassIntrospector$MixInResolver,com.fasterxml.jackson.databind.type.TypeFactory,com.fasterxml.jackson.databind.JavaType)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/AnnotatedFieldCollector.java",
+      "line": 36
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getGenericType()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedMember",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getType(com.fasterxml.jackson.databind.type.TypeBindings)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedMember",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getType(com.fasterxml.jackson.databind.type.TypeBindings)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedMethod",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.AnnotatedMethod.getGenericType()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedMethod",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/AnnotatedMethod.java",
+      "line": 93
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector.collectMethods(com.fasterxml.jackson.databind.AnnotationIntrospector,com.fasterxml.jackson.databind.introspect.TypeResolutionContext,com.fasterxml.jackson.databind.introspect.ClassIntrospector$MixInResolver,com.fasterxml.jackson.databind.type.TypeFactory,com.fasterxml.jackson.databind.JavaType,java.util.List<com.fasterxml.jackson.databind.JavaType>,java.lang.Class<? extends java.lang.Object>)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/AnnotatedMethodCollector.java",
+      "line": 32
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getType(com.fasterxml.jackson.databind.type.TypeBindings)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedParameter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.AnnotatedParameter.getGenericType()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedParameter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/AnnotatedParameter.java",
+      "line": 99
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getGenericType()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedWithParams",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getType(com.fasterxml.jackson.databind.type.TypeBindings)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotatedWithParams",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.AnnotationIntrospectorPair.findPropertiesToIgnore(com.fasterxml.jackson.databind.introspect.Annotated)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.AnnotationIntrospectorPair",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/AnnotationIntrospectorPair.java",
+      "line": 170
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.BasicClassIntrospector._cachedFCA",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.BasicClassIntrospector",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.BasicClassIntrospector._findStdTypeDesc(com.fasterxml.jackson.databind.JavaType)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.BasicClassIntrospector",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/BasicClassIntrospector.java",
+      "line": 222
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ClassIntrospector",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.ClassIntrospector",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ClassIntrospector.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.introspect.ClassIntrospector.forDeserializationWithBuilder(com.fasterxml.jackson.databind.DeserializationConfig,com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.introspect.ClassIntrospector$MixInResolver,com.fasterxml.jackson.databind.BeanDescription)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.AnnotationIntrospector.findPropertiesToIgnore(com.fasterxml.jackson.databind.introspect.Annotated)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/AnnotationIntrospector.java",
+      "line": 307
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.AnnotationIntrospector.findPropertiesToIgnore(com.fasterxml.jackson.databind.introspect.Annotated)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.NopAnnotationIntrospector",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/AnnotationIntrospector.java",
+      "line": 307
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._findDefaultValue()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java",
+      "line": 679
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._findDescription()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java",
+      "line": 661
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._findIndex()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java",
+      "line": 670
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._findRequired()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java",
+      "line": 652
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder._getSetterInfo(com.fasterxml.jackson.databind.PropertyMetadata)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder.java",
+      "line": 244
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getGenericType()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.VirtualAnnotatedMember",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 70
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.Annotated.getType(com.fasterxml.jackson.databind.type.TypeBindings)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.introspect.VirtualAnnotatedMember",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/Annotated.java",
+      "line": 56
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.util.TokenBuffer)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/jsontype/impl/AsPropertyTypeDeserializer.java",
+      "line": 112
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.<init>(com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.type.TypeFactory)",
+    "nature": "MUTATION",
+    "kind": "CONSTRUCTOR_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/jsontype/impl/ClassNameIdResolver.java",
+      "line": 22
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.jsontype.impl.ClassNameIdResolver.<init>(com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.type.TypeFactory)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.jsontype.impl.MinimalClassNameIdResolver.<init>(com.fasterxml.jackson.databind.JavaType,com.fasterxml.jackson.databind.type.TypeFactory)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.jsontype.impl.MinimalClassNameIdResolver",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/jsontype/impl/MinimalClassNameIdResolver.java",
+      "line": 27
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.jsontype.impl.StdTypeResolverBuilder.idResolver(com.fasterxml.jackson.databind.cfg.MapperConfig<? extends java.lang.Object>,com.fasterxml.jackson.databind.JavaType,java.util.Collection<com.fasterxml.jackson.databind.jsontype.NamedType>,boolean,boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.jsontype.impl.StdTypeResolverBuilder",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/jsontype/impl/StdTypeResolverBuilder.java",
+      "line": 255
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver.<init>(com.fasterxml.jackson.databind.cfg.MapperConfig<? extends java.lang.Object>,com.fasterxml.jackson.databind.JavaType,java.util.Map<java.lang.String,java.lang.String>,java.util.Map<java.lang.String,com.fasterxml.jackson.databind.JavaType>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/jsontype/impl/TypeNameIdResolver.java",
+      "line": 29
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver._typeToId",
+    "nature": "MUTATION",
+    "kind": "FIELD_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/jsontype/impl/TypeNameIdResolver.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver._typeToId"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.node.ObjectNode.without(java.util.Collection<java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.node.ObjectNode",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/node/ObjectNode.java",
+      "line": 458
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.node.ObjectNode.without(java.util.Collection<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.node.ObjectNode.without(java.util.Collection<java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.node.ObjectNode",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/node/ObjectNode.java",
+      "line": 458
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.node.ObjectNode.without(java.util.Collection<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.node.TreeTraversingParser._nextToken",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.node.TreeTraversingParser",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/node/TreeTraversingParser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.node.TreeTraversingParser._startContainer",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.node.TreeTraversingParser",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/node/TreeTraversingParser.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter._handleSelfReference(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.JsonSerializer<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java",
+      "line": 936
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter._handleSelfReference(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.JsonSerializer<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.BeanSerializer.<init>(com.fasterxml.jackson.databind.ser.std.BeanSerializerBase,java.util.Set<java.lang.String>)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.BeanSerializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/BeanSerializer.java",
+      "line": 68
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.SerializerProvider.getSerializationView()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.DefaultSerializerProvider",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/SerializerProvider.java",
+      "line": 344
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.SerializerProvider.getSerializationView()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.DefaultSerializerProvider$Impl",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/SerializerProvider.java",
+      "line": 344
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.PropertyWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.VirtualBeanPropertyWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter._handleSelfReference(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.JsonSerializer<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.VirtualBeanPropertyWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java",
+      "line": 936
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter._handleSelfReference(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.JsonSerializer<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.impl.AttributePropertyWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter._handleSelfReference(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.JsonSerializer<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.impl.AttributePropertyWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java",
+      "line": 936
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter._handleSelfReference(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.JsonSerializer<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.impl.BeanAsArraySerializer.withIgnorals(java.util.Set<java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_ERASURE_CHANGED",
+    "sourceBreaking": false,
+    "impactedType": "com.fasterxml.jackson.databind.ser.impl.BeanAsArraySerializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java",
+      "line": 111
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.withIgnorals(java.util.Set<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.impl.BeanAsArraySerializer.withIgnorals(java.util.Set<java.lang.String>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_RETURN_TYPE_CHANGED_INCOMPATIBLE",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.impl.BeanAsArraySerializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/impl/BeanAsArraySerializer.java",
+      "line": 111
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.withIgnorals(java.util.Set<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.impl.PropertySerializerMap.emptyMap()",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.impl.PropertySerializerMap",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.java",
+      "line": 172
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanPropertyWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter._handleSelfReference(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.JsonSerializer<? extends java.lang.Object>)",
+    "nature": "MUTATION",
+    "kind": "METHOD_NOW_THROWS_CHECKED_EXCEPTION",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.impl.UnwrappingBeanPropertyWriter",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java",
+      "line": 936
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter._handleSelfReference(java.lang.Object,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider,com.fasterxml.jackson.databind.JsonSerializer<? extends java.lang.Object>)"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.withProperties(com.fasterxml.jackson.databind.ser.BeanPropertyWriter[],com.fasterxml.jackson.databind.ser.BeanPropertyWriter[])"
+  },
+  {
+    "binaryBreaking": false,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase",
+    "nature": "ADDITION",
+    "kind": "TYPE_NEW_ABSTRACT_METHOD",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java",
+      "line": null
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.withByNameInclusion(java.util.Set<java.lang.String>,java.util.Set<java.lang.String>)"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.<init>(com.fasterxml.jackson.databind.ser.std.BeanSerializerBase,com.fasterxml.jackson.databind.ser.BeanPropertyWriter[],com.fasterxml.jackson.databind.ser.BeanPropertyWriter[])",
+    "nature": "MUTATION",
+    "kind": "CONSTRUCTOR_NOW_PROTECTED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java",
+      "line": 135
+    },
+    "newSymbol": "com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.<init>(com.fasterxml.jackson.databind.ser.std.BeanSerializerBase,com.fasterxml.jackson.databind.ser.BeanPropertyWriter[],com.fasterxml.jackson.databind.ser.BeanPropertyWriter[])"
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.<init>(com.fasterxml.jackson.databind.ser.std.JsonValueSerializer,com.fasterxml.jackson.databind.BeanProperty,com.fasterxml.jackson.databind.JsonSerializer<? extends java.lang.Object>,boolean)",
+    "nature": "DELETION",
+    "kind": "CONSTRUCTOR_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java",
+      "line": 89
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer.withResolved(com.fasterxml.jackson.databind.BeanProperty,com.fasterxml.jackson.databind.JsonSerializer<? extends java.lang.Object>,boolean)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/ser/std/JsonValueSerializer.java",
+      "line": 104
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase._propertyFormat",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.ser.std.MapProperty",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.util.BeanUtil.isGroovyMetaClassSetter(com.fasterxml.jackson.databind.introspect.AnnotatedMethod)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.util.BeanUtil",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/util/BeanUtil.java",
+      "line": 206
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.util.ConstantValueInstantiator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.util.ConstantValueInstantiator",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/util/ConstantValueInstantiator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_ISO8601",
+    "nature": "DELETION",
+    "kind": "FIELD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.util.StdDateFormat",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/util/StdDateFormat.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.util.TokenBuffer._append(com.fasterxml.jackson.core.JsonToken)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.util.TokenBuffer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/util/TokenBuffer.java",
+      "line": 1135
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "com.fasterxml.jackson.databind.util.TokenBuffer._append(com.fasterxml.jackson.core.JsonToken,java.lang.Object)",
+    "nature": "DELETION",
+    "kind": "METHOD_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "com.fasterxml.jackson.databind.util.TokenBuffer",
+    "location": {
+      "path": "com/fasterxml/jackson/databind/util/TokenBuffer.java",
+      "line": 1148
+    },
+    "newSymbol": null
+  }
+]

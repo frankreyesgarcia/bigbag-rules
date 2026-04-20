@@ -1,0 +1,1783 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.BootstrapConfiguration",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.BootstrapConfiguration",
+    "location": {
+      "path": "javax/validation/BootstrapConfiguration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ClockProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ClockProvider",
+    "location": {
+      "path": "javax/validation/ClockProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Configuration",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Configuration",
+    "location": {
+      "path": "javax/validation/Configuration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Constraint",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Constraint",
+    "location": {
+      "path": "javax/validation/Constraint.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintDeclarationException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintDeclarationException",
+    "location": {
+      "path": "javax/validation/ConstraintDeclarationException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintDefinitionException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintDefinitionException",
+    "location": {
+      "path": "javax/validation/ConstraintDefinitionException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintTarget",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintTarget",
+    "location": {
+      "path": "javax/validation/ConstraintTarget.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidator",
+    "location": {
+      "path": "javax/validation/ConstraintValidator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorContext",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeBuilderCustomizableContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeBuilderCustomizableContext",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeBuilderDefinedContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeBuilderDefinedContext",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeContextBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeContextBuilder",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeBuilderCustomizableContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeBuilderCustomizableContext",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeBuilderDefinedContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeBuilderDefinedContext",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeContextBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeContextBuilder",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeBuilderCustomizableContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeBuilderCustomizableContext",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeBuilderDefinedContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeBuilderDefinedContext",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeContextBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeContextBuilder",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintValidatorFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintValidatorFactory",
+    "location": {
+      "path": "javax/validation/ConstraintValidatorFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintViolation",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintViolation",
+    "location": {
+      "path": "javax/validation/ConstraintViolation.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ConstraintViolationException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ConstraintViolationException",
+    "location": {
+      "path": "javax/validation/ConstraintViolationException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ElementKind",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ElementKind",
+    "location": {
+      "path": "javax/validation/ElementKind.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.GroupDefinitionException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.GroupDefinitionException",
+    "location": {
+      "path": "javax/validation/GroupDefinitionException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.GroupSequence",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.GroupSequence",
+    "location": {
+      "path": "javax/validation/GroupSequence.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.MessageInterpolator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.MessageInterpolator",
+    "location": {
+      "path": "javax/validation/MessageInterpolator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.MessageInterpolator$Context",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.MessageInterpolator$Context",
+    "location": {
+      "path": "javax/validation/MessageInterpolator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.NoProviderFoundException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.NoProviderFoundException",
+    "location": {
+      "path": "javax/validation/NoProviderFoundException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.OverridesAttribute",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.OverridesAttribute",
+    "location": {
+      "path": "javax/validation/OverridesAttribute.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.OverridesAttribute$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.OverridesAttribute$List",
+    "location": {
+      "path": "javax/validation/OverridesAttribute.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ParameterNameProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ParameterNameProvider",
+    "location": {
+      "path": "javax/validation/ParameterNameProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Path",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Path",
+    "location": {
+      "path": "javax/validation/Path.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Path$BeanNode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Path$BeanNode",
+    "location": {
+      "path": "javax/validation/Path.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Path$ConstructorNode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Path$ConstructorNode",
+    "location": {
+      "path": "javax/validation/Path.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Path$ContainerElementNode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Path$ContainerElementNode",
+    "location": {
+      "path": "javax/validation/Path.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Path$CrossParameterNode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Path$CrossParameterNode",
+    "location": {
+      "path": "javax/validation/Path.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Path$MethodNode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Path$MethodNode",
+    "location": {
+      "path": "javax/validation/Path.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Path$Node",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Path$Node",
+    "location": {
+      "path": "javax/validation/Path.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Path$ParameterNode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Path$ParameterNode",
+    "location": {
+      "path": "javax/validation/Path.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Path$PropertyNode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Path$PropertyNode",
+    "location": {
+      "path": "javax/validation/Path.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Path$ReturnValueNode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Path$ReturnValueNode",
+    "location": {
+      "path": "javax/validation/Path.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Payload",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Payload",
+    "location": {
+      "path": "javax/validation/Payload.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ReportAsSingleViolation",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ReportAsSingleViolation",
+    "location": {
+      "path": "javax/validation/ReportAsSingleViolation.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.TraversableResolver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.TraversableResolver",
+    "location": {
+      "path": "javax/validation/TraversableResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.UnexpectedTypeException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.UnexpectedTypeException",
+    "location": {
+      "path": "javax/validation/UnexpectedTypeException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Valid",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Valid",
+    "location": {
+      "path": "javax/validation/Valid.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Validation",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Validation",
+    "location": {
+      "path": "javax/validation/Validation.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ValidationException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ValidationException",
+    "location": {
+      "path": "javax/validation/ValidationException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ValidationProviderResolver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ValidationProviderResolver",
+    "location": {
+      "path": "javax/validation/ValidationProviderResolver.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.Validator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.Validator",
+    "location": {
+      "path": "javax/validation/Validator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ValidatorContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ValidatorContext",
+    "location": {
+      "path": "javax/validation/ValidatorContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.ValidatorFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.ValidatorFactory",
+    "location": {
+      "path": "javax/validation/ValidatorFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.bootstrap.GenericBootstrap",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.bootstrap.GenericBootstrap",
+    "location": {
+      "path": "javax/validation/bootstrap/GenericBootstrap.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.bootstrap.ProviderSpecificBootstrap",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.bootstrap.ProviderSpecificBootstrap",
+    "location": {
+      "path": "javax/validation/bootstrap/ProviderSpecificBootstrap.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.AssertFalse",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.AssertFalse",
+    "location": {
+      "path": "javax/validation/constraints/AssertFalse.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.AssertFalse$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.AssertFalse$List",
+    "location": {
+      "path": "javax/validation/constraints/AssertFalse.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.AssertTrue",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.AssertTrue",
+    "location": {
+      "path": "javax/validation/constraints/AssertTrue.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.AssertTrue$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.AssertTrue$List",
+    "location": {
+      "path": "javax/validation/constraints/AssertTrue.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.DecimalMax",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.DecimalMax",
+    "location": {
+      "path": "javax/validation/constraints/DecimalMax.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.DecimalMax$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.DecimalMax$List",
+    "location": {
+      "path": "javax/validation/constraints/DecimalMax.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.DecimalMin",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.DecimalMin",
+    "location": {
+      "path": "javax/validation/constraints/DecimalMin.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.DecimalMin$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.DecimalMin$List",
+    "location": {
+      "path": "javax/validation/constraints/DecimalMin.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Digits",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Digits",
+    "location": {
+      "path": "javax/validation/constraints/Digits.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Digits$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Digits$List",
+    "location": {
+      "path": "javax/validation/constraints/Digits.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Email",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Email",
+    "location": {
+      "path": "javax/validation/constraints/Email.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Email$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Email$List",
+    "location": {
+      "path": "javax/validation/constraints/Email.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Future",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Future",
+    "location": {
+      "path": "javax/validation/constraints/Future.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Future$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Future$List",
+    "location": {
+      "path": "javax/validation/constraints/Future.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.FutureOrPresent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.FutureOrPresent",
+    "location": {
+      "path": "javax/validation/constraints/FutureOrPresent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.FutureOrPresent$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.FutureOrPresent$List",
+    "location": {
+      "path": "javax/validation/constraints/FutureOrPresent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Max",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Max",
+    "location": {
+      "path": "javax/validation/constraints/Max.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Max$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Max$List",
+    "location": {
+      "path": "javax/validation/constraints/Max.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Min",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Min",
+    "location": {
+      "path": "javax/validation/constraints/Min.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Min$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Min$List",
+    "location": {
+      "path": "javax/validation/constraints/Min.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Negative",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Negative",
+    "location": {
+      "path": "javax/validation/constraints/Negative.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Negative$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Negative$List",
+    "location": {
+      "path": "javax/validation/constraints/Negative.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.NegativeOrZero",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.NegativeOrZero",
+    "location": {
+      "path": "javax/validation/constraints/NegativeOrZero.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.NegativeOrZero$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.NegativeOrZero$List",
+    "location": {
+      "path": "javax/validation/constraints/NegativeOrZero.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.NotBlank",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.NotBlank",
+    "location": {
+      "path": "javax/validation/constraints/NotBlank.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.NotBlank$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.NotBlank$List",
+    "location": {
+      "path": "javax/validation/constraints/NotBlank.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.NotEmpty",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.NotEmpty",
+    "location": {
+      "path": "javax/validation/constraints/NotEmpty.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.NotEmpty$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.NotEmpty$List",
+    "location": {
+      "path": "javax/validation/constraints/NotEmpty.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.NotNull",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.NotNull",
+    "location": {
+      "path": "javax/validation/constraints/NotNull.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.NotNull$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.NotNull$List",
+    "location": {
+      "path": "javax/validation/constraints/NotNull.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Null",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Null",
+    "location": {
+      "path": "javax/validation/constraints/Null.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Null$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Null$List",
+    "location": {
+      "path": "javax/validation/constraints/Null.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Past",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Past",
+    "location": {
+      "path": "javax/validation/constraints/Past.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Past$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Past$List",
+    "location": {
+      "path": "javax/validation/constraints/Past.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.PastOrPresent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.PastOrPresent",
+    "location": {
+      "path": "javax/validation/constraints/PastOrPresent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.PastOrPresent$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.PastOrPresent$List",
+    "location": {
+      "path": "javax/validation/constraints/PastOrPresent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Pattern",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Pattern",
+    "location": {
+      "path": "javax/validation/constraints/Pattern.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Pattern$Flag",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Pattern$Flag",
+    "location": {
+      "path": "javax/validation/constraints/Pattern.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Pattern$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Pattern$List",
+    "location": {
+      "path": "javax/validation/constraints/Pattern.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Positive",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Positive",
+    "location": {
+      "path": "javax/validation/constraints/Positive.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Positive$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Positive$List",
+    "location": {
+      "path": "javax/validation/constraints/Positive.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.PositiveOrZero",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.PositiveOrZero",
+    "location": {
+      "path": "javax/validation/constraints/PositiveOrZero.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.PositiveOrZero$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.PositiveOrZero$List",
+    "location": {
+      "path": "javax/validation/constraints/PositiveOrZero.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Size",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Size",
+    "location": {
+      "path": "javax/validation/constraints/Size.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraints.Size$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraints.Size$List",
+    "location": {
+      "path": "javax/validation/constraints/Size.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraintvalidation.SupportedValidationTarget",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraintvalidation.SupportedValidationTarget",
+    "location": {
+      "path": "javax/validation/constraintvalidation/SupportedValidationTarget.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.constraintvalidation.ValidationTarget",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.constraintvalidation.ValidationTarget",
+    "location": {
+      "path": "javax/validation/constraintvalidation/ValidationTarget.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.executable.ExecutableType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.executable.ExecutableType",
+    "location": {
+      "path": "javax/validation/executable/ExecutableType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.executable.ExecutableValidator",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.executable.ExecutableValidator",
+    "location": {
+      "path": "javax/validation/executable/ExecutableValidator.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.executable.ValidateOnExecution",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.executable.ValidateOnExecution",
+    "location": {
+      "path": "javax/validation/executable/ValidateOnExecution.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.groups.ConvertGroup",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.groups.ConvertGroup",
+    "location": {
+      "path": "javax/validation/groups/ConvertGroup.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.groups.ConvertGroup$List",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.groups.ConvertGroup$List",
+    "location": {
+      "path": "javax/validation/groups/ConvertGroup.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.groups.Default",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.groups.Default",
+    "location": {
+      "path": "javax/validation/groups/Default.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.BeanDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.BeanDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/BeanDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.CascadableDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.CascadableDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/CascadableDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.ConstraintDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.ConstraintDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/ConstraintDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.ConstructorDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.ConstructorDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/ConstructorDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.ContainerDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.ContainerDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/ContainerDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.ContainerElementTypeDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.ContainerElementTypeDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/ContainerElementTypeDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.CrossParameterDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.CrossParameterDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/CrossParameterDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.ElementDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.ElementDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/ElementDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.ElementDescriptor$ConstraintFinder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.ElementDescriptor$ConstraintFinder",
+    "location": {
+      "path": "javax/validation/metadata/ElementDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.ExecutableDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.ExecutableDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/ExecutableDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.GroupConversionDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.GroupConversionDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/GroupConversionDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.MethodDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.MethodDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/MethodDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.MethodType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.MethodType",
+    "location": {
+      "path": "javax/validation/metadata/MethodType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.ParameterDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.ParameterDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/ParameterDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.PropertyDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.PropertyDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/PropertyDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.ReturnValueDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.ReturnValueDescriptor",
+    "location": {
+      "path": "javax/validation/metadata/ReturnValueDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.Scope",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.Scope",
+    "location": {
+      "path": "javax/validation/metadata/Scope.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.metadata.ValidateUnwrappedValue",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.metadata.ValidateUnwrappedValue",
+    "location": {
+      "path": "javax/validation/metadata/ValidateUnwrappedValue.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.spi.BootstrapState",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.spi.BootstrapState",
+    "location": {
+      "path": "javax/validation/spi/BootstrapState.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.spi.ConfigurationState",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.spi.ConfigurationState",
+    "location": {
+      "path": "javax/validation/spi/ConfigurationState.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.spi.ValidationProvider",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.spi.ValidationProvider",
+    "location": {
+      "path": "javax/validation/spi/ValidationProvider.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.valueextraction.ExtractedValue",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.valueextraction.ExtractedValue",
+    "location": {
+      "path": "javax/validation/valueextraction/ExtractedValue.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.valueextraction.UnwrapByDefault",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.valueextraction.UnwrapByDefault",
+    "location": {
+      "path": "javax/validation/valueextraction/UnwrapByDefault.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.valueextraction.Unwrapping",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.valueextraction.Unwrapping",
+    "location": {
+      "path": "javax/validation/valueextraction/Unwrapping.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.valueextraction.Unwrapping$Skip",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.valueextraction.Unwrapping$Skip",
+    "location": {
+      "path": "javax/validation/valueextraction/Unwrapping.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.valueextraction.Unwrapping$Unwrap",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.valueextraction.Unwrapping$Unwrap",
+    "location": {
+      "path": "javax/validation/valueextraction/Unwrapping.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.valueextraction.ValueExtractor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.valueextraction.ValueExtractor",
+    "location": {
+      "path": "javax/validation/valueextraction/ValueExtractor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.valueextraction.ValueExtractor$ValueReceiver",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.valueextraction.ValueExtractor$ValueReceiver",
+    "location": {
+      "path": "javax/validation/valueextraction/ValueExtractor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.valueextraction.ValueExtractorDeclarationException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.valueextraction.ValueExtractorDeclarationException",
+    "location": {
+      "path": "javax/validation/valueextraction/ValueExtractorDeclarationException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.validation.valueextraction.ValueExtractorDefinitionException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.validation.valueextraction.ValueExtractorDefinitionException",
+    "location": {
+      "path": "javax/validation/valueextraction/ValueExtractorDefinitionException.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

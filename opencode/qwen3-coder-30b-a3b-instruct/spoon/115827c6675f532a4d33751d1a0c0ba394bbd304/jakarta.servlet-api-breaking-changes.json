@@ -1,0 +1,1068 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.AsyncContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.AsyncContext",
+    "location": {
+      "path": "javax/servlet/AsyncContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.AsyncEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.AsyncEvent",
+    "location": {
+      "path": "javax/servlet/AsyncEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.AsyncListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.AsyncListener",
+    "location": {
+      "path": "javax/servlet/AsyncListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.DispatcherType",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.DispatcherType",
+    "location": {
+      "path": "javax/servlet/DispatcherType.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.Filter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.Filter",
+    "location": {
+      "path": "javax/servlet/Filter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.FilterChain",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.FilterChain",
+    "location": {
+      "path": "javax/servlet/FilterChain.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.FilterConfig",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.FilterConfig",
+    "location": {
+      "path": "javax/servlet/FilterConfig.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.FilterRegistration",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.FilterRegistration",
+    "location": {
+      "path": "javax/servlet/FilterRegistration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.FilterRegistration$Dynamic",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.FilterRegistration$Dynamic",
+    "location": {
+      "path": "javax/servlet/FilterRegistration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.GenericFilter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.GenericFilter",
+    "location": {
+      "path": "javax/servlet/GenericFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.GenericServlet",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.GenericServlet",
+    "location": {
+      "path": "javax/servlet/GenericServlet.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.HttpConstraintElement",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.HttpConstraintElement",
+    "location": {
+      "path": "javax/servlet/HttpConstraintElement.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.HttpMethodConstraintElement",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.HttpMethodConstraintElement",
+    "location": {
+      "path": "javax/servlet/HttpMethodConstraintElement.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.MultipartConfigElement",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.MultipartConfigElement",
+    "location": {
+      "path": "javax/servlet/MultipartConfigElement.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ReadListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ReadListener",
+    "location": {
+      "path": "javax/servlet/ReadListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.Registration",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.Registration",
+    "location": {
+      "path": "javax/servlet/Registration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.Registration$Dynamic",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.Registration$Dynamic",
+    "location": {
+      "path": "javax/servlet/Registration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.RequestDispatcher",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.RequestDispatcher",
+    "location": {
+      "path": "javax/servlet/RequestDispatcher.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.Servlet",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.Servlet",
+    "location": {
+      "path": "javax/servlet/Servlet.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletConfig",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletConfig",
+    "location": {
+      "path": "javax/servlet/ServletConfig.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletContainerInitializer",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletContainerInitializer",
+    "location": {
+      "path": "javax/servlet/ServletContainerInitializer.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletContext",
+    "location": {
+      "path": "javax/servlet/ServletContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletContextAttributeEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletContextAttributeEvent",
+    "location": {
+      "path": "javax/servlet/ServletContextAttributeEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletContextAttributeListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletContextAttributeListener",
+    "location": {
+      "path": "javax/servlet/ServletContextAttributeListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletContextEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletContextEvent",
+    "location": {
+      "path": "javax/servlet/ServletContextEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletContextListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletContextListener",
+    "location": {
+      "path": "javax/servlet/ServletContextListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletException",
+    "location": {
+      "path": "javax/servlet/ServletException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletInputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletInputStream",
+    "location": {
+      "path": "javax/servlet/ServletInputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletOutputStream",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletOutputStream",
+    "location": {
+      "path": "javax/servlet/ServletOutputStream.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletRegistration",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletRegistration",
+    "location": {
+      "path": "javax/servlet/ServletRegistration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletRegistration$Dynamic",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletRegistration$Dynamic",
+    "location": {
+      "path": "javax/servlet/ServletRegistration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletRequest",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletRequest",
+    "location": {
+      "path": "javax/servlet/ServletRequest.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletRequestAttributeEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletRequestAttributeEvent",
+    "location": {
+      "path": "javax/servlet/ServletRequestAttributeEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletRequestAttributeListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletRequestAttributeListener",
+    "location": {
+      "path": "javax/servlet/ServletRequestAttributeListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletRequestEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletRequestEvent",
+    "location": {
+      "path": "javax/servlet/ServletRequestEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletRequestListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletRequestListener",
+    "location": {
+      "path": "javax/servlet/ServletRequestListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletRequestWrapper",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletRequestWrapper",
+    "location": {
+      "path": "javax/servlet/ServletRequestWrapper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletResponse",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletResponse",
+    "location": {
+      "path": "javax/servlet/ServletResponse.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletResponseWrapper",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletResponseWrapper",
+    "location": {
+      "path": "javax/servlet/ServletResponseWrapper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.ServletSecurityElement",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.ServletSecurityElement",
+    "location": {
+      "path": "javax/servlet/ServletSecurityElement.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.SessionCookieConfig",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.SessionCookieConfig",
+    "location": {
+      "path": "javax/servlet/SessionCookieConfig.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.SessionTrackingMode",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.SessionTrackingMode",
+    "location": {
+      "path": "javax/servlet/SessionTrackingMode.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.SingleThreadModel",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.SingleThreadModel",
+    "location": {
+      "path": "javax/servlet/SingleThreadModel.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.UnavailableException",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.UnavailableException",
+    "location": {
+      "path": "javax/servlet/UnavailableException.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.WriteListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.WriteListener",
+    "location": {
+      "path": "javax/servlet/WriteListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.annotation.HandlesTypes",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.annotation.HandlesTypes",
+    "location": {
+      "path": "javax/servlet/annotation/HandlesTypes.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.annotation.HttpConstraint",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.annotation.HttpConstraint",
+    "location": {
+      "path": "javax/servlet/annotation/HttpConstraint.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.annotation.HttpMethodConstraint",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.annotation.HttpMethodConstraint",
+    "location": {
+      "path": "javax/servlet/annotation/HttpMethodConstraint.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.annotation.MultipartConfig",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.annotation.MultipartConfig",
+    "location": {
+      "path": "javax/servlet/annotation/MultipartConfig.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.annotation.ServletSecurity",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.annotation.ServletSecurity",
+    "location": {
+      "path": "javax/servlet/annotation/ServletSecurity.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.annotation.ServletSecurity$EmptyRoleSemantic",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.annotation.ServletSecurity$EmptyRoleSemantic",
+    "location": {
+      "path": "javax/servlet/annotation/ServletSecurity.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.annotation.ServletSecurity$TransportGuarantee",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.annotation.ServletSecurity$TransportGuarantee",
+    "location": {
+      "path": "javax/servlet/annotation/ServletSecurity.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.annotation.WebFilter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.annotation.WebFilter",
+    "location": {
+      "path": "javax/servlet/annotation/WebFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.annotation.WebInitParam",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.annotation.WebInitParam",
+    "location": {
+      "path": "javax/servlet/annotation/WebInitParam.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.annotation.WebListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.annotation.WebListener",
+    "location": {
+      "path": "javax/servlet/annotation/WebListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.annotation.WebServlet",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.annotation.WebServlet",
+    "location": {
+      "path": "javax/servlet/annotation/WebServlet.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.descriptor.JspConfigDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.descriptor.JspConfigDescriptor",
+    "location": {
+      "path": "javax/servlet/descriptor/JspConfigDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.descriptor.JspPropertyGroupDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.descriptor.JspPropertyGroupDescriptor",
+    "location": {
+      "path": "javax/servlet/descriptor/JspPropertyGroupDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.descriptor.TaglibDescriptor",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.descriptor.TaglibDescriptor",
+    "location": {
+      "path": "javax/servlet/descriptor/TaglibDescriptor.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.Cookie",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.Cookie",
+    "location": {
+      "path": "javax/servlet/http/Cookie.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpFilter",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpFilter",
+    "location": {
+      "path": "javax/servlet/http/HttpFilter.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpServlet",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpServlet",
+    "location": {
+      "path": "javax/servlet/http/HttpServlet.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpServletMapping",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpServletMapping",
+    "location": {
+      "path": "javax/servlet/http/HttpServletMapping.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpServletRequest",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpServletRequest",
+    "location": {
+      "path": "javax/servlet/http/HttpServletRequest.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpServletRequestWrapper",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpServletRequestWrapper",
+    "location": {
+      "path": "javax/servlet/http/HttpServletRequestWrapper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpServletResponse",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpServletResponse",
+    "location": {
+      "path": "javax/servlet/http/HttpServletResponse.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpServletResponseWrapper",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpServletResponseWrapper",
+    "location": {
+      "path": "javax/servlet/http/HttpServletResponseWrapper.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpSession",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpSession",
+    "location": {
+      "path": "javax/servlet/http/HttpSession.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpSessionActivationListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpSessionActivationListener",
+    "location": {
+      "path": "javax/servlet/http/HttpSessionActivationListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpSessionAttributeListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpSessionAttributeListener",
+    "location": {
+      "path": "javax/servlet/http/HttpSessionAttributeListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpSessionBindingEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpSessionBindingEvent",
+    "location": {
+      "path": "javax/servlet/http/HttpSessionBindingEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpSessionBindingListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpSessionBindingListener",
+    "location": {
+      "path": "javax/servlet/http/HttpSessionBindingListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpSessionContext",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpSessionContext",
+    "location": {
+      "path": "javax/servlet/http/HttpSessionContext.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpSessionEvent",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpSessionEvent",
+    "location": {
+      "path": "javax/servlet/http/HttpSessionEvent.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpSessionIdListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpSessionIdListener",
+    "location": {
+      "path": "javax/servlet/http/HttpSessionIdListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpSessionListener",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpSessionListener",
+    "location": {
+      "path": "javax/servlet/http/HttpSessionListener.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpUpgradeHandler",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpUpgradeHandler",
+    "location": {
+      "path": "javax/servlet/http/HttpUpgradeHandler.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.HttpUtils",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.HttpUtils",
+    "location": {
+      "path": "javax/servlet/http/HttpUtils.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.MappingMatch",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.MappingMatch",
+    "location": {
+      "path": "javax/servlet/http/MappingMatch.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.Part",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.Part",
+    "location": {
+      "path": "javax/servlet/http/Part.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.PushBuilder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.PushBuilder",
+    "location": {
+      "path": "javax/servlet/http/PushBuilder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "javax.servlet.http.WebConnection",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "javax.servlet.http.WebConnection",
+    "location": {
+      "path": "javax/servlet/http/WebConnection.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]

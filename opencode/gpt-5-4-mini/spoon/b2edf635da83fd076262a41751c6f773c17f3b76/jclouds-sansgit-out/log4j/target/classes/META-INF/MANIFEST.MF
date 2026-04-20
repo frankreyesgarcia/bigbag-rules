@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-Description: jclouds Log4J Logging Module
+Bundle-ManifestVersion: 2
+Bundle-Name: jclouds Log4J Logging Module
+Bundle-SymbolicName: jclouds-log4j
+Bundle-Version: 2.6.0.SNAPSHOT
+Export-Package: org.jclouds.logging.log4j;version="2.6.0.SNAPSHOT";use
+ s:="org.apache.logging.log4j,org.jclouds.logging",org.jclouds.logging
+ .log4j.config;version="2.6.0.SNAPSHOT";uses:="org.jclouds.logging,org
+ .jclouds.logging.config"
+Implementation-Vendor: jclouds
+Implementation-Vendor-Id: org.apache.jclouds
+Implementation-Version: 2.6.0-SNAPSHOT
+Import-Package: org.apache.logging.log4j;version="[2.17,3)",org.jcloud
+ s.logging;version="[2.6,3)",org.jclouds.logging.config;version="[2.6,
+ 3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: jclouds jclouds Log4J Logging Module
+Specification-Vendor: jclouds
+X-Compile-Source-JDK: 1.8
+X-Compile-Target-JDK: 1.8
+

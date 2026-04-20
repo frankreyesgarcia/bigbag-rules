@@ -1,0 +1,13 @@
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/options/ListOptions.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/internal/NullSafeCopies.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/config/GoogleCloudProperties.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/internal/BaseArg0ToIteratorOfListPage.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/GoogleCredentialsFromJson.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/domain/ListPage.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/internal/ListPages.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/domain/ForwardingListPage.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/internal/AdvancingIterator.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/internal/BaseToIteratorOfListPage.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/config/ListPageAdapterFactory.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/internal/BaseCallerArg0ToIteratorOfListPage.java
+/jclouds/common/googlecloud/src/main/java/org/jclouds/googlecloud/config/CurrentProject.java

@@ -1,0 +1,301 @@
+[
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.Application",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.Application",
+    "location": {
+      "path": "io/dropwizard/Application.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.Bundle",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.Bundle",
+    "location": {
+      "path": "io/dropwizard/Bundle.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.Configuration",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.Configuration",
+    "location": {
+      "path": "io/dropwizard/Configuration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.ConfiguredBundle",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.ConfiguredBundle",
+    "location": {
+      "path": "io/dropwizard/ConfiguredBundle.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.cli.CheckCommand",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.cli.CheckCommand",
+    "location": {
+      "path": "io/dropwizard/cli/CheckCommand.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.cli.Cli",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.cli.Cli",
+    "location": {
+      "path": "io/dropwizard/cli/Cli.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.cli.Command",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.cli.Command",
+    "location": {
+      "path": "io/dropwizard/cli/Command.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.cli.ConfiguredCommand",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.cli.ConfiguredCommand",
+    "location": {
+      "path": "io/dropwizard/cli/ConfiguredCommand.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.cli.EnvironmentCommand",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.cli.EnvironmentCommand",
+    "location": {
+      "path": "io/dropwizard/cli/EnvironmentCommand.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.cli.ServerCommand",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.cli.ServerCommand",
+    "location": {
+      "path": "io/dropwizard/cli/ServerCommand.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.server.AbstractServerFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.server.AbstractServerFactory",
+    "location": {
+      "path": "io/dropwizard/server/AbstractServerFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.server.DefaultServerFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.server.DefaultServerFactory",
+    "location": {
+      "path": "io/dropwizard/server/DefaultServerFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.server.ServerFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.server.ServerFactory",
+    "location": {
+      "path": "io/dropwizard/server/ServerFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.server.SimpleServerFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.server.SimpleServerFactory",
+    "location": {
+      "path": "io/dropwizard/server/SimpleServerFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.setup.AdminEnvironment",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.setup.AdminEnvironment",
+    "location": {
+      "path": "io/dropwizard/setup/AdminEnvironment.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.setup.AdminFactory",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.setup.AdminFactory",
+    "location": {
+      "path": "io/dropwizard/setup/AdminFactory.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.setup.Bootstrap",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.setup.Bootstrap",
+    "location": {
+      "path": "io/dropwizard/setup/Bootstrap.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.setup.Environment",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.setup.Environment",
+    "location": {
+      "path": "io/dropwizard/setup/Environment.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.setup.ExceptionMapperBinder",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.setup.ExceptionMapperBinder",
+    "location": {
+      "path": "io/dropwizard/setup/ExceptionMapperBinder.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.setup.HealthCheckConfiguration",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.setup.HealthCheckConfiguration",
+    "location": {
+      "path": "io/dropwizard/setup/HealthCheckConfiguration.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.sslreload.SslReloadBundle",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.sslreload.SslReloadBundle",
+    "location": {
+      "path": "io/dropwizard/sslreload/SslReloadBundle.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.sslreload.SslReloadTask",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.sslreload.SslReloadTask",
+    "location": {
+      "path": "io/dropwizard/sslreload/SslReloadTask.java",
+      "line": null
+    },
+    "newSymbol": null
+  },
+  {
+    "binaryBreaking": true,
+    "impactedSymbol": "io.dropwizard.validation.InjectValidatorFeature",
+    "nature": "DELETION",
+    "kind": "TYPE_REMOVED",
+    "sourceBreaking": true,
+    "impactedType": "io.dropwizard.validation.InjectValidatorFeature",
+    "location": {
+      "path": "io/dropwizard/validation/InjectValidatorFeature.java",
+      "line": null
+    },
+    "newSymbol": null
+  }
+]
